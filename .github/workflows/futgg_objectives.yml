@@ -2,8 +2,8 @@ name: FUTGG Objectives Crawler
 
 on:
   schedule:
-    # 한국시간 토요일 03:00 = UTC 금요일 18:00
-    - cron: "0 18 * * 5"
+    # 한국시간 매일 03:00 = UTC 매일 18:00
+    - cron: "0 18 * * *"
   workflow_dispatch:
 
 jobs:
