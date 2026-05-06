@@ -33,6 +33,12 @@ jobs:
           mkdir -p outputs
           python futgg_objective_crawler.py --out outputs --headless
 
+      - name: Upload result files
+        uses: actions/upload-artifact@v4
+        with:
+          name: futgg-objectives-result
+          path: outputs/
+
       - name: Check email secrets
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
@@ -47,6 +53,7 @@ jobs:
           PY
 
       - name: Send result by email
+        continue-on-error: true
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
@@ -55,9 +62,3 @@ jobs:
           EMAIL_SUBJECT_PREFIX: FUT.GG Objectives 결과
         run: |
           python send_email_with_attachments.py
-
-      - name: Upload result files
-        uses: actions/upload-artifact@v4
-        with:
-          name: futgg-objectives-result
-          path: outputs/
