@@ -62,3 +62,14 @@ jobs:
           EMAIL_SUBJECT_PREFIX: FUT.GG Objectives 결과
         run: |
           python send_email_with_attachments.py
+
+      - name: Update latest files
+        run: |
+          mkdir -p latest
+          cp outputs/*.xlsx latest/objectives_latest.xlsx
+
+      - name: Commit latest files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update latest objectives result
+          file_pattern: latest/objectives_latest.xlsx
