@@ -39,30 +39,6 @@ jobs:
           name: futgg-objectives-result
           path: outputs/
 
-      - name: Check email secrets
-        env:
-          EMAIL_USER: ${{ secrets.EMAIL_USER }}
-          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
-        run: |
-          python - <<'PY'
-          import os
-          print("EMAIL_USER:", os.getenv("EMAIL_USER"))
-          print("EMAIL_TO:", os.getenv("EMAIL_TO"))
-          print("EMAIL_PASS length:", len(os.getenv("EMAIL_PASS", "")))
-          PY
-
-      - name: Send result by email
-        continue-on-error: true
-        env:
-          EMAIL_USER: ${{ secrets.EMAIL_USER }}
-          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
-          WORKFLOW_NAME: FUTGG Objectives Crawler
-          EMAIL_SUBJECT_PREFIX: FUT.GG Objectives 결과
-        run: |
-          python send_email_with_attachments.py
-
       - name: Update latest files
         run: |
           mkdir -p latest
