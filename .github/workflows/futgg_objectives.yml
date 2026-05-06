@@ -33,6 +33,19 @@ jobs:
           mkdir -p outputs
           python futgg_objective_crawler.py --out outputs --headless
 
+      - name: Check email secrets
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: |
+          python - <<'PY'
+          import os
+          print("EMAIL_USER:", os.getenv("EMAIL_USER"))
+          print("EMAIL_TO:", os.getenv("EMAIL_TO"))
+          print("EMAIL_PASS length:", len(os.getenv("EMAIL_PASS", "")))
+          PY
+
       - name: Send result by email
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
