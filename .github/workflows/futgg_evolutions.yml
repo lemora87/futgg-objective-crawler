@@ -42,3 +42,15 @@ jobs:
         with:
           name: futgg-evolutions-result
           path: outputs/
+
+      - name: Update latest files
+        run: |
+          mkdir -p latest
+          cp outputs/futgg_evolutions_analysis_updated.xlsx latest/evolutions_analysis_latest.xlsx
+          cp outputs/futgg_evolutions_unified_*.xlsx latest/evolutions_raw_latest.xlsx
+
+      - name: Commit latest files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update latest evolutions result
+          file_pattern: latest/evolutions_analysis_latest.xlsx latest/evolutions_raw_latest.xlsx
