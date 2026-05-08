@@ -46,13 +46,27 @@ jobs:
         run: |
           mkdir -p latest
           mkdir -p latest_csv
+
+          echo "=== outputs files before copy ==="
+          ls -la outputs
+
           cp outputs/*.xlsx latest/objectives_latest.xlsx
-          cp outputs/*.csv latest_csv/ || true
+          find outputs -maxdepth 1 -name "*.csv" -exec cp {} latest_csv/ \;
+
+          echo "=== latest files ==="
+          ls -la latest
+
+          echo "=== latest_csv files ==="
+          ls -la latest_csv
 
       - name: Commit latest files
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: Update latest objectives result
-          file_pattern: |
-            latest/objectives_latest.xlsx
-            latest_csv/*.csv
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git status --short
+          git add -A latest latest_csv
+          git status --short
+
+          git commit -m "Update latest objectives result" || echo "No changes to commit"
+          git push
