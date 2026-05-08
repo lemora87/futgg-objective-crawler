@@ -1,4 +1,0 @@
-pandas
-openpyxl
-beautifulsoup4
-playwright
