@@ -588,6 +588,48 @@ def scrape_detail(context, link_row: Dict):
 
 
 
+
+
+def update_status_sheet_layout(wb):
+    """(현황표) 시트의 상위 3개 블록을
+    MAX / +OVR / +Stat Point / 진화명 4행 구조로 재구성합니다.
+    """
+    if "(현황표)" not in wb.sheetnames:
+        return
+    ws = wb["(현황표)"]
+
+    start_col, end_col = 11, 46  # K:AT
+
+    def _max_formula(rank):
+        col = 'K$1'
+        base = 'INDEX(Unified_Matrix!$A:$ZZ,3,MATCH("Max "&'+col+',Unified_Matrix!$1:$1,0)):INDEX(Unified_Matrix!$A:$ZZ,300,MATCH("Max "&'+col+',Unified_Matrix!$1:$1,0))'
+        if rank == 1:
+            return f'=_xlfn.MAXIFS({base},{base},">0")'
+        prev = 'K2' if rank == 2 else 'K6'
+        return f'=_xlfn.MAXIFS({base},{base},"<"&{prev},{base},">0")'
+
+    def _textjoin_formula(rank, target_col):
+        stat_col = 'K$1'
+        max_col = 'INDEX(Unified_Matrix!$A:$ZZ,3,MATCH("Max "&'+stat_col+',Unified_Matrix!$1:$1,0)):INDEX(Unified_Matrix!$A:$ZZ,300,MATCH("Max "&'+stat_col+',Unified_Matrix!$1:$1,0))'
+        target = 'INDEX(Unified_Matrix!$A:$ZZ,3,MATCH("'+target_col+'",Unified_Matrix!$1:$1,0)):INDEX(Unified_Matrix!$A:$ZZ,300,MATCH("'+target_col+'",Unified_Matrix!$1:$1,0))'
+        name = 'INDEX(Unified_Matrix!$A:$ZZ,3,MATCH("Evolution_Name",Unified_Matrix!$1:$1,0)):INDEX(Unified_Matrix!$A:$ZZ,300,MATCH("Evolution_Name",Unified_Matrix!$1:$1,0))'
+        key = 'K2' if rank == 1 else ('K6' if rank == 2 else 'K10')
+        return f'=IF({key}=0,"",_xlfn.TEXTJOIN(CHAR(10),TRUE,IF(({max_col}={key})*({max_col}>0),{target},"")))'
+
+    for rank in (1,2,3):
+        base_row = 2 + (rank - 1) * 4
+        ws.cell(row=base_row, column=9, value='MAX')
+        ws.cell(row=base_row + 1, column=9, value='+OVR')
+        ws.cell(row=base_row + 2, column=9, value='+Stat Point')
+        ws.cell(row=base_row + 3, column=9, value='진화명')
+
+        for c in range(start_col, end_col + 1):
+            col_letter = ws.cell(row=1, column=c).column_letter
+            ws.cell(row=base_row, column=c, value=_max_formula(rank).replace('K', col_letter))
+            ws.cell(row=base_row + 1, column=c, value=_textjoin_formula(rank, '+ OVR').replace('K', col_letter))
+            ws.cell(row=base_row + 2, column=c, value=_textjoin_formula(rank, '+ Stat Point').replace('K', col_letter))
+            ws.cell(row=base_row + 3, column=c, value=_textjoin_formula(rank, 'Evolution_Name').replace('K', col_letter))
+
 def update_analysis_workbook(df_matrix, analysis_path):
     """
     기존 분석용 엑셀 파일의 Unified_Matrix 시트에 있는 Evo 표 데이터를
@@ -599,6 +641,7 @@ def update_analysis_workbook(df_matrix, analysis_path):
     - Evo 표 이름이 유지되어 있어야 합니다.
     """
     wb = load_workbook(analysis_path)
+    update_status_sheet_layout(wb)
     ws = wb["Unified_Matrix"]
 
     if "Evo" not in ws.tables:
