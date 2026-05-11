@@ -588,6 +588,81 @@ def scrape_detail(context, link_row: Dict):
 
 
 
+
+
+def update_status_sheet_layout(wb, df_matrix):
+    """(현황표) 시트를 상위 3개 순위 요약표(4행 블록 x 3개)로 채웁니다."""
+    if "(현황표)" not in wb.sheetnames:
+        return
+    ws = wb["(현황표)"]
+    start_col, end_col = 11, 46  # K:AT
+
+    stat_point_col = "+ Stat Point" if "+ Stat Point" in df_matrix.columns else None
+    plus_cols = [c for c in df_matrix.columns if isinstance(c, str) and c.startswith("+ ")]
+    if "+ OVR" in plus_cols:
+        plus_cols.remove("+ OVR")
+
+    # 기존 병합 해제 후 1~3위 병합 재설정
+    for rng in list(ws.merged_cells.ranges):
+        if rng.min_col == 8 and rng.max_col == 8 and rng.min_row <= 13 and rng.max_row >= 2:
+            ws.unmerge_cells(str(rng))
+    for base_row, rank_name in ((2, "1위"), (6, "2위"), (10, "3위")):
+        ws.merge_cells(start_row=base_row, start_column=8, end_row=base_row + 3, end_column=8)
+        ws.cell(row=base_row, column=8, value=rank_name)
+
+    for rank in (1, 2, 3):
+        base_row = 2 + (rank - 1) * 4
+        ws.cell(row=base_row, column=9, value="MAX")
+        ws.cell(row=base_row + 1, column=9, value="+OVR")
+        ws.cell(row=base_row + 2, column=9, value="+Stat Point")
+        ws.cell(row=base_row + 3, column=9, value="진화명")
+        ws.row_dimensions[base_row].height = 20
+        ws.row_dimensions[base_row + 1].height = 20
+        ws.row_dimensions[base_row + 2].height = 20
+        ws.row_dimensions[base_row + 3].height = 56
+
+        for c in range(start_col, end_col + 1):
+            stat_name = ws.cell(row=1, column=c).value
+            max_col = f"Max {stat_name}" if stat_name is not None else None
+            if not max_col or max_col not in df_matrix.columns:
+                ws.cell(row=base_row, column=c, value=None)
+                ws.cell(row=base_row + 1, column=c, value=None)
+                ws.cell(row=base_row + 2, column=c, value=None)
+                ws.cell(row=base_row + 3, column=c, value=None)
+                continue
+
+            series = pd.to_numeric(df_matrix[max_col], errors="coerce")
+            valid = df_matrix.loc[series.notna() & (series > 0)].copy()
+            if valid.empty:
+                ws.cell(row=base_row, column=c, value=None)
+                ws.cell(row=base_row + 1, column=c, value=None)
+                ws.cell(row=base_row + 2, column=c, value=None)
+                ws.cell(row=base_row + 3, column=c, value=None)
+                continue
+
+            ranked_vals = sorted(valid[max_col].dropna().unique(), reverse=True)
+            if len(ranked_vals) < rank:
+                ws.cell(row=base_row, column=c, value=None)
+                ws.cell(row=base_row + 1, column=c, value=None)
+                ws.cell(row=base_row + 2, column=c, value=None)
+                ws.cell(row=base_row + 3, column=c, value=None)
+                continue
+
+            target_max = ranked_vals[rank - 1]
+            row = valid.loc[valid[max_col] == target_max].iloc[0]
+            ovr_val = row.get("+ OVR", None)
+            if stat_point_col:
+                stat_point_val = row.get(stat_point_col, None)
+            else:
+                stat_point_val = pd.to_numeric(pd.Series([row.get(pc, 0) for pc in plus_cols]), errors="coerce").fillna(0).sum()
+            evo_name = row.get("Evolution_Name", None)
+
+            ws.cell(row=base_row, column=c, value=target_max)
+            ws.cell(row=base_row + 1, column=c, value=None if pd.isna(ovr_val) else ovr_val)
+            ws.cell(row=base_row + 2, column=c, value=None if pd.isna(stat_point_val) else stat_point_val)
+            ws.cell(row=base_row + 3, column=c, value=None if pd.isna(evo_name) else str(evo_name))
+            ws.cell(row=base_row + 3, column=c).alignment = ws.cell(row=base_row + 3, column=c).alignment.copy(wrap_text=True)
+
 def update_analysis_workbook(df_matrix, analysis_path):
     """
     기존 분석용 엑셀 파일의 Unified_Matrix 시트에 있는 Evo 표 데이터를
@@ -599,6 +674,7 @@ def update_analysis_workbook(df_matrix, analysis_path):
     - Evo 표 이름이 유지되어 있어야 합니다.
     """
     wb = load_workbook(analysis_path)
+    update_status_sheet_layout(wb, df_matrix)
     ws = wb["Unified_Matrix"]
 
     if "Evo" not in ws.tables:
