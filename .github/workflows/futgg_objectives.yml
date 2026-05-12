@@ -45,25 +45,6 @@ jobs:
           date
           echo "=== outputs after crawler ==="
           ls -la outputs
-          echo "=== outputs/latest_csv after crawler ==="
-          ls -la outputs/latest_csv || true
-
-      - name: Build poster summary JSON
-        timeout-minutes: 3
-        env:
-          PYTHONUNBUFFERED: "1"
-        run: |
-          echo "=== build poster summary json start ==="
-          date
-          python -u build_poster_summary_json.py
-          echo "=== build poster summary json end ==="
-          date
-          echo "=== outputs/latest_json after json build ==="
-          ls -la outputs/latest_json || true
-
-      - name: Render poster from JSON
-        run: |
-          python render_fc26_poster.py
 
       - name: Upload result files
         uses: actions/upload-artifact@v4
@@ -71,66 +52,26 @@ jobs:
           name: futgg-objectives-result
           path: outputs/
 
-      - name: Update latest files
+      - name: Update latest xlsx
         run: |
           mkdir -p latest
-
-          rm -rf latest_csv
-          mkdir -p latest_csv
-
-          rm -rf latest_json
-          mkdir -p latest_json
 
           echo "=== outputs files before copy ==="
           ls -la outputs
 
-          echo "=== outputs/latest_csv files before copy ==="
-          ls -la outputs/latest_csv || true
-
-          echo "=== outputs/latest_json files before copy ==="
-          ls -la outputs/latest_json || true
-
-          rm -rf latest_poster
-          mkdir -p latest_poster
-
-          echo "=== outputs/latest_poster files before copy ==="
-          ls -la outputs/latest_poster || true
-
-          if [ -d outputs/latest_poster ]; then
-            cp outputs/latest_poster/*.png latest_poster/ || true
-            cp outputs/latest_poster/*.html latest_poster/ || true
-          fi
-
-          echo "=== latest_poster files ==="
-          ls -la latest_poster
-
           cp outputs/*.xlsx latest/objectives_latest.xlsx
-
-          if [ -d outputs/latest_csv ]; then
-            cp outputs/latest_csv/*.csv latest_csv/ || true
-          fi
-
-          if [ -d outputs/latest_json ]; then
-            cp outputs/latest_json/*.json latest_json/ || true
-          fi
 
           echo "=== latest files ==="
           ls -la latest
 
-          echo "=== latest_csv files ==="
-          ls -la latest_csv
-
-          echo "=== latest_json files ==="
-          ls -la latest_json
-
-      - name: Commit latest files
+      - name: Commit latest xlsx
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git status --short
-          git add -A latest latest_csv latest_json latest_poster
+          git add -A latest
           git status --short
 
-          git commit -m "Update latest objectives result and summary json" || echo "No changes to commit"
+          git commit -m "Update latest objectives xlsx" || echo "No changes to commit"
           git push
