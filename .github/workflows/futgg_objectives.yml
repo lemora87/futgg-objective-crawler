@@ -61,6 +61,10 @@ jobs:
           echo "=== outputs/latest_json after json build ==="
           ls -la outputs/latest_json || true
 
+      - name: Render poster from JSON
+        run: |
+          python render_fc26_poster.py
+
       - name: Upload result files
         uses: actions/upload-artifact@v4
         with:
@@ -85,6 +89,20 @@ jobs:
 
           echo "=== outputs/latest_json files before copy ==="
           ls -la outputs/latest_json || true
+
+          rm -rf latest_poster
+          mkdir -p latest_poster
+
+          echo "=== outputs/latest_poster files before copy ==="
+          ls -la outputs/latest_poster || true
+
+          if [ -d outputs/latest_poster ]; then
+            cp outputs/latest_poster/*.png latest_poster/ || true
+            cp outputs/latest_poster/*.html latest_poster/ || true
+          fi
+
+          echo "=== latest_poster files ==="
+          ls -la latest_poster
 
           cp outputs/*.xlsx latest/objectives_latest.xlsx
 
@@ -111,7 +129,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git status --short
-          git add -A latest latest_csv latest_json
+          git add -A latest latest_csv latest_json latest_poster
           git status --short
 
           git commit -m "Update latest objectives result and summary json" || echo "No changes to commit"
