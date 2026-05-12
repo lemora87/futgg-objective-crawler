@@ -69,6 +69,95 @@ def ko_value(value):
     v = clean(value)
     return VALUE_KO.get(v, v)
 
+def needs_player_suffix(value):
+    """
+    득점/어시스트 표현에서 '~로' 앞에 '선수'가 붙어야 자연스러운 값.
+    예: 미국 → 미국 선수로, 리그앙 → 리그앙 선수로
+    """
+    v = clean(value)
+
+    no_suffix_values = {
+        "수비수",
+        "미드필더",
+        "공격수",
+        "GK",
+        "CB",
+        "LB",
+        "RB",
+        "CDM",
+        "CM",
+        "CAM",
+        "LM",
+        "RM",
+        "LW",
+        "RW",
+        "ST",
+        "아무 선수",
+    }
+
+    if not v:
+        return False
+
+    if v in no_suffix_values:
+        return False
+
+    if v.endswith("선수"):
+        return False
+
+    if v.endswith("카드"):
+        return False
+
+    return True
+
+
+def as_actor(value):
+    """
+    미션 수행 주체 표현.
+    예:
+    미국 → 미국 선수
+    리그앙 → 리그앙 선수
+    TOTS 카드 → TOTS 카드
+    수비수 → 수비수
+    RW → RW
+    아무 선수 → 아무 선수
+    """
+    v = ko_value(value)
+
+    if needs_player_suffix(v):
+        return f"{v} 선수"
+
+    return v
+
+
+def final_clean_text(text):
+    """
+    마지막 중복/조사 보정.
+    """
+    t = clean(text)
+
+    fixes = {
+        "TOTS 카드 카드": "TOTS 카드",
+        "아무 선수 선수": "아무 선수",
+        "프랑스 선수 선수": "프랑스 선수",
+        "미국 선수 선수": "미국 선수",
+        "리그앙 선수 선수": "리그앙 선수",
+        "NWSL 선수 선수": "NWSL 선수",
+        "사우디 리그 선수 선수": "사우디 리그 선수",
+        "D1 아르케마 선수 선수": "D1 아르케마 선수",
+        "트렌디욜 쉬페르리그 선수 선수": "트렌디욜 쉬페르리그 선수",
+        "리그앙로": "리그앙 선수로",
+        "NWSL로": "NWSL 선수로",
+        "미국로": "미국 선수로",
+        "프랑스로": "프랑스 선수로",
+        "사우디 리그로": "사우디 리그 선수로",
+        "D1 아르케마로": "D1 아르케마 선수로",
+        "트렌디욜 쉬페르리그로": "트렌디욜 쉬페르리그 선수로",
+    }
+
+    for old, new in fixes.items():
+        t = t.replace(old, new)
+
+    return clean(t)
 
 def strip_new_marker(text):
     return clean(text).replace("(신규미션)", "").replace("NEW", "").strip()
