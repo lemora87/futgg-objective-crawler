@@ -237,54 +237,52 @@ def translate_goal(text):
     USA: Goal 3회 → 미국 선수로 3골
     TOTS: 5경기 각 Goal 1회 → TOTS 카드로 5경기 각각 1골
     Any: Goal 4회 → 아무 선수로 4골
+    Ligue 1: 2경기 각 Goal 1회 → 리그앙 선수로 2경기 각각 1골
     """
     raw = strip_new_marker(text)
 
     m = re.fullmatch(r"(.+?):\s*(\d+)경기\s*각\s*Goal\s*1회", raw, re.I)
     if m:
-        value = ko_value(m.group(1))
+        value = as_actor(m.group(1))
         count = m.group(2)
-        return f"{value}로 {count}경기 각각 1골"
+        return final_clean_text(f"{value}로 {count}경기 각각 1골")
 
     m = re.fullmatch(r"(.+?):\s*Goal\s*(\d+)회", raw, re.I)
     if m:
-        value = ko_value(m.group(1))
+        value = as_actor(m.group(1))
         count = m.group(2)
-        return f"{value}로 {count}골"
+        return final_clean_text(f"{value}로 {count}골")
 
     m = re.fullmatch(r"(.+?):\s*(\d+)경기\s*각\s*골\s*1회", raw, re.I)
     if m:
-        value = ko_value(m.group(1))
+        value = as_actor(m.group(1))
         count = m.group(2)
-        return f"{value}로 {count}경기 각각 1골"
+        return final_clean_text(f"{value}로 {count}경기 각각 1골")
 
-    return translate_general_text(raw)
+    return final_clean_text(translate_general_text(raw))
 
 
 def translate_assist(text):
     """
     defender: Assist 4회 → 수비수로 4어시스트
     D1 Arkema: 2경기 각 Assist 1회 → D1 아르케마 선수로 2경기 각각 1어시스트
+    French: Assist 4회 → 프랑스 선수로 4어시스트
     """
     raw = strip_new_marker(text)
 
     m = re.fullmatch(r"(.+?):\s*(\d+)경기\s*각\s*Assist\s*1회", raw, re.I)
     if m:
-        value = ko_value(m.group(1))
+        value = as_actor(m.group(1))
         count = m.group(2)
-        if value not in {"수비수", "미드필더", "공격수", "RW", "LW", "ST", "CM", "CAM", "CDM", "LM", "RM", "LB", "RB", "CB", "GK", "아무 선수"} and not value.endswith("카드"):
-            value = f"{value} 선수"
-        return f"{value}로 {count}경기 각각 1어시스트"
+        return final_clean_text(f"{value}로 {count}경기 각각 1어시스트")
 
     m = re.fullmatch(r"(.+?):\s*Assist\s*(\d+)회", raw, re.I)
     if m:
-        value = ko_value(m.group(1))
+        value = as_actor(m.group(1))
         count = m.group(2)
-        if value not in {"수비수", "미드필더", "공격수", "RW", "LW", "ST", "CM", "CAM", "CDM", "LM", "RM", "LB", "RB", "CB", "GK", "아무 선수"} and not value.endswith("카드"):
-            value = f"{value} 선수"
-        return f"{value}로 {count}어시스트"
+        return final_clean_text(f"{value}로 {count}어시스트")
 
-    return translate_general_text(raw)
+    return final_clean_text(translate_general_text(raw))
 
 
 def translate_general_text(text):
@@ -312,7 +310,7 @@ def translate_general_text(text):
     t = t.replace("미국 선수 선수", "미국 선수")
     t = t.replace("프랑스 선수 선수", "프랑스 선수")
 
-    return clean(t)
+    return final_clean_text(t)
 
 
 def translate_by_section(section_name, text):
