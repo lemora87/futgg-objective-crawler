@@ -27,6 +27,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Install Korean fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk fonts-nanum
+
       - name: Install Playwright browser
         run: |
           python -m playwright install chromium
@@ -35,6 +40,10 @@ jobs:
         run: |
           mkdir -p outputs
           python futgg_objective_crawler.py --out outputs --headless
+
+      - name: Generate test poster
+        run: |
+          python poster_generator.py
 
       - name: Upload result files
         uses: actions/upload-artifact@v4
@@ -48,15 +57,26 @@ jobs:
           rm -rf latest_csv
           mkdir -p latest_csv
 
+          rm -rf latest_poster_test
+          mkdir -p latest_poster_test
+
           echo "=== outputs files before copy ==="
           ls -la outputs
+
           echo "=== outputs/latest_csv files before copy ==="
           ls -la outputs/latest_csv || true
+
+          echo "=== outputs/latest_poster_test files before copy ==="
+          ls -la outputs/latest_poster_test || true
 
           cp outputs/*.xlsx latest/objectives_latest.xlsx
 
           if [ -d outputs/latest_csv ]; then
             cp outputs/latest_csv/*.csv latest_csv/ || true
+          fi
+
+          if [ -d outputs/latest_poster_test ]; then
+            cp outputs/latest_poster_test/*.png latest_poster_test/ || true
           fi
 
           echo "=== latest files ==="
@@ -65,14 +85,17 @@ jobs:
           echo "=== latest_csv files ==="
           ls -la latest_csv
 
+          echo "=== latest_poster_test files ==="
+          ls -la latest_poster_test
+
       - name: Commit latest files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git status --short
-          git add -A latest latest_csv
+          git add -A latest latest_csv latest_poster_test
           git status --short
 
-          git commit -m "Update latest objectives result" || echo "No changes to commit"
+          git commit -m "Update latest objectives result and test poster" || echo "No changes to commit"
           git push
