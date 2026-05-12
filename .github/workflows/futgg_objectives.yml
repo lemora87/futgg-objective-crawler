@@ -12,6 +12,7 @@ permissions:
 jobs:
   crawl:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
 
     steps:
       - name: Check out repository
@@ -32,13 +33,33 @@ jobs:
           python -m playwright install chromium
 
       - name: Run crawler
+        timeout-minutes: 15
+        env:
+          PYTHONUNBUFFERED: "1"
         run: |
           mkdir -p outputs
-          python futgg_objective_crawler.py --out outputs --headless
+          echo "=== crawler start ==="
+          date
+          python -u futgg_objective_crawler.py --out outputs --headless
+          echo "=== crawler end ==="
+          date
+          echo "=== outputs after crawler ==="
+          ls -la outputs
+          echo "=== outputs/latest_csv after crawler ==="
+          ls -la outputs/latest_csv || true
 
       - name: Build poster summary JSON
+        timeout-minutes: 3
+        env:
+          PYTHONUNBUFFERED: "1"
         run: |
-          python build_poster_summary_json.py
+          echo "=== build poster summary json start ==="
+          date
+          python -u build_poster_summary_json.py
+          echo "=== build poster summary json end ==="
+          date
+          echo "=== outputs/latest_json after json build ==="
+          ls -la outputs/latest_json || true
 
       - name: Upload result files
         uses: actions/upload-artifact@v4
