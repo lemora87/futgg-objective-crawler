@@ -37,7 +37,6 @@ import re
 import sys
 import time
 import json
-import csv
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -2831,97 +2830,6 @@ def update_analysis_workbook(out_path: Path, analysis_path: Path):
 
 
 
-def export_latest_csv_sheets(xlsx_path: Path, csv_dir: Path) -> List[Path]:
-    """
-    Export poster/automation-facing workbook sheets to CSV using openpyxl.
-
-    This version deliberately avoids pandas.read_excel / pd.ExcelFile because
-    GitHub Actions occasionally created the latest_csv folder but exported no
-    CSV files. openpyxl reads the already-saved workbook directly and writes
-    plain UTF-8-SIG CSV files, which is safer for automation.
-
-    The folder is refreshed on each run so stale New_Report_XX/Combo_Report_XX
-    files from previous runs do not remain.
-    """
-    xlsx_path = Path(xlsx_path)
-    csv_dir = Path(csv_dir)
-    csv_dir.mkdir(parents=True, exist_ok=True)
-
-    if not xlsx_path.exists():
-        print(f"[CSV export skipped] workbook not found: {xlsx_path}")
-        return []
-
-    # Remove stale CSV outputs from previous runs.
-    for old_csv in csv_dir.glob("*.csv"):
-        try:
-            old_csv.unlink()
-        except Exception as e:
-            print(f"[CSV cleanup skipped] {old_csv.name}: {type(e).__name__}: {e}")
-
-    preferred_order = [
-        "SB_Report",
-        "SB_Action_Detail",
-        "Mission_DB",
-        "New_Report_Index",
-        "Combo_Report_Index",
-    ]
-
-    try:
-        wb = load_workbook(xlsx_path, data_only=True, read_only=True)
-    except Exception as e:
-        print(f"[CSV export failed] could not open workbook: {xlsx_path} ({type(e).__name__}: {e})")
-        return []
-
-    sheet_names = list(wb.sheetnames)
-    dynamic_sheets = [
-        s for s in sheet_names
-        if re.fullmatch(r"New_Report_\d+", s) or re.fullmatch(r"Combo_Report_\d+", s)
-    ]
-
-    target_sheets = []
-    for s in preferred_order + dynamic_sheets:
-        if s in sheet_names and s not in target_sheets:
-            target_sheets.append(s)
-
-    exported: List[Path] = []
-
-    for sheet in target_sheets:
-        try:
-            ws = wb[sheet]
-            out_csv = csv_dir / f"{sheet}.csv"
-            with open(out_csv, "w", newline="", encoding="utf-8-sig") as f:
-                writer = csv.writer(f)
-                for row in ws.iter_rows(values_only=True):
-                    writer.writerow(["" if v is None else v for v in row])
-            exported.append(out_csv)
-            print(f"[CSV exported] {sheet} -> {out_csv}")
-        except Exception as e:
-            print(f"[CSV export skipped] {sheet}: {type(e).__name__}: {e}")
-
-    # Lightweight manifest so automation can discover which dynamic sheets exist.
-    try:
-        manifest_path = csv_dir / "_manifest.csv"
-        with open(manifest_path, "w", newline="", encoding="utf-8-sig") as f:
-            writer = csv.writer(f)
-            writer.writerow(["Sheet", "CSV_File"])
-            for sheet in target_sheets:
-                writer.writerow([sheet, f"{sheet}.csv"])
-        exported.append(manifest_path)
-        print(f"[CSV exported] _manifest -> {manifest_path}")
-    except Exception as e:
-        print(f"[CSV manifest skipped] {type(e).__name__}: {e}")
-
-    try:
-        wb.close()
-    except Exception:
-        pass
-
-    print(f"CSV sheets exported: {len(exported)} file(s) -> {csv_dir}")
-    return exported
-
-
-
-
 def resolve_previous_objectives_file() -> Optional[Path]:
     """
     Previous-run comparison file.
@@ -3323,15 +3231,8 @@ def main():
                 df_seasonal_plan=df_seasonal_plan, df_plan_all=df_plan_all,
                 df_action=df_action, df_action_seasonal=df_action_seasonal, df_action_all=df_action_all)
 
-    # Export CSV copies for ChatGPT scheduled poster automation.
-    # The .xlsx remains the main human-readable workbook; latest_csv/*.csv is for stable raw access.
-    latest_csv_dir = out_dir / "latest_csv"
-    exported_csv_files = export_latest_csv_sheets(out_path, latest_csv_dir)
-
     print()
     print(f"Done: {out_path}")
-    if exported_csv_files:
-        print(f"CSV export folder: {latest_csv_dir}")
     print(f"Objective pages: {len(links)}")
     print(f"Missions parsed: {len(df_mission)}")
     print(f"Conditions parsed: {len(df_conditions)}")
