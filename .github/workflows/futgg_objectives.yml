@@ -45,13 +45,19 @@ jobs:
       - name: Update latest files
         run: |
           mkdir -p latest
+          rm -rf latest_csv
           mkdir -p latest_csv
 
           echo "=== outputs files before copy ==="
           ls -la outputs
+          echo "=== outputs/latest_csv files before copy ==="
+          ls -la outputs/latest_csv || true
 
           cp outputs/*.xlsx latest/objectives_latest.xlsx
-          find outputs -maxdepth 1 -name "*.csv" -exec cp {} latest_csv/ \;
+
+          if [ -d outputs/latest_csv ]; then
+            cp outputs/latest_csv/*.csv latest_csv/ || true
+          fi
 
           echo "=== latest files ==="
           ls -la latest
