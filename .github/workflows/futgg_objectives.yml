@@ -27,11 +27,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Install Korean fonts
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y fonts-noto-cjk fonts-nanum
-
       - name: Install Playwright browser
         run: |
           python -m playwright install chromium
@@ -41,9 +36,9 @@ jobs:
           mkdir -p outputs
           python futgg_objective_crawler.py --out outputs --headless
 
-      - name: Generate test poster
+      - name: Build poster summary JSON
         run: |
-          python poster_generator.py
+          python build_poster_summary_json.py
 
       - name: Upload result files
         uses: actions/upload-artifact@v4
@@ -54,11 +49,12 @@ jobs:
       - name: Update latest files
         run: |
           mkdir -p latest
+
           rm -rf latest_csv
           mkdir -p latest_csv
 
-          rm -rf latest_poster_test
-          mkdir -p latest_poster_test
+          rm -rf latest_json
+          mkdir -p latest_json
 
           echo "=== outputs files before copy ==="
           ls -la outputs
@@ -66,8 +62,8 @@ jobs:
           echo "=== outputs/latest_csv files before copy ==="
           ls -la outputs/latest_csv || true
 
-          echo "=== outputs/latest_poster_test files before copy ==="
-          ls -la outputs/latest_poster_test || true
+          echo "=== outputs/latest_json files before copy ==="
+          ls -la outputs/latest_json || true
 
           cp outputs/*.xlsx latest/objectives_latest.xlsx
 
@@ -75,8 +71,8 @@ jobs:
             cp outputs/latest_csv/*.csv latest_csv/ || true
           fi
 
-          if [ -d outputs/latest_poster_test ]; then
-            cp outputs/latest_poster_test/*.png latest_poster_test/ || true
+          if [ -d outputs/latest_json ]; then
+            cp outputs/latest_json/*.json latest_json/ || true
           fi
 
           echo "=== latest files ==="
@@ -85,8 +81,8 @@ jobs:
           echo "=== latest_csv files ==="
           ls -la latest_csv
 
-          echo "=== latest_poster_test files ==="
-          ls -la latest_poster_test
+          echo "=== latest_json files ==="
+          ls -la latest_json
 
       - name: Commit latest files
         run: |
@@ -94,8 +90,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git status --short
-          git add -A latest latest_csv latest_poster_test
+          git add -A latest latest_csv latest_json
           git status --short
 
-          git commit -m "Update latest objectives result and test poster" || echo "No changes to commit"
+          git commit -m "Update latest objectives result and summary json" || echo "No changes to commit"
           git push
