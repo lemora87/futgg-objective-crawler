@@ -1,0 +1,190 @@
+{
+  "generated_at_kst": "2026-05-12 10:18:11",
+  "source": "latest_csv",
+  "new_count": 0,
+  "new_report_status": "없음",
+  "combo_report_status": "없음",
+  "poster_basis": "SB_Report.csv",
+  "minimum_matches": "10경기",
+  "play_requirements": [
+    "Win 7",
+    "Play 10"
+  ],
+  "sections": {
+    "필수 선발 요건": [
+      {
+        "text": "French ≥1",
+        "campaign": "Silver TOTS HM Maureen Cosson (마감 5/18 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "Ligue 1 ≥1",
+        "campaign": "Silver TOTS HM: Arsène Kouassi (마감 5/16 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "NWSL ≥1",
+        "campaign": "TOTS HM: NWSL Grind (마감 5/16 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "ROSHN Saudi League ≥1",
+        "campaign": "Silver TOTS HM Valentin Atangana (마감 5/15 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "TOTS ≥1",
+        "campaign": "TOTS HM: Florent Hadergjonaj (마감 5/19 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "TOTS ≥1",
+        "campaign": "Silver TOTS HM: Arsène Kouassi (마감 5/16 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "Trendyol Süper Lig ≥1",
+        "campaign": "TOTS HM: Florent Hadergjonaj (마감 5/19 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "USA ≥2",
+        "campaign": "TOTS HM: NWSL Grind (마감 5/16 02:00)",
+        "is_new": false
+      }
+    ],
+    "교체로 투입해도 가능": [
+      {
+        "text": "defender",
+        "campaign": "TOTS HM: Florent Hadergjonaj (마감 5/19 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "D1 Arkema",
+        "campaign": "Silver TOTS HM Maureen Cosson (마감 5/18 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "RW",
+        "campaign": "TOTS HM: NWSL Grind (마감 5/16 02:00)",
+        "is_new": false
+      }
+    ],
+    "To do (득점)": [
+      {
+        "text": "TOTS: 5경기 각 Goal 1회",
+        "campaign": "TOTS HM: Florent Hadergjonaj (마감 5/19 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "Ligue 1: 2경기 각 Goal 1회",
+        "campaign": "Silver TOTS HM: Arsène Kouassi (마감 5/16 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "Any: Goal 4회",
+        "campaign": "TOTS HM: NWSL Grind (마감 5/16 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "NWSL: 5경기 각 Goal 1회",
+        "campaign": "TOTS HM: NWSL Grind (마감 5/16 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "USA: Goal 3회",
+        "campaign": "Nike Wildcard Challenge (마감 5/15 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "USA: Goal 5회",
+        "campaign": "Nike Wildcard Challenge (마감 5/15 02:00)",
+        "is_new": false
+      }
+    ],
+    "To do (어시스트)": [
+      {
+        "text": "defender: Assist 4회",
+        "campaign": "TOTS HM: Florent Hadergjonaj (마감 5/19 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "D1 Arkema: 2경기 각 Assist 1회",
+        "campaign": "Silver TOTS HM Maureen Cosson (마감 5/18 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "RW: Assist 4회",
+        "campaign": "TOTS HM: NWSL Grind (마감 5/16 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "French: Assist 4회",
+        "campaign": "Silver TOTS HM Valentin Atangana (마감 5/15 02:00)",
+        "is_new": false
+      }
+    ],
+    "To do (기타)": [
+      {
+        "text": "TOTS 카드 1명 이상 선발하고 5경기 플레이",
+        "campaign": "TOTS HM: Florent Hadergjonaj (마감 5/19 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "Trendyol Süper Lig 선수 1명 이상 선발하고 3승",
+        "campaign": "TOTS HM: Florent Hadergjonaj (마감 5/19 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "프랑스 선수 1명 이상 선발하고 2승",
+        "campaign": "Silver TOTS HM Maureen Cosson (마감 5/18 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "프랑스 선수 1명 이상 선발하고 2경기 플레이",
+        "campaign": "Silver TOTS HM Maureen Cosson (마감 5/18 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "리그앙 선수 1명 이상 선발하고 2경기 플레이",
+        "campaign": "Silver TOTS HM: Arsène Kouassi (마감 5/16 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "TOTS 카드 1명 이상 선발하고 2승",
+        "campaign": "Silver TOTS HM: Arsène Kouassi (마감 5/16 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "미국 선수 1명 이상 선발하고 10경기 플레이",
+        "campaign": "TOTS HM: NWSL Grind (마감 5/16 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "미국 선수 2명 이상 선발하고 7승",
+        "campaign": "TOTS HM: NWSL Grind (마감 5/16 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "사우디 리그 선수 1명 이상 선발하고 2경기 플레이",
+        "campaign": "Silver TOTS HM Valentin Atangana (마감 5/15 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "사우디 리그 선수 1명 이상 선발하고 2승",
+        "campaign": "Silver TOTS HM Valentin Atangana (마감 5/15 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "미국 선수 1명 이상 선발하고 3승",
+        "campaign": "Nike Wildcard Challenge (마감 5/15 02:00)",
+        "is_new": false
+      },
+      {
+        "text": "미국 선수 1명 이상 선발하고 3경기 플레이",
+        "campaign": "Nike Wildcard Challenge (마감 5/15 02:00)",
+        "is_new": false
+      }
+    ]
+  }
+}
