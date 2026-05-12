@@ -1,5 +1,5 @@
 {
-  "generated_at_kst": "2026-05-12 10:33:13",
+  "generated_at_kst": "2026-05-12 10:59:50",
   "source": "latest_csv",
   "new_count": 0,
   "new_report_status": "없음",
@@ -89,7 +89,7 @@
         "is_new": false
       },
       {
-        "text": "리그앙로 2경기 각각 1골",
+        "text": "리그앙 선수로 2경기 각각 1골",
         "raw_text": "Ligue 1: 2경기 각 Goal 1회",
         "campaign": "Silver TOTS HM: Arsène Kouassi (마감 5/16 02:00)",
         "is_new": false
@@ -101,19 +101,19 @@
         "is_new": false
       },
       {
-        "text": "NWSL로 5경기 각각 1골",
+        "text": "NWSL 선수로 5경기 각각 1골",
         "raw_text": "NWSL: 5경기 각 Goal 1회",
         "campaign": "TOTS HM: NWSL Grind (마감 5/16 02:00)",
         "is_new": false
       },
       {
-        "text": "미국로 3골",
+        "text": "미국 선수로 3골",
         "raw_text": "USA: Goal 3회",
         "campaign": "Nike Wildcard Challenge (마감 5/15 02:00)",
         "is_new": false
       },
       {
-        "text": "미국로 5골",
+        "text": "미국 선수로 5골",
         "raw_text": "USA: Goal 5회",
         "campaign": "Nike Wildcard Challenge (마감 5/15 02:00)",
         "is_new": false
@@ -147,7 +147,7 @@
     ],
     "To do (기타)": [
       {
-        "text": "TOTS 카드 카드 1명 이상 선발하고 5경기 플레이",
+        "text": "TOTS 카드 1명 이상 선발하고 5경기 플레이",
         "raw_text": "TOTS 카드 1명 이상 선발하고 5경기 플레이",
         "campaign": "TOTS HM: Florent Hadergjonaj (마감 5/19 02:00)",
         "is_new": false
@@ -177,7 +177,7 @@
         "is_new": false
       },
       {
-        "text": "TOTS 카드 카드 1명 이상 선발하고 2승",
+        "text": "TOTS 카드 1명 이상 선발하고 2승",
         "raw_text": "TOTS 카드 1명 이상 선발하고 2승",
         "campaign": "Silver TOTS HM: Arsène Kouassi (마감 5/16 02:00)",
         "is_new": false
