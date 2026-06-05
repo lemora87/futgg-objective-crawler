@@ -1,4 +1,4 @@
-name: FUTGG Objectives Crawler
+name: FUTGG Raw Objectives Crawler
 
 on:
   schedule:
@@ -32,39 +32,40 @@ jobs:
         run: |
           python -m playwright install chromium
 
-      - name: Run crawler
+      - name: Run raw crawler
         timeout-minutes: 15
         env:
           PYTHONUNBUFFERED: "1"
         run: |
           mkdir -p outputs
-          echo "=== crawler start ==="
+          echo "=== raw crawler start ==="
           date
-          python -u futgg_objective_crawler.py --out outputs --headless
-          echo "=== crawler end ==="
+          python -u futgg_raw_objective_crawler.py --out outputs --headless
+          echo "=== raw crawler end ==="
           date
-          echo "=== outputs after crawler ==="
+          echo "=== outputs after raw crawler ==="
           ls -la outputs
 
       - name: Upload result files
         uses: actions/upload-artifact@v4
         with:
-          name: futgg-objectives-result
+          name: futgg-raw-objectives-result
           path: outputs/
 
-      - name: Update latest xlsx
+      - name: Update latest raw files
         run: |
           mkdir -p latest
 
           echo "=== outputs files before copy ==="
           ls -la outputs
 
-          cp outputs/*.xlsx latest/objectives_latest.xlsx
+          cp outputs/objectives_raw_latest.xlsx latest/objectives_raw_latest.xlsx
+          cp outputs/objectives_raw_latest.json latest/objectives_raw_latest.json
 
           echo "=== latest files ==="
           ls -la latest
 
-      - name: Commit latest xlsx
+      - name: Commit latest raw files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -73,5 +74,5 @@ jobs:
           git add -A latest
           git status --short
 
-          git commit -m "Update latest objectives xlsx" || echo "No changes to commit"
+          git commit -m "Update latest raw objectives" || echo "No changes to commit"
           git push
