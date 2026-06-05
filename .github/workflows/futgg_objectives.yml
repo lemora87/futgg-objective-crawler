@@ -2,8 +2,8 @@ name: FUTGG Raw Objectives Crawler
 
 on:
   schedule:
-    # 한국시간 매일 02:00 = UTC 매일 17:00
-    - cron: "0 17 * * *"
+    # 한국시간 매일 03:00 = UTC 매일 18:00
+    - cron: "0 18 * * *"
   workflow_dispatch:
 
 permissions:
