@@ -62,6 +62,9 @@ jobs:
           cp outputs/objectives_raw_latest.xlsx latest/objectives_raw_latest.xlsx
           cp outputs/objectives_raw_latest.json latest/objectives_raw_latest.json
 
+          cp outputs/objectives_mode_index_latest.xlsx latest/objectives_mode_index_latest.xlsx
+          cp outputs/objectives_mode_index_latest.json latest/objectives_mode_index_latest.json
+
           echo "=== latest files ==="
           ls -la latest
 
@@ -76,3 +79,15 @@ jobs:
 
           git commit -m "Update latest raw objectives" || echo "No changes to commit"
           git push
+      - name: Build mode objective index
+        timeout-minutes: 3
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          echo "=== build mode objective index start ==="
+          date
+          python -u build_mode_objective_index.py --in outputs/objectives_raw_latest.json --out outputs
+          echo "=== build mode objective index end ==="
+          date
+          echo "=== outputs after mode index ==="
+          ls -la outputs
