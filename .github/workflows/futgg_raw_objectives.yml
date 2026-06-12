@@ -1,0 +1,79 @@
+name: FUTGG Raw Objectives Crawler
+
+on:
+  schedule:
+    # 한국시간 매일 02:00 = UTC 전날 17:00
+    - cron: "0 17 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  crawl-raw:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas openpyxl playwright
+
+      - name: Install Playwright browser
+        run: |
+          python -m playwright install chromium
+
+      - name: Run raw crawler
+        timeout-minutes: 15
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          mkdir -p outputs_raw
+          echo "=== raw crawler start ==="
+          date
+          python -u futgg_raw_objective_crawler.py --out outputs_raw --headless
+          echo "=== raw crawler end ==="
+          date
+          echo "=== outputs_raw files ==="
+          ls -la outputs_raw
+
+      - name: Upload raw result files
+        uses: actions/upload-artifact@v4
+        with:
+          name: futgg-raw-objectives-result
+          path: outputs_raw/
+
+      - name: Update latest raw files
+        run: |
+          rm -rf latest_raw
+          mkdir -p latest_raw
+
+          echo "=== outputs_raw files before copy ==="
+          ls -la outputs_raw
+
+          cp outputs_raw/objectives_raw_latest.xlsx latest_raw/futgg_raw_objectives_latest.xlsx
+          cp outputs_raw/objectives_raw_latest.json latest_raw/futgg_raw_objectives_latest.json
+
+          echo "=== latest_raw files ==="
+          ls -la latest_raw
+
+      - name: Commit latest raw files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git status --short
+          git add -A latest_raw
+          git status --short
+
+          git commit -m "Update latest raw objectives" || echo "No changes to commit"
+          git push
