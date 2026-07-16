@@ -1,20 +1,126 @@
 {
   "manifest": {
-    "Generated_At_KST": "2026-07-16 03:05:26",
-    "Deadline_Base_KST": "2026-07-16 02:00:00",
+    "Generated_At_KST": "2026-07-17 03:06:14",
+    "Deadline_Base_KST": "2026-07-17 02:00:00",
     "Mission_Group_Count": 50,
-    "Objective_Row_Count": 254,
-    "New_Objective_Count": 106,
+    "Objective_Row_Count": 253,
+    "New_Objective_Count": 105,
     "Error_Count": 1,
     "Purpose": "RAW collection only. Do not trust this file as parsed mission guide; upload it to ChatGPT/manual review for route optimization."
   },
   "missions": [
     {
       "group_id": "G001",
+      "mission_group_name": "National Pride Estêvão - EA SPORTS FC 26 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/1076-national-pride-estevao/",
+      "campaign_expires": "Expires in 28 days",
+      "campaign_deadline_kst": "8/14 02:00",
+      "campaign_deadline_iso": "2026-08-14T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 5,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Brazilian Five",
+          "text_raw": "Play 5 matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) while having at least 6 Brazilian Players in your starting 11.",
+          "reward_raw": "1x 5x 88+ Rare Gold Players Pack / 1 Of 4 86+ Rare Gold Players / 1 Of 3 87+ Rare Gold Players",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1076-national-pride-estevao/||play 5 matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) while having at least 6 brazilian players in your starting 11.||brazilian five"
+        },
+        {
+          "order": 2,
+          "name_raw": "Last Minute Strike",
+          "text_raw": "Score 3 Finesse goals in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) using a Brazilian player.",
+          "reward_raw": "1 Of 4 86+ Rare Gold Players / 1 Of 3 87+ Rare Gold Players / 1 Of 3 88+ Rare Gold Players",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1076-national-pride-estevao/||score 3 finesse goals in squad battles on min. semi-pro difficulty (or live events/rivals/champions) using a brazilian player.||last minute strike"
+        },
+        {
+          "order": 3,
+          "name_raw": "5 Star Touch",
+          "text_raw": "Assist at least 2 goals per match in 4 separate matches using a player with 5* SM in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions).",
+          "reward_raw": "1 Of 3 87+ Rare Gold Players / 1 Of 3 88+ Rare Gold Players / 1 Of 5 87+ Rare Gold Players",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1076-national-pride-estevao/||assist at least 2 goals per match in 4 separate matches using a player with 5* sm in squad battles on min. semi-pro difficulty (or live events/rivals/champions).||5 star touch"
+        },
+        {
+          "order": 4,
+          "name_raw": "Gift from São Paulo",
+          "text_raw": "Score 8 goals in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) using a Brazilian Midfielder.",
+          "reward_raw": "1 Of 3 88+ Rare Gold Players / 1 Of 5 87+ Rare Gold Players / 1 Of 5 88+ Rare Gold Players / 10000 Coins",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1076-national-pride-estevao/||score 8 goals in squad battles on min. semi-pro difficulty (or live events/rivals/champions) using a brazilian midfielder.||gift from são paulo"
+        },
+        {
+          "order": 5,
+          "name_raw": "Win 8",
+          "text_raw": "Win 8 matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) with minimum 6 players from the Premier League in your starting 11",
+          "reward_raw": "1 Of 5 87+ Rare Gold Players / 1 Of 5 88+ Rare Gold Players / 10000 Coins",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1076-national-pride-estevao/||win 8 matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) with minimum 6 players from the premier league in your starting 11||win 8"
+        }
+      ]
+    },
+    {
+      "group_id": "G002",
+      "mission_group_name": "Weekly Objectives - EA SPORTS FC 26 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/1052-weekly-objectives/",
+      "campaign_expires": "Expires in 7 days",
+      "campaign_deadline_kst": "7/24 02:00",
+      "campaign_deadline_iso": "2026-07-24T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 3,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Play 10",
+          "text_raw": "Play 10 matches in Squad Battles on Min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
+          "reward_raw": "Buy 10 Player Items on the Transfer Market. / 200 SP",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1052-weekly-objectives/||play 10 matches in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||play 10"
+        },
+        {
+          "order": 2,
+          "name_raw": "Win 10",
+          "text_raw": "Win 10 matches in Squad Battles on Min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
+          "reward_raw": "200 SP",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1052-weekly-objectives/||win 10 matches in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||win 10"
+        },
+        {
+          "order": 3,
+          "name_raw": "Score 10",
+          "text_raw": "Score 10 goals in any Ultimate Team game mode using a player from Spain.",
+          "reward_raw": "200 SP",
+          "mode_raw": "Any Ultimate Team mode",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1052-weekly-objectives/||score 10 goals in any ultimate team game mode using a player from spain.||score 10"
+        }
+      ]
+    },
+    {
+      "group_id": "G003",
       "mission_group_name": "Festival of Football Gauntlet 3 Bonus - EA SPORTS FC 26 Objectives",
       "objective_type": "Live Events",
       "url": "https://www.fut.gg/objectives/live-events/1084-festival-of-football-gauntlet-3-bonus/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "7/21 02:00",
       "campaign_deadline_iso": "2026-07-21T02:00+09:00",
       "is_new_group": "Yes",
@@ -63,11 +169,11 @@
       ]
     },
     {
-      "group_id": "G002",
+      "group_id": "G004",
       "mission_group_name": "Festival of Football Gauntlet 3 - EA SPORTS FC 26 Objectives",
       "objective_type": "Live Events",
       "url": "https://www.fut.gg/objectives/live-events/1086-festival-of-football-gauntlet-3/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "7/21 02:00",
       "campaign_deadline_iso": "2026-07-21T02:00+09:00",
       "is_new_group": "Yes",
@@ -156,13 +262,13 @@
       ]
     },
     {
-      "group_id": "G003",
+      "group_id": "G005",
       "mission_group_name": "A Star is Born Cup - EA SPORTS FC 26 Objectives",
       "objective_type": "Live Events",
       "url": "https://www.fut.gg/objectives/live-events/1071-a-star-is-born-cup/",
-      "campaign_expires": "Expires in 2 days",
-      "campaign_deadline_kst": "7/18 02:00",
-      "campaign_deadline_iso": "2026-07-18T02:00+09:00",
+      "campaign_expires": "Expires in 23 hours",
+      "campaign_deadline_kst": "7/18 01:00",
+      "campaign_deadline_iso": "2026-07-18T01:00+09:00",
       "is_new_group": "Yes",
       "new_objective_count": 5,
       "objectives": [
@@ -219,13 +325,13 @@
       ]
     },
     {
-      "group_id": "G004",
+      "group_id": "G006",
       "mission_group_name": "A Star is Born Bonus Completionist - EA SPORTS FC 26 Objectives",
       "objective_type": "Live Events",
       "url": "https://www.fut.gg/objectives/live-events/1073-a-star-is-born-bonus-completionist/",
-      "campaign_expires": "Expires in 2 days",
-      "campaign_deadline_kst": "7/18 02:00",
-      "campaign_deadline_iso": "2026-07-18T02:00+09:00",
+      "campaign_expires": "Expires in 23 hours",
+      "campaign_deadline_kst": "7/18 01:00",
+      "campaign_deadline_iso": "2026-07-18T01:00+09:00",
       "is_new_group": "Yes",
       "new_objective_count": 1,
       "objectives": [
@@ -242,13 +348,13 @@
       ]
     },
     {
-      "group_id": "G005",
+      "group_id": "G007",
       "mission_group_name": "Better Late Than Never - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1074-better-late-than-never/",
-      "campaign_expires": "Expires in 2 days",
-      "campaign_deadline_kst": "7/18 02:00",
-      "campaign_deadline_iso": "2026-07-18T02:00+09:00",
+      "campaign_expires": "Expires in 23 hours",
+      "campaign_deadline_kst": "7/18 01:00",
+      "campaign_deadline_iso": "2026-07-18T01:00+09:00",
       "is_new_group": "Yes",
       "new_objective_count": 7,
       "objectives": [
@@ -325,13 +431,13 @@
       ]
     },
     {
-      "group_id": "G006",
+      "group_id": "G008",
       "mission_group_name": "Daily Dip - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1081-daily-dip/",
-      "campaign_expires": "Expires in 2 days",
-      "campaign_deadline_kst": "7/18 02:00",
-      "campaign_deadline_iso": "2026-07-18T02:00+09:00",
+      "campaign_expires": "Expires in 23 hours",
+      "campaign_deadline_kst": "7/18 01:00",
+      "campaign_deadline_iso": "2026-07-18T01:00+09:00",
       "is_new_group": "Yes",
       "new_objective_count": 4,
       "objectives": [
@@ -378,127 +484,11 @@
       ]
     },
     {
-      "group_id": "G007",
-      "mission_group_name": "Weekly Rush Points - EA SPORTS FC 26 Objectives",
-      "objective_type": "Campaign",
-      "url": "https://www.fut.gg/objectives/campaigns/970-weekly-rush-points/",
-      "campaign_expires": "Expires in 23 hours",
-      "campaign_deadline_kst": "7/17 01:00",
-      "campaign_deadline_iso": "2026-07-17T01:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 6,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Weekly Rush Points - EA SPORTS FC 26 Objectives",
-          "text_raw": "Complete Rush Bonuses alongside your teammates to earn Rush Points!",
-          "reward_raw": "2X 89+ Rare Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/970-weekly-rush-points/||complete rush bonuses alongside your teammates to earn rush points!||weekly rush points - ea sports fc 26 objectives"
-        },
-        {
-          "order": 2,
-          "name_raw": "2,500 Rush Points",
-          "text_raw": "Earn 2,500 points by completing bonuses in Rush.",
-          "reward_raw": "1x 2x 85+ Rare Gold Players Pack / 1x 88+ Rare Gold Player Pack / 1x 2x 89+ Rare Gold Players Pack / 4X 83+ Rare Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/970-weekly-rush-points/||earn 2,500 points by completing bonuses in rush.||2,500 rush points"
-        },
-        {
-          "order": 3,
-          "name_raw": "10,000 Rush Points",
-          "text_raw": "Earn 10,000 points by completing bonuses in Rush.",
-          "reward_raw": "4X 83+ Rare Gold Players Pack / 3X 84+ Rare Gold Players Pack / 4X 84+ Rare Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/970-weekly-rush-points/||earn 10,000 points by completing bonuses in rush.||10,000 rush points"
-        },
-        {
-          "order": 4,
-          "name_raw": "25,000 Rush Points",
-          "text_raw": "Earn 25,000 points by completing bonuses in Rush.",
-          "reward_raw": "3X 84+ Rare Gold Players Pack / 4X 84+ Rare Gold Players Pack / 2X 85+ Rare Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/970-weekly-rush-points/||earn 25,000 points by completing bonuses in rush.||25,000 rush points"
-        },
-        {
-          "order": 5,
-          "name_raw": "35,000 Rush Points",
-          "text_raw": "Earn 35,000 points by completing bonuses in Rush.",
-          "reward_raw": "4X 84+ Rare Gold Players Pack / 2X 85+ Rare Gold Players Pack / 88+ Rare Gold Player Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/970-weekly-rush-points/||earn 35,000 points by completing bonuses in rush.||35,000 rush points"
-        },
-        {
-          "order": 6,
-          "name_raw": "45,000 Rush Points",
-          "text_raw": "Earn 45,000 points by completing bonuses in Rush.",
-          "reward_raw": "2X 85+ Rare Gold Players Pack / 88+ Rare Gold Player Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/970-weekly-rush-points/||earn 45,000 points by completing bonuses in rush.||45,000 rush points"
-        }
-      ]
-    },
-    {
-      "group_id": "G008",
-      "mission_group_name": "Weekly Objectives - EA SPORTS FC 26 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/1051-weekly-objectives/",
-      "campaign_expires": "Expires in 23 hours",
-      "campaign_deadline_kst": "7/17 01:00",
-      "campaign_deadline_iso": "2026-07-17T01:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 3,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Play 10",
-          "text_raw": "Play 10 matches in Squad Battles on Min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
-          "reward_raw": "Buy 10 Player Items on the Transfer Market. / 200 SP",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1051-weekly-objectives/||play 10 matches in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||play 10"
-        },
-        {
-          "order": 2,
-          "name_raw": "Win 10",
-          "text_raw": "Win 10 matches in Squad Battles on Min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
-          "reward_raw": "200 SP",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1051-weekly-objectives/||win 10 matches in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||win 10"
-        },
-        {
-          "order": 3,
-          "name_raw": "Score 10",
-          "text_raw": "Score 10 goals in any Ultimate Team game mode using a player from Spain.",
-          "reward_raw": "200 SP",
-          "mode_raw": "Any Ultimate Team mode",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1051-weekly-objectives/||score 10 goals in any ultimate team game mode using a player from spain.||score 10"
-        }
-      ]
-    },
-    {
       "group_id": "G009",
       "mission_group_name": "Daily Objectives - EA SPORTS FC 26 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/1056-daily-objectives/",
-      "campaign_expires": "Expires in 8 days",
+      "campaign_expires": "Expires in 7 days",
       "campaign_deadline_kst": "7/24 02:00",
       "campaign_deadline_iso": "2026-07-24T02:00+09:00",
       "is_new_group": "Yes",
@@ -541,7 +531,7 @@
       "mission_group_name": "Season 9 Daily Knockout Tournament - EA SPORTS FC 26 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/1072-season-9-daily-knockout-tournament/",
-      "campaign_expires": "Expires in 29 days",
+      "campaign_expires": "Expires in 28 days",
       "campaign_deadline_kst": "8/14 02:00",
       "campaign_deadline_iso": "2026-08-14T02:00+09:00",
       "is_new_group": "Yes",
@@ -594,7 +584,7 @@
       "mission_group_name": "Season 9 Daily Knockout Tournament Bonus - EA SPORTS FC 26 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/",
-      "campaign_expires": "Expires in 29 days",
+      "campaign_expires": "Expires in 28 days",
       "campaign_deadline_kst": "8/14 02:00",
       "campaign_deadline_iso": "2026-08-14T02:00+09:00",
       "is_new_group": "Yes",
@@ -807,7 +797,7 @@
       "mission_group_name": "National Pride Ngumoha - EA SPORTS FC 26 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/1075-national-pride-ngumoha/",
-      "campaign_expires": "Expires in 29 days",
+      "campaign_expires": "Expires in 28 days",
       "campaign_deadline_kst": "8/14 02:00",
       "campaign_deadline_iso": "2026-08-14T02:00+09:00",
       "is_new_group": "Yes",
@@ -870,7 +860,7 @@
       "mission_group_name": "Future World Tour Completionist - EA SPORTS FC 26 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/1080-future-world-tour-completionist/",
-      "campaign_expires": "Expires in 29 days",
+      "campaign_expires": "Expires in 28 days",
       "campaign_deadline_kst": "8/14 02:00",
       "campaign_deadline_iso": "2026-08-14T02:00+09:00",
       "is_new_group": "Yes",
@@ -1082,7 +1072,7 @@
       "mission_group_name": "Glory Hunters Crafting Upgrade Completionist - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1040-glory-hunters-crafting-upgrade-completionist/",
-      "campaign_expires": "Expires in 8 days",
+      "campaign_expires": "Expires in 7 days",
       "campaign_deadline_kst": "7/24 02:00",
       "campaign_deadline_iso": "2026-07-24T02:00+09:00",
       "is_new_group": "Yes",
@@ -3201,20 +3191,38 @@
   ],
   "collected_urls": [
     {
+      "URL": "https://www.fut.gg/objectives/seasonal/1076-national-pride-estevao/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "NEW National Pride Estêvão Complete these challenges to earn National Pride Estêvão, FUTTIES Tokens and SP! All rewards are untradeable. Estêvão 500 SP 100 Tokens 5X 88+ Rare Gold Players Pack 100 Tokens",
+      "Parent_Text": "NEW National Pride Estêvão Complete these challenges to earn National Pride Estêvão, FUTTIES Tokens and SP! All rewards are untradeable. Estêvão 500 SP 100 Tokens 5X 88+ Rare Gold Players Pack 100 Tokens Expires in 28 days 500 total 5 Objectives 93% 7%",
+      "Campaign_Expires": "Expires in 28 days",
+      "Campaign_Deadline_KST": "8/14 02:00",
+      "Campaign_Deadline_ISO": "2026-08-14T02:00+09:00"
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/1052-weekly-objectives/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "NEW Weekly Objectives Complete weekly Objectives to earn SP! 500 SP",
+      "Parent_Text": "NEW Weekly Objectives Complete weekly Objectives to earn SP! 500 SP Expires in 7 days 1,500 total 5 Objectives 96% 4%",
+      "Campaign_Expires": "Expires in 7 days",
+      "Campaign_Deadline_KST": "7/24 02:00",
+      "Campaign_Deadline_ISO": "2026-07-24T02:00+09:00"
+    },
+    {
       "URL": "https://www.fut.gg/objectives/live-events/1084-festival-of-football-gauntlet-3-bonus/",
       "Objective_Type": "Live Events",
-      "Link_Text": "NEW Festival of Football Gauntlet 3 Bonus Compete in the Festival of Football Gauntlet 3 and earn exclusive rewards! All rewards are untradeable. 50 Tokens",
-      "Parent_Text": "NEW Festival of Football Gauntlet 3 Bonus Compete in the Festival of Football Gauntlet 3 and earn exclusive rewards! All rewards are untradeable. 50 Tokens Expires in 5 days 5 Objectives 26% 74%",
-      "Campaign_Expires": "Expires in 5 days",
+      "Link_Text": "Festival of Football Gauntlet 3 Bonus Compete in the Festival of Football Gauntlet 3 and earn exclusive rewards! All rewards are untradeable. 50 Tokens",
+      "Parent_Text": "Festival of Football Gauntlet 3 Bonus Compete in the Festival of Football Gauntlet 3 and earn exclusive rewards! All rewards are untradeable. 50 Tokens Expires in 4 days 5 Objectives 27% 73%",
+      "Campaign_Expires": "Expires in 4 days",
       "Campaign_Deadline_KST": "7/21 02:00",
       "Campaign_Deadline_ISO": "2026-07-21T02:00+09:00"
     },
     {
       "URL": "https://www.fut.gg/objectives/live-events/1086-festival-of-football-gauntlet-3/",
       "Objective_Type": "Live Events",
-      "Link_Text": "NEW Festival of Football Gauntlet 3 Complete 8 of 10 challenges in the Festival of Football Gauntlet 3 and earn big rewards! All rewards are untradeable. Antonio Nusa",
-      "Parent_Text": "NEW Festival of Football Gauntlet 3 Complete 8 of 10 challenges in the Festival of Football Gauntlet 3 and earn big rewards! All rewards are untradeable. Antonio Nusa Expires in 5 days 8 of 10 Objectives 80% 20%",
-      "Campaign_Expires": "Expires in 5 days",
+      "Link_Text": "Festival of Football Gauntlet 3 Complete 8 of 10 challenges in the Festival of Football Gauntlet 3 and earn big rewards! All rewards are untradeable. Antonio Nusa",
+      "Parent_Text": "Festival of Football Gauntlet 3 Complete 8 of 10 challenges in the Festival of Football Gauntlet 3 and earn big rewards! All rewards are untradeable. Antonio Nusa Expires in 4 days 8 of 10 Objectives 81% 19%",
+      "Campaign_Expires": "Expires in 4 days",
       "Campaign_Deadline_KST": "7/21 02:00",
       "Campaign_Deadline_ISO": "2026-07-21T02:00+09:00"
     },
@@ -3222,62 +3230,44 @@
       "URL": "https://www.fut.gg/objectives/live-events/1071-a-star-is-born-cup/",
       "Objective_Type": "Live Events",
       "Link_Text": "A Star is Born Cup Celebrate some of the week's standout international matches in the Phenoms A Star is Born Live Event with this themed Objective! All rewards are untradeable. 250 Tokens",
-      "Parent_Text": "A Star is Born Cup Celebrate some of the week's standout international matches in the Phenoms A Star is Born Live Event with this themed Objective! All rewards are untradeable. 250 Tokens Expires in 2 days 750 total 7 Objectives 64% 36%",
-      "Campaign_Expires": "Expires in 2 days",
-      "Campaign_Deadline_KST": "7/18 02:00",
-      "Campaign_Deadline_ISO": "2026-07-18T02:00+09:00"
+      "Parent_Text": "A Star is Born Cup Celebrate some of the week's standout international matches in the Phenoms A Star is Born Live Event with this themed Objective! All rewards are untradeable. 250 Tokens Expires in 23 hours 750 total 7 Objectives 64% 36%",
+      "Campaign_Expires": "Expires in 23 hours",
+      "Campaign_Deadline_KST": "7/18 01:00",
+      "Campaign_Deadline_ISO": "2026-07-18T01:00+09:00"
     },
     {
       "URL": "https://www.fut.gg/objectives/live-events/1073-a-star-is-born-bonus-completionist/",
       "Objective_Type": "Live Events",
       "Link_Text": "A Star is Born Bonus Completionist Complete additional challenges in the Phenoms A Star is Born Live Event and earn exclusive rewards! All rewards are untradeable. Phenom Rising",
-      "Parent_Text": "A Star is Born Bonus Completionist Complete additional challenges in the Phenoms A Star is Born Live Event and earn exclusive rewards! All rewards are untradeable. Phenom Rising Expires in 2 days 4 Objectives 43% 57%",
-      "Campaign_Expires": "Expires in 2 days",
-      "Campaign_Deadline_KST": "7/18 02:00",
-      "Campaign_Deadline_ISO": "2026-07-18T02:00+09:00"
+      "Parent_Text": "A Star is Born Bonus Completionist Complete additional challenges in the Phenoms A Star is Born Live Event and earn exclusive rewards! All rewards are untradeable. Phenom Rising Expires in 23 hours 4 Objectives 43% 57%",
+      "Campaign_Expires": "Expires in 23 hours",
+      "Campaign_Deadline_KST": "7/18 01:00",
+      "Campaign_Deadline_ISO": "2026-07-18T01:00+09:00"
     },
     {
       "URL": "https://www.fut.gg/objectives/campaigns/1074-better-late-than-never/",
       "Objective_Type": "Campaign",
       "Link_Text": "Better Late Than Never The wait is worth it! Complete the Better Late Than Never challenges to earn SP, token and exclusive player rewards! All rewards are untradeable. 10X 88+ Rare Gold Players Pack",
-      "Parent_Text": "Better Late Than Never The wait is worth it! Complete the Better Late Than Never challenges to earn SP, token and exclusive player rewards! All rewards are untradeable. 10X 88+ Rare Gold Players Pack Expires in 2 days 250 total 7 Objectives 96% 4%",
-      "Campaign_Expires": "Expires in 2 days",
-      "Campaign_Deadline_KST": "7/18 02:00",
-      "Campaign_Deadline_ISO": "2026-07-18T02:00+09:00"
+      "Parent_Text": "Better Late Than Never The wait is worth it! Complete the Better Late Than Never challenges to earn SP, token and exclusive player rewards! All rewards are untradeable. 10X 88+ Rare Gold Players Pack Expires in 23 hours 250 total 7 Objectives 96% 4%",
+      "Campaign_Expires": "Expires in 23 hours",
+      "Campaign_Deadline_KST": "7/18 01:00",
+      "Campaign_Deadline_ISO": "2026-07-18T01:00+09:00"
     },
     {
       "URL": "https://www.fut.gg/objectives/campaigns/1081-daily-dip/",
       "Objective_Type": "Campaign",
       "Link_Text": "Daily Dip Complete 1 out of the 4 Challenges below each day during Phenoms to obtain coin and token rewards! 30 Tokens",
-      "Parent_Text": "Daily Dip Complete 1 out of the 4 Challenges below each day during Phenoms to obtain coin and token rewards! 30 Tokens Expires in 2 days 1 of 4 Objectives 90% 10%",
-      "Campaign_Expires": "Expires in 2 days",
-      "Campaign_Deadline_KST": "7/18 02:00",
-      "Campaign_Deadline_ISO": "2026-07-18T02:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/campaigns/970-weekly-rush-points/",
-      "Objective_Type": "Campaign",
-      "Link_Text": "Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points! 2X 89+ Rare Gold Players Pack 100 Tokens",
-      "Parent_Text": "Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points! 2X 89+ Rare Gold Players Pack 100 Tokens Expires in 23 hours 5 Objectives 78% 22%",
+      "Parent_Text": "Daily Dip Complete 1 out of the 4 Challenges below each day during Phenoms to obtain coin and token rewards! 30 Tokens Expires in 23 hours 1 of 4 Objectives 90% 10%",
       "Campaign_Expires": "Expires in 23 hours",
-      "Campaign_Deadline_KST": "7/17 01:00",
-      "Campaign_Deadline_ISO": "2026-07-17T01:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/1051-weekly-objectives/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "Weekly Objectives Complete weekly Objectives to earn SP! 500 SP",
-      "Parent_Text": "Weekly Objectives Complete weekly Objectives to earn SP! 500 SP Expires in 23 hours 1,500 total 5 Objectives 96% 4%",
-      "Campaign_Expires": "Expires in 23 hours",
-      "Campaign_Deadline_KST": "7/17 01:00",
-      "Campaign_Deadline_ISO": "2026-07-17T01:00+09:00"
+      "Campaign_Deadline_KST": "7/18 01:00",
+      "Campaign_Deadline_ISO": "2026-07-18T01:00+09:00"
     },
     {
       "URL": "https://www.fut.gg/objectives/seasonal/1056-daily-objectives/",
       "Objective_Type": "Seasonal",
       "Link_Text": "Daily Objectives Play, complete, and earn SP from the daily Objective every 24 hours! 90 SP",
-      "Parent_Text": "Daily Objectives Play, complete, and earn SP from the daily Objective every 24 hours! 90 SP Expires in 8 days 190 total 2 Objectives 96% 4%",
-      "Campaign_Expires": "Expires in 8 days",
+      "Parent_Text": "Daily Objectives Play, complete, and earn SP from the daily Objective every 24 hours! 90 SP Expires in 7 days 190 total 2 Objectives 96% 4%",
+      "Campaign_Expires": "Expires in 7 days",
       "Campaign_Deadline_KST": "7/24 02:00",
       "Campaign_Deadline_ISO": "2026-07-24T02:00+09:00"
     },
@@ -3285,8 +3275,8 @@
       "URL": "https://www.fut.gg/objectives/seasonal/1072-season-9-daily-knockout-tournament/",
       "Objective_Type": "Seasonal",
       "Link_Text": "Season 9 Daily Knockout Tournament Complete 6 of the below challenges in the Season 9 Daily Knockout Tournament. Zubimendi 5X 90+ Rare Gold Players Pack",
-      "Parent_Text": "Season 9 Daily Knockout Tournament Complete 6 of the below challenges in the Season 9 Daily Knockout Tournament. Zubimendi 5X 90+ Rare Gold Players Pack Expires in 29 days 6 of 8 Objectives 94% 6%",
-      "Campaign_Expires": "Expires in 29 days",
+      "Parent_Text": "Season 9 Daily Knockout Tournament Complete 6 of the below challenges in the Season 9 Daily Knockout Tournament. Zubimendi 5X 90+ Rare Gold Players Pack Expires in 28 days 6 of 8 Objectives 94% 6%",
+      "Campaign_Expires": "Expires in 28 days",
       "Campaign_Deadline_KST": "8/14 02:00",
       "Campaign_Deadline_ISO": "2026-08-14T02:00+09:00"
     },
@@ -3294,8 +3284,8 @@
       "URL": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/",
       "Objective_Type": "Seasonal",
       "Link_Text": "Season 9 Daily Knockout Tournament Bonus Earn additional rewards for completing the Season 9 Daily Knockout Tournament multiple times! All rewards are untradeable. 3X 88+ Rare Gold Players Pack",
-      "Parent_Text": "Season 9 Daily Knockout Tournament Bonus Earn additional rewards for completing the Season 9 Daily Knockout Tournament multiple times! All rewards are untradeable. 3X 88+ Rare Gold Players Pack Expires in 29 days 19 Objectives 85% 15%",
-      "Campaign_Expires": "Expires in 29 days",
+      "Parent_Text": "Season 9 Daily Knockout Tournament Bonus Earn additional rewards for completing the Season 9 Daily Knockout Tournament multiple times! All rewards are untradeable. 3X 88+ Rare Gold Players Pack Expires in 28 days 19 Objectives 84% 16%",
+      "Campaign_Expires": "Expires in 28 days",
       "Campaign_Deadline_KST": "8/14 02:00",
       "Campaign_Deadline_ISO": "2026-08-14T02:00+09:00"
     },
@@ -3303,8 +3293,8 @@
       "URL": "https://www.fut.gg/objectives/seasonal/1075-national-pride-ngumoha/",
       "Objective_Type": "Seasonal",
       "Link_Text": "National Pride Ngumoha Complete these challenges to earn National Pride Rio Ngumoha and SP! All rewards are untradeable. Rio Ngumoha 500 SP 5X 88+ Rare Gold Players Pack",
-      "Parent_Text": "National Pride Ngumoha Complete these challenges to earn National Pride Rio Ngumoha and SP! All rewards are untradeable. Rio Ngumoha 500 SP 5X 88+ Rare Gold Players Pack Expires in 29 days 500 total 5 Objectives 97% 3%",
-      "Campaign_Expires": "Expires in 29 days",
+      "Parent_Text": "National Pride Ngumoha Complete these challenges to earn National Pride Rio Ngumoha and SP! All rewards are untradeable. Rio Ngumoha 500 SP 5X 88+ Rare Gold Players Pack Expires in 28 days 500 total 5 Objectives 97% 3%",
+      "Campaign_Expires": "Expires in 28 days",
       "Campaign_Deadline_KST": "8/14 02:00",
       "Campaign_Deadline_ISO": "2026-08-14T02:00+09:00"
     },
@@ -3312,8 +3302,8 @@
       "URL": "https://www.fut.gg/objectives/seasonal/1080-future-world-tour-completionist/",
       "Objective_Type": "Seasonal",
       "Link_Text": "Future World Tour Completionist Complete any 4 of 5 objectives to earn FUTTIES Icon Frank Lampard! All rewards are untradeable. Frank Lampard 500 SP 20X 87+ Rare Gold Players Pack",
-      "Parent_Text": "Future World Tour Completionist Complete any 4 of 5 objectives to earn FUTTIES Icon Frank Lampard! All rewards are untradeable. Frank Lampard 500 SP 20X 87+ Rare Gold Players Pack Expires in 29 days 500 total 4 of 5 Objectives 87% 13%",
-      "Campaign_Expires": "Expires in 29 days",
+      "Parent_Text": "Future World Tour Completionist Complete any 4 of 5 objectives to earn FUTTIES Icon Frank Lampard! All rewards are untradeable. Frank Lampard 500 SP 20X 87+ Rare Gold Players Pack Expires in 28 days 500 total 4 of 5 Objectives 88% 12%",
+      "Campaign_Expires": "Expires in 28 days",
       "Campaign_Deadline_KST": "8/14 02:00",
       "Campaign_Deadline_ISO": "2026-08-14T02:00+09:00"
     },
@@ -3348,8 +3338,8 @@
       "URL": "https://www.fut.gg/objectives/campaigns/1040-glory-hunters-crafting-upgrade-completionist/",
       "Objective_Type": "Campaign",
       "Link_Text": "Glory Hunters Crafting Upgrade Completionist Complete the Glory Hunters Crafting Upgrade to earn additional pack rewards! All rewards are untradeable. 100 Rare Gold Players Pack",
-      "Parent_Text": "Glory Hunters Crafting Upgrade Completionist Complete the Glory Hunters Crafting Upgrade to earn additional pack rewards! All rewards are untradeable. 100 Rare Gold Players Pack Expires in 8 days 15 Objectives 40% 60%",
-      "Campaign_Expires": "Expires in 8 days",
+      "Parent_Text": "Glory Hunters Crafting Upgrade Completionist Complete the Glory Hunters Crafting Upgrade to earn additional pack rewards! All rewards are untradeable. 100 Rare Gold Players Pack Expires in 7 days 15 Objectives 40% 60%",
+      "Campaign_Expires": "Expires in 7 days",
       "Campaign_Deadline_KST": "7/24 02:00",
       "Campaign_Deadline_ISO": "2026-07-24T02:00+09:00"
     },
