@@ -1,20 +1,413 @@
 {
   "manifest": {
-    "Generated_At_KST": "2026-08-13 02:58:37",
-    "Deadline_Base_KST": "2026-08-13 02:00:00",
-    "Mission_Group_Count": 65,
-    "Objective_Row_Count": 312,
-    "New_Objective_Count": 164,
-    "Error_Count": 1,
+    "Generated_At_KST": "2026-08-14 02:57:11",
+    "Deadline_Base_KST": "2026-08-14 02:00:00",
+    "Mission_Group_Count": 56,
+    "Objective_Row_Count": 253,
+    "New_Objective_Count": 105,
+    "Error_Count": 2,
     "Purpose": "RAW collection only. Do not trust this file as parsed mission guide; upload it to ChatGPT/manual review for route optimization."
   },
   "missions": [
     {
       "group_id": "G001",
+      "mission_group_name": "Weekly Rush Points - EA SPORTS FC 26 Objectives",
+      "objective_type": "Campaign",
+      "url": "https://www.fut.gg/objectives/campaigns/1049-weekly-rush-points/",
+      "campaign_expires": "Expires in 7 days",
+      "campaign_deadline_kst": "8/21 02:00",
+      "campaign_deadline_iso": "2026-08-21T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 6,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Weekly Rush Points - EA SPORTS FC 26 Objectives",
+          "text_raw": "Complete Rush Bonuses alongside your teammates to earn Rush Points!",
+          "reward_raw": "2X 89+ Rare Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/1049-weekly-rush-points/||complete rush bonuses alongside your teammates to earn rush points!||weekly rush points - ea sports fc 26 objectives"
+        },
+        {
+          "order": 2,
+          "name_raw": "2,500 Rush Points",
+          "text_raw": "Earn 2,500 points by completing bonuses in Rush.",
+          "reward_raw": "1x 2x 85+ Rare Gold Players Pack / 1x 3x 85+ Rare Gold Players Pack / 1x 2x 89+ Rare Gold Players Pack / 4X 83+ Rare Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/1049-weekly-rush-points/||earn 2,500 points by completing bonuses in rush.||2,500 rush points"
+        },
+        {
+          "order": 3,
+          "name_raw": "10,000 Rush Points",
+          "text_raw": "Earn 10,000 points by completing bonuses in Rush.",
+          "reward_raw": "4X 83+ Rare Gold Players Pack / 3X 84+ Rare Gold Players Pack / 4X 84+ Rare Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/1049-weekly-rush-points/||earn 10,000 points by completing bonuses in rush.||10,000 rush points"
+        },
+        {
+          "order": 4,
+          "name_raw": "25,000 Rush Points",
+          "text_raw": "Earn 25,000 points by completing bonuses in Rush.",
+          "reward_raw": "3X 84+ Rare Gold Players Pack / 4X 84+ Rare Gold Players Pack / 2X 85+ Rare Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/1049-weekly-rush-points/||earn 25,000 points by completing bonuses in rush.||25,000 rush points"
+        },
+        {
+          "order": 5,
+          "name_raw": "35,000 Rush Points",
+          "text_raw": "Earn 35,000 points by completing bonuses in Rush.",
+          "reward_raw": "4X 84+ Rare Gold Players Pack / 2X 85+ Rare Gold Players Pack / 3X 85+ Rare Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/1049-weekly-rush-points/||earn 35,000 points by completing bonuses in rush.||35,000 rush points"
+        },
+        {
+          "order": 6,
+          "name_raw": "45,000 Rush Points",
+          "text_raw": "Earn 45,000 points by completing bonuses in Rush.",
+          "reward_raw": "2X 85+ Rare Gold Players Pack / 3X 85+ Rare Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/1049-weekly-rush-points/||earn 45,000 points by completing bonuses in rush.||45,000 rush points"
+        }
+      ]
+    },
+    {
+      "group_id": "G002",
+      "mission_group_name": "Season 10 Double Trouble Weekly Play - EA SPORTS FC 26 Objectives",
+      "objective_type": "Live Events",
+      "url": "https://www.fut.gg/objectives/live-events/1155-season-10-exhibition/",
+      "campaign_expires": "Expires in 1 month",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 1,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Play 9",
+          "text_raw": "Play 9 matches in the Season 10 Double Trouble event.",
+          "reward_raw": "",
+          "mode_raw": "Season 10 Double Trouble event",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/live-events/1155-season-10-exhibition/||play 9 matches in the season 10 double trouble event.||play 9"
+        }
+      ]
+    },
+    {
+      "group_id": "G003",
+      "mission_group_name": "Season 10 Double Trouble Weekly Play Completionist - EA SPORTS FC 26 Objectives",
+      "objective_type": "Live Events",
+      "url": "https://www.fut.gg/objectives/live-events/1157-season-10-exhibition-weekly-play-completionist/",
+      "campaign_expires": "Expires in 1 month",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 6,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Complete the Season 10 Double Trouble Weekly Play group obje",
+          "text_raw": "Complete the Season 10 Double Trouble Weekly Play group objective to earn exclusive rewards! All rewards are untradeable.",
+          "reward_raw": "20X 87+ Rare Gold Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/live-events/1157-season-10-exhibition-weekly-play-completionist/||complete the season 10 double trouble weekly play group objective to earn exclusive rewards! all rewards are untradeable.||complete the season 10 double trouble weekly play group obje"
+        },
+        {
+          "order": 2,
+          "name_raw": "Complete the Season 10 Double Trouble Weekly Play Objective",
+          "text_raw": "Complete the Season 10 Double Trouble Weekly Play Objective 1 time.",
+          "reward_raw": "1x 15x 84+ Rare Gold Players Pack / 1x 10x 86+ Rare Gold Players Pack / 1x 20x 87+ Rare Gold Players Pack / 1 Of 5 87+ Rare Gold Player Pick",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/live-events/1157-season-10-exhibition-weekly-play-completionist/||complete the season 10 double trouble weekly play objective 1 time.||complete the season 10 double trouble weekly play objective"
+        },
+        {
+          "order": 3,
+          "name_raw": "Complete the Season 10 Double Trouble Weekly Play Objective",
+          "text_raw": "Complete the Season 10 Double Trouble Weekly Play Objective 2 times.",
+          "reward_raw": "1 Of 5 87+ Rare Gold Player Pick / 15X 84+ Rare Gold Players Pack / 10X 86+ Rare Gold Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/live-events/1157-season-10-exhibition-weekly-play-completionist/||complete the season 10 double trouble weekly play objective 2 times.||complete the season 10 double trouble weekly play objective"
+        },
+        {
+          "order": 4,
+          "name_raw": "Complete the Season 10 Double Trouble Weekly Play Objective",
+          "text_raw": "Complete the Season 10 Double Trouble Weekly Play Objective 3 times.",
+          "reward_raw": "15X 84+ Rare Gold Players Pack / 10X 86+ Rare Gold Players Pack / 1 Of 4 88+ Rare Gold Players",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/live-events/1157-season-10-exhibition-weekly-play-completionist/||complete the season 10 double trouble weekly play objective 3 times.||complete the season 10 double trouble weekly play objective"
+        },
+        {
+          "order": 5,
+          "name_raw": "Complete the Season 10 Double Trouble Weekly Play Objective",
+          "text_raw": "Complete the Season 10 Double Trouble Weekly Play Objective 4 times.",
+          "reward_raw": "10X 86+ Rare Gold Players Pack / 1 Of 4 88+ Rare Gold Players / 1 Of 5 90+ Rare Gold Player Pick",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/live-events/1157-season-10-exhibition-weekly-play-completionist/||complete the season 10 double trouble weekly play objective 4 times.||complete the season 10 double trouble weekly play objective"
+        },
+        {
+          "order": 6,
+          "name_raw": "Complete the Season 10 Double Trouble Weekly Play Objective",
+          "text_raw": "Complete the Season 10 Double Trouble Weekly Play Objective 5 times.",
+          "reward_raw": "1 Of 4 88+ Rare Gold Players / 1 Of 5 90+ Rare Gold Player Pick",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/live-events/1157-season-10-exhibition-weekly-play-completionist/||complete the season 10 double trouble weekly play objective 5 times.||complete the season 10 double trouble weekly play objective"
+        }
+      ]
+    },
+    {
+      "group_id": "G004",
+      "mission_group_name": "Pre-Season Wilson - EA SPORTS FC 26 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/1149-pre-season-wilson/",
+      "campaign_expires": "Expires in 1 month",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 4,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Premier Journey",
+          "text_raw": "Play 5 matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) with at least 3 players from Premier League in your starting 11.",
+          "reward_raw": "1x 10x 84+ Rare Gold Players Pack / 1x 6x 85+ Rare Gold Players Pack / 1x 5x 88+ Rare Gold Players Pack / 10X 84+ Rare Gold Players Pack",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1149-pre-season-wilson/||play 5 matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) with at least 3 players from premier league in your starting 11.||premier journey"
+        },
+        {
+          "order": 2,
+          "name_raw": "Deadly Finish",
+          "text_raw": "Score 5 goals in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) with a ST.",
+          "reward_raw": "10X 84+ Rare Gold Players Pack / 100 SP / 6X 85+ Rare Gold Players Pack / 1 Of 5 88+ Rare Gold Players",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1149-pre-season-wilson/||score 5 goals in squad battles on min. semi-pro difficulty (or live events/rivals/champions) with a st.||deadly finish"
+        },
+        {
+          "order": 3,
+          "name_raw": "Three Lions",
+          "text_raw": "Win 3 matches by 2 goals or more in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) with min. 2 players from England in your starting 11.",
+          "reward_raw": "6X 85+ Rare Gold Players Pack / 100 SP / 1 Of 5 88+ Rare Gold Players / 200 SP",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1149-pre-season-wilson/||win 3 matches by 2 goals or more in squad battles on min. semi-pro difficulty (or live events/rivals/champions) with min. 2 players from england in your starting 11.||three lions"
+        },
+        {
+          "order": 4,
+          "name_raw": "Winner Winner",
+          "text_raw": "Win 8 matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) with minimum 6 first owned players in your starting 11.",
+          "reward_raw": "1 Of 5 88+ Rare Gold Players / 100 SP / 200 SP",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1149-pre-season-wilson/||win 8 matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) with minimum 6 first owned players in your starting 11.||winner winner"
+        }
+      ]
+    },
+    {
+      "group_id": "G005",
+      "mission_group_name": "Daily Objectives - EA SPORTS FC 26 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/1125-daily-objectives/",
+      "campaign_expires": "Expires in 14 days",
+      "campaign_deadline_kst": "8/28 02:00",
+      "campaign_deadline_iso": "2026-08-28T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 2,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Play 3",
+          "text_raw": "Play 3 matches in any Ultimate Team game mode.",
+          "reward_raw": "225 SP / 75 SP",
+          "mode_raw": "Any Ultimate Team mode",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1125-daily-objectives/||play 3 matches in any ultimate team game mode.||play 3"
+        },
+        {
+          "order": 2,
+          "name_raw": "Score 3",
+          "text_raw": "Score 3 goals in any Ultimate Team Game Mode.",
+          "reward_raw": "75 SP",
+          "mode_raw": "Any Ultimate Team mode",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1125-daily-objectives/||score 3 goals in any ultimate team game mode.||score 3"
+        }
+      ]
+    },
+    {
+      "group_id": "G006",
+      "mission_group_name": "Weekly Objectives - EA SPORTS FC 26 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/1130-weekly-objectives/",
+      "campaign_expires": "Expires in 7 days",
+      "campaign_deadline_kst": "8/21 02:00",
+      "campaign_deadline_iso": "2026-08-21T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 3,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Play 10",
+          "text_raw": "Play 10 matches in Squad Battles on Min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
+          "reward_raw": "Buy 10 Player Items on the Transfer Market. / 200 SP",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1130-weekly-objectives/||play 10 matches in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||play 10"
+        },
+        {
+          "order": 2,
+          "name_raw": "Win 10",
+          "text_raw": "Win 10 matches in Squad Battles on Min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
+          "reward_raw": "200 SP",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1130-weekly-objectives/||win 10 matches in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||win 10"
+        },
+        {
+          "order": 3,
+          "name_raw": "Score 10",
+          "text_raw": "Score 10 goals in Rivals/Champs.",
+          "reward_raw": "200 SP",
+          "mode_raw": "Rivals",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1130-weekly-objectives/||score 10 goals in rivals/champs.||score 10"
+        }
+      ]
+    },
+    {
+      "group_id": "G007",
+      "mission_group_name": "Season 10 Double Trouble - EA SPORTS FC 26 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/1148-season-10-double-trouble/",
+      "campaign_expires": "Expires in 1 month",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 7,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Play 4",
+          "text_raw": "Play 4 matches in the Season 10 Double Trouble Event.",
+          "reward_raw": "4 Of 8 Futties Team 2 Players Pick / 1x 4x 85+ Rare Gold Players Pack / 1x 10x FUTTIES T3 Players Pack (Untradeable) / 4X 85+ Rare Gold Players Pack",
+          "mode_raw": "Season 10 Double Trouble Event",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1148-season-10-double-trouble/||play 4 matches in the season 10 double trouble event.||play 4"
+        },
+        {
+          "order": 2,
+          "name_raw": "Play 8",
+          "text_raw": "Play 8 matches in the Season 10 Double Trouble Event.",
+          "reward_raw": "4X 85+ Rare Gold Players Pack",
+          "mode_raw": "Season 10 Double Trouble Event",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1148-season-10-double-trouble/||play 8 matches in the season 10 double trouble event.||play 8"
+        },
+        {
+          "order": 3,
+          "name_raw": "Play 14",
+          "text_raw": "Play 14 matches in the Season 10 Double Trouble Event.",
+          "reward_raw": "",
+          "mode_raw": "Season 10 Double Trouble Event",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1148-season-10-double-trouble/||play 14 matches in the season 10 double trouble event.||play 14"
+        },
+        {
+          "order": 4,
+          "name_raw": "Assist in 20",
+          "text_raw": "Assist at least 1 goal in 20 separate matches with a FUTTIES Player in the Season 10 Double Trouble Event.",
+          "reward_raw": "4 Of 8 Futties T1 Player Pick",
+          "mode_raw": "Season 10 Double Trouble Event",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1148-season-10-double-trouble/||assist at least 1 goal in 20 separate matches with a futties player in the season 10 double trouble event.||assist in 20"
+        },
+        {
+          "order": 5,
+          "name_raw": "Score in 20",
+          "text_raw": "Score at least 1 goal in 20 separate matches with a FUTTIES Player in the Season 10 Double Trouble Event.",
+          "reward_raw": "4 Of 8 Futties T1 Player Pick",
+          "mode_raw": "Season 10 Double Trouble Event",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1148-season-10-double-trouble/||score at least 1 goal in 20 separate matches with a futties player in the season 10 double trouble event.||score in 20"
+        },
+        {
+          "order": 6,
+          "name_raw": "Score in 25",
+          "text_raw": "Score at least 1 goal in 25 separate matches with a player with 90 PAC or higher in the Season 10 Double Trouble Event.",
+          "reward_raw": "4 Of 8 Futties T1 Player Pick / 4 Of 8 Futties Team 2 Players Pick",
+          "mode_raw": "Season 10 Double Trouble Event",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1148-season-10-double-trouble/||score at least 1 goal in 25 separate matches with a player with 90 pac or higher in the season 10 double trouble event.||score in 25"
+        },
+        {
+          "order": 7,
+          "name_raw": "Score in 30",
+          "text_raw": "Score at least 1 goal in 30 separate matches with a player with 90 SHO or higher in the Season 10 Double Trouble Event.",
+          "reward_raw": "4 Of 8 Futties Team 2 Players Pick",
+          "mode_raw": "Season 10 Double Trouble Event",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/1148-season-10-double-trouble/||score at least 1 goal in 30 separate matches with a player with 90 sho or higher in the season 10 double trouble event.||score in 30"
+        }
+      ]
+    },
+    {
+      "group_id": "G008",
+      "mission_group_name": "Pre-Season Completionist - EA SPORTS FC 26 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/1153-pre-season-completionist/",
+      "campaign_expires": "Expires in 1 month",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "No",
+      "new_objective_count": 0,
+      "objectives": []
+    },
+    {
+      "group_id": "G009",
       "mission_group_name": "FUTTIES Gauntlet 2 Bonus - EA SPORTS FC 26 Objectives",
       "objective_type": "Live Events",
       "url": "https://www.fut.gg/objectives/live-events/1140-futties-gauntlet-2-bonus/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "8/18 02:00",
       "campaign_deadline_iso": "2026-08-18T02:00+09:00",
       "is_new_group": "Yes",
@@ -63,11 +456,11 @@
       ]
     },
     {
-      "group_id": "G002",
+      "group_id": "G010",
       "mission_group_name": "FUTTIES Gauntlet 2 - EA SPORTS FC 26 Objectives",
       "objective_type": "Live Events",
       "url": "https://www.fut.gg/objectives/live-events/1147-futties-gauntlet-2/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "8/18 02:00",
       "campaign_deadline_iso": "2026-08-18T02:00+09:00",
       "is_new_group": "Yes",
@@ -156,11 +549,11 @@
       ]
     },
     {
-      "group_id": "G003",
+      "group_id": "G011",
       "mission_group_name": "Top 500: Esports Nations Cup - EA SPORTS FC 26 Objectives",
       "objective_type": "FC Pro",
       "url": "https://www.fut.gg/objectives/fc-pro/1113-top-500-esports-nations-cup/",
-      "campaign_expires": "Expires in 4 days",
+      "campaign_expires": "Expires in 3 days",
       "campaign_deadline_kst": "8/17 02:00",
       "campaign_deadline_iso": "2026-08-17T02:00+09:00",
       "is_new_group": "Yes",
@@ -269,11 +662,11 @@
       ]
     },
     {
-      "group_id": "G004",
+      "group_id": "G012",
       "mission_group_name": "Assist King - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1137-assist-king/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 8 days",
       "campaign_deadline_kst": "8/22 02:00",
       "campaign_deadline_iso": "2026-08-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -342,46 +735,13 @@
       ]
     },
     {
-      "group_id": "G005",
-      "mission_group_name": "FUTTIES SP and Packs - EA SPORTS FC 26 Objectives",
-      "objective_type": "Campaign",
-      "url": "https://www.fut.gg/objectives/campaigns/1146-futties-sp-and-packs/",
-      "campaign_expires": "Expires in 13 hours",
-      "campaign_deadline_kst": "8/13 15:00",
-      "campaign_deadline_iso": "2026-08-13T15:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 2,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Score in 5",
-          "text_raw": "Score 1 goal in 5 separate matches in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush).",
-          "reward_raw": "3,000 SP / 2x 2x 85+ Rare Gold Players Pack / 1x 3x 86+ Rare Gold Players Pack / 2X 85+ Rare Gold Players Pack",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/1146-futties-sp-and-packs/||score 1 goal in 5 separate matches in squad battles on min. semi-pro difficulty (or rivals/champions/live events/rush).||score in 5"
-        },
-        {
-          "order": 2,
-          "name_raw": "Score in 10",
-          "text_raw": "Score 1 goal in 10 separate matches in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush).",
-          "reward_raw": "2X 85+ Rare Gold Players Pack / 500 SP",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/1146-futties-sp-and-packs/||score 1 goal in 10 separate matches in squad battles on min. semi-pro difficulty (or rivals/champions/live events/rush).||score in 10"
-        }
-      ]
-    },
-    {
-      "group_id": "G006",
+      "group_id": "G013",
       "mission_group_name": "Only Bangers Tournament - EA SPORTS FC 26 Objectives",
       "objective_type": "Live Events",
       "url": "https://www.fut.gg/objectives/live-events/1144-only-bangers-tournament/",
-      "campaign_expires": "Expires in 2 days",
-      "campaign_deadline_kst": "8/15 02:00",
-      "campaign_deadline_iso": "2026-08-15T02:00+09:00",
+      "campaign_expires": "Expires in 23 hours",
+      "campaign_deadline_kst": "8/15 01:00",
+      "campaign_deadline_iso": "2026-08-15T01:00+09:00",
       "is_new_group": "Yes",
       "new_objective_count": 5,
       "objectives": [
@@ -438,11 +798,11 @@
       ]
     },
     {
-      "group_id": "G007",
+      "group_id": "G014",
       "mission_group_name": "The Missing Piece - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1129-the-missing-piece/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 8 days",
       "campaign_deadline_kst": "8/22 02:00",
       "campaign_deadline_iso": "2026-08-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -491,13 +851,13 @@
       ]
     },
     {
-      "group_id": "G008",
+      "group_id": "G015",
       "mission_group_name": "FUTTIES Token Collector #3 - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1139-futties-token-collector-3/",
-      "campaign_expires": "Expires in 2 days",
-      "campaign_deadline_kst": "8/15 02:00",
-      "campaign_deadline_iso": "2026-08-15T02:00+09:00",
+      "campaign_expires": "Expires in 23 hours",
+      "campaign_deadline_kst": "8/15 01:00",
+      "campaign_deadline_iso": "2026-08-15T01:00+09:00",
       "is_new_group": "Yes",
       "new_objective_count": 4,
       "objectives": [
@@ -544,233 +904,11 @@
       ]
     },
     {
-      "group_id": "G009",
-      "mission_group_name": "FUTTIES Éli Junior Kroupi - EA SPORTS FC 26 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/1079-futties-eli-junior-kroupi/",
-      "campaign_expires": "Expires in 13 hours",
-      "campaign_deadline_kst": "8/13 15:00",
-      "campaign_deadline_iso": "2026-08-13T15:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 5,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Bleu Crew",
-          "text_raw": "Play 5 matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) while having min. 5 French players in your starting 11.",
-          "reward_raw": "1 Of 5 87+ Rare Gold Players / 1 Of 5 88+ Rare Gold Players / 1x 5x 88+ Rare Gold Players Pack / 1 Of 4 86+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1079-futties-eli-junior-kroupi/||play 5 matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) while having min. 5 french players in your starting 11.||bleu crew"
-        },
-        {
-          "order": 2,
-          "name_raw": "Kroup de grâce",
-          "text_raw": "Score 3 Finesse goals from outside the box in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) with a ST (Preferred Position Only).",
-          "reward_raw": "1 Of 4 86+ Rare Gold Players / 200 SP / 1 Of 3 87+ Rare Gold Players / 1 Of 3 88+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1079-futties-eli-junior-kroupi/||score 3 finesse goals from outside the box in squad battles on min. semi-pro difficulty (or live events/rivals/champions) with a st (preferred position only).||kroup de grâce"
-        },
-        {
-          "order": 3,
-          "name_raw": "Prodige",
-          "text_raw": "Assist 4 goals in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) using a player born on or after November 11, 2005.",
-          "reward_raw": "1 Of 3 87+ Rare Gold Players / 200 SP / 1 Of 3 88+ Rare Gold Players / 1 Of 5 87+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1079-futties-eli-junior-kroupi/||assist 4 goals in squad battles on min. semi-pro difficulty (or live events/rivals/champions) using a player born on or after november 11, 2005.||prodige"
-        },
-        {
-          "order": 4,
-          "name_raw": "SHO Time!",
-          "text_raw": "Score 8 goals in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) using a player with 92 SHO or higher.",
-          "reward_raw": "1 Of 3 88+ Rare Gold Players / 200 SP / 1 Of 5 87+ Rare Gold Players / 1 Of 5 88+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1079-futties-eli-junior-kroupi/||score 8 goals in squad battles on min. semi-pro difficulty (or live events/rivals/champions) using a player with 92 sho or higher.||sho time!"
-        },
-        {
-          "order": 5,
-          "name_raw": "STrike Pair",
-          "text_raw": "Win 10 matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) while having min. 2 Premier League ST (Preferred Position Only) in your starting 11.",
-          "reward_raw": "1 Of 5 87+ Rare Gold Players / 200 SP / 1 Of 5 88+ Rare Gold Players / 10,000 Coins",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1079-futties-eli-junior-kroupi/||win 10 matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) while having min. 2 premier league st (preferred position only) in your starting 11.||strike pair"
-        }
-      ]
-    },
-    {
-      "group_id": "G010",
-      "mission_group_name": "Weekly Rush Points - EA SPORTS FC 26 Objectives",
-      "objective_type": "Campaign",
-      "url": "https://www.fut.gg/objectives/campaigns/1048-weekly-rush-points/",
-      "campaign_expires": "Expires in 23 hours",
-      "campaign_deadline_kst": "8/14 01:00",
-      "campaign_deadline_iso": "2026-08-14T01:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 6,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Weekly Rush Points - EA SPORTS FC 26 Objectives",
-          "text_raw": "Complete Rush Bonuses alongside your teammates to earn Rush Points!",
-          "reward_raw": "1 Of 5 88+ Rare Gold Players",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/1048-weekly-rush-points/||complete rush bonuses alongside your teammates to earn rush points!||weekly rush points - ea sports fc 26 objectives"
-        },
-        {
-          "order": 2,
-          "name_raw": "2,500 Rush Points",
-          "text_raw": "Earn 2,500 points by completing bonuses in Rush.",
-          "reward_raw": "1x 3x 85+ Rare Gold Players Pack / 1x 2x 86+ Rare Gold Players Pack / 1x 2x 87+ Rare Gold Players Pack / 87+ Rare Gold Player Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/1048-weekly-rush-points/||earn 2,500 points by completing bonuses in rush.||2,500 rush points"
-        },
-        {
-          "order": 3,
-          "name_raw": "10,000 Rush Points",
-          "text_raw": "Earn 10,000 points by completing bonuses in Rush.",
-          "reward_raw": "87+ Rare Gold Player Pack / 4X 84+ Rare Gold Players Pack / 3X 85+ Rare Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/1048-weekly-rush-points/||earn 10,000 points by completing bonuses in rush.||10,000 rush points"
-        },
-        {
-          "order": 4,
-          "name_raw": "25,000 Rush Points",
-          "text_raw": "Earn 25,000 points by completing bonuses in Rush.",
-          "reward_raw": "4X 84+ Rare Gold Players Pack / 3X 85+ Rare Gold Players Pack / 2X 86+ Rare Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/1048-weekly-rush-points/||earn 25,000 points by completing bonuses in rush.||25,000 rush points"
-        },
-        {
-          "order": 5,
-          "name_raw": "35,000 Rush Points",
-          "text_raw": "Earn 35,000 points by completing bonuses in Rush.",
-          "reward_raw": "3X 85+ Rare Gold Players Pack / 2X 86+ Rare Gold Players Pack / 2X 87+ Rare Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/1048-weekly-rush-points/||earn 35,000 points by completing bonuses in rush.||35,000 rush points"
-        },
-        {
-          "order": 6,
-          "name_raw": "45,000 Rush Points",
-          "text_raw": "Earn 45,000 points by completing bonuses in Rush.",
-          "reward_raw": "2X 86+ Rare Gold Players Pack / 2X 87+ Rare Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/1048-weekly-rush-points/||earn 45,000 points by completing bonuses in rush.||45,000 rush points"
-        }
-      ]
-    },
-    {
-      "group_id": "G011",
-      "mission_group_name": "Weekly Objectives - EA SPORTS FC 26 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/1055-weekly-objectives/",
-      "campaign_expires": "Expires in 13 hours",
-      "campaign_deadline_kst": "8/13 15:00",
-      "campaign_deadline_iso": "2026-08-13T15:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 3,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Play 10",
-          "text_raw": "Play 10 matches in Squad Battles on Min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
-          "reward_raw": "Buy 10 Player Items on the Transfer Market. / 450 SP",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1055-weekly-objectives/||play 10 matches in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||play 10"
-        },
-        {
-          "order": 2,
-          "name_raw": "Win 10",
-          "text_raw": "Win 10 matches in Squad Battles on Min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
-          "reward_raw": "450 SP",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1055-weekly-objectives/||win 10 matches in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||win 10"
-        },
-        {
-          "order": 3,
-          "name_raw": "Score 10",
-          "text_raw": "Score 10 goals in any Ultimate Team game mode using a player from Morocco.",
-          "reward_raw": "450 SP",
-          "mode_raw": "Any Ultimate Team mode",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1055-weekly-objectives/||score 10 goals in any ultimate team game mode using a player from morocco.||score 10"
-        }
-      ]
-    },
-    {
-      "group_id": "G012",
-      "mission_group_name": "Daily Objectives - EA SPORTS FC 26 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/1059-daily-objectives/",
-      "campaign_expires": "Expires in 13 hours",
-      "campaign_deadline_kst": "8/13 15:00",
-      "campaign_deadline_iso": "2026-08-13T15:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 3,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Play 1",
-          "text_raw": "Play 1 match in any Ultimate Team game mode and earn SP!",
-          "reward_raw": "300 SP / 100 SP",
-          "mode_raw": "Any Ultimate Team mode",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1059-daily-objectives/||play 1 match in any ultimate team game mode and earn sp!||play 1"
-        },
-        {
-          "order": 2,
-          "name_raw": "Play 1",
-          "text_raw": "Score 2 goals",
-          "reward_raw": "300 SP / 100 SP",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1059-daily-objectives/||score 2 goals||play 1"
-        },
-        {
-          "order": 3,
-          "name_raw": "Play 1",
-          "text_raw": "Score 2 goals in any Ultimate Team game mode.",
-          "reward_raw": "100 SP",
-          "mode_raw": "Any Ultimate Team mode",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1059-daily-objectives/||score 2 goals in any ultimate team game mode.||play 1"
-        }
-      ]
-    },
-    {
-      "group_id": "G013",
+      "group_id": "G016",
       "mission_group_name": "FUTTIES Evo Chain Bonus - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1123-futties-evo-chain-bonus/",
-      "campaign_expires": "Expires in 13 days",
+      "campaign_expires": "Expires in 12 days",
       "campaign_deadline_kst": "8/26 02:00",
       "campaign_deadline_iso": "2026-08-26T02:00+09:00",
       "is_new_group": "Yes",
@@ -819,137 +957,11 @@
       ]
     },
     {
-      "group_id": "G014",
-      "mission_group_name": "FUTTIES Can Uzun - EA SPORTS FC 26 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/1078-futties-can-uzun/",
-      "campaign_expires": "Expires in 13 hours",
-      "campaign_deadline_kst": "8/13 15:00",
-      "campaign_deadline_iso": "2026-08-13T15:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 5,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Turkish Delight",
-          "text_raw": "Play 5 matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) while having Min. 4 Turkish players in your starting 11.",
-          "reward_raw": "1 Of 5 87+ Rare Gold Players / 1 Of 5 88+ Rare Gold Players / 1x 5x 88+ Rare Gold Players Pack / 1 Of 4 86+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1078-futties-can-uzun/||play 5 matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) while having min. 4 turkish players in your starting 11.||turkish delight"
-        },
-        {
-          "order": 2,
-          "name_raw": "Can Create",
-          "text_raw": "Assist 6 goals with any Turkish Midfielder in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions).",
-          "reward_raw": "1 Of 4 86+ Rare Gold Players / 200 SP / 1 Of 3 87+ Rare Gold Players / 1 Of 3 88+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1078-futties-can-uzun/||assist 6 goals with any turkish midfielder in squad battles on min. semi-pro difficulty (or live events/rivals/champions).||can create"
-        },
-        {
-          "order": 3,
-          "name_raw": "Level Footing",
-          "text_raw": "Score 4 goals in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) using a player with min. 4* WF.",
-          "reward_raw": "1 Of 3 87+ Rare Gold Players / 200 SP / 1 Of 3 88+ Rare Gold Players / 1 Of 5 87+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1078-futties-can-uzun/||score 4 goals in squad battles on min. semi-pro difficulty (or live events/rivals/champions) using a player with min. 4* wf.||level footing"
-        },
-        {
-          "order": 4,
-          "name_raw": "Dribble Trouble",
-          "text_raw": "Score and assist a goal in 3 separate matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) using a player with 90 DRI or higher.",
-          "reward_raw": "1 Of 3 88+ Rare Gold Players / 200 SP / 1 Of 5 87+ Rare Gold Players / 1 Of 5 88+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1078-futties-can-uzun/||score and assist a goal in 3 separate matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) using a player with 90 dri or higher.||dribble trouble"
-        },
-        {
-          "order": 5,
-          "name_raw": "Win 10",
-          "text_raw": "Win 10 matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) while having min. 6 players from the Bundesliga in your starting 11.",
-          "reward_raw": "1 Of 5 87+ Rare Gold Players / 200 SP / 1 Of 5 88+ Rare Gold Players / 10,000 Coins",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1078-futties-can-uzun/||win 10 matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) while having min. 6 players from the bundesliga in your starting 11.||win 10"
-        }
-      ]
-    },
-    {
-      "group_id": "G015",
-      "mission_group_name": "Spain & Portugal '30 SP Chase - EA SPORTS FC 26 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/1041-spain-portugal-30-sp-chase/",
-      "campaign_expires": "Expires in 13 hours",
-      "campaign_deadline_kst": "8/13 15:00",
-      "campaign_deadline_iso": "2026-08-13T15:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 5,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Seasonal",
-          "text_raw": "Complete challenges across Ultimate Team to earn SP!",
-          "reward_raw": "Spain & Portugal '30 SP Chase / Spain & Portugal '30 SP Chase - EA SPORTS FC 26 Objectives / 3,250 SP",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1041-spain-portugal-30-sp-chase/||complete challenges across ultimate team to earn sp!||seasonal"
-        },
-        {
-          "order": 2,
-          "name_raw": "Score 5",
-          "text_raw": "Score 5 goals in Squad Battles on Min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
-          "reward_raw": "7,000 SP / 750 SP",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1041-spain-portugal-30-sp-chase/||score 5 goals in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||score 5"
-        },
-        {
-          "order": 3,
-          "name_raw": "Assist 5",
-          "text_raw": "Assist 5 goals in Squad Battles on Min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
-          "reward_raw": "750 SP",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1041-spain-portugal-30-sp-chase/||assist 5 goals in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||assist 5"
-        },
-        {
-          "order": 4,
-          "name_raw": "Play 10",
-          "text_raw": "Play 10 Rivals matches.",
-          "reward_raw": "750 SP",
-          "mode_raw": "Rivals",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1041-spain-portugal-30-sp-chase/||play 10 rivals matches.||play 10"
-        },
-        {
-          "order": 5,
-          "name_raw": "Play 15",
-          "text_raw": "Play 15 matches in any Ultimate Team game mode.",
-          "reward_raw": "750 SP",
-          "mode_raw": "Any Ultimate Team mode",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1041-spain-portugal-30-sp-chase/||play 15 matches in any ultimate team game mode.||play 15"
-        }
-      ]
-    },
-    {
-      "group_id": "G016",
+      "group_id": "G017",
       "mission_group_name": "Goal-den Touch - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/1105-goal-den-touch/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 8 days",
       "campaign_deadline_kst": "8/22 02:00",
       "campaign_deadline_iso": "2026-08-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -998,11 +1010,11 @@
       ]
     },
     {
-      "group_id": "G017",
+      "group_id": "G018",
       "mission_group_name": "Time to Celebrate - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1111-time-to-celebrate/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 8 days",
       "campaign_deadline_kst": "8/22 02:00",
       "campaign_deadline_iso": "2026-08-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -1051,11 +1063,11 @@
       ]
     },
     {
-      "group_id": "G018",
+      "group_id": "G019",
       "mission_group_name": "FUTTIES Favourite: Reus - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1116-futties-favourite-reus/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 8 days",
       "campaign_deadline_kst": "8/22 02:00",
       "campaign_deadline_iso": "2026-08-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -1104,262 +1116,7 @@
       ]
     },
     {
-      "group_id": "G019",
-      "mission_group_name": "Seasonal Objective - EA SPORTS FC 26 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/1121-seasonal-objective/",
-      "campaign_expires": "Expires in 13 hours",
-      "campaign_deadline_kst": "8/13 15:00",
-      "campaign_deadline_iso": "2026-08-13T15:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 5,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Play 5",
-          "text_raw": "Play 5 matches in Squad Battles, Rush, Rivals, Champions or Live Events.",
-          "reward_raw": "4,000 SP / 350 SP",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1121-seasonal-objective/||play 5 matches in squad battles, rush, rivals, champions or live events.||play 5"
-        },
-        {
-          "order": 2,
-          "name_raw": "Play 10",
-          "text_raw": "Play 10 matches in Squad Battles, Rush, Rivals, Champions or Live Events.",
-          "reward_raw": "350 SP",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1121-seasonal-objective/||play 10 matches in squad battles, rush, rivals, champions or live events.||play 10"
-        },
-        {
-          "order": 3,
-          "name_raw": "Play 15",
-          "text_raw": "Play 15 matches in Squad Battles, Rush, Rivals, Champions or Live Events.",
-          "reward_raw": "350 SP",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1121-seasonal-objective/||play 15 matches in squad battles, rush, rivals, champions or live events.||play 15"
-        },
-        {
-          "order": 4,
-          "name_raw": "Play 20",
-          "text_raw": "Play 20 matches in Squad Battles, Rush, Rivals, Champions or Live Events.",
-          "reward_raw": "350 SP",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1121-seasonal-objective/||play 20 matches in squad battles, rush, rivals, champions or live events.||play 20"
-        },
-        {
-          "order": 5,
-          "name_raw": "Play 25",
-          "text_raw": "Play 25 matches in Squad Battles, Rush, Rivals, Champions or Live Events.",
-          "reward_raw": "350 SP",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1121-seasonal-objective/||play 25 matches in squad battles, rush, rivals, champions or live events.||play 25"
-        }
-      ]
-    },
-    {
       "group_id": "G020",
-      "mission_group_name": "FUTTIES Lennart Karl - EA SPORTS FC 26 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/1077-futties-lennart-karl/",
-      "campaign_expires": "Expires in 13 hours",
-      "campaign_deadline_kst": "8/13 15:00",
-      "campaign_deadline_iso": "2026-08-13T15:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 5,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Mia San Mia",
-          "text_raw": "Play 5 matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) while having at least 3 Bundesliga players in your starting 11.",
-          "reward_raw": "1 Of 5 87+ Rare Gold Players / 1 Of 5 88+ Rare Gold Players / 1x 5x 88+ Rare Gold Players Pack / 1 Of 4 86+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1077-futties-lennart-karl/||play 5 matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) while having at least 3 bundesliga players in your starting 11.||mia san mia"
-        },
-        {
-          "order": 2,
-          "name_raw": "Karl the Ball",
-          "text_raw": "Score min. 2 goals in 3 separate matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) with a CAM (Preferred Position Only).",
-          "reward_raw": "1 Of 4 86+ Rare Gold Players / 200 SP / 1 Of 3 87+ Rare Gold Players / 1 Of 3 88+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1077-futties-lennart-karl/||score min. 2 goals in 3 separate matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) with a cam (preferred position only).||karl the ball"
-        },
-        {
-          "order": 3,
-          "name_raw": "Wunderpass",
-          "text_raw": "Assist 5 goals using a German Midfielder in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions).",
-          "reward_raw": "1 Of 3 87+ Rare Gold Players / 200 SP / 1 Of 3 88+ Rare Gold Players / 1 Of 5 87+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1077-futties-lennart-karl/||assist 5 goals using a german midfielder in squad battles on min. semi-pro difficulty (or live events/rivals/champions).||wunderpass"
-        },
-        {
-          "order": 4,
-          "name_raw": "Das Defense",
-          "text_raw": "Concede 3 goals or less in 3 separate matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) while having min. 2 Bundesliga Defenders in your starting 11.",
-          "reward_raw": "1 Of 3 88+ Rare Gold Players / 200 SP / 1 Of 5 87+ Rare Gold Players / 1 Of 5 88+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1077-futties-lennart-karl/||concede 3 goals or less in 3 separate matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) while having min. 2 bundesliga defenders in your starting 11.||das defense"
-        },
-        {
-          "order": 5,
-          "name_raw": "Win 10",
-          "text_raw": "Win 10 matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) while having a player born on or after July 23rd, 2008 in your starting 11.",
-          "reward_raw": "1 Of 5 87+ Rare Gold Players / 200 SP / 1 Of 5 88+ Rare Gold Players / 10,000 Coins",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1077-futties-lennart-karl/||win 10 matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) while having a player born on or after july 23rd, 2008 in your starting 11.||win 10"
-        }
-      ]
-    },
-    {
-      "group_id": "G021",
-      "mission_group_name": "Game in Colour - Stage 1 Kit - EA SPORTS FC 26 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/1097-game-in-colour-stage-1-kit/",
-      "campaign_expires": "Expires in 13 hours",
-      "campaign_deadline_kst": "8/13 15:00",
-      "campaign_deadline_iso": "2026-08-13T15:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 3,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Play 3",
-          "text_raw": "Play 3 matches in any Ultimate Team game mode while having the Game in Colour - Stage 1 Kit equipped.",
-          "reward_raw": "500 SP / Game In Color - Kit 2 / 3x 5x 84+ Rare Gold Players Pack / 5X 84+ Rare Gold Players Pack",
-          "mode_raw": "Any Ultimate Team mode",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1097-game-in-colour-stage-1-kit/||play 3 matches in any ultimate team game mode while having the game in colour - stage 1 kit equipped.||play 3"
-        },
-        {
-          "order": 2,
-          "name_raw": "Score 3",
-          "text_raw": "Score 3 goals in any Ultimate Team game mode while having the Game in Colour - Stage 1 Kit equipped.",
-          "reward_raw": "5X 84+ Rare Gold Players Pack",
-          "mode_raw": "Any Ultimate Team mode",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1097-game-in-colour-stage-1-kit/||score 3 goals in any ultimate team game mode while having the game in colour - stage 1 kit equipped.||score 3"
-        },
-        {
-          "order": 3,
-          "name_raw": "Win 3",
-          "text_raw": "Win 3 matches in any Ultimate Team game mode while having the Game in Colour - Stage 1 Kit equipped.",
-          "reward_raw": "5X 84+ Rare Gold Players Pack",
-          "mode_raw": "Any Ultimate Team mode",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1097-game-in-colour-stage-1-kit/||win 3 matches in any ultimate team game mode while having the game in colour - stage 1 kit equipped.||win 3"
-        }
-      ]
-    },
-    {
-      "group_id": "G022",
-      "mission_group_name": "Game in Colour - Stage 2 Kit - EA SPORTS FC 26 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/1098-game-in-colour-stage-2-kit/",
-      "campaign_expires": "Expires in 13 hours",
-      "campaign_deadline_kst": "8/13 15:00",
-      "campaign_deadline_iso": "2026-08-13T15:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 3,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Play 3",
-          "text_raw": "Play 3 matches in any Ultimate Team game mode while having the Game in Colour - Stage 2 Kit equipped.",
-          "reward_raw": "500 SP / Game In Color - Kit 3 / 3x 5x 84+ Rare Gold Players Pack / 5X 84+ Rare Gold Players Pack",
-          "mode_raw": "Any Ultimate Team mode",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1098-game-in-colour-stage-2-kit/||play 3 matches in any ultimate team game mode while having the game in colour - stage 2 kit equipped.||play 3"
-        },
-        {
-          "order": 2,
-          "name_raw": "Score 3",
-          "text_raw": "Score 3 goals in any Ultimate Team game mode while having the Game in Colour - Stage 2 Kit equipped.",
-          "reward_raw": "5X 84+ Rare Gold Players Pack",
-          "mode_raw": "Any Ultimate Team mode",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1098-game-in-colour-stage-2-kit/||score 3 goals in any ultimate team game mode while having the game in colour - stage 2 kit equipped.||score 3"
-        },
-        {
-          "order": 3,
-          "name_raw": "Win 3",
-          "text_raw": "Win 3 matches in any Ultimate Team game mode while having the Game in Colour - Stage 2 Kit equipped.",
-          "reward_raw": "5X 84+ Rare Gold Players Pack",
-          "mode_raw": "Any Ultimate Team mode",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1098-game-in-colour-stage-2-kit/||win 3 matches in any ultimate team game mode while having the game in colour - stage 2 kit equipped.||win 3"
-        }
-      ]
-    },
-    {
-      "group_id": "G023",
-      "mission_group_name": "Game in Colour - Stage 3 Kit - EA SPORTS FC 26 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/1099-game-in-colour-stage-3-kit/",
-      "campaign_expires": "Expires in 13 hours",
-      "campaign_deadline_kst": "8/13 15:00",
-      "campaign_deadline_iso": "2026-08-13T15:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 3,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Play 3",
-          "text_raw": "Play 3 matches in any Ultimate Team game mode while having the Game in Colour - Stage 3 Kit equipped.",
-          "reward_raw": "1,000 SP / 3x 5x 84+ Rare Gold Players Pack / 1x 3x 89+ Rare Gold Players Pack / 5X 84+ Rare Gold Players Pack",
-          "mode_raw": "Any Ultimate Team mode",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1099-game-in-colour-stage-3-kit/||play 3 matches in any ultimate team game mode while having the game in colour - stage 3 kit equipped.||play 3"
-        },
-        {
-          "order": 2,
-          "name_raw": "Score 3",
-          "text_raw": "Score 3 goals in any Ultimate Team game mode while having the Game in Colour - Stage 3 Kit equipped.",
-          "reward_raw": "5X 84+ Rare Gold Players Pack",
-          "mode_raw": "Any Ultimate Team mode",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1099-game-in-colour-stage-3-kit/||score 3 goals in any ultimate team game mode while having the game in colour - stage 3 kit equipped.||score 3"
-        },
-        {
-          "order": 3,
-          "name_raw": "Win 3",
-          "text_raw": "Win 3 matches in any Ultimate Team game mode while having the Game in Colour - Stage 3 Kit equipped.",
-          "reward_raw": "5X 84+ Rare Gold Players Pack",
-          "mode_raw": "Any Ultimate Team mode",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1099-game-in-colour-stage-3-kit/||win 3 matches in any ultimate team game mode while having the game in colour - stage 3 kit equipped.||win 3"
-        }
-      ]
-    },
-    {
-      "group_id": "G024",
       "mission_group_name": "Esports World Cup Collection - EA SPORTS FC 26 Objectives",
       "objective_type": "FC Pro",
       "url": "https://www.fut.gg/objectives/fc-pro/1101-esports-world-cup-collection/",
@@ -1412,472 +1169,7 @@
       ]
     },
     {
-      "group_id": "G025",
-      "mission_group_name": "National Pride Estêvão - EA SPORTS FC 26 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/1076-national-pride-estevao/",
-      "campaign_expires": "Expires in 13 hours",
-      "campaign_deadline_kst": "8/13 15:00",
-      "campaign_deadline_iso": "2026-08-13T15:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 5,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Brazilian Five",
-          "text_raw": "Play 5 matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) while having at least 6 Brazilian Players in your starting 11.",
-          "reward_raw": "1 Of 5 87+ Rare Gold Players / 1 Of 5 88+ Rare Gold Players / 1x 5x 88+ Rare Gold Players Pack / 1 Of 4 86+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1076-national-pride-estevao/||play 5 matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) while having at least 6 brazilian players in your starting 11.||brazilian five"
-        },
-        {
-          "order": 2,
-          "name_raw": "Last Minute Strike",
-          "text_raw": "Score 3 Finesse goals in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) using a Brazilian player.",
-          "reward_raw": "1 Of 4 86+ Rare Gold Players / 1 Of 3 87+ Rare Gold Players / 1 Of 3 88+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1076-national-pride-estevao/||score 3 finesse goals in squad battles on min. semi-pro difficulty (or live events/rivals/champions) using a brazilian player.||last minute strike"
-        },
-        {
-          "order": 3,
-          "name_raw": "5 Star Touch",
-          "text_raw": "Assist at least 2 goals per match in 4 separate matches using a player with 5* SM in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions).",
-          "reward_raw": "1 Of 3 87+ Rare Gold Players / 1 Of 3 88+ Rare Gold Players / 1 Of 5 87+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1076-national-pride-estevao/||assist at least 2 goals per match in 4 separate matches using a player with 5* sm in squad battles on min. semi-pro difficulty (or live events/rivals/champions).||5 star touch"
-        },
-        {
-          "order": 4,
-          "name_raw": "Gift from São Paulo",
-          "text_raw": "Score 8 goals in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) using a Brazilian Midfielder.",
-          "reward_raw": "1 Of 3 88+ Rare Gold Players / 1 Of 5 87+ Rare Gold Players / 1 Of 5 88+ Rare Gold Players / 10,000 Coins",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1076-national-pride-estevao/||score 8 goals in squad battles on min. semi-pro difficulty (or live events/rivals/champions) using a brazilian midfielder.||gift from são paulo"
-        },
-        {
-          "order": 5,
-          "name_raw": "Win 8",
-          "text_raw": "Win 8 matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) with minimum 6 players from the Premier League in your starting 11",
-          "reward_raw": "1 Of 5 87+ Rare Gold Players / 1 Of 5 88+ Rare Gold Players / 10,000 Coins",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1076-national-pride-estevao/||win 8 matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) with minimum 6 players from the premier league in your starting 11||win 8"
-        }
-      ]
-    },
-    {
-      "group_id": "G026",
-      "mission_group_name": "Season 9 Daily Knockout Tournament - EA SPORTS FC 26 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/1072-season-9-daily-knockout-tournament/",
-      "campaign_expires": "Expires in 13 hours",
-      "campaign_deadline_kst": "8/13 15:00",
-      "campaign_deadline_iso": "2026-08-13T15:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 4,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Score in 6",
-          "text_raw": "Score at least 1 goal in 6 separate games in the Season 9 Daily Knockout Tournament.",
-          "reward_raw": "3X 84+ Rare Gold Players Pack / 5X 88+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1072-season-9-daily-knockout-tournament/||score at least 1 goal in 6 separate games in the season 9 daily knockout tournament.||score in 6"
-        },
-        {
-          "order": 2,
-          "name_raw": "Score in 10",
-          "text_raw": "Score at least 1 goal in 10 separate games in the Season 9 Daily Knockout Tournament.",
-          "reward_raw": "5X 88+ Rare Gold Players Pack / 3X 86+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1072-season-9-daily-knockout-tournament/||score at least 1 goal in 10 separate games in the season 9 daily knockout tournament.||score in 10"
-        },
-        {
-          "order": 3,
-          "name_raw": "Score in 13",
-          "text_raw": "Score at least 1 goal in 13 separate games in the Season 9 Daily Knockout Tournament.",
-          "reward_raw": "5X 88+ Rare Gold Players Pack / 3X 86+ Rare Gold Players Pack / 3X 87+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1072-season-9-daily-knockout-tournament/||score at least 1 goal in 13 separate games in the season 9 daily knockout tournament.||score in 13"
-        },
-        {
-          "order": 4,
-          "name_raw": "Score in 18",
-          "text_raw": "Score at least 1 goal in 18 separate games in the Season 9 Daily Knockout Tournament.",
-          "reward_raw": "3X 86+ Rare Gold Players Pack / 3X 87+ Rare Gold Players Pack / 3X 85+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1072-season-9-daily-knockout-tournament/||score at least 1 goal in 18 separate games in the season 9 daily knockout tournament.||score in 18"
-        }
-      ]
-    },
-    {
-      "group_id": "G027",
-      "mission_group_name": "Season 9 Daily Knockout Tournament Bonus - EA SPORTS FC 26 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/",
-      "campaign_expires": "Expires in 13 hours",
-      "campaign_deadline_kst": "8/13 15:00",
-      "campaign_deadline_iso": "2026-08-13T15:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 20,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Earn additional rewards for completing the Season 9 Daily Kn",
-          "text_raw": "Earn additional rewards for completing the Season 9 Daily Knockout Tournament multiple times! All rewards are untradeable.",
-          "reward_raw": "3X 88+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||earn additional rewards for completing the season 9 daily knockout tournament multiple times! all rewards are untradeable.||earn additional rewards for completing the season 9 daily kn"
-        },
-        {
-          "order": 2,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 2 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 2 times.",
-          "reward_raw": "6x 3x 86+ Rare Gold Players Pack / 3x 3x 87+ Rare Gold Players Pack / 1x 3x 88+ Rare Gold Players Pack / 3X 84+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 2 times.||win the season 9 daily knockout tournament 2 times."
-        },
-        {
-          "order": 3,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 3 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 3 times.",
-          "reward_raw": "3X 84+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 3 times.||win the season 9 daily knockout tournament 3 times."
-        },
-        {
-          "order": 4,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 4 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 4 times.",
-          "reward_raw": "3X 84+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 4 times.||win the season 9 daily knockout tournament 4 times."
-        },
-        {
-          "order": 5,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 5 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 5 times.",
-          "reward_raw": "3X 84+ Rare Gold Players Pack / 3X 85+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 5 times.||win the season 9 daily knockout tournament 5 times."
-        },
-        {
-          "order": 6,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 6 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 6 times.",
-          "reward_raw": "3X 84+ Rare Gold Players Pack / 3X 85+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 6 times.||win the season 9 daily knockout tournament 6 times."
-        },
-        {
-          "order": 7,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 7 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 7 times.",
-          "reward_raw": "3X 85+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 7 times.||win the season 9 daily knockout tournament 7 times."
-        },
-        {
-          "order": 8,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 8 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 8 times.",
-          "reward_raw": "3X 85+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 8 times.||win the season 9 daily knockout tournament 8 times."
-        },
-        {
-          "order": 9,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 9 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 9 times.",
-          "reward_raw": "3X 85+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 9 times.||win the season 9 daily knockout tournament 9 times."
-        },
-        {
-          "order": 10,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 10 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 10 times.",
-          "reward_raw": "3X 85+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 10 times.||win the season 9 daily knockout tournament 10 times."
-        },
-        {
-          "order": 11,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 11 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 11 times.",
-          "reward_raw": "3X 85+ Rare Gold Players Pack / 3X 86+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 11 times.||win the season 9 daily knockout tournament 11 times."
-        },
-        {
-          "order": 12,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 12 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 12 times.",
-          "reward_raw": "3X 85+ Rare Gold Players Pack / 3X 86+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 12 times.||win the season 9 daily knockout tournament 12 times."
-        },
-        {
-          "order": 13,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 13 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 13 times.",
-          "reward_raw": "3X 86+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 13 times.||win the season 9 daily knockout tournament 13 times."
-        },
-        {
-          "order": 14,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 14 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 14 times.",
-          "reward_raw": "3X 86+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 14 times.||win the season 9 daily knockout tournament 14 times."
-        },
-        {
-          "order": 15,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 15 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 15 times.",
-          "reward_raw": "3X 86+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 15 times.||win the season 9 daily knockout tournament 15 times."
-        },
-        {
-          "order": 16,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 16 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 16 times.",
-          "reward_raw": "3X 86+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 16 times.||win the season 9 daily knockout tournament 16 times."
-        },
-        {
-          "order": 17,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 17 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 17 times.",
-          "reward_raw": "3X 86+ Rare Gold Players Pack / 3X 87+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 17 times.||win the season 9 daily knockout tournament 17 times."
-        },
-        {
-          "order": 18,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 18 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 18 times.",
-          "reward_raw": "3X 86+ Rare Gold Players Pack / 3X 87+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 18 times.||win the season 9 daily knockout tournament 18 times."
-        },
-        {
-          "order": 19,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 19 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 19 times.",
-          "reward_raw": "3X 87+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 19 times.||win the season 9 daily knockout tournament 19 times."
-        },
-        {
-          "order": 20,
-          "name_raw": "Win the Season 9 Daily Knockout Tournament 20 times.",
-          "text_raw": "Win the Season 9 Daily Knockout Tournament 20 times.",
-          "reward_raw": "3X 87+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/||win the season 9 daily knockout tournament 20 times.||win the season 9 daily knockout tournament 20 times."
-        }
-      ]
-    },
-    {
-      "group_id": "G028",
-      "mission_group_name": "National Pride Ngumoha - EA SPORTS FC 26 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/1075-national-pride-ngumoha/",
-      "campaign_expires": "Expires in 13 hours",
-      "campaign_deadline_kst": "8/13 15:00",
-      "campaign_deadline_iso": "2026-08-13T15:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 5,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "It's Coming Home",
-          "text_raw": "Play 5 matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) with at least 6 England Players in your starting 11.",
-          "reward_raw": "1 Of 5 87+ Rare Gold Players / 1 Of 5 88+ Rare Gold Players / 1x 5x 88+ Rare Gold Players Pack / 1 Of 4 86+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1075-national-pride-ngumoha/||play 5 matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) with at least 6 england players in your starting 11.||it's coming home"
-        },
-        {
-          "order": 2,
-          "name_raw": "Score 5",
-          "text_raw": "Score 5 goals in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) with an LM (preferred position).",
-          "reward_raw": "1 Of 4 86+ Rare Gold Players / 1 Of 3 87+ Rare Gold Players / 1 Of 3 88+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1075-national-pride-ngumoha/||score 5 goals in squad battles on min. semi-pro difficulty (or live events/rivals/champions) with an lm (preferred position).||score 5"
-        },
-        {
-          "order": 3,
-          "name_raw": "Win 3",
-          "text_raw": "Win 3 matches in Squad Battles by 3 goals or more on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) with 2 Premier League Players in your starting 11.",
-          "reward_raw": "1 Of 3 87+ Rare Gold Players / 1 Of 3 88+ Rare Gold Players / 1 Of 5 87+ Rare Gold Players",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1075-national-pride-ngumoha/||win 3 matches in squad battles by 3 goals or more on min. semi-pro difficulty (or live events/rivals/champions) with 2 premier league players in your starting 11.||win 3"
-        },
-        {
-          "order": 4,
-          "name_raw": "Squeaky Clean",
-          "text_raw": "Keep 5 Clean Sheets in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions).",
-          "reward_raw": "1 Of 3 88+ Rare Gold Players / 1 Of 5 87+ Rare Gold Players / 1 Of 5 88+ Rare Gold Players / 10,000 Coins",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1075-national-pride-ngumoha/||keep 5 clean sheets in squad battles on min. semi-pro difficulty (or live events/rivals/champions).||squeaky clean"
-        },
-        {
-          "order": 5,
-          "name_raw": "Win 8",
-          "text_raw": "Win 8 matches in Squad Battles on min. Semi-Pro Difficulty (or Live Events/Rivals/Champions) with a minimum of 6 first owned players in your starting 11.",
-          "reward_raw": "1 Of 5 87+ Rare Gold Players / 1 Of 5 88+ Rare Gold Players / 10,000 Coins",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1075-national-pride-ngumoha/||win 8 matches in squad battles on min. semi-pro difficulty (or live events/rivals/champions) with a minimum of 6 first owned players in your starting 11.||win 8"
-        }
-      ]
-    },
-    {
-      "group_id": "G029",
-      "mission_group_name": "Future World Tour Completionist - EA SPORTS FC 26 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/1080-future-world-tour-completionist/",
-      "campaign_expires": "Expires in 13 hours",
-      "campaign_deadline_kst": "8/13 15:00",
-      "campaign_deadline_iso": "2026-08-13T15:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 6,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Complete any 4 of 5 objectives to earn FUTTIES Icon Frank La",
-          "text_raw": "Complete any 4 of 5 objectives to earn FUTTIES Icon Frank Lampard! All rewards are untradeable.",
-          "reward_raw": "20X 87+ Rare Gold Players Pack / 500 SP",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1080-future-world-tour-completionist/||complete any 4 of 5 objectives to earn futties icon frank lampard! all rewards are untradeable.||complete any 4 of 5 objectives to earn futties icon frank la"
-        },
-        {
-          "order": 2,
-          "name_raw": "Complete the National Pride Ngumoha Objective Group.",
-          "text_raw": "Complete the National Pride Ngumoha Objective Group.",
-          "reward_raw": "1x 5x 88+ Rare Gold Players Pack / 1x 88+ Rare Gold Player Pack / 1x 20x 87+ Rare Gold Players Pack / 3X 88+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1080-future-world-tour-completionist/||complete the national pride ngumoha objective group.||complete the national pride ngumoha objective group."
-        },
-        {
-          "order": 3,
-          "name_raw": "Complete the National Pride Estêvão Objective Group.",
-          "text_raw": "Complete the National Pride Estêvão Objective Group.",
-          "reward_raw": "3X 88+ Rare Gold Players Pack / 2X 89+ Rare Gold Players Pack / 1 Of 4 89+ Rare Gold Player Pick",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1080-future-world-tour-completionist/||complete the national pride estêvão objective group.||complete the national pride estêvão objective group."
-        },
-        {
-          "order": 4,
-          "name_raw": "Complete the FUTTIES Lennart Karl Objective Group.",
-          "text_raw": "Complete the FUTTIES Lennart Karl Objective Group.",
-          "reward_raw": "2X 89+ Rare Gold Players Pack / 1 Of 4 89+ Rare Gold Player Pick / 5X 88+ Rare Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1080-future-world-tour-completionist/||complete the futties lennart karl objective group.||complete the futties lennart karl objective group."
-        },
-        {
-          "order": 5,
-          "name_raw": "Complete the FUTTIES Can Uzun Objective Group.",
-          "text_raw": "Complete the FUTTIES Can Uzun Objective Group.",
-          "reward_raw": "1 Of 4 89+ Rare Gold Player Pick / 5X 88+ Rare Gold Players Pack / 88+ Rare Gold Player Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1080-future-world-tour-completionist/||complete the futties can uzun objective group.||complete the futties can uzun objective group."
-        },
-        {
-          "order": 6,
-          "name_raw": "Complete the FUTTIES Éli Junior Kroupi Objective Group.",
-          "text_raw": "Complete the FUTTIES Éli Junior Kroupi Objective Group.",
-          "reward_raw": "5X 88+ Rare Gold Players Pack / 88+ Rare Gold Player Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/1080-future-world-tour-completionist/||complete the futties éli junior kroupi objective group.||complete the futties éli junior kroupi objective group."
-        }
-      ]
-    },
-    {
-      "group_id": "G030",
+      "group_id": "G021",
       "mission_group_name": "Chase the Glory 2 - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/1061-chase-the-glory-2/",
@@ -1930,7 +1222,7 @@
       ]
     },
     {
-      "group_id": "G031",
+      "group_id": "G022",
       "mission_group_name": "Drive or Park the bus? - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/1042-drive-or-park-the-bus/",
@@ -1963,7 +1255,7 @@
       ]
     },
     {
-      "group_id": "G032",
+      "group_id": "G023",
       "mission_group_name": "Chase the Glory - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/1031-chase-the-glory/",
@@ -2016,7 +1308,7 @@
       ]
     },
     {
-      "group_id": "G033",
+      "group_id": "G024",
       "mission_group_name": "eCL Finals - EA SPORTS FC 26 Objectives",
       "objective_type": "FC Pro",
       "url": "https://www.fut.gg/objectives/fc-pro/982-ecl-finals/",
@@ -2059,7 +1351,7 @@
       ]
     },
     {
-      "group_id": "G034",
+      "group_id": "G025",
       "mission_group_name": "TOTS Milestone - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/827-tots-milestone/",
@@ -2222,7 +1514,7 @@
       ]
     },
     {
-      "group_id": "G035",
+      "group_id": "G026",
       "mission_group_name": "Unbreakable - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/796-unbreakable/",
@@ -2245,7 +1537,7 @@
       ]
     },
     {
-      "group_id": "G036",
+      "group_id": "G027",
       "mission_group_name": "Passing Mastermind - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/804-passing-mastermind/",
@@ -2268,7 +1560,7 @@
       ]
     },
     {
-      "group_id": "G037",
+      "group_id": "G028",
       "mission_group_name": "Neuer the Wall - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/762-neuer-the-wall/",
@@ -2291,7 +1583,7 @@
       ]
     },
     {
-      "group_id": "G038",
+      "group_id": "G029",
       "mission_group_name": "Formation Excellence - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/761-formation-excellence/",
@@ -2344,7 +1636,7 @@
       ]
     },
     {
-      "group_id": "G039",
+      "group_id": "G030",
       "mission_group_name": "LALIGA VS Racism - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/742-laliga-vs-racism/",
@@ -2417,7 +1709,7 @@
       ]
     },
     {
-      "group_id": "G040",
+      "group_id": "G031",
       "mission_group_name": "Keep Racism Out - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/743-keep-racism-out/",
@@ -2480,7 +1772,7 @@
       ]
     },
     {
-      "group_id": "G041",
+      "group_id": "G032",
       "mission_group_name": "Non au Racisme - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/744-non-au-racisme/",
@@ -2503,7 +1795,7 @@
       ]
     },
     {
-      "group_id": "G042",
+      "group_id": "G033",
       "mission_group_name": "Ons Voetbal Is Van Iedereen - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/745-ons-voetbal-is-van-iedereen/",
@@ -2566,7 +1858,7 @@
       ]
     },
     {
-      "group_id": "G043",
+      "group_id": "G034",
       "mission_group_name": "TOGETHER! Bundesliga - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/746-together-bundesliga/",
@@ -2589,7 +1881,7 @@
       ]
     },
     {
-      "group_id": "G044",
+      "group_id": "G035",
       "mission_group_name": "Low Driven Shot+ Milestone - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/735-low-driven-shot-milestone/",
@@ -2612,7 +1904,7 @@
       ]
     },
     {
-      "group_id": "G045",
+      "group_id": "G036",
       "mission_group_name": "Intercept+ Milestone - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/706-intercept-milestone/",
@@ -2635,7 +1927,7 @@
       ]
     },
     {
-      "group_id": "G046",
+      "group_id": "G037",
       "mission_group_name": "Quick Step+ Milestone - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/679-quick-step-milestone/",
@@ -2658,7 +1950,7 @@
       ]
     },
     {
-      "group_id": "G047",
+      "group_id": "G038",
       "mission_group_name": "Finesse Shot+ Milestone - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/693-finesse-shot-milestone/",
@@ -2681,7 +1973,7 @@
       ]
     },
     {
-      "group_id": "G048",
+      "group_id": "G039",
       "mission_group_name": "Play Like a Pro: Tekkz - EA SPORTS FC 26 Objectives",
       "objective_type": "FC Pro",
       "url": "https://www.fut.gg/objectives/fc-pro/387-play-like-a-pro-tekkz/",
@@ -2724,7 +2016,7 @@
       ]
     },
     {
-      "group_id": "G049",
+      "group_id": "G040",
       "mission_group_name": "Play Like a Pro: ManuBachoore - EA SPORTS FC 26 Objectives",
       "objective_type": "FC Pro",
       "url": "https://www.fut.gg/objectives/fc-pro/388-play-like-a-pro-manubachoore/",
@@ -2767,7 +2059,7 @@
       ]
     },
     {
-      "group_id": "G050",
+      "group_id": "G041",
       "mission_group_name": "FC Pro Teams - EA SPORTS FC 26 Objectives",
       "objective_type": "FC Pro",
       "url": "https://www.fut.gg/objectives/fc-pro/437-fc-pro-teams/",
@@ -2920,7 +2212,7 @@
       ]
     },
     {
-      "group_id": "G051",
+      "group_id": "G042",
       "mission_group_name": "FC Pro Teams Masterclass - EA SPORTS FC 26 Objectives",
       "objective_type": "FC Pro",
       "url": "https://www.fut.gg/objectives/fc-pro/438-fc-pro-teams-masterclass/",
@@ -3063,7 +2355,7 @@
       ]
     },
     {
-      "group_id": "G052",
+      "group_id": "G043",
       "mission_group_name": "FC Pro - YouTube - EA SPORTS FC 26 Objectives",
       "objective_type": "FC Pro",
       "url": "https://www.fut.gg/objectives/fc-pro/300-fc-pro-youtube/",
@@ -3096,7 +2388,7 @@
       ]
     },
     {
-      "group_id": "G053",
+      "group_id": "G044",
       "mission_group_name": "FC Pro - Twitch - EA SPORTS FC 26 Objectives",
       "objective_type": "FC Pro",
       "url": "https://www.fut.gg/objectives/fc-pro/301-fc-pro-twitch/",
@@ -3129,7 +2421,7 @@
       ]
     },
     {
-      "group_id": "G054",
+      "group_id": "G045",
       "mission_group_name": "Moments Stars Mastery - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/12-moments-stars-mastery/",
@@ -3192,7 +2484,7 @@
       ]
     },
     {
-      "group_id": "G055",
+      "group_id": "G046",
       "mission_group_name": "Rush Mastery - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/11-rush-mastery/",
@@ -3355,7 +2647,7 @@
       ]
     },
     {
-      "group_id": "G056",
+      "group_id": "G047",
       "mission_group_name": "First Owned Mastery - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/10-first-owned-mastery/",
@@ -3408,7 +2700,7 @@
       ]
     },
     {
-      "group_id": "G057",
+      "group_id": "G048",
       "mission_group_name": "Assist Mastery - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/9-assist-mastery/",
@@ -3501,7 +2793,7 @@
       ]
     },
     {
-      "group_id": "G058",
+      "group_id": "G049",
       "mission_group_name": "Live Events Mastery - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/8-live-events-mastery/",
@@ -3564,7 +2856,7 @@
       ]
     },
     {
-      "group_id": "G059",
+      "group_id": "G050",
       "mission_group_name": "Squad Building Mastery - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/7-squad-building-mastery/",
@@ -3647,7 +2939,7 @@
       ]
     },
     {
-      "group_id": "G060",
+      "group_id": "G051",
       "mission_group_name": "Transfer Market Mastery - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/6-transfer-market-mastery/",
@@ -3659,7 +2951,7 @@
       "objectives": []
     },
     {
-      "group_id": "G061",
+      "group_id": "G052",
       "mission_group_name": "Co-op Mastery - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/5-co-op-mastery/",
@@ -3712,7 +3004,7 @@
       ]
     },
     {
-      "group_id": "G062",
+      "group_id": "G053",
       "mission_group_name": "Draft Mastery - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/4-draft-mastery/",
@@ -3765,7 +3057,7 @@
       ]
     },
     {
-      "group_id": "G063",
+      "group_id": "G054",
       "mission_group_name": "Champions Mastery - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/3-champions-mastery/",
@@ -3838,7 +3130,7 @@
       ]
     },
     {
-      "group_id": "G064",
+      "group_id": "G055",
       "mission_group_name": "Rivals Mastery - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/2-rivals-mastery/",
@@ -3901,7 +3193,7 @@
       ]
     },
     {
-      "group_id": "G065",
+      "group_id": "G056",
       "mission_group_name": "Squad Battles Mastery - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/1-squad-battles-mastery/",
@@ -3976,20 +3268,92 @@
   ],
   "collected_urls": [
     {
+      "URL": "https://www.fut.gg/objectives/campaigns/1049-weekly-rush-points/",
+      "Objective_Type": "Campaign",
+      "Link_Text": "NEW Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points! 2X 89+ Rare Gold Players Pack",
+      "Parent_Text": "NEW Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points! 2X 89+ Rare Gold Players Pack Expires in 7 days 5 Objectives 24% 76%",
+      "Campaign_Expires": "Expires in 7 days",
+      "Campaign_Deadline_KST": "8/21 02:00",
+      "Campaign_Deadline_ISO": "2026-08-21T02:00+09:00"
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/live-events/1155-season-10-exhibition/",
+      "Objective_Type": "Live Events",
+      "Link_Text": "NEW Season 10 Double Trouble Weekly Play Compete in the Season 10 Double Trouble event to earn exclusive rewards! All rewards are untradeable. Shadow",
+      "Parent_Text": "NEW Season 10 Double Trouble Weekly Play Compete in the Season 10 Double Trouble event to earn exclusive rewards! All rewards are untradeable. Shadow Expires in 1 month 1 Objectives 84% 16%",
+      "Campaign_Expires": "Expires in 1 month",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/live-events/1157-season-10-exhibition-weekly-play-completionist/",
+      "Objective_Type": "Live Events",
+      "Link_Text": "NEW Season 10 Double Trouble Weekly Play Completionist Complete the Season 10 Double Trouble Weekly Play group objective to earn exclusive rewards! All rewards are untradeable. Robin van Persie 20X 87+ Rare Gold Players Pack",
+      "Parent_Text": "NEW Season 10 Double Trouble Weekly Play Completionist Complete the Season 10 Double Trouble Weekly Play group objective to earn exclusive rewards! All rewards are untradeable. Robin van Persie 20X 87+ Rare Gold Players Pack Expires in 1 month 5 Objectives 87% 13%",
+      "Campaign_Expires": "Expires in 1 month",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/1149-pre-season-wilson/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "NEW Pre-Season Wilson Complete the below challenges to earn SP, Packs, Player Picks, FUTTIES Tokens and FUTTIES Wilson. Callum Wilson 5X 88+ Rare Gold Players Pack 100 FUTTIES Tokens",
+      "Parent_Text": "NEW Pre-Season Wilson Complete the below challenges to earn SP, Packs, Player Picks, FUTTIES Tokens and FUTTIES Wilson. Callum Wilson 5X 88+ Rare Gold Players Pack 100 FUTTIES Tokens Expires in 1 month 500 total 4 Objectives 89% 11%",
+      "Campaign_Expires": "Expires in 1 month",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/1125-daily-objectives/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "NEW Daily Objectives Play, complete, and earn SP from the daily Objective every 24 hours! 75 SP",
+      "Parent_Text": "NEW Daily Objectives Play, complete, and earn SP from the daily Objective every 24 hours! 75 SP Expires in 14 days 225 total 2 Objectives 86% 14%",
+      "Campaign_Expires": "Expires in 14 days",
+      "Campaign_Deadline_KST": "8/28 02:00",
+      "Campaign_Deadline_ISO": "2026-08-28T02:00+09:00"
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/1130-weekly-objectives/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "NEW Weekly Objectives Complete weekly Objectives to earn SP! 500 SP",
+      "Parent_Text": "NEW Weekly Objectives Complete weekly Objectives to earn SP! 500 SP Expires in 7 days 1,500 total 5 Objectives 78% 22%",
+      "Campaign_Expires": "Expires in 7 days",
+      "Campaign_Deadline_KST": "8/21 02:00",
+      "Campaign_Deadline_ISO": "2026-08-21T02:00+09:00"
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/1148-season-10-double-trouble/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "NEW Season 10 Double Trouble Complete all challenges in the Season 10 Double Trouble Event. All rewards are untradeable. 10X Futties T3 Players Pack (Untradeable)",
+      "Parent_Text": "NEW Season 10 Double Trouble Complete all challenges in the Season 10 Double Trouble Event. All rewards are untradeable. 10X Futties T3 Players Pack (Untradeable) Expires in 1 month 7 Objectives 93% 7%",
+      "Campaign_Expires": "Expires in 1 month",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/1153-pre-season-completionist/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "NEW Pre-Season Completionist Complete Pre-Season Objective Groups to earn Player Picks and FUTTIES Icon Del Piero. All rewards are untradeable. Additionally earn a 1 of 3 83+ Player Pick (tradeable) and 20.000 Coins for FC 27 by October 16th. Alessandro Del Piero",
+      "Parent_Text": "NEW Pre-Season Completionist Complete Pre-Season Objective Groups to earn Player Picks and FUTTIES Icon Del Piero. All rewards are untradeable. Additionally earn a 1 of 3 83+ Player Pick (tradeable) and 20.000 Coins for FC 27 by October 16th. Alessandro Del Piero Expires in 1 month 4 Objectives 90% 10%",
+      "Campaign_Expires": "Expires in 1 month",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
       "URL": "https://www.fut.gg/objectives/live-events/1140-futties-gauntlet-2-bonus/",
       "Objective_Type": "Live Events",
-      "Link_Text": "NEW FUTTIES Gauntlet 2 Bonus Compete in the FUTTIES Gauntlet 2 and earn exclusive rewards! All rewards are untradeable. 100 FUTTIES Tokens",
-      "Parent_Text": "NEW FUTTIES Gauntlet 2 Bonus Compete in the FUTTIES Gauntlet 2 and earn exclusive rewards! All rewards are untradeable. 100 FUTTIES Tokens Expires in 5 days 5 Objectives 24% 76%",
-      "Campaign_Expires": "Expires in 5 days",
+      "Link_Text": "FUTTIES Gauntlet 2 Bonus Compete in the FUTTIES Gauntlet 2 and earn exclusive rewards! All rewards are untradeable. 100 FUTTIES Tokens",
+      "Parent_Text": "FUTTIES Gauntlet 2 Bonus Compete in the FUTTIES Gauntlet 2 and earn exclusive rewards! All rewards are untradeable. 100 FUTTIES Tokens Expires in 4 days 5 Objectives 23% 77%",
+      "Campaign_Expires": "Expires in 4 days",
       "Campaign_Deadline_KST": "8/18 02:00",
       "Campaign_Deadline_ISO": "2026-08-18T02:00+09:00"
     },
     {
       "URL": "https://www.fut.gg/objectives/live-events/1147-futties-gauntlet-2/",
       "Objective_Type": "Live Events",
-      "Link_Text": "NEW FUTTIES Gauntlet 2 Complete 8 of 10 challenges in the FUTTIES Gauntlet 2 and earn big rewards! All rewards are untradeable. Wisdom Mike Evo Unlock",
-      "Parent_Text": "NEW FUTTIES Gauntlet 2 Complete 8 of 10 challenges in the FUTTIES Gauntlet 2 and earn big rewards! All rewards are untradeable. Wisdom Mike Evo Unlock Expires in 5 days 8 of 10 Objectives 68% 32%",
-      "Campaign_Expires": "Expires in 5 days",
+      "Link_Text": "FUTTIES Gauntlet 2 Complete 8 of 10 challenges in the FUTTIES Gauntlet 2 and earn big rewards! All rewards are untradeable. Wisdom Mike Evo Unlock",
+      "Parent_Text": "FUTTIES Gauntlet 2 Complete 8 of 10 challenges in the FUTTIES Gauntlet 2 and earn big rewards! All rewards are untradeable. Wisdom Mike Evo Unlock Expires in 4 days 8 of 10 Objectives 68% 32%",
+      "Campaign_Expires": "Expires in 4 days",
       "Campaign_Deadline_KST": "8/18 02:00",
       "Campaign_Deadline_ISO": "2026-08-18T02:00+09:00"
     },
@@ -3997,8 +3361,8 @@
       "URL": "https://www.fut.gg/objectives/fc-pro/1113-top-500-esports-nations-cup/",
       "Objective_Type": "FC Pro",
       "Link_Text": "Top 500: Esports Nations Cup Compete and reach the top levels of your region's leaderboard in the Esports Nations Cup to earn a limited Crest and Kit. All rewards are untradeable. Fc Pro World Championship Trophy",
-      "Parent_Text": "Top 500: Esports Nations Cup Compete and reach the top levels of your region's leaderboard in the Esports Nations Cup to earn a limited Crest and Kit. All rewards are untradeable. Fc Pro World Championship Trophy Expires in 4 days 1 of 10 Objectives 10% 90%",
-      "Campaign_Expires": "Expires in 4 days",
+      "Parent_Text": "Top 500: Esports Nations Cup Compete and reach the top levels of your region's leaderboard in the Esports Nations Cup to earn a limited Crest and Kit. All rewards are untradeable. Fc Pro World Championship Trophy Expires in 3 days 1 of 10 Objectives 10% 90%",
+      "Campaign_Expires": "Expires in 3 days",
       "Campaign_Deadline_KST": "8/17 02:00",
       "Campaign_Deadline_ISO": "2026-08-17T02:00+09:00"
     },
@@ -4006,35 +3370,26 @@
       "URL": "https://www.fut.gg/objectives/campaigns/1137-assist-king/",
       "Objective_Type": "Campaign",
       "Link_Text": "Assist King Complete 3 of 4 challenges to earn Coins and an EVO Consumable! All rewards are untradeable. Evo Unlock",
-      "Parent_Text": "Assist King Complete 3 of 4 challenges to earn Coins and an EVO Consumable! All rewards are untradeable. Evo Unlock Expires in 9 days 3 of 4 Objectives 92% 8%",
-      "Campaign_Expires": "Expires in 9 days",
+      "Parent_Text": "Assist King Complete 3 of 4 challenges to earn Coins and an EVO Consumable! All rewards are untradeable. Evo Unlock Expires in 8 days 3 of 4 Objectives 92% 8%",
+      "Campaign_Expires": "Expires in 8 days",
       "Campaign_Deadline_KST": "8/22 02:00",
       "Campaign_Deadline_ISO": "2026-08-22T02:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/campaigns/1146-futties-sp-and-packs/",
-      "Objective_Type": "Campaign",
-      "Link_Text": "FUTTIES SP and Packs Complete all challenges to earn SP and Packs. All rewards are untradeable. 3X 86+ Rare Gold Players Pack 2,000 SP",
-      "Parent_Text": "FUTTIES SP and Packs Complete all challenges to earn SP and Packs. All rewards are untradeable. 3X 86+ Rare Gold Players Pack 2,000 SP Expires in 13 hours 3,000 total 2 Objectives 75% 25%",
-      "Campaign_Expires": "Expires in 13 hours",
-      "Campaign_Deadline_KST": "8/13 15:00",
-      "Campaign_Deadline_ISO": "2026-08-13T15:00+09:00"
     },
     {
       "URL": "https://www.fut.gg/objectives/live-events/1144-only-bangers-tournament/",
       "Objective_Type": "Live Events",
       "Link_Text": "Only Bangers Tournament Complete 5 of 6 challenges in the Only Bangers Tournament to earn exclusive rewards! All rewards are untradeable. FUTTIES 5th Low Driven Shot+ Richard Ríos 150 FUTTIES Tokens",
-      "Parent_Text": "Only Bangers Tournament Complete 5 of 6 challenges in the Only Bangers Tournament to earn exclusive rewards! All rewards are untradeable. FUTTIES 5th Low Driven Shot+ Richard Ríos 150 FUTTIES Tokens Expires in 2 days 5 of 6 Objectives 90% 10%",
-      "Campaign_Expires": "Expires in 2 days",
-      "Campaign_Deadline_KST": "8/15 02:00",
-      "Campaign_Deadline_ISO": "2026-08-15T02:00+09:00"
+      "Parent_Text": "Only Bangers Tournament Complete 5 of 6 challenges in the Only Bangers Tournament to earn exclusive rewards! All rewards are untradeable. FUTTIES 5th Low Driven Shot+ Richard Ríos 150 FUTTIES Tokens Expires in 23 hours 5 of 6 Objectives 90% 10%",
+      "Campaign_Expires": "Expires in 23 hours",
+      "Campaign_Deadline_KST": "8/15 01:00",
+      "Campaign_Deadline_ISO": "2026-08-15T01:00+09:00"
     },
     {
       "URL": "https://www.fut.gg/objectives/campaigns/1129-the-missing-piece/",
       "Objective_Type": "Campaign",
       "Link_Text": "The Missing Piece Complete challenges to earn Evolution Consumable items, each granting a 5th PlayStyle+ to any eligible FUTTIES, FUTTIES Icon or FUTTIES Hero Player Item! All rewards are untradeable. FUTTIES 5th Finesse Shot+ FUTTIES 5th Intercept+",
-      "Parent_Text": "The Missing Piece Complete challenges to earn Evolution Consumable items, each granting a 5th PlayStyle+ to any eligible FUTTIES, FUTTIES Icon or FUTTIES Hero Player Item! All rewards are untradeable. FUTTIES 5th Finesse Shot+ FUTTIES 5th Intercept+ Expires in 9 days 4 Objectives 93% 7%",
-      "Campaign_Expires": "Expires in 9 days",
+      "Parent_Text": "The Missing Piece Complete challenges to earn Evolution Consumable items, each granting a 5th PlayStyle+ to any eligible FUTTIES, FUTTIES Icon or FUTTIES Hero Player Item! All rewards are untradeable. FUTTIES 5th Finesse Shot+ FUTTIES 5th Intercept+ Expires in 8 days 4 Objectives 93% 7%",
+      "Campaign_Expires": "Expires in 8 days",
       "Campaign_Deadline_KST": "8/22 02:00",
       "Campaign_Deadline_ISO": "2026-08-22T02:00+09:00"
     },
@@ -4042,80 +3397,26 @@
       "URL": "https://www.fut.gg/objectives/campaigns/1139-futties-token-collector-3/",
       "Objective_Type": "Campaign",
       "Link_Text": "FUTTIES Token Collector #3 Complete all challenges to earn FUTTIES Tokens and packs! All rewards untradeable. 40 FUTTIES Tokens",
-      "Parent_Text": "FUTTIES Token Collector #3 Complete all challenges to earn FUTTIES Tokens and packs! All rewards untradeable. 40 FUTTIES Tokens Expires in 2 days 4 Objectives 91% 9%",
-      "Campaign_Expires": "Expires in 2 days",
-      "Campaign_Deadline_KST": "8/15 02:00",
-      "Campaign_Deadline_ISO": "2026-08-15T02:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/1079-futties-eli-junior-kroupi/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "FUTTIES Éli Junior Kroupi Complete these challenges to earn FUTTIES Éli Junior Kroupi, FUTTIES Tokens and SP! All rewards are untradeable. Eli Junior Kroupi 5X 88+ Rare Gold Players Pack 1,500 SP 100 FUTTIES Tokens",
-      "Parent_Text": "FUTTIES Éli Junior Kroupi Complete these challenges to earn FUTTIES Éli Junior Kroupi, FUTTIES Tokens and SP! All rewards are untradeable. Eli Junior Kroupi 5X 88+ Rare Gold Players Pack 1,500 SP 100 FUTTIES Tokens Expires in 13 hours 2,500 total 5 Objectives 91% 9%",
-      "Campaign_Expires": "Expires in 13 hours",
-      "Campaign_Deadline_KST": "8/13 15:00",
-      "Campaign_Deadline_ISO": "2026-08-13T15:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/campaigns/1048-weekly-rush-points/",
-      "Objective_Type": "Campaign",
-      "Link_Text": "Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points! 1 Of 5 88+ Rare Gold Players 100 FUTTIES Tokens",
-      "Parent_Text": "Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points! 1 Of 5 88+ Rare Gold Players 100 FUTTIES Tokens Expires in 23 hours 5 Objectives 17% 83%",
+      "Parent_Text": "FUTTIES Token Collector #3 Complete all challenges to earn FUTTIES Tokens and packs! All rewards untradeable. 40 FUTTIES Tokens Expires in 23 hours 4 Objectives 91% 9%",
       "Campaign_Expires": "Expires in 23 hours",
-      "Campaign_Deadline_KST": "8/14 01:00",
-      "Campaign_Deadline_ISO": "2026-08-14T01:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/1055-weekly-objectives/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "Weekly Objectives Complete weekly Objectives to earn SP! 750 SP",
-      "Parent_Text": "Weekly Objectives Complete weekly Objectives to earn SP! 750 SP Expires in 13 hours 3,000 total 5 Objectives 20% 80%",
-      "Campaign_Expires": "Expires in 13 hours",
-      "Campaign_Deadline_KST": "8/13 15:00",
-      "Campaign_Deadline_ISO": "2026-08-13T15:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/1059-daily-objectives/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "Daily Objectives Play, complete, and earn SP from the daily Objective every 24 hours! 100 SP",
-      "Parent_Text": "Daily Objectives Play, complete, and earn SP from the daily Objective every 24 hours! 100 SP Expires in 13 hours 300 total 2 Objectives 20% 80%",
-      "Campaign_Expires": "Expires in 13 hours",
-      "Campaign_Deadline_KST": "8/13 15:00",
-      "Campaign_Deadline_ISO": "2026-08-13T15:00+09:00"
+      "Campaign_Deadline_KST": "8/15 01:00",
+      "Campaign_Deadline_ISO": "2026-08-15T01:00+09:00"
     },
     {
       "URL": "https://www.fut.gg/objectives/campaigns/1123-futties-evo-chain-bonus/",
       "Objective_Type": "Campaign",
       "Link_Text": "FUTTIES Evo Chain Bonus Complete challenges with FUTTIES Evolution players to earn pack rewards! All rewards are untradeable. 5X 90+ Rare Gold Players Pack",
-      "Parent_Text": "FUTTIES Evo Chain Bonus Complete challenges with FUTTIES Evolution players to earn pack rewards! All rewards are untradeable. 5X 90+ Rare Gold Players Pack Expires in 13 days 3 Objectives 87% 13%",
-      "Campaign_Expires": "Expires in 13 days",
+      "Parent_Text": "FUTTIES Evo Chain Bonus Complete challenges with FUTTIES Evolution players to earn pack rewards! All rewards are untradeable. 5X 90+ Rare Gold Players Pack Expires in 12 days 3 Objectives 87% 13%",
+      "Campaign_Expires": "Expires in 12 days",
       "Campaign_Deadline_KST": "8/26 02:00",
       "Campaign_Deadline_ISO": "2026-08-26T02:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/1078-futties-can-uzun/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "FUTTIES Can Uzun Complete these challenges to earn FUTTIES Can Uzun, FUTTIES Tokens and SP! All rewards are untradeable. Can Uzun 5X 88+ Rare Gold Players Pack 1,500 SP 100 FUTTIES Tokens",
-      "Parent_Text": "FUTTIES Can Uzun Complete these challenges to earn FUTTIES Can Uzun, FUTTIES Tokens and SP! All rewards are untradeable. Can Uzun 5X 88+ Rare Gold Players Pack 1,500 SP 100 FUTTIES Tokens Expires in 13 hours 2,500 total 5 Objectives 89% 11%",
-      "Campaign_Expires": "Expires in 13 hours",
-      "Campaign_Deadline_KST": "8/13 15:00",
-      "Campaign_Deadline_ISO": "2026-08-13T15:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/1041-spain-portugal-30-sp-chase/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "Spain & Portugal '30 SP Chase Complete challenges across Ultimate Team to earn SP! 3,250 SP",
-      "Parent_Text": "Spain & Portugal '30 SP Chase Complete challenges across Ultimate Team to earn SP! 3,250 SP Expires in 13 hours 7,000 total 5 Objectives 80% 20%",
-      "Campaign_Expires": "Expires in 13 hours",
-      "Campaign_Deadline_KST": "8/13 15:00",
-      "Campaign_Deadline_ISO": "2026-08-13T15:00+09:00"
     },
     {
       "URL": "https://www.fut.gg/objectives/milestones/1105-goal-den-touch/",
       "Objective_Type": "Milestone",
       "Link_Text": "Goal-den Touch Complete 3/4 challenges to earn Coins and an EVO Consumable! All rewards are untradeable. Evo Unlock",
-      "Parent_Text": "Goal-den Touch Complete 3/4 challenges to earn Coins and an EVO Consumable! All rewards are untradeable. Evo Unlock Expires in 9 days 3 of 4 Objectives 85% 15%",
-      "Campaign_Expires": "Expires in 9 days",
+      "Parent_Text": "Goal-den Touch Complete 3/4 challenges to earn Coins and an EVO Consumable! All rewards are untradeable. Evo Unlock Expires in 8 days 3 of 4 Objectives 85% 15%",
+      "Campaign_Expires": "Expires in 8 days",
       "Campaign_Deadline_KST": "8/22 02:00",
       "Campaign_Deadline_ISO": "2026-08-22T02:00+09:00"
     },
@@ -4123,8 +3424,8 @@
       "URL": "https://www.fut.gg/objectives/campaigns/1111-time-to-celebrate/",
       "Objective_Type": "Campaign",
       "Link_Text": "Time to Celebrate Complete challenges to win Player Celebrations and Pack rewards! All rewards are untradeable. 5X 90+ Rare Gold Players Pack",
-      "Parent_Text": "Time to Celebrate Complete challenges to win Player Celebrations and Pack rewards! All rewards are untradeable. 5X 90+ Rare Gold Players Pack Expires in 9 days 4 Objectives 94% 6%",
-      "Campaign_Expires": "Expires in 9 days",
+      "Parent_Text": "Time to Celebrate Complete challenges to win Player Celebrations and Pack rewards! All rewards are untradeable. 5X 90+ Rare Gold Players Pack Expires in 8 days 4 Objectives 94% 6%",
+      "Campaign_Expires": "Expires in 8 days",
       "Campaign_Deadline_KST": "8/22 02:00",
       "Campaign_Deadline_ISO": "2026-08-22T02:00+09:00"
     },
@@ -4132,55 +3433,10 @@
       "URL": "https://www.fut.gg/objectives/campaigns/1116-futties-favourite-reus/",
       "Objective_Type": "Campaign",
       "Link_Text": "FUTTIES Favourite: Reus Complete these challenges to earn a special FUTTIES Reus Player Item and packs. All rewards are untradeable. Marco Reus",
-      "Parent_Text": "FUTTIES Favourite: Reus Complete these challenges to earn a special FUTTIES Reus Player Item and packs. All rewards are untradeable. Marco Reus Expires in 9 days 4 Objectives 93% 7%",
-      "Campaign_Expires": "Expires in 9 days",
+      "Parent_Text": "FUTTIES Favourite: Reus Complete these challenges to earn a special FUTTIES Reus Player Item and packs. All rewards are untradeable. Marco Reus Expires in 8 days 4 Objectives 93% 7%",
+      "Campaign_Expires": "Expires in 8 days",
       "Campaign_Deadline_KST": "8/22 02:00",
       "Campaign_Deadline_ISO": "2026-08-22T02:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/1121-seasonal-objective/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "Seasonal Objective Complete Seasonal Objectives to earn SP! 2,250 SP",
-      "Parent_Text": "Seasonal Objective Complete Seasonal Objectives to earn SP! 2,250 SP Expires in 13 hours 4,000 total 5 Objectives 97% 3%",
-      "Campaign_Expires": "Expires in 13 hours",
-      "Campaign_Deadline_KST": "8/13 15:00",
-      "Campaign_Deadline_ISO": "2026-08-13T15:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/1077-futties-lennart-karl/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "FUTTIES Lennart Karl Complete these challenges to earn FUTTIES Lennart Karl, FUTTIES Tokens and SP! All rewards are untradeable. Lennart Karl 5X 88+ Rare Gold Players Pack 1,500 SP 100 FUTTIES Tokens",
-      "Parent_Text": "FUTTIES Lennart Karl Complete these challenges to earn FUTTIES Lennart Karl, FUTTIES Tokens and SP! All rewards are untradeable. Lennart Karl 5X 88+ Rare Gold Players Pack 1,500 SP 100 FUTTIES Tokens Expires in 13 hours 2,500 total 5 Objectives 97% 3%",
-      "Campaign_Expires": "Expires in 13 hours",
-      "Campaign_Deadline_KST": "8/13 15:00",
-      "Campaign_Deadline_ISO": "2026-08-13T15:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/1097-game-in-colour-stage-1-kit/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "Game in Colour - Stage 1 Kit Equip the Game in Colour - Stage 1 Kit and complete the objectives to earn additional SP and pack rewards. All rewards are untradeable. Game In Color - Kit 2 500 SP",
-      "Parent_Text": "Game in Colour - Stage 1 Kit Equip the Game in Colour - Stage 1 Kit and complete the objectives to earn additional SP and pack rewards. All rewards are untradeable. Game In Color - Kit 2 500 SP Expires in 13 hours 500 total 3 Objectives 76% 24%",
-      "Campaign_Expires": "Expires in 13 hours",
-      "Campaign_Deadline_KST": "8/13 15:00",
-      "Campaign_Deadline_ISO": "2026-08-13T15:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/1098-game-in-colour-stage-2-kit/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "Game in Colour - Stage 2 Kit Equip the Game in Colour - Stage 2 Kit and complete the objectives to earn additional SP and pack rewards. All rewards are untradeable. Game In Color - Kit 3 500 SP",
-      "Parent_Text": "Game in Colour - Stage 2 Kit Equip the Game in Colour - Stage 2 Kit and complete the objectives to earn additional SP and pack rewards. All rewards are untradeable. Game In Color - Kit 3 500 SP Expires in 13 hours 500 total 3 Objectives 67% 33%",
-      "Campaign_Expires": "Expires in 13 hours",
-      "Campaign_Deadline_KST": "8/13 15:00",
-      "Campaign_Deadline_ISO": "2026-08-13T15:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/1099-game-in-colour-stage-3-kit/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "Game in Colour - Stage 3 Kit Equip the Game in Colour - Stage 3 Kit and complete the objectives to earn additional SP and pack rewards. All rewards are untradeable. 3X 89+ Rare Gold Players Pack 1,000 SP",
-      "Parent_Text": "Game in Colour - Stage 3 Kit Equip the Game in Colour - Stage 3 Kit and complete the objectives to earn additional SP and pack rewards. All rewards are untradeable. 3X 89+ Rare Gold Players Pack 1,000 SP Expires in 13 hours 1,000 total 3 Objectives 75% 25%",
-      "Campaign_Expires": "Expires in 13 hours",
-      "Campaign_Deadline_KST": "8/13 15:00",
-      "Campaign_Deadline_ISO": "2026-08-13T15:00+09:00"
     },
     {
       "URL": "https://www.fut.gg/objectives/fc-pro/1101-esports-world-cup-collection/",
@@ -4190,51 +3446,6 @@
       "Campaign_Expires": "Expires in 1 month",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/1076-national-pride-estevao/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "National Pride Estêvão Complete these challenges to earn National Pride Estêvão, FUTTIES Tokens and SP! All rewards are untradeable. Estêvão 5X 88+ Rare Gold Players Pack 500 SP 100 FUTTIES Tokens",
-      "Parent_Text": "National Pride Estêvão Complete these challenges to earn National Pride Estêvão, FUTTIES Tokens and SP! All rewards are untradeable. Estêvão 5X 88+ Rare Gold Players Pack 500 SP 100 FUTTIES Tokens Expires in 13 hours 500 total 5 Objectives 95% 5%",
-      "Campaign_Expires": "Expires in 13 hours",
-      "Campaign_Deadline_KST": "8/13 15:00",
-      "Campaign_Deadline_ISO": "2026-08-13T15:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/1072-season-9-daily-knockout-tournament/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "Season 9 Daily Knockout Tournament Complete 6 of the below challenges in the Season 9 Daily Knockout Tournament. Zubimendi 5X 90+ Rare Gold Players Pack",
-      "Parent_Text": "Season 9 Daily Knockout Tournament Complete 6 of the below challenges in the Season 9 Daily Knockout Tournament. Zubimendi 5X 90+ Rare Gold Players Pack Expires in 13 hours 6 of 8 Objectives 93% 7%",
-      "Campaign_Expires": "Expires in 13 hours",
-      "Campaign_Deadline_KST": "8/13 15:00",
-      "Campaign_Deadline_ISO": "2026-08-13T15:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/1083-season-9-daily-knockout-tournament-bonus/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "Season 9 Daily Knockout Tournament Bonus Earn additional rewards for completing the Season 9 Daily Knockout Tournament multiple times! All rewards are untradeable. 3X 88+ Rare Gold Players Pack",
-      "Parent_Text": "Season 9 Daily Knockout Tournament Bonus Earn additional rewards for completing the Season 9 Daily Knockout Tournament multiple times! All rewards are untradeable. 3X 88+ Rare Gold Players Pack Expires in 13 hours 19 Objectives 82% 18%",
-      "Campaign_Expires": "Expires in 13 hours",
-      "Campaign_Deadline_KST": "8/13 15:00",
-      "Campaign_Deadline_ISO": "2026-08-13T15:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/1075-national-pride-ngumoha/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "National Pride Ngumoha Complete these challenges to earn National Pride Rio Ngumoha and SP! All rewards are untradeable. Rio Ngumoha 5X 88+ Rare Gold Players Pack 500 SP",
-      "Parent_Text": "National Pride Ngumoha Complete these challenges to earn National Pride Rio Ngumoha and SP! All rewards are untradeable. Rio Ngumoha 5X 88+ Rare Gold Players Pack 500 SP Expires in 13 hours 500 total 5 Objectives 97% 3%",
-      "Campaign_Expires": "Expires in 13 hours",
-      "Campaign_Deadline_KST": "8/13 15:00",
-      "Campaign_Deadline_ISO": "2026-08-13T15:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/1080-future-world-tour-completionist/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "Future World Tour Completionist Complete any 4 of 5 objectives to earn FUTTIES Icon Frank Lampard! All rewards are untradeable. Frank Lampard 20X 87+ Rare Gold Players Pack 500 SP",
-      "Parent_Text": "Future World Tour Completionist Complete any 4 of 5 objectives to earn FUTTIES Icon Frank Lampard! All rewards are untradeable. Frank Lampard 20X 87+ Rare Gold Players Pack 500 SP Expires in 13 hours 500 total 4 of 5 Objectives 88% 12%",
-      "Campaign_Expires": "Expires in 13 hours",
-      "Campaign_Deadline_KST": "8/13 15:00",
-      "Campaign_Deadline_ISO": "2026-08-13T15:00+09:00"
     },
     {
       "URL": "https://www.fut.gg/objectives/milestones/1061-chase-the-glory-2/",
@@ -4528,7 +3739,7 @@
       "URL": "https://www.fut.gg/objectives/milestones/4-draft-mastery/",
       "Objective_Type": "Milestone",
       "Link_Text": "Draft Mastery Draft your path to greatness! Stadium Trophy",
-      "Parent_Text": "Draft Mastery Draft your path to greatness! Stadium Trophy 4 Objectives 83% 17%",
+      "Parent_Text": "Draft Mastery Draft your path to greatness! Stadium Trophy 4 Objectives 84% 16%",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -4546,7 +3757,7 @@
       "URL": "https://www.fut.gg/objectives/milestones/2-rivals-mastery/",
       "Objective_Type": "Milestone",
       "Link_Text": "Rivals Mastery Beat your Rivals to prove you are the G.O.A.T! Stadium Trophy",
-      "Parent_Text": "Rivals Mastery Beat your Rivals to prove you are the G.O.A.T! Stadium Trophy 5 Objectives 80% 20%",
+      "Parent_Text": "Rivals Mastery Beat your Rivals to prove you are the G.O.A.T! Stadium Trophy 5 Objectives 81% 19%",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -4555,13 +3766,17 @@
       "URL": "https://www.fut.gg/objectives/milestones/1-squad-battles-mastery/",
       "Objective_Type": "Milestone",
       "Link_Text": "Squad Battles Mastery Keep battling over the year to prove you are a Squad Battles Master! Stadium Trophy",
-      "Parent_Text": "Squad Battles Mastery Keep battling over the year to prove you are a Squad Battles Master! Stadium Trophy 5 Objectives 88% 13%",
+      "Parent_Text": "Squad Battles Mastery Keep battling over the year to prove you are a Squad Battles Master! Stadium Trophy 5 Objectives 88% 12%",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
     }
   ],
   "errors": [
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/1153-pre-season-completionist/",
+      "Error": "No objective text extracted"
+    },
     {
       "URL": "https://www.fut.gg/objectives/milestones/6-transfer-market-mastery/",
       "Error": "No objective text extracted"
