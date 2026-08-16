@@ -1,20 +1,53 @@
 {
   "manifest": {
-    "Generated_At_KST": "2026-08-16 02:19:46",
-    "Deadline_Base_KST": "2026-08-16 02:00:00",
+    "Generated_At_KST": "2026-08-17 02:18:34",
+    "Deadline_Base_KST": "2026-08-17 02:00:00",
     "Mission_Group_Count": 59,
-    "Objective_Row_Count": 263,
-    "New_Objective_Count": 115,
+    "Objective_Row_Count": 255,
+    "New_Objective_Count": 107,
     "Error_Count": 2,
     "Purpose": "RAW collection only. Do not trust this file as parsed mission guide; upload it to ChatGPT/manual review for route optimization."
   },
   "missions": [
     {
       "group_id": "G001",
+      "mission_group_name": "FUTTIES #12 - EA SPORTS FC 26 Objectives",
+      "objective_type": "Campaign",
+      "url": "https://www.fut.gg/objectives/campaigns/1156-futties-12/",
+      "campaign_expires": "Expires in 5 days",
+      "campaign_deadline_kst": "8/22 02:00",
+      "campaign_deadline_iso": "2026-08-22T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 2,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "12 Goals",
+          "text_raw": "Score 12 goals in Squad Battles with min. 11 FUTTIES items in your starting XI on min. Semi-Pro difficulty (or Rivals/Champions/Live Events).",
+          "reward_raw": "40,000 Coins / Evo Unlock / 10,000 Coins",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/1156-futties-12/||score 12 goals in squad battles with min. 11 futties items in your starting xi on min. semi-pro difficulty (or rivals/champions/live events).||12 goals"
+        },
+        {
+          "order": 2,
+          "name_raw": "12 Assists",
+          "text_raw": "Assist 12 times in Squad Battles with min. 11 FUTTIES items in your starting XI on min. Semi-Pro difficulty (or Rivals/Champions/Live Events).",
+          "reward_raw": "10,000 Coins / List 12 player items onto the Transfer Market.",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/1156-futties-12/||assist 12 times in squad battles with min. 11 futties items in your starting xi on min. semi-pro difficulty (or rivals/champions/live events).||12 assists"
+        }
+      ]
+    },
+    {
+      "group_id": "G002",
       "mission_group_name": "FUTTIES Fun Run - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1159-futties-fun-run/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "8/22 02:00",
       "campaign_deadline_iso": "2026-08-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -53,11 +86,11 @@
       ]
     },
     {
-      "group_id": "G002",
+      "group_id": "G003",
       "mission_group_name": "FUTTIES Daily Knockout Tournament - EA SPORTS FC 26 Objectives",
       "objective_type": "Live Events",
       "url": "https://www.fut.gg/objectives/live-events/1158-futties-daily-knockout-tournament/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "8/22 02:00",
       "campaign_deadline_iso": "2026-08-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -116,11 +149,11 @@
       ]
     },
     {
-      "group_id": "G003",
+      "group_id": "G004",
       "mission_group_name": "FUTTIES Daily Knockout Tournament Bonus Completionist - EA SPORTS FC 26 Objectives",
       "objective_type": "Live Events",
       "url": "https://www.fut.gg/objectives/live-events/1161-futties-daily-knockout-tournament-bonus-completionist/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "8/22 02:00",
       "campaign_deadline_iso": "2026-08-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -159,11 +192,11 @@
       ]
     },
     {
-      "group_id": "G004",
+      "group_id": "G005",
       "mission_group_name": "FUTTIES EVO Fun! - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1160-futties-evo-fun/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "8/22 02:00",
       "campaign_deadline_iso": "2026-08-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -212,11 +245,11 @@
       ]
     },
     {
-      "group_id": "G005",
+      "group_id": "G006",
       "mission_group_name": "FUTTIES Token Collector #4 - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1166-futties-token-collector-4/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "8/22 02:00",
       "campaign_deadline_iso": "2026-08-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -265,11 +298,11 @@
       ]
     },
     {
-      "group_id": "G006",
+      "group_id": "G007",
       "mission_group_name": "Weekly Rush Points - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1049-weekly-rush-points/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "8/21 02:00",
       "campaign_deadline_iso": "2026-08-21T02:00+09:00",
       "is_new_group": "Yes",
@@ -338,7 +371,7 @@
       ]
     },
     {
-      "group_id": "G007",
+      "group_id": "G008",
       "mission_group_name": "Season 10 Double Trouble Weekly Play - EA SPORTS FC 26 Objectives",
       "objective_type": "Live Events",
       "url": "https://www.fut.gg/objectives/live-events/1155-season-10-exhibition/",
@@ -361,7 +394,7 @@
       ]
     },
     {
-      "group_id": "G008",
+      "group_id": "G009",
       "mission_group_name": "Season 10 Double Trouble Weekly Play Completionist - EA SPORTS FC 26 Objectives",
       "objective_type": "Live Events",
       "url": "https://www.fut.gg/objectives/live-events/1157-season-10-exhibition-weekly-play-completionist/",
@@ -434,7 +467,7 @@
       ]
     },
     {
-      "group_id": "G009",
+      "group_id": "G010",
       "mission_group_name": "Pre-Season Wilson - EA SPORTS FC 26 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/1149-pre-season-wilson/",
@@ -487,11 +520,11 @@
       ]
     },
     {
-      "group_id": "G010",
+      "group_id": "G011",
       "mission_group_name": "Daily Objectives - EA SPORTS FC 26 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/1125-daily-objectives/",
-      "campaign_expires": "Expires in 12 days",
+      "campaign_expires": "Expires in 11 days",
       "campaign_deadline_kst": "8/28 02:00",
       "campaign_deadline_iso": "2026-08-28T02:00+09:00",
       "is_new_group": "Yes",
@@ -520,11 +553,11 @@
       ]
     },
     {
-      "group_id": "G011",
+      "group_id": "G012",
       "mission_group_name": "Weekly Objectives - EA SPORTS FC 26 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/1130-weekly-objectives/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "8/21 02:00",
       "campaign_deadline_iso": "2026-08-21T02:00+09:00",
       "is_new_group": "Yes",
@@ -563,7 +596,7 @@
       ]
     },
     {
-      "group_id": "G012",
+      "group_id": "G013",
       "mission_group_name": "Season 10 Double Trouble - EA SPORTS FC 26 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/1148-season-10-double-trouble/",
@@ -646,7 +679,7 @@
       ]
     },
     {
-      "group_id": "G013",
+      "group_id": "G014",
       "mission_group_name": "Pre-Season Completionist - EA SPORTS FC 26 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/1153-pre-season-completionist/",
@@ -658,11 +691,11 @@
       "objectives": []
     },
     {
-      "group_id": "G014",
+      "group_id": "G015",
       "mission_group_name": "FUTTIES Gauntlet 2 Bonus - EA SPORTS FC 26 Objectives",
       "objective_type": "Live Events",
       "url": "https://www.fut.gg/objectives/live-events/1140-futties-gauntlet-2-bonus/",
-      "campaign_expires": "Expires in 2 days",
+      "campaign_expires": "Expires in 24 hours",
       "campaign_deadline_kst": "8/18 02:00",
       "campaign_deadline_iso": "2026-08-18T02:00+09:00",
       "is_new_group": "Yes",
@@ -711,11 +744,11 @@
       ]
     },
     {
-      "group_id": "G015",
+      "group_id": "G016",
       "mission_group_name": "FUTTIES Gauntlet 2 - EA SPORTS FC 26 Objectives",
       "objective_type": "Live Events",
       "url": "https://www.fut.gg/objectives/live-events/1147-futties-gauntlet-2/",
-      "campaign_expires": "Expires in 2 days",
+      "campaign_expires": "Expires in 24 hours",
       "campaign_deadline_kst": "8/18 02:00",
       "campaign_deadline_iso": "2026-08-18T02:00+09:00",
       "is_new_group": "Yes",
@@ -804,124 +837,11 @@
       ]
     },
     {
-      "group_id": "G016",
-      "mission_group_name": "Top 500: Esports Nations Cup - EA SPORTS FC 26 Objectives",
-      "objective_type": "FC Pro",
-      "url": "https://www.fut.gg/objectives/fc-pro/1113-top-500-esports-nations-cup/",
-      "campaign_expires": "Expires in 24 hours",
-      "campaign_deadline_kst": "8/17 02:00",
-      "campaign_deadline_iso": "2026-08-17T02:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 10,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Finish top 500 in the Oceania region in the Esports Nations",
-          "text_raw": "Finish top 500 in the Oceania region in the Esports Nations Cup.",
-          "reward_raw": "Badge",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/fc-pro/1113-top-500-esports-nations-cup/||finish top 500 in the oceania region in the esports nations cup.||finish top 500 in the oceania region in the esports nations"
-        },
-        {
-          "order": 2,
-          "name_raw": "Finish top 500 in the North America region in the Esports Na",
-          "text_raw": "Finish top 500 in the North America region in the Esports Nations Cup.",
-          "reward_raw": "Badge",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/fc-pro/1113-top-500-esports-nations-cup/||finish top 500 in the north america region in the esports nations cup.||finish top 500 in the north america region in the esports na"
-        },
-        {
-          "order": 3,
-          "name_raw": "Finish top 500 in the Middle East region in the Esports Nati",
-          "text_raw": "Finish top 500 in the Middle East region in the Esports Nations Cup.",
-          "reward_raw": "Badge",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/fc-pro/1113-top-500-esports-nations-cup/||finish top 500 in the middle east region in the esports nations cup.||finish top 500 in the middle east region in the esports nati"
-        },
-        {
-          "order": 4,
-          "name_raw": "Finish top 500 in the LATAM South region in the Esports Nati",
-          "text_raw": "Finish top 500 in the LATAM South region in the Esports Nations Cup.",
-          "reward_raw": "Badge",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/fc-pro/1113-top-500-esports-nations-cup/||finish top 500 in the latam south region in the esports nations cup.||finish top 500 in the latam south region in the esports nati"
-        },
-        {
-          "order": 5,
-          "name_raw": "Finish top 500 in the LATAM North region in the Esports Nati",
-          "text_raw": "Finish top 500 in the LATAM North region in the Esports Nations Cup.",
-          "reward_raw": "Badge",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/fc-pro/1113-top-500-esports-nations-cup/||finish top 500 in the latam north region in the esports nations cup.||finish top 500 in the latam north region in the esports nati"
-        },
-        {
-          "order": 6,
-          "name_raw": "Finish top 500 in the Europe East region in the Esports Nati",
-          "text_raw": "Finish top 500 in the Europe East region in the Esports Nations Cup.",
-          "reward_raw": "Badge",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/fc-pro/1113-top-500-esports-nations-cup/||finish top 500 in the europe east region in the esports nations cup.||finish top 500 in the europe east region in the esports nati"
-        },
-        {
-          "order": 7,
-          "name_raw": "Finish top 500 in the Europe West region in the Esports Nati",
-          "text_raw": "Finish top 500 in the Europe West region in the Esports Nations Cup.",
-          "reward_raw": "Badge",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/fc-pro/1113-top-500-esports-nations-cup/||finish top 500 in the europe west region in the esports nations cup.||finish top 500 in the europe west region in the esports nati"
-        },
-        {
-          "order": 8,
-          "name_raw": "Finish top 500 in the Asia South region in the Esports Natio",
-          "text_raw": "Finish top 500 in the Asia South region in the Esports Nations Cup.",
-          "reward_raw": "Badge",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/fc-pro/1113-top-500-esports-nations-cup/||finish top 500 in the asia south region in the esports nations cup.||finish top 500 in the asia south region in the esports natio"
-        },
-        {
-          "order": 9,
-          "name_raw": "Finish top 500 in the Asia North region in the Esports Natio",
-          "text_raw": "Finish top 500 in the Asia North region in the Esports Nations Cup.",
-          "reward_raw": "Badge",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/fc-pro/1113-top-500-esports-nations-cup/||finish top 500 in the asia north region in the esports nations cup.||finish top 500 in the asia north region in the esports natio"
-        },
-        {
-          "order": 10,
-          "name_raw": "Finish top 500 in the Africa region in the Esports Nations C",
-          "text_raw": "Finish top 500 in the Africa region in the Esports Nations Cup.",
-          "reward_raw": "Badge",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/fc-pro/1113-top-500-esports-nations-cup/||finish top 500 in the africa region in the esports nations cup.||finish top 500 in the africa region in the esports nations c"
-        }
-      ]
-    },
-    {
       "group_id": "G017",
       "mission_group_name": "Assist King - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1137-assist-king/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "8/22 02:00",
       "campaign_deadline_iso": "2026-08-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -994,7 +914,7 @@
       "mission_group_name": "The Missing Piece - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1129-the-missing-piece/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "8/22 02:00",
       "campaign_deadline_iso": "2026-08-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -1047,7 +967,7 @@
       "mission_group_name": "FUTTIES Evo Chain Bonus - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1123-futties-evo-chain-bonus/",
-      "campaign_expires": "Expires in 10 days",
+      "campaign_expires": "Expires in 9 days",
       "campaign_deadline_kst": "8/26 02:00",
       "campaign_deadline_iso": "2026-08-26T02:00+09:00",
       "is_new_group": "Yes",
@@ -1100,7 +1020,7 @@
       "mission_group_name": "Goal-den Touch - EA SPORTS FC 26 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/1105-goal-den-touch/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "8/22 02:00",
       "campaign_deadline_iso": "2026-08-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -1153,7 +1073,7 @@
       "mission_group_name": "Time to Celebrate - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1111-time-to-celebrate/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "8/22 02:00",
       "campaign_deadline_iso": "2026-08-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -1206,7 +1126,7 @@
       "mission_group_name": "FUTTIES Favourite: Reus - EA SPORTS FC 26 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/1116-futties-favourite-reus/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "8/22 02:00",
       "campaign_deadline_iso": "2026-08-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -3407,11 +3327,20 @@
   ],
   "collected_urls": [
     {
+      "URL": "https://www.fut.gg/objectives/campaigns/1156-futties-12/",
+      "Objective_Type": "Campaign",
+      "Link_Text": "NEW FUTTIES #12 Celebrate 12 years of FUTTIES by completing these challenges to earn an Evolution and Coins! All rewards are untradeable. Evo Unlock",
+      "Parent_Text": "NEW FUTTIES #12 Celebrate 12 years of FUTTIES by completing these challenges to earn an Evolution and Coins! All rewards are untradeable. Evo Unlock Expires in 5 days 4 Objectives 87% 13%",
+      "Campaign_Expires": "Expires in 5 days",
+      "Campaign_Deadline_KST": "8/22 02:00",
+      "Campaign_Deadline_ISO": "2026-08-22T02:00+09:00"
+    },
+    {
       "URL": "https://www.fut.gg/objectives/campaigns/1159-futties-fun-run/",
       "Objective_Type": "Campaign",
-      "Link_Text": "NEW FUTTIES Fun Run Complete all the challenges to earn SP and pack rewards! All rewards are untradeable. 5X 86+ Rare Gold Players Pack Serge Gnabry 200 SP",
-      "Parent_Text": "NEW FUTTIES Fun Run Complete all the challenges to earn SP and pack rewards! All rewards are untradeable. 5X 86+ Rare Gold Players Pack Serge Gnabry 200 SP Expires in 6 days 500 total 3 Objectives 87% 13%",
-      "Campaign_Expires": "Expires in 6 days",
+      "Link_Text": "FUTTIES Fun Run Complete all the challenges to earn SP and pack rewards! All rewards are untradeable. 5X 86+ Rare Gold Players Pack Serge Gnabry 200 SP",
+      "Parent_Text": "FUTTIES Fun Run Complete all the challenges to earn SP and pack rewards! All rewards are untradeable. 5X 86+ Rare Gold Players Pack Serge Gnabry 200 SP Expires in 5 days 500 total 3 Objectives 87% 13%",
+      "Campaign_Expires": "Expires in 5 days",
       "Campaign_Deadline_KST": "8/22 02:00",
       "Campaign_Deadline_ISO": "2026-08-22T02:00+09:00"
     },
@@ -3419,8 +3348,8 @@
       "URL": "https://www.fut.gg/objectives/live-events/1158-futties-daily-knockout-tournament/",
       "Objective_Type": "Live Events",
       "Link_Text": "FUTTIES Daily Knockout Tournament Complete 5 of 6 challenges in the FUTTIES Daily Knockout Tournament to earn packs, Evolution items, FUTTIES Hero Dimitar Berbatov and Pre-Season Tokens! All rewards are untradeable. Dimitar Berbatov",
-      "Parent_Text": "FUTTIES Daily Knockout Tournament Complete 5 of 6 challenges in the FUTTIES Daily Knockout Tournament to earn packs, Evolution items, FUTTIES Hero Dimitar Berbatov and Pre-Season Tokens! All rewards are untradeable. Dimitar Berbatov Expires in 6 days 5 of 6 Objectives 91% 9%",
-      "Campaign_Expires": "Expires in 6 days",
+      "Parent_Text": "FUTTIES Daily Knockout Tournament Complete 5 of 6 challenges in the FUTTIES Daily Knockout Tournament to earn packs, Evolution items, FUTTIES Hero Dimitar Berbatov and Pre-Season Tokens! All rewards are untradeable. Dimitar Berbatov Expires in 5 days 5 of 6 Objectives 92% 8%",
+      "Campaign_Expires": "Expires in 5 days",
       "Campaign_Deadline_KST": "8/22 02:00",
       "Campaign_Deadline_ISO": "2026-08-22T02:00+09:00"
     },
@@ -3428,8 +3357,8 @@
       "URL": "https://www.fut.gg/objectives/live-events/1161-futties-daily-knockout-tournament-bonus-completionist/",
       "Objective_Type": "Live Events",
       "Link_Text": "FUTTIES Daily Knockout Tournament Bonus Completionist Complete the bonus challenges in the FUTTIES Daily Knockout Tournament to earn packs and Pre-Season Tokens! All rewards are untradeable. 3X 89+ Rare Gold Players Pack",
-      "Parent_Text": "FUTTIES Daily Knockout Tournament Bonus Completionist Complete the bonus challenges in the FUTTIES Daily Knockout Tournament to earn packs and Pre-Season Tokens! All rewards are untradeable. 3X 89+ Rare Gold Players Pack Expires in 6 days 3 Objectives 85% 15%",
-      "Campaign_Expires": "Expires in 6 days",
+      "Parent_Text": "FUTTIES Daily Knockout Tournament Bonus Completionist Complete the bonus challenges in the FUTTIES Daily Knockout Tournament to earn packs and Pre-Season Tokens! All rewards are untradeable. 3X 89+ Rare Gold Players Pack Expires in 5 days 3 Objectives 86% 14%",
+      "Campaign_Expires": "Expires in 5 days",
       "Campaign_Deadline_KST": "8/22 02:00",
       "Campaign_Deadline_ISO": "2026-08-22T02:00+09:00"
     },
@@ -3437,8 +3366,8 @@
       "URL": "https://www.fut.gg/objectives/campaigns/1160-futties-evo-fun/",
       "Objective_Type": "Campaign",
       "Link_Text": "FUTTIES EVO Fun! Complete all the challenges to earn Evolution consumables! All rewards are untradeable. Instant Magnet",
-      "Parent_Text": "FUTTIES EVO Fun! Complete all the challenges to earn Evolution consumables! All rewards are untradeable. Instant Magnet Expires in 6 days 4 Objectives 95% 5%",
-      "Campaign_Expires": "Expires in 6 days",
+      "Parent_Text": "FUTTIES EVO Fun! Complete all the challenges to earn Evolution consumables! All rewards are untradeable. Instant Magnet Expires in 5 days 4 Objectives 95% 5%",
+      "Campaign_Expires": "Expires in 5 days",
       "Campaign_Deadline_KST": "8/22 02:00",
       "Campaign_Deadline_ISO": "2026-08-22T02:00+09:00"
     },
@@ -3446,8 +3375,8 @@
       "URL": "https://www.fut.gg/objectives/campaigns/1166-futties-token-collector-4/",
       "Objective_Type": "Campaign",
       "Link_Text": "FUTTIES Token Collector #4 Complete challenges to earn Pre-Season Tokens and pack rewards! All rewards are untradeable. 40 Pre-Season Tokens",
-      "Parent_Text": "FUTTIES Token Collector #4 Complete challenges to earn Pre-Season Tokens and pack rewards! All rewards are untradeable. 40 Pre-Season Tokens Expires in 6 days 4 Objectives 99% 1%",
-      "Campaign_Expires": "Expires in 6 days",
+      "Parent_Text": "FUTTIES Token Collector #4 Complete challenges to earn Pre-Season Tokens and pack rewards! All rewards are untradeable. 40 Pre-Season Tokens Expires in 5 days 4 Objectives 99% 1%",
+      "Campaign_Expires": "Expires in 5 days",
       "Campaign_Deadline_KST": "8/22 02:00",
       "Campaign_Deadline_ISO": "2026-08-22T02:00+09:00"
     },
@@ -3455,8 +3384,8 @@
       "URL": "https://www.fut.gg/objectives/campaigns/1049-weekly-rush-points/",
       "Objective_Type": "Campaign",
       "Link_Text": "Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points! 2X 89+ Rare Gold Players Pack",
-      "Parent_Text": "Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points! 2X 89+ Rare Gold Players Pack Expires in 5 days 5 Objectives 24% 76%",
-      "Campaign_Expires": "Expires in 5 days",
+      "Parent_Text": "Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points! 2X 89+ Rare Gold Players Pack Expires in 4 days 5 Objectives 24% 76%",
+      "Campaign_Expires": "Expires in 4 days",
       "Campaign_Deadline_KST": "8/21 02:00",
       "Campaign_Deadline_ISO": "2026-08-21T02:00+09:00"
     },
@@ -3491,8 +3420,8 @@
       "URL": "https://www.fut.gg/objectives/seasonal/1125-daily-objectives/",
       "Objective_Type": "Seasonal",
       "Link_Text": "Daily Objectives Play, complete, and earn SP from the daily Objective every 24 hours! 75 SP",
-      "Parent_Text": "Daily Objectives Play, complete, and earn SP from the daily Objective every 24 hours! 75 SP Expires in 12 days 225 total 2 Objectives 89% 11%",
-      "Campaign_Expires": "Expires in 12 days",
+      "Parent_Text": "Daily Objectives Play, complete, and earn SP from the daily Objective every 24 hours! 75 SP Expires in 11 days 225 total 2 Objectives 90% 10%",
+      "Campaign_Expires": "Expires in 11 days",
       "Campaign_Deadline_KST": "8/28 02:00",
       "Campaign_Deadline_ISO": "2026-08-28T02:00+09:00"
     },
@@ -3500,8 +3429,8 @@
       "URL": "https://www.fut.gg/objectives/seasonal/1130-weekly-objectives/",
       "Objective_Type": "Seasonal",
       "Link_Text": "Weekly Objectives Complete weekly Objectives to earn SP! 500 SP",
-      "Parent_Text": "Weekly Objectives Complete weekly Objectives to earn SP! 500 SP Expires in 5 days 1,500 total 5 Objectives 77% 23%",
-      "Campaign_Expires": "Expires in 5 days",
+      "Parent_Text": "Weekly Objectives Complete weekly Objectives to earn SP! 500 SP Expires in 4 days 1,500 total 5 Objectives 78% 22%",
+      "Campaign_Expires": "Expires in 4 days",
       "Campaign_Deadline_KST": "8/21 02:00",
       "Campaign_Deadline_ISO": "2026-08-21T02:00+09:00"
     },
@@ -3527,8 +3456,8 @@
       "URL": "https://www.fut.gg/objectives/live-events/1140-futties-gauntlet-2-bonus/",
       "Objective_Type": "Live Events",
       "Link_Text": "FUTTIES Gauntlet 2 Bonus Compete in the FUTTIES Gauntlet 2 and earn exclusive rewards! All rewards are untradeable. 100 FUTTIES Tokens",
-      "Parent_Text": "FUTTIES Gauntlet 2 Bonus Compete in the FUTTIES Gauntlet 2 and earn exclusive rewards! All rewards are untradeable. 100 FUTTIES Tokens Expires in 2 days 5 Objectives 23% 77%",
-      "Campaign_Expires": "Expires in 2 days",
+      "Parent_Text": "FUTTIES Gauntlet 2 Bonus Compete in the FUTTIES Gauntlet 2 and earn exclusive rewards! All rewards are untradeable. 100 FUTTIES Tokens Expires in 24 hours 5 Objectives 24% 76%",
+      "Campaign_Expires": "Expires in 24 hours",
       "Campaign_Deadline_KST": "8/18 02:00",
       "Campaign_Deadline_ISO": "2026-08-18T02:00+09:00"
     },
@@ -3536,26 +3465,17 @@
       "URL": "https://www.fut.gg/objectives/live-events/1147-futties-gauntlet-2/",
       "Objective_Type": "Live Events",
       "Link_Text": "FUTTIES Gauntlet 2 Complete 8 of 10 challenges in the FUTTIES Gauntlet 2 and earn big rewards! All rewards are untradeable. Wisdom Mike Evo Unlock",
-      "Parent_Text": "FUTTIES Gauntlet 2 Complete 8 of 10 challenges in the FUTTIES Gauntlet 2 and earn big rewards! All rewards are untradeable. Wisdom Mike Evo Unlock Expires in 2 days 8 of 10 Objectives 68% 32%",
-      "Campaign_Expires": "Expires in 2 days",
+      "Parent_Text": "FUTTIES Gauntlet 2 Complete 8 of 10 challenges in the FUTTIES Gauntlet 2 and earn big rewards! All rewards are untradeable. Wisdom Mike Evo Unlock Expires in 24 hours 8 of 10 Objectives 68% 32%",
+      "Campaign_Expires": "Expires in 24 hours",
       "Campaign_Deadline_KST": "8/18 02:00",
       "Campaign_Deadline_ISO": "2026-08-18T02:00+09:00"
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/fc-pro/1113-top-500-esports-nations-cup/",
-      "Objective_Type": "FC Pro",
-      "Link_Text": "Top 500: Esports Nations Cup Compete and reach the top levels of your region's leaderboard in the Esports Nations Cup to earn a limited Crest and Kit. All rewards are untradeable. Fc Pro World Championship Trophy",
-      "Parent_Text": "Top 500: Esports Nations Cup Compete and reach the top levels of your region's leaderboard in the Esports Nations Cup to earn a limited Crest and Kit. All rewards are untradeable. Fc Pro World Championship Trophy Expires in 24 hours 1 of 10 Objectives 9% 91%",
-      "Campaign_Expires": "Expires in 24 hours",
-      "Campaign_Deadline_KST": "8/17 02:00",
-      "Campaign_Deadline_ISO": "2026-08-17T02:00+09:00"
     },
     {
       "URL": "https://www.fut.gg/objectives/campaigns/1137-assist-king/",
       "Objective_Type": "Campaign",
       "Link_Text": "Assist King Complete 3 of 4 challenges to earn Coins and an EVO Consumable! All rewards are untradeable. Evo Unlock",
-      "Parent_Text": "Assist King Complete 3 of 4 challenges to earn Coins and an EVO Consumable! All rewards are untradeable. Evo Unlock Expires in 6 days 3 of 4 Objectives 92% 8%",
-      "Campaign_Expires": "Expires in 6 days",
+      "Parent_Text": "Assist King Complete 3 of 4 challenges to earn Coins and an EVO Consumable! All rewards are untradeable. Evo Unlock Expires in 5 days 3 of 4 Objectives 92% 8%",
+      "Campaign_Expires": "Expires in 5 days",
       "Campaign_Deadline_KST": "8/22 02:00",
       "Campaign_Deadline_ISO": "2026-08-22T02:00+09:00"
     },
@@ -3563,8 +3483,8 @@
       "URL": "https://www.fut.gg/objectives/campaigns/1129-the-missing-piece/",
       "Objective_Type": "Campaign",
       "Link_Text": "The Missing Piece Complete challenges to earn Evolution Consumable items, each granting a 5th PlayStyle+ to any eligible FUTTIES, FUTTIES Icon or FUTTIES Hero Player Item! All rewards are untradeable. FUTTIES 5th Finesse Shot+ FUTTIES 5th Intercept+",
-      "Parent_Text": "The Missing Piece Complete challenges to earn Evolution Consumable items, each granting a 5th PlayStyle+ to any eligible FUTTIES, FUTTIES Icon or FUTTIES Hero Player Item! All rewards are untradeable. FUTTIES 5th Finesse Shot+ FUTTIES 5th Intercept+ Expires in 6 days 4 Objectives 93% 7%",
-      "Campaign_Expires": "Expires in 6 days",
+      "Parent_Text": "The Missing Piece Complete challenges to earn Evolution Consumable items, each granting a 5th PlayStyle+ to any eligible FUTTIES, FUTTIES Icon or FUTTIES Hero Player Item! All rewards are untradeable. FUTTIES 5th Finesse Shot+ FUTTIES 5th Intercept+ Expires in 5 days 4 Objectives 93% 7%",
+      "Campaign_Expires": "Expires in 5 days",
       "Campaign_Deadline_KST": "8/22 02:00",
       "Campaign_Deadline_ISO": "2026-08-22T02:00+09:00"
     },
@@ -3572,8 +3492,8 @@
       "URL": "https://www.fut.gg/objectives/campaigns/1123-futties-evo-chain-bonus/",
       "Objective_Type": "Campaign",
       "Link_Text": "FUTTIES Evo Chain Bonus Complete challenges with FUTTIES Evolution players to earn pack rewards! All rewards are untradeable. 5X 90+ Rare Gold Players Pack",
-      "Parent_Text": "FUTTIES Evo Chain Bonus Complete challenges with FUTTIES Evolution players to earn pack rewards! All rewards are untradeable. 5X 90+ Rare Gold Players Pack Expires in 10 days 3 Objectives 87% 13%",
-      "Campaign_Expires": "Expires in 10 days",
+      "Parent_Text": "FUTTIES Evo Chain Bonus Complete challenges with FUTTIES Evolution players to earn pack rewards! All rewards are untradeable. 5X 90+ Rare Gold Players Pack Expires in 9 days 3 Objectives 87% 13%",
+      "Campaign_Expires": "Expires in 9 days",
       "Campaign_Deadline_KST": "8/26 02:00",
       "Campaign_Deadline_ISO": "2026-08-26T02:00+09:00"
     },
@@ -3581,8 +3501,8 @@
       "URL": "https://www.fut.gg/objectives/milestones/1105-goal-den-touch/",
       "Objective_Type": "Milestone",
       "Link_Text": "Goal-den Touch Complete 3/4 challenges to earn Coins and an EVO Consumable! All rewards are untradeable. Evo Unlock",
-      "Parent_Text": "Goal-den Touch Complete 3/4 challenges to earn Coins and an EVO Consumable! All rewards are untradeable. Evo Unlock Expires in 6 days 3 of 4 Objectives 84% 16%",
-      "Campaign_Expires": "Expires in 6 days",
+      "Parent_Text": "Goal-den Touch Complete 3/4 challenges to earn Coins and an EVO Consumable! All rewards are untradeable. Evo Unlock Expires in 5 days 3 of 4 Objectives 84% 16%",
+      "Campaign_Expires": "Expires in 5 days",
       "Campaign_Deadline_KST": "8/22 02:00",
       "Campaign_Deadline_ISO": "2026-08-22T02:00+09:00"
     },
@@ -3590,8 +3510,8 @@
       "URL": "https://www.fut.gg/objectives/campaigns/1111-time-to-celebrate/",
       "Objective_Type": "Campaign",
       "Link_Text": "Time to Celebrate Complete challenges to win Player Celebrations and Pack rewards! All rewards are untradeable. 5X 90+ Rare Gold Players Pack",
-      "Parent_Text": "Time to Celebrate Complete challenges to win Player Celebrations and Pack rewards! All rewards are untradeable. 5X 90+ Rare Gold Players Pack Expires in 6 days 4 Objectives 94% 6%",
-      "Campaign_Expires": "Expires in 6 days",
+      "Parent_Text": "Time to Celebrate Complete challenges to win Player Celebrations and Pack rewards! All rewards are untradeable. 5X 90+ Rare Gold Players Pack Expires in 5 days 4 Objectives 94% 6%",
+      "Campaign_Expires": "Expires in 5 days",
       "Campaign_Deadline_KST": "8/22 02:00",
       "Campaign_Deadline_ISO": "2026-08-22T02:00+09:00"
     },
@@ -3599,8 +3519,8 @@
       "URL": "https://www.fut.gg/objectives/campaigns/1116-futties-favourite-reus/",
       "Objective_Type": "Campaign",
       "Link_Text": "FUTTIES Favourite: Reus Complete these challenges to earn a special FUTTIES Reus Player Item and packs. All rewards are untradeable. Marco Reus",
-      "Parent_Text": "FUTTIES Favourite: Reus Complete these challenges to earn a special FUTTIES Reus Player Item and packs. All rewards are untradeable. Marco Reus Expires in 6 days 4 Objectives 93% 7%",
-      "Campaign_Expires": "Expires in 6 days",
+      "Parent_Text": "FUTTIES Favourite: Reus Complete these challenges to earn a special FUTTIES Reus Player Item and packs. All rewards are untradeable. Marco Reus Expires in 5 days 4 Objectives 93% 7%",
+      "Campaign_Expires": "Expires in 5 days",
       "Campaign_Deadline_KST": "8/22 02:00",
       "Campaign_Deadline_ISO": "2026-08-22T02:00+09:00"
     },
