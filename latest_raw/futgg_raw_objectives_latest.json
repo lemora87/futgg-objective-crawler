@@ -1,14 +1,1366 @@
 {
   "manifest": {
-    "Generated_At_KST": "2026-09-16 04:57:58",
-    "Deadline_Base_KST": "2026-09-16 02:00:00",
-    "Mission_Group_Count": 0,
-    "Objective_Row_Count": 0,
-    "New_Objective_Count": 0,
-    "Error_Count": 0,
+    "Generated_At_KST": "2026-09-17 04:52:47",
+    "Deadline_Base_KST": "2026-09-17 02:00:00",
+    "Mission_Group_Count": 25,
+    "Objective_Row_Count": 78,
+    "New_Objective_Count": 78,
+    "Error_Count": 3,
     "Purpose": "RAW collection only. Do not trust this file as parsed mission guide; upload it to ChatGPT/manual review for route optimization."
   },
-  "missions": [],
-  "collected_urls": [],
-  "errors": []
+  "missions": [
+    {
+      "group_id": "G002",
+      "mission_group_name": "FC 27 First Gameplay - EA SPORTS FC 27 Objectives",
+      "objective_type": "FC Pro",
+      "url": "https://www.fut.gg/objectives/fc-pro/90-fc-27-first-gameplay/",
+      "campaign_expires": "Expires in 13 days",
+      "campaign_deadline_kst": "9/30 02:00",
+      "campaign_deadline_iso": "2026-09-30T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 2,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Hit the Pitch",
+          "text_raw": "Watch the FC 27 First Gameplay broadcast for at least 60 minutes. Broadcast will go live on September 15th at 17:00 UTC until 18:30 UTC.",
+          "reward_raw": "Coin Boost / 1x Small Electrum Players Pack / 1x Small Gold Players Pack / 2,500 Coins",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/90-fc-27-first-gameplay/||watch the fc 27 first gameplay broadcast for at least 60 minutes. broadcast will go live on september 15th at 17:00 utc until 18:30 utc.||hit the pitch"
+        },
+        {
+          "order": 2,
+          "name_raw": "Kick Off",
+          "text_raw": "Watch the FC 27 First Gameplay broadcast for at least 15 minutes. Broadcast will go live on September 15th at 17:00 UTC until 18:30 UTC.",
+          "reward_raw": "Coin Boost / 2,500 Coins / Small Electrum Players Pack",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/90-fc-27-first-gameplay/||watch the fc 27 first gameplay broadcast for at least 15 minutes. broadcast will go live on september 15th at 17:00 utc until 18:30 utc.||kick off"
+        }
+      ]
+    },
+    {
+      "group_id": "G003",
+      "mission_group_name": "Ones We Watched Kick Off Challenge - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/84-ones-we-watched-kick-off-challenge/",
+      "campaign_expires": "Expires in 1 month",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 2,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Assist in 3",
+          "text_raw": "Assist in 3 separate matches in the Ones We Watched Kick Off Challenge.",
+          "reward_raw": "80+ Gold Player Pack / Consumables Pack / 500 Coins",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/84-ones-we-watched-kick-off-challenge/||assist in 3 separate matches in the ones we watched kick off challenge.||assist in 3"
+        },
+        {
+          "order": 2,
+          "name_raw": "Play 2",
+          "text_raw": "Play 2 matches in the Ones We Watched Kick Off Challenge.",
+          "reward_raw": "Consumables Pack / 500 Coins / Consumable",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/84-ones-we-watched-kick-off-challenge/||play 2 matches in the ones we watched kick off challenge.||play 2"
+        }
+      ]
+    },
+    {
+      "group_id": "G004",
+      "mission_group_name": "Ones We Watched Legendary Challenge - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/83-ones-we-watched-legendary-challenge/",
+      "campaign_expires": "Expires in 1 month",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 1,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "The Final Challenge",
+          "text_raw": "Win 4 matches in the Ones We Watched Legendary Challenge.",
+          "reward_raw": "1x 3x 80+ Gold Players Pack / 1x 2x 78+ Gold Players Pack / 1x 15x 75+ LALIGA Gold Players Pack / 10X 75+ Gold Players Pack",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/83-ones-we-watched-legendary-challenge/||win 4 matches in the ones we watched legendary challenge.||the final challenge"
+        }
+      ]
+    },
+    {
+      "group_id": "G005",
+      "mission_group_name": "Ones We Watched World Class Challenge - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/82-ones-we-watched-world-class-challenge/",
+      "campaign_expires": "Expires in 1 month",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 3,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Finesse",
+          "text_raw": "Score two Finesse goals in 3 separate matches in the Ones We Watched World Class Challenge.",
+          "reward_raw": "Evo Unlock / Consumable / 1,500 Coins",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/82-ones-we-watched-world-class-challenge/||score two finesse goals in 3 separate matches in the ones we watched world class challenge.||finesse"
+        },
+        {
+          "order": 2,
+          "name_raw": "Serial Winner",
+          "text_raw": "Assist 1 goal while having min. 1 Spanish player in your starting XI in the Ones We Watched World Class Challenge.",
+          "reward_raw": "Consumable / 1,500 Coins / 2X 75+ Gold Players Pack",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/82-ones-we-watched-world-class-challenge/||assist 1 goal while having min. 1 spanish player in your starting xi in the ones we watched world class challenge.||serial winner"
+        },
+        {
+          "order": 3,
+          "name_raw": "PL Scorer",
+          "text_raw": "Score with a Premier League player in the Ones We Watched World Class Challenge.",
+          "reward_raw": "1,500 Coins / 2X 75+ Gold Players Pack",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/82-ones-we-watched-world-class-challenge/||score with a premier league player in the ones we watched world class challenge.||pl scorer"
+        }
+      ]
+    },
+    {
+      "group_id": "G006",
+      "mission_group_name": "Ones We Watched Professional Challenge - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/86-ones-we-watched-professional-challenge/",
+      "campaign_expires": "Expires in 1 month",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 2,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Top Scorer",
+          "text_raw": "Score in 5 separate matches while having min. 1 Serie A player in your starting XI in the Ones We Watched Professional Challenge.",
+          "reward_raw": "1x 2x 75+ Gold Players Pack / 1x Consumables Pack / 1x 3x 78+ Serie A Gold Players Pack / 2X 75+ Gold Players Pack",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/86-ones-we-watched-professional-challenge/||score in 5 separate matches while having min. 1 serie a player in your starting xi in the ones we watched professional challenge.||top scorer"
+        },
+        {
+          "order": 2,
+          "name_raw": "Assister",
+          "text_raw": "Assist 2 goals in 1 match in the Ones We Watched Professional Challenge.",
+          "reward_raw": "1,750 Coins / Consumables Pack / Consumable",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/86-ones-we-watched-professional-challenge/||assist 2 goals in 1 match in the ones we watched professional challenge.||assister"
+        }
+      ]
+    },
+    {
+      "group_id": "G007",
+      "mission_group_name": "Ones We Watched Semi-Pro Challenge - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/85-ones-we-watched-semi-pro-challenge/",
+      "campaign_expires": "Expires in 1 month",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 2,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Assist 3",
+          "text_raw": "Assist 3 goals in the Ones We Watched Semi-Pro Challenge.",
+          "reward_raw": "2X 75+ Gold Players Pack / Consumables Pack / 750 Coins",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/85-ones-we-watched-semi-pro-challenge/||assist 3 goals in the ones we watched semi-pro challenge.||assist 3"
+        },
+        {
+          "order": 2,
+          "name_raw": "Play 2",
+          "text_raw": "Play 2 matches with min. 1 Spanish player in your starting XI in the Ones We Watched Semi-Pro Challenge.",
+          "reward_raw": "Consumables Pack / 750 Coins / Consumable",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/85-ones-we-watched-semi-pro-challenge/||play 2 matches with min. 1 spanish player in your starting xi in the ones we watched semi-pro challenge.||play 2"
+        }
+      ]
+    },
+    {
+      "group_id": "G008",
+      "mission_group_name": "Ones We Watched Challenge Completionist - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/87-ones-we-watched-challenge-completionist/",
+      "campaign_expires": "Expires in 1 month",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 4,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Complete the Ones We Watched Legendary Challenge objective.",
+          "text_raw": "Complete the Ones We Watched Legendary Challenge objective.",
+          "reward_raw": "16,000 Coins / 5,000 Coins / 4,500 Coins",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/87-ones-we-watched-challenge-completionist/||complete the ones we watched legendary challenge objective.||complete the ones we watched legendary challenge objective."
+        },
+        {
+          "order": 2,
+          "name_raw": "Complete the Ones We Watched World Class Challenge objective",
+          "text_raw": "Complete the Ones We Watched World Class Challenge objective.",
+          "reward_raw": "5,000 Coins / 4,500 Coins / 4,000 Coins",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/87-ones-we-watched-challenge-completionist/||complete the ones we watched world class challenge objective.||complete the ones we watched world class challenge objective"
+        },
+        {
+          "order": 3,
+          "name_raw": "Complete the Ones We Watched Professional Challenge objectiv",
+          "text_raw": "Complete the Ones We Watched Professional Challenge objective.",
+          "reward_raw": "4,500 Coins / 4,000 Coins / 2,500 Coins",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/87-ones-we-watched-challenge-completionist/||complete the ones we watched professional challenge objective.||complete the ones we watched professional challenge objectiv"
+        },
+        {
+          "order": 4,
+          "name_raw": "Complete the Ones We Watched Semi-Pro Challenge objective.",
+          "text_raw": "Complete the Ones We Watched Semi-Pro Challenge objective.",
+          "reward_raw": "4,000 Coins / 2,500 Coins",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/87-ones-we-watched-challenge-completionist/||complete the ones we watched semi-pro challenge objective.||complete the ones we watched semi-pro challenge objective."
+        }
+      ]
+    },
+    {
+      "group_id": "G009",
+      "mission_group_name": "Season 1: Ones to Watch Exhibition Completionist - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/79-season-1-ones-to-watch-exhibition-completionist/",
+      "campaign_expires": "Expires in 1 month",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 5,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Season 1: Ones to Watch Exhibition Completionist - EA SPORTS FC 27 Objectives",
+          "text_raw": "Complete all Season 1: Ones to Watch Exhibition Weekly Play Objectives, to earn Ones to Watch Ousmane Diomandé, an EVO and Coins! All rewards are untradeable.",
+          "reward_raw": "",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/79-season-1-ones-to-watch-exhibition-completionist/||complete all season 1: ones to watch exhibition weekly play objectives, to earn ones to watch ousmane diomandé, an evo and coins! all rewards are untradeable.||season 1: ones to watch exhibition completionist - ea sports fc 27 objectives"
+        },
+        {
+          "order": 2,
+          "name_raw": "4 Completions",
+          "text_raw": "Complete the Season 1: Ones to Watch Exhibition Weekly Play Objective 4 times.",
+          "reward_raw": "13,000 Coins / 7,000 Coins / 4,000 Coins",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/79-season-1-ones-to-watch-exhibition-completionist/||complete the season 1: ones to watch exhibition weekly play objective 4 times.||4 completions"
+        },
+        {
+          "order": 3,
+          "name_raw": "3 Completions",
+          "text_raw": "Complete the Season 1: Ones to Watch Exhibition Weekly Play Objective 3 times.",
+          "reward_raw": "7,000 Coins / 4,000 Coins / 2,000 Coins",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/79-season-1-ones-to-watch-exhibition-completionist/||complete the season 1: ones to watch exhibition weekly play objective 3 times.||3 completions"
+        },
+        {
+          "order": 4,
+          "name_raw": "2 Completions",
+          "text_raw": "Complete the Season 1: Ones to Watch Exhibition Weekly Play Objective 2 times.",
+          "reward_raw": "4,000 Coins / 2,000 Coins",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/79-season-1-ones-to-watch-exhibition-completionist/||complete the season 1: ones to watch exhibition weekly play objective 2 times.||2 completions"
+        },
+        {
+          "order": 5,
+          "name_raw": "1 Completion",
+          "text_raw": "Complete the Season 1: Ones to Watch Exhibition Weekly Play Objective 1 time.",
+          "reward_raw": "2,000 Coins",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/79-season-1-ones-to-watch-exhibition-completionist/||complete the season 1: ones to watch exhibition weekly play objective 1 time.||1 completion"
+        }
+      ]
+    },
+    {
+      "group_id": "G010",
+      "mission_group_name": "Season 1: Ones to Watch Exhibition Weekly Play - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/80-season-1-ones-to-watch-exhibition-weekly-play/",
+      "campaign_expires": "Expires in 1 month",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 1,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Score in 9",
+          "text_raw": "Score in 9 separate matches in the Season 1: Ones to Watch Exhibition.",
+          "reward_raw": "Consumable",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/80-season-1-ones-to-watch-exhibition-weekly-play/||score in 9 separate matches in the season 1: ones to watch exhibition.||score in 9"
+        }
+      ]
+    },
+    {
+      "group_id": "G011",
+      "mission_group_name": "Ted Lasso's Masterclass - EA SPORTS FC 27 Objectives",
+      "objective_type": "Milestone",
+      "url": "https://www.fut.gg/objectives/milestones/98-ted-lassos-masterclass/",
+      "campaign_expires": "",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 5,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Believe",
+          "text_raw": "Win 1 match in any Football Ultimate Team game mode.",
+          "reward_raw": "Evo Unlock",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/98-ted-lassos-masterclass/||win 1 match in any football ultimate team game mode.||believe"
+        },
+        {
+          "order": 2,
+          "name_raw": "Barbecue Sauce",
+          "text_raw": "Score 5 goals in any Football Ultimate Team game mode while having at least 1 player from each of the Premier League and Women's Super League in your starting 11.",
+          "reward_raw": "Stadium Tifo / Stadium Background Tifo",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/98-ted-lassos-masterclass/||score 5 goals in any football ultimate team game mode while having at least 1 player from each of the premier league and women's super league in your starting 11.||barbecue sauce"
+        },
+        {
+          "order": 3,
+          "name_raw": "Be a Goldfish",
+          "text_raw": "Play 3 matches in any Football Ultimate Team game mode while having at least 2 players from USA in your starting 11.",
+          "reward_raw": "Stadium Tifo / Stadium Background Tifo / Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/98-ted-lassos-masterclass/||play 3 matches in any football ultimate team game mode while having at least 2 players from usa in your starting 11.||be a goldfish"
+        },
+        {
+          "order": 4,
+          "name_raw": "Unselfish Play",
+          "text_raw": "Assist 4 goals in any Football Ultimate Team game mode.",
+          "reward_raw": "Stadium Tifo / Stadium Background Tifo / Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/98-ted-lassos-masterclass/||assist 4 goals in any football ultimate team game mode.||unselfish play"
+        },
+        {
+          "order": 5,
+          "name_raw": "Football is Life",
+          "text_raw": "Play 1 match in any Football Ultimate Team game mode.",
+          "reward_raw": "Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/98-ted-lassos-masterclass/||play 1 match in any football ultimate team game mode.||football is life"
+        }
+      ]
+    },
+    {
+      "group_id": "G012",
+      "mission_group_name": "Season 1: Ones to Watch Exhibition - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/88-season-1-ones-to-watch-exhibition/",
+      "campaign_expires": "Expires in 1 month",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 8,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Season 1: Ones to Watch Exhibition - EA SPORTS FC 27 Objectives",
+          "text_raw": "Complete the below challenges in the Season 1: Ones to Watch Exhibition. All rewards are untradeable.",
+          "reward_raw": "",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/88-season-1-ones-to-watch-exhibition/||complete the below challenges in the season 1: ones to watch exhibition. all rewards are untradeable.||season 1: ones to watch exhibition - ea sports fc 27 objectives"
+        },
+        {
+          "order": 2,
+          "name_raw": "Score in 30",
+          "text_raw": "Score in 30 separate matches in the Season 1: Ones to Watch Exhibition.",
+          "reward_raw": "1x 2x 78+ Gold Players Pack / 1x 2x 75+ Gold Players Pack / 1x Consumables Pack / 2X 81+ Gold Players Pack",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/88-season-1-ones-to-watch-exhibition/||score in 30 separate matches in the season 1: ones to watch exhibition.||score in 30"
+        },
+        {
+          "order": 3,
+          "name_raw": "Score in 20",
+          "text_raw": "Score in 20 separate matches in the Season 1: Ones to Watch Exhibition.",
+          "reward_raw": "2X 81+ Gold Players Pack / 2X 80+ Gold Players Pack / 80+ Gold Player Pack",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/88-season-1-ones-to-watch-exhibition/||score in 20 separate matches in the season 1: ones to watch exhibition.||score in 20"
+        },
+        {
+          "order": 4,
+          "name_raw": "Assist 20",
+          "text_raw": "Assist in 20 separate matches in the Season 1: Ones to Watch Exhibition.",
+          "reward_raw": "2X 80+ Gold Players Pack / 80+ Gold Player Pack / 2X 78+ Gold Players Pack",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/88-season-1-ones-to-watch-exhibition/||assist in 20 separate matches in the season 1: ones to watch exhibition.||assist 20"
+        },
+        {
+          "order": 5,
+          "name_raw": "Assist 15",
+          "text_raw": "Assist in 15 separate matches in the Season 1: Ones to Watch Exhibition.",
+          "reward_raw": "80+ Gold Player Pack / 2X 78+ Gold Players Pack / 2X 75+ Gold Players Pack",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/88-season-1-ones-to-watch-exhibition/||assist in 15 separate matches in the season 1: ones to watch exhibition.||assist 15"
+        },
+        {
+          "order": 6,
+          "name_raw": "Play 15",
+          "text_raw": "Play 15 matches in the Season 1: Ones to Watch Exhibition.",
+          "reward_raw": "2X 78+ Gold Players Pack / 2X 75+ Gold Players Pack / Consumables Pack",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/88-season-1-ones-to-watch-exhibition/||play 15 matches in the season 1: ones to watch exhibition.||play 15"
+        },
+        {
+          "order": 7,
+          "name_raw": "Play 5",
+          "text_raw": "Play 5 matches in the Season 1: Ones to Watch Exhibition.",
+          "reward_raw": "2X 75+ Gold Players Pack / Consumables Pack / Consumable",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/88-season-1-ones-to-watch-exhibition/||play 5 matches in the season 1: ones to watch exhibition.||play 5"
+        },
+        {
+          "order": 8,
+          "name_raw": "Play 1",
+          "text_raw": "Play 1 match in the Season 1: Ones to Watch Exhibition.",
+          "reward_raw": "Consumables Pack / Consumable",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/88-season-1-ones-to-watch-exhibition/||play 1 match in the season 1: ones to watch exhibition.||play 1"
+        }
+      ]
+    },
+    {
+      "group_id": "G013",
+      "mission_group_name": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/71-weekly-rush-points/",
+      "campaign_expires": "Expires in 6 days",
+      "campaign_deadline_kst": "9/23 02:00",
+      "campaign_deadline_iso": "2026-09-23T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 6,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
+          "text_raw": "Complete Rush Bonuses alongside your teammates to earn Rush Points and pack rewards! All rewards are untradeable.",
+          "reward_raw": "2X 84+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/71-weekly-rush-points/||complete rush bonuses alongside your teammates to earn rush points and pack rewards! all rewards are untradeable.||weekly rush points - ea sports fc 27 objectives"
+        },
+        {
+          "order": 2,
+          "name_raw": "35,000 Rush Points",
+          "text_raw": "Earn 35,000 points by completing bonuses in Rush.",
+          "reward_raw": "1x 2x 78+ Gold Players Pack / 1x 2x 75+ Gold Players Pack / 1x 2x 84+ Gold Players Pack / 83+ Gold Player Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/71-weekly-rush-points/||earn 35,000 points by completing bonuses in rush.||35,000 rush points"
+        },
+        {
+          "order": 3,
+          "name_raw": "25,000 Rush Points",
+          "text_raw": "Earn 25,000 points by completing bonuses in Rush.",
+          "reward_raw": "83+ Gold Player Pack / 2X 82+ Gold Players Pack / 2X 80+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/71-weekly-rush-points/||earn 25,000 points by completing bonuses in rush.||25,000 rush points"
+        },
+        {
+          "order": 4,
+          "name_raw": "20,000 Rush Points",
+          "text_raw": "Earn 20,000 points by completing bonuses in Rush.",
+          "reward_raw": "2X 82+ Gold Players Pack / 2X 80+ Gold Players Pack / 2X 78+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/71-weekly-rush-points/||earn 20,000 points by completing bonuses in rush.||20,000 rush points"
+        },
+        {
+          "order": 5,
+          "name_raw": "10,000 Rush Points",
+          "text_raw": "Earn 10,000 points by completing bonuses in Rush.",
+          "reward_raw": "2X 80+ Gold Players Pack / 2X 78+ Gold Players Pack / 2X 75+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/71-weekly-rush-points/||earn 10,000 points by completing bonuses in rush.||10,000 rush points"
+        },
+        {
+          "order": 6,
+          "name_raw": "2,500 Rush Points",
+          "text_raw": "Earn 2,500 points by completing bonuses in Rush.",
+          "reward_raw": "2X 78+ Gold Players Pack / 2X 75+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/71-weekly-rush-points/||earn 2,500 points by completing bonuses in rush.||2,500 rush points"
+        }
+      ]
+    },
+    {
+      "group_id": "G014",
+      "mission_group_name": "Squad Building Milestone - EA SPORTS FC 27 Objectives",
+      "objective_type": "Milestone",
+      "url": "https://www.fut.gg/objectives/milestones/49-squad-building-milestone/",
+      "campaign_expires": "",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 4,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Build your way up to become a Squad Building Master!",
+          "text_raw": "Build your way up to become a Squad Building Master!",
+          "reward_raw": "Large Gold Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/49-squad-building-milestone/||build your way up to become a squad building master!||build your way up to become a squad building master!"
+        },
+        {
+          "order": 2,
+          "name_raw": "Complete 25 Squad Building Challenge groups.",
+          "text_raw": "Complete 25 Squad Building Challenge groups.",
+          "reward_raw": "1x Small Gold Players Pack / 1x Jumbo Gold Pack / 1x Large Gold Pack / Small Gold Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/49-squad-building-milestone/||complete 25 squad building challenge groups.||complete 25 squad building challenge groups."
+        },
+        {
+          "order": 3,
+          "name_raw": "Complete 10 Squad Building Challenge groups.",
+          "text_raw": "Complete 10 Squad Building Challenge groups.",
+          "reward_raw": "Small Gold Players Pack / Jumbo Gold Pack / 1 Of 3 79+ Gold Player Pick",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/49-squad-building-milestone/||complete 10 squad building challenge groups.||complete 10 squad building challenge groups."
+        },
+        {
+          "order": 4,
+          "name_raw": "Complete 5 Squad Building Challenge groups.",
+          "text_raw": "Complete 5 Squad Building Challenge groups.",
+          "reward_raw": "Jumbo Gold Pack / 1 Of 3 79+ Gold Player Pick",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/49-squad-building-milestone/||complete 5 squad building challenge groups.||complete 5 squad building challenge groups."
+        }
+      ]
+    },
+    {
+      "group_id": "G015",
+      "mission_group_name": "Draft Milestone - EA SPORTS FC 27 Objectives",
+      "objective_type": "Milestone",
+      "url": "https://www.fut.gg/objectives/milestones/45-draft-milestone/",
+      "campaign_expires": "",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 3,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Play 15",
+          "text_raw": "Play 15 Draft matches.",
+          "reward_raw": "1x 75+ Gold Player Pack / 1x x2 Players Pack / 1x Large Gold Pack / 75+ Gold Player Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/45-draft-milestone/||play 15 draft matches.||play 15"
+        },
+        {
+          "order": 2,
+          "name_raw": "Play 10",
+          "text_raw": "Play 10 Draft matches.",
+          "reward_raw": "75+ Gold Player Pack / X2 Players Pack / 1 Of 2 78+ Gold Player Pick / Coin Boost",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/45-draft-milestone/||play 10 draft matches.||play 10"
+        },
+        {
+          "order": 3,
+          "name_raw": "Play 5",
+          "text_raw": "Play 5 Draft matches.",
+          "reward_raw": "1 Of 2 78+ Gold Player Pick / Coin Boost",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/45-draft-milestone/||play 5 draft matches.||play 5"
+        }
+      ]
+    },
+    {
+      "group_id": "G016",
+      "mission_group_name": "Co-Op Milestone - EA SPORTS FC 27 Objectives",
+      "objective_type": "Milestone",
+      "url": "https://www.fut.gg/objectives/milestones/46-co-op-milestone/",
+      "campaign_expires": "",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 3,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Play 50",
+          "text_raw": "Play 50 Co-Op matches.",
+          "reward_raw": "1x 75+ Gold Player Pack / 1x x2 Players Pack / 1x 80+ Gold Player Pack / 75+ Gold Player Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/46-co-op-milestone/||play 50 co-op matches.||play 50"
+        },
+        {
+          "order": 2,
+          "name_raw": "Play 10",
+          "text_raw": "Play 10 Co-Op matches.",
+          "reward_raw": "75+ Gold Player Pack / X2 Players Pack / 1 Of 2 78+ Gold Player Pick / Coin Boost",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/46-co-op-milestone/||play 10 co-op matches.||play 10"
+        },
+        {
+          "order": 3,
+          "name_raw": "Play 5",
+          "text_raw": "Play 5 Co-Op matches.",
+          "reward_raw": "1 Of 2 78+ Gold Player Pick / Coin Boost",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/46-co-op-milestone/||play 5 co-op matches.||play 5"
+        }
+      ]
+    },
+    {
+      "group_id": "G017",
+      "mission_group_name": "Rush Milestone - EA SPORTS FC 27 Objectives",
+      "objective_type": "Milestone",
+      "url": "https://www.fut.gg/objectives/milestones/50-rush-milestone/",
+      "campaign_expires": "",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 6,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Score 20",
+          "text_raw": "Score 20 goals as a team in Rush.",
+          "reward_raw": "1x Small Gold Players Pack / 3x 75+ Gold Player Pack / 1x Jumbo Gold Pack / Small Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/50-rush-milestone/||score 20 goals as a team in rush.||score 20"
+        },
+        {
+          "order": 2,
+          "name_raw": "Complete 20 Bonuses",
+          "text_raw": "Complete 20 Rush bonuses.",
+          "reward_raw": "Small Gold Players Pack / 2x 75+ Gold Player Pack / 75+ Gold Player Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/50-rush-milestone/||complete 20 rush bonuses.||complete 20 bonuses"
+        },
+        {
+          "order": 3,
+          "name_raw": "Complete 10 Bonuses",
+          "text_raw": "Complete 10 Rush bonuses.",
+          "reward_raw": "2x 75+ Gold Player Pack / 75+ Gold Player Pack / Jumbo Gold Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/50-rush-milestone/||complete 10 rush bonuses.||complete 10 bonuses"
+        },
+        {
+          "order": 4,
+          "name_raw": "Play 15",
+          "text_raw": "Play 15 Rush matches.",
+          "reward_raw": "75+ Gold Player Pack / Jumbo Gold Pack / 1 Of 2 78+ Gold Player Pick",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/50-rush-milestone/||play 15 rush matches.||play 15"
+        },
+        {
+          "order": 5,
+          "name_raw": "Play 10",
+          "text_raw": "Play 10 Rush matches.",
+          "reward_raw": "Jumbo Gold Pack / 1 Of 2 78+ Gold Player Pick",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/50-rush-milestone/||play 10 rush matches.||play 10"
+        },
+        {
+          "order": 6,
+          "name_raw": "Play 5",
+          "text_raw": "Play 5 Rush matches.",
+          "reward_raw": "1 Of 2 78+ Gold Player Pick",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/50-rush-milestone/||play 5 rush matches.||play 5"
+        }
+      ]
+    },
+    {
+      "group_id": "G018",
+      "mission_group_name": "Moments Stars Milestone - EA SPORTS FC 27 Objectives",
+      "objective_type": "Milestone",
+      "url": "https://www.fut.gg/objectives/milestones/51-moments-stars-milestone/",
+      "campaign_expires": "",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 4,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Complete Moments challenges and earn stars to show your foot",
+          "text_raw": "Complete Moments challenges and earn stars to show your football dominance!",
+          "reward_raw": "Coin Boost / 5,000 Coins",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/51-moments-stars-milestone/||complete moments challenges and earn stars to show your football dominance!||complete moments challenges and earn stars to show your foot"
+        },
+        {
+          "order": 2,
+          "name_raw": "Complete Moments challenges to earn 60 Stars.",
+          "text_raw": "Complete Moments challenges to earn 60 Stars.",
+          "reward_raw": "1x Small Gold Players Pack / 1x Large Silver Players Pack / 1x Large Bronze Players Pack / Small Gold Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/51-moments-stars-milestone/||complete moments challenges to earn 60 stars.||complete moments challenges to earn 60 stars."
+        },
+        {
+          "order": 3,
+          "name_raw": "Complete Moments challenges to earn 30 Stars.",
+          "text_raw": "Complete Moments challenges to earn 30 Stars.",
+          "reward_raw": "Small Gold Players Pack / Large Silver Players Pack / Large Bronze Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/51-moments-stars-milestone/||complete moments challenges to earn 30 stars.||complete moments challenges to earn 30 stars."
+        },
+        {
+          "order": 4,
+          "name_raw": "Complete Moments challenges to earn 15 Stars.",
+          "text_raw": "Complete Moments challenges to earn 15 Stars.",
+          "reward_raw": "Large Silver Players Pack / Large Bronze Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/51-moments-stars-milestone/||complete moments challenges to earn 15 stars.||complete moments challenges to earn 15 stars."
+        }
+      ]
+    },
+    {
+      "group_id": "G019",
+      "mission_group_name": "Transfer Market Milestone - EA SPORTS FC 27 Objectives",
+      "objective_type": "Milestone",
+      "url": "https://www.fut.gg/objectives/milestones/47-transfer-market-milestone/",
+      "campaign_expires": "",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "No",
+      "new_objective_count": 0,
+      "objectives": []
+    },
+    {
+      "group_id": "G020",
+      "mission_group_name": "Live Events Milestone - EA SPORTS FC 27 Objectives",
+      "objective_type": "Milestone",
+      "url": "https://www.fut.gg/objectives/milestones/48-live-events-milestone/",
+      "campaign_expires": "",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 4,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Live Events Milestone - EA SPORTS FC 27 Objectives",
+          "text_raw": "Get acquainted with Live Events matches.",
+          "reward_raw": "1 Of 2 80+ Gold Player Pick",
+          "mode_raw": "Live Events",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/48-live-events-milestone/||get acquainted with live events matches.||live events milestone - ea sports fc 27 objectives"
+        },
+        {
+          "order": 2,
+          "name_raw": "Play 20",
+          "text_raw": "Play 20 Live Events matches.",
+          "reward_raw": "1 Of 2 80+ Gold Player Pick / 1x Small Gold Players Pack / 1x Jumbo Gold Pack / Small Gold Players Pack",
+          "mode_raw": "Live Events",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/48-live-events-milestone/||play 20 live events matches.||play 20"
+        },
+        {
+          "order": 3,
+          "name_raw": "Play 10",
+          "text_raw": "Play 10 Live Events matches.",
+          "reward_raw": "Small Gold Players Pack / Jumbo Gold Pack / 1 Of 3 79+ Gold Player Pick",
+          "mode_raw": "Live Events",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/48-live-events-milestone/||play 10 live events matches.||play 10"
+        },
+        {
+          "order": 4,
+          "name_raw": "Play 5",
+          "text_raw": "Play 5 Live Events matches.",
+          "reward_raw": "Jumbo Gold Pack / 1 Of 3 79+ Gold Player Pick",
+          "mode_raw": "Live Events",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/48-live-events-milestone/||play 5 live events matches.||play 5"
+        }
+      ]
+    },
+    {
+      "group_id": "G021",
+      "mission_group_name": "Squad Battles Milestone - EA SPORTS FC 27 Objectives",
+      "objective_type": "Milestone",
+      "url": "https://www.fut.gg/objectives/milestones/42-squad-battles-milestone/",
+      "campaign_expires": "",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 3,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Play 15",
+          "text_raw": "Play 15 Squad Battles Matches on any difficulty.",
+          "reward_raw": "2x 75+ Gold Player Pack / 1x x2 Players Pack / 1x Large Gold Pack / 75+ Gold Player Pack",
+          "mode_raw": "Squad Battles",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/42-squad-battles-milestone/||play 15 squad battles matches on any difficulty.||play 15"
+        },
+        {
+          "order": 2,
+          "name_raw": "Play 10",
+          "text_raw": "Play 10 Squad Battles Matches on any difficulty.",
+          "reward_raw": "75+ Gold Player Pack / X2 Players Pack / Coin Boost",
+          "mode_raw": "Squad Battles",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/42-squad-battles-milestone/||play 10 squad battles matches on any difficulty.||play 10"
+        },
+        {
+          "order": 3,
+          "name_raw": "Play 5",
+          "text_raw": "Play 5 Squad Battles Matches on any difficulty.",
+          "reward_raw": "75+ Gold Player Pack / Coin Boost",
+          "mode_raw": "Squad Battles",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/42-squad-battles-milestone/||play 5 squad battles matches on any difficulty.||play 5"
+        }
+      ]
+    },
+    {
+      "group_id": "G022",
+      "mission_group_name": "Rivals Milestone - EA SPORTS FC 27 Objectives",
+      "objective_type": "Milestone",
+      "url": "https://www.fut.gg/objectives/milestones/43-rivals-milestone/",
+      "campaign_expires": "",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 3,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Play 15",
+          "text_raw": "Play 15 Rivals matches.",
+          "reward_raw": "1 Of 2 77+ Gold Player Pick / 1x 75+ Gold Player Pack / 1x 2x 82+ Gold Players Pack / 75+ Gold Player Pack",
+          "mode_raw": "Rivals",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/43-rivals-milestone/||play 15 rivals matches.||play 15"
+        },
+        {
+          "order": 2,
+          "name_raw": "Play 10",
+          "text_raw": "Play 10 Rivals matches.",
+          "reward_raw": "75+ Gold Player Pack / 5,000 Coins / 1 Of 2 78+ Gold Player Pick / 1 Of 2 77+ Gold Player Pick",
+          "mode_raw": "Rivals",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/43-rivals-milestone/||play 10 rivals matches.||play 10"
+        },
+        {
+          "order": 3,
+          "name_raw": "Play 5",
+          "text_raw": "Play 5 Rivals matches.",
+          "reward_raw": "1 Of 2 78+ Gold Player Pick / 1 Of 2 77+ Gold Player Pick",
+          "mode_raw": "Rivals",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/43-rivals-milestone/||play 5 rivals matches.||play 5"
+        }
+      ]
+    },
+    {
+      "group_id": "G023",
+      "mission_group_name": "Champions Milestone - EA SPORTS FC 27 Objectives",
+      "objective_type": "Milestone",
+      "url": "https://www.fut.gg/objectives/milestones/44-champions-milestone/",
+      "campaign_expires": "",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 3,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Play 15",
+          "text_raw": "Play 15 Champions matches.",
+          "reward_raw": "1x 4x 81+ Gold Players Pack / 1x 75-83 Gold Player Pack / 1x 81+ Gold Player Pack / 4X 81+ Gold Players Pack",
+          "mode_raw": "Champions",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/44-champions-milestone/||play 15 champions matches.||play 15"
+        },
+        {
+          "order": 2,
+          "name_raw": "Play 10",
+          "text_raw": "Play 10 Champions matches.",
+          "reward_raw": "4X 81+ Gold Players Pack / 75-83 Gold Player Pack / Coin Boost",
+          "mode_raw": "Champions",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/44-champions-milestone/||play 10 champions matches.||play 10"
+        },
+        {
+          "order": 3,
+          "name_raw": "Play 5",
+          "text_raw": "Play 5 Champions matches.",
+          "reward_raw": "75-83 Gold Player Pack / Coin Boost",
+          "mode_raw": "Champions",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/milestones/44-champions-milestone/||play 5 champions matches.||play 5"
+        }
+      ]
+    },
+    {
+      "group_id": "G024",
+      "mission_group_name": "Gallery Milestone - EA SPORTS FC 27 Objectives",
+      "objective_type": "Milestone",
+      "url": "https://www.fut.gg/objectives/milestones/81-gallery-milestone/",
+      "campaign_expires": "",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "No",
+      "new_objective_count": 0,
+      "objectives": []
+    },
+    {
+      "group_id": "G025",
+      "mission_group_name": "Daily Objectives - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/61-daily-objectives/",
+      "campaign_expires": "Expires in 15 days",
+      "campaign_deadline_kst": "10/2 02:00",
+      "campaign_deadline_iso": "2026-10-02T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 1,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Scoring Success",
+          "text_raw": "Score 2 goals in any FUT game mode.",
+          "reward_raw": "10 SP",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/61-daily-objectives/||score 2 goals in any fut game mode.||scoring success"
+        }
+      ]
+    },
+    {
+      "group_id": "G026",
+      "mission_group_name": "Weekly Objectives - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/65-weekly-objectives/",
+      "campaign_expires": "Expires in 15 days",
+      "campaign_deadline_kst": "10/2 02:00",
+      "campaign_deadline_iso": "2026-10-02T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 3,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Score 10",
+          "text_raw": "Score 10 goals in any FUT game mode using an English player.",
+          "reward_raw": "500 SP / 50 SP",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/65-weekly-objectives/||score 10 goals in any fut game mode using an english player.||score 10"
+        },
+        {
+          "order": 2,
+          "name_raw": "Win 10",
+          "text_raw": "Win 10 matches in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush).",
+          "reward_raw": "50 SP / Buy 10 Player Items using Buy Now in the Transfer Market.",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/65-weekly-objectives/||win 10 matches in squad battles on min. semi-pro difficulty (or rivals/champions/live events/rush).||win 10"
+        },
+        {
+          "order": 3,
+          "name_raw": "Play 10",
+          "text_raw": "Play 10 matches in Squad Battles on any difficulty (or Rush/Rivals).",
+          "reward_raw": "50 SP / Buy 10 Player Items using Buy Now in the Transfer Market. / List 10 player items in the Transfer Market.",
+          "mode_raw": "Squad Battles / Rivals / Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/65-weekly-objectives/||play 10 matches in squad battles on any difficulty (or rush/rivals).||play 10"
+        }
+      ]
+    }
+  ],
+  "collected_urls": [
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/92-squad-battles-champions-qualification-points/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "Squad Battles: Champions Qualification Points Compete in Squad Battles to earn Champions Qualification Points! 100 Points",
+      "Parent_Text": "Squad Battles: Champions Qualification Points Compete in Squad Battles to earn Champions Qualification Points! 100 Points Expires in 3 days 3 Objectives 85% 15%",
+      "Campaign_Expires": "Expires in 3 days",
+      "Campaign_Deadline_KST": "9/20 02:00",
+      "Campaign_Deadline_ISO": "2026-09-20T02:00+09:00"
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/fc-pro/90-fc-27-first-gameplay/",
+      "Objective_Type": "FC Pro",
+      "Link_Text": "FC 27 First Gameplay Join in on the action of the FC 27 First Gameplay broadcast on Twitch/EASPORTSFC or YouTube/EASPORTSFC to earn your viewership rewards! All rewards are untradeable. Small Gold Players Pack",
+      "Parent_Text": "FC 27 First Gameplay Join in on the action of the FC 27 First Gameplay broadcast on Twitch/EASPORTSFC or YouTube/EASPORTSFC to earn your viewership rewards! All rewards are untradeable. Small Gold Players Pack Expires in 13 days 2 Objectives 52% 48%",
+      "Campaign_Expires": "Expires in 13 days",
+      "Campaign_Deadline_KST": "9/30 02:00",
+      "Campaign_Deadline_ISO": "2026-09-30T02:00+09:00"
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/84-ones-we-watched-kick-off-challenge/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "Ones We Watched Kick Off Challenge Beat the Ones We Watched Kick Off Challenges to earn rewards. All rewards are untradeable. 2X 75+ Gold Players Pack",
+      "Parent_Text": "Ones We Watched Kick Off Challenge Beat the Ones We Watched Kick Off Challenges to earn rewards. All rewards are untradeable. 2X 75+ Gold Players Pack Expires in 1 month 4 Objectives 100% 0%",
+      "Campaign_Expires": "Expires in 1 month",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/83-ones-we-watched-legendary-challenge/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "Ones We Watched Legendary Challenge Beat the Ones We Watched Legendary challenges to earn rewards. All rewards are untradeable. 15X 75+ Laliga Gold Players Pack",
+      "Parent_Text": "Ones We Watched Legendary Challenge Beat the Ones We Watched Legendary challenges to earn rewards. All rewards are untradeable. 15X 75+ Laliga Gold Players Pack Expires in 1 month 4 Objectives 76% 24%",
+      "Campaign_Expires": "Expires in 1 month",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/82-ones-we-watched-world-class-challenge/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "Ones We Watched World Class Challenge Beat the Ones We Watched World Class challenges to earn rewards. All rewards are untradeable. 5X 78+ Premier League Gold Players Pack",
+      "Parent_Text": "Ones We Watched World Class Challenge Beat the Ones We Watched World Class challenges to earn rewards. All rewards are untradeable. 5X 78+ Premier League Gold Players Pack Expires in 1 month 4 Objectives 77% 23%",
+      "Campaign_Expires": "Expires in 1 month",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/86-ones-we-watched-professional-challenge/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "Ones We Watched Professional Challenge Beat the Ones We Watched Professional Challenges to earn rewards. All rewards are untradeable. 3X 78+ Serie A Gold Players Pack",
+      "Parent_Text": "Ones We Watched Professional Challenge Beat the Ones We Watched Professional Challenges to earn rewards. All rewards are untradeable. 3X 78+ Serie A Gold Players Pack Expires in 1 month 4 Objectives 78% 22%",
+      "Campaign_Expires": "Expires in 1 month",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/85-ones-we-watched-semi-pro-challenge/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "Ones We Watched Semi-Pro Challenge Beat the Ones We Watched Semi-Pro Challenges to earn rewards. All rewards are untradeable. 82+ Premier League Gold Player Pack",
+      "Parent_Text": "Ones We Watched Semi-Pro Challenge Beat the Ones We Watched Semi-Pro Challenges to earn rewards. All rewards are untradeable. 82+ Premier League Gold Player Pack Expires in 1 month 4 Objectives 78% 22%",
+      "Campaign_Expires": "Expires in 1 month",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/87-ones-we-watched-challenge-completionist/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "Ones We Watched Challenge Completionist Beat the Ones We Watched Objectives to earn rewards. All rewards are untradeable. Savinho",
+      "Parent_Text": "Ones We Watched Challenge Completionist Beat the Ones We Watched Objectives to earn rewards. All rewards are untradeable. Savinho Expires in 1 month 4 Objectives 98% 3%",
+      "Campaign_Expires": "Expires in 1 month",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/79-season-1-ones-to-watch-exhibition-completionist/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "Season 1: Ones to Watch Exhibition Completionist Complete all Season 1: Ones to Watch Exhibition Weekly Play Objectives, to earn Ones to Watch Ousmane Diomandé, an EVO and Coins! All rewards are untradeable. Ousmane Diomande",
+      "Parent_Text": "Season 1: Ones to Watch Exhibition Completionist Complete all Season 1: Ones to Watch Exhibition Weekly Play Objectives, to earn Ones to Watch Ousmane Diomandé, an EVO and Coins! All rewards are untradeable. Ousmane Diomande Expires in 1 month 4 Objectives 96% 4%",
+      "Campaign_Expires": "Expires in 1 month",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/80-season-1-ones-to-watch-exhibition-weekly-play/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "Season 1: Ones to Watch Exhibition Weekly Play Compete in the Season 1: Ones to Watch Exhibition to earn exclusive rewards! All rewards are untradeable. Consumable",
+      "Parent_Text": "Season 1: Ones to Watch Exhibition Weekly Play Compete in the Season 1: Ones to Watch Exhibition to earn exclusive rewards! All rewards are untradeable. Consumable Expires in 1 month 1 Objectives 100% 0%",
+      "Campaign_Expires": "Expires in 1 month",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/milestones/98-ted-lassos-masterclass/",
+      "Objective_Type": "Milestone",
+      "Link_Text": "Ted Lasso's Masterclass Complete challenges celebrating manager Ted Lasso and AFC Richmond to earn exclusive rewards! All rewards are untradeable. Manager Evo Unlock",
+      "Parent_Text": "Ted Lasso's Masterclass Complete challenges celebrating manager Ted Lasso and AFC Richmond to earn exclusive rewards! All rewards are untradeable. Manager Evo Unlock 6 Objectives 100% 0%",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/88-season-1-ones-to-watch-exhibition/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "Season 1: Ones to Watch Exhibition Complete the below challenges in the Season 1: Ones to Watch Exhibition. All rewards are untradeable. Crysencio Summerville",
+      "Parent_Text": "Season 1: Ones to Watch Exhibition Complete the below challenges in the Season 1: Ones to Watch Exhibition. All rewards are untradeable. Crysencio Summerville Expires in 1 month 7 Objectives 97% 3%",
+      "Campaign_Expires": "Expires in 1 month",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/71-weekly-rush-points/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points and pack rewards! All rewards are untradeable. 2X 84+ Gold Players Pack",
+      "Parent_Text": "Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points and pack rewards! All rewards are untradeable. 2X 84+ Gold Players Pack Expires in 6 days 5 Objectives 86% 14%",
+      "Campaign_Expires": "Expires in 6 days",
+      "Campaign_Deadline_KST": "9/23 02:00",
+      "Campaign_Deadline_ISO": "2026-09-23T02:00+09:00"
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/milestones/49-squad-building-milestone/",
+      "Objective_Type": "Milestone",
+      "Link_Text": "Squad Building Milestone Build your way up to become a Squad Building Master! Large Gold Pack",
+      "Parent_Text": "Squad Building Milestone Build your way up to become a Squad Building Master! Large Gold Pack 3 Objectives 91% 9%",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/milestones/45-draft-milestone/",
+      "Objective_Type": "Milestone",
+      "Link_Text": "Draft Milestone Draft your path to greatness! Large Gold Pack",
+      "Parent_Text": "Draft Milestone Draft your path to greatness! Large Gold Pack 3 Objectives 92% 8%",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/milestones/46-co-op-milestone/",
+      "Objective_Type": "Milestone",
+      "Link_Text": "Co-Op Milestone Team up with Friends to embark on the Co-op journey! 80+ Gold Player Pack 5,000 Coins",
+      "Parent_Text": "Co-Op Milestone Team up with Friends to embark on the Co-op journey! 80+ Gold Player Pack 5,000 Coins 3 Objectives 79% 21%",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/milestones/50-rush-milestone/",
+      "Objective_Type": "Milestone",
+      "Link_Text": "Rush Milestone Squad up and complete Rush bonuses alongside other players as you try to reign supreme in Rush! 1 Of 2 78+ Gold Player Pick Coin Boost",
+      "Parent_Text": "Rush Milestone Squad up and complete Rush bonuses alongside other players as you try to reign supreme in Rush! 1 Of 2 78+ Gold Player Pick Coin Boost 6 Objectives 92% 8%",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/milestones/51-moments-stars-milestone/",
+      "Objective_Type": "Milestone",
+      "Link_Text": "Moments Stars Milestone Complete Moments challenges and earn stars to show your football dominance! Coin Boost 5,000 Coins",
+      "Parent_Text": "Moments Stars Milestone Complete Moments challenges and earn stars to show your football dominance! Coin Boost 5,000 Coins 3 Objectives 83% 17%",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/milestones/47-transfer-market-milestone/",
+      "Objective_Type": "Milestone",
+      "Link_Text": "Transfer Market Milestone Wheel and deal your way to Transfer Market Mastery! Coin Boost",
+      "Parent_Text": "Transfer Market Milestone Wheel and deal your way to Transfer Market Mastery! Coin Boost 4 Objectives 90% 10%",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/milestones/48-live-events-milestone/",
+      "Objective_Type": "Milestone",
+      "Link_Text": "Live Events Milestone Get acquainted with Live Events matches. 1 Of 2 80+ Gold Player Pick",
+      "Parent_Text": "Live Events Milestone Get acquainted with Live Events matches. 1 Of 2 80+ Gold Player Pick 3 Objectives 91% 9%",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/milestones/42-squad-battles-milestone/",
+      "Objective_Type": "Milestone",
+      "Link_Text": "Squad Battles Milestone The challenge is set. Take to the pitch in Squad Battles and battle through the competition. Large Gold Pack",
+      "Parent_Text": "Squad Battles Milestone The challenge is set. Take to the pitch in Squad Battles and battle through the competition. Large Gold Pack 3 Objectives 90% 10%",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/milestones/43-rivals-milestone/",
+      "Objective_Type": "Milestone",
+      "Link_Text": "Rivals Milestone The ultimate test of skill awaits in Division Rivals. Battle against the competition and emerge victorious. 2X 82+ Gold Players Pack",
+      "Parent_Text": "Rivals Milestone The ultimate test of skill awaits in Division Rivals. Battle against the competition and emerge victorious. 2X 82+ Gold Players Pack 3 Objectives 90% 10%",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/milestones/44-champions-milestone/",
+      "Objective_Type": "Milestone",
+      "Link_Text": "Champions Milestone Every legend has a beginning. Enter Champions and begin your path to becoming the Golden G.O.A.T. 81+ Gold Player Pack 5,000 Coins",
+      "Parent_Text": "Champions Milestone Every legend has a beginning. Enter Champions and begin your path to becoming the Golden G.O.A.T. 81+ Gold Player Pack 5,000 Coins 3 Objectives 89% 11%",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/milestones/81-gallery-milestone/",
+      "Objective_Type": "Milestone",
+      "Link_Text": "Gallery Milestone Grow your Gallery Score, hit new levels, and earn rewards to build the ultimate club showcase! Evo Unlock",
+      "Parent_Text": "Gallery Milestone Grow your Gallery Score, hit new levels, and earn rewards to build the ultimate club showcase! Evo Unlock 5 Objectives 83% 17%",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/61-daily-objectives/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "Daily Objectives Play, complete and earn SP from daily objective every 24 hours! 10 SP",
+      "Parent_Text": "Daily Objectives Play, complete and earn SP from daily objective every 24 hours! 10 SP Expires in 15 days 30 total 2 Objectives 100% 0%",
+      "Campaign_Expires": "Expires in 15 days",
+      "Campaign_Deadline_KST": "10/2 02:00",
+      "Campaign_Deadline_ISO": "2026-10-02T02:00+09:00"
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/65-weekly-objectives/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "Weekly Objectives Complete Weekly Objectives to earn SP! 250 SP",
+      "Parent_Text": "Weekly Objectives Complete Weekly Objectives to earn SP! 250 SP Expires in 15 days 500 total 5 Objectives 100% 0%",
+      "Campaign_Expires": "Expires in 15 days",
+      "Campaign_Deadline_KST": "10/2 02:00",
+      "Campaign_Deadline_ISO": "2026-10-02T02:00+09:00"
+    }
+  ],
+  "errors": [
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/92-squad-battles-champions-qualification-points/",
+      "Error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.fut.gg/objectives/seasonal/92-squad-battles-champions-qualification-points/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/milestones/47-transfer-market-milestone/",
+      "Error": "No objective text extracted"
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/milestones/81-gallery-milestone/",
+      "Error": "No objective text extracted"
+    }
+  ]
 }
