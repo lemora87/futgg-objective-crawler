@@ -1,20 +1,123 @@
 {
   "manifest": {
-    "Generated_At_KST": "2026-10-02 06:34:58",
-    "Deadline_Base_KST": "2026-10-02 02:00:00",
+    "Generated_At_KST": "2026-10-03 06:10:22",
+    "Deadline_Base_KST": "2026-10-03 02:00:00",
     "Mission_Group_Count": 31,
-    "Objective_Row_Count": 98,
-    "New_Objective_Count": 98,
+    "Objective_Row_Count": 101,
+    "New_Objective_Count": 101,
     "Error_Count": 2,
     "Purpose": "RAW collection only. Do not trust this file as parsed mission guide; upload it to ChatGPT/manual review for route optimization."
   },
   "missions": [
     {
       "group_id": "G001",
+      "mission_group_name": "Ultimate Gauntlet 1 - EA SPORTS FC 27 Objectives",
+      "objective_type": "Campaign",
+      "url": "https://www.fut.gg/objectives/campaigns/124-ultimate-gauntlet-1/",
+      "campaign_expires": "Expires in 7 days",
+      "campaign_deadline_kst": "10/10 02:00",
+      "campaign_deadline_iso": "2026-10-10T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 9,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Score in 14",
+          "text_raw": "Score at least 1 goal in 14 separate matches in the Ultimate Gauntlet 1.",
+          "reward_raw": "1x 7x 77+ Gold Players Pack / 1x 7x 75+ Gold Players Pack / 1x 3x 75+ Gold Players Pack / 7X 80+ Gold Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/124-ultimate-gauntlet-1/||score at least 1 goal in 14 separate matches in the ultimate gauntlet 1.||score in 14"
+        },
+        {
+          "order": 2,
+          "name_raw": "Score in 10",
+          "text_raw": "Score at least 1 goal in 10 separate matches in the Ultimate Gauntlet 1.",
+          "reward_raw": "7X 80+ Gold Players Pack / 3X 84+ Gold Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/124-ultimate-gauntlet-1/||score at least 1 goal in 10 separate matches in the ultimate gauntlet 1.||score in 10"
+        },
+        {
+          "order": 3,
+          "name_raw": "Triple Perfect",
+          "text_raw": "Win both matches in a single Ultimate Gauntlet 1 round, three times.",
+          "reward_raw": "7X 80+ Gold Players Pack / 3X 84+ Gold Players Pack / 5X 82+ Gold Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/124-ultimate-gauntlet-1/||win both matches in a single ultimate gauntlet 1 round, three times.||triple perfect"
+        },
+        {
+          "order": 4,
+          "name_raw": "Double Perfect",
+          "text_raw": "Win both matches in a single Ultimate Gauntlet 1 round, twice.",
+          "reward_raw": "3X 84+ Gold Players Pack / 5X 82+ Gold Players Pack / 7X 81+ Gold Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/124-ultimate-gauntlet-1/||win both matches in a single ultimate gauntlet 1 round, twice.||double perfect"
+        },
+        {
+          "order": 5,
+          "name_raw": "Perfect Round",
+          "text_raw": "Win both matches in a single Ultimate Gauntlet 1 round.",
+          "reward_raw": "5X 82+ Gold Players Pack / 7X 81+ Gold Players Pack / 7X 77+ Gold Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/124-ultimate-gauntlet-1/||win both matches in a single ultimate gauntlet 1 round.||perfect round"
+        },
+        {
+          "order": 6,
+          "name_raw": "Win 5",
+          "text_raw": "Win 5 matches in the Ultimate Gauntlet 1.",
+          "reward_raw": "7X 81+ Gold Players Pack / 7X 77+ Gold Players Pack / 7X 75+ Gold Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/124-ultimate-gauntlet-1/||win 5 matches in the ultimate gauntlet 1.||win 5"
+        },
+        {
+          "order": 7,
+          "name_raw": "Win 3",
+          "text_raw": "Win 3 matches in the Ultimate Gauntlet 1.",
+          "reward_raw": "7X 77+ Gold Players Pack / 7X 75+ Gold Players Pack / 100 SP",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/124-ultimate-gauntlet-1/||win 3 matches in the ultimate gauntlet 1.||win 3"
+        },
+        {
+          "order": 8,
+          "name_raw": "Score in 4",
+          "text_raw": "Score at least 1 goal in 4 separate matches in the Ultimate Gauntlet 1.",
+          "reward_raw": "100 SP / 3X 75+ Gold Players Pack / Destined for Glory Regular Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/124-ultimate-gauntlet-1/||score at least 1 goal in 4 separate matches in the ultimate gauntlet 1.||score in 4"
+        },
+        {
+          "order": 9,
+          "name_raw": "Score 1",
+          "text_raw": "Score 1 goal in the Ultimate Gauntlet 1.",
+          "reward_raw": "3X 75+ Gold Players Pack / Destined for Glory Regular Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/124-ultimate-gauntlet-1/||score 1 goal in the ultimate gauntlet 1.||score 1"
+        }
+      ]
+    },
+    {
+      "group_id": "G002",
       "mission_group_name": "Icon Home Kit - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/77-icon-home-kit/",
-      "campaign_expires": "Expires in 20 days",
+      "campaign_expires": "Expires in 19 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -53,11 +156,11 @@
       ]
     },
     {
-      "group_id": "G002",
+      "group_id": "G003",
       "mission_group_name": "Weekly Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/66-weekly-objectives/",
-      "campaign_expires": "Expires in 7 days",
+      "campaign_expires": "Expires in 6 days",
       "campaign_deadline_kst": "10/9 02:00",
       "campaign_deadline_iso": "2026-10-09T02:00+09:00",
       "is_new_group": "Yes",
@@ -96,11 +199,11 @@
       ]
     },
     {
-      "group_id": "G003",
+      "group_id": "G004",
       "mission_group_name": "Daily Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/62-daily-objectives/",
-      "campaign_expires": "Expires in 7 days",
+      "campaign_expires": "Expires in 6 days",
       "campaign_deadline_kst": "10/9 02:00",
       "campaign_deadline_iso": "2026-10-09T02:00+09:00",
       "is_new_group": "Yes",
@@ -119,11 +222,11 @@
       ]
     },
     {
-      "group_id": "G004",
+      "group_id": "G005",
       "mission_group_name": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/73-weekly-rush-points/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "10/7 02:00",
       "campaign_deadline_iso": "2026-10-07T02:00+09:00",
       "is_new_group": "Yes",
@@ -192,11 +295,11 @@
       ]
     },
     {
-      "group_id": "G005",
+      "group_id": "G006",
       "mission_group_name": "Squad Battles: Champions Qualification Points - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/94-squad-battles-champions-qualification-points/",
-      "campaign_expires": "Expires in 2 days",
+      "campaign_expires": "Expires in 1 day",
       "campaign_deadline_kst": "10/4 02:00",
       "campaign_deadline_iso": "2026-10-04T02:00+09:00",
       "is_new_group": "Yes",
@@ -235,13 +338,13 @@
       ]
     },
     {
-      "group_id": "G006",
+      "group_id": "G007",
       "mission_group_name": "Squad Foundations: Shunsuke Mito - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/113-squad-foundations-shunsuke-mito/",
-      "campaign_expires": "Expires in 2 days",
-      "campaign_deadline_kst": "10/4 02:00",
-      "campaign_deadline_iso": "2026-10-04T02:00+09:00",
+      "campaign_expires": "Expires in 20 hours",
+      "campaign_deadline_kst": "10/3 22:00",
+      "campaign_deadline_iso": "2026-10-03T22:00+09:00",
       "is_new_group": "Yes",
       "new_objective_count": 4,
       "objectives": [
@@ -288,79 +391,6 @@
       ]
     },
     {
-      "group_id": "G007",
-      "mission_group_name": "Destined for Glory Exhibition - EA SPORTS FC 27 Objectives",
-      "objective_type": "Live Events",
-      "url": "https://www.fut.gg/objectives/live-events/109-destined-for-glory-exhibition/",
-      "campaign_expires": "Expires in 19 hours",
-      "campaign_deadline_kst": "10/2 21:00",
-      "campaign_deadline_iso": "2026-10-02T21:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 6,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Score 1",
-          "text_raw": "Score 1 goal from outside the box in the Destined for Glory Exhibition Live Event.",
-          "reward_raw": "1 Of 3 Destined For Glory W1 Loan Pick / 1x 5x 78+ Gold Players Pack / 1x 10x 75+ Gold Players Pack / 5,000 Coins",
-          "mode_raw": "Live Events / Destined for Glory Exhibition Live Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/live-events/109-destined-for-glory-exhibition/||score 1 goal from outside the box in the destined for glory exhibition live event.||score 1"
-        },
-        {
-          "order": 2,
-          "name_raw": "Score in 7",
-          "text_raw": "Score at least 1 goal in 7 separate matches in the Destined for Glory Exhibition Live Event.",
-          "reward_raw": "5,000 Coins / 200 SP / 5X 78+ Gold Players Pack",
-          "mode_raw": "Live Events / Destined for Glory Exhibition Live Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/live-events/109-destined-for-glory-exhibition/||score at least 1 goal in 7 separate matches in the destined for glory exhibition live event.||score in 7"
-        },
-        {
-          "order": 3,
-          "name_raw": "Score 5",
-          "text_raw": "Score 5 Low Driven goals in the Destined for Glory Exhibition Live Event.",
-          "reward_raw": "5X 78+ Gold Players Pack / 10X 75+ Gold Players Pack",
-          "mode_raw": "Live Events / Destined for Glory Exhibition Live Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/live-events/109-destined-for-glory-exhibition/||score 5 low driven goals in the destined for glory exhibition live event.||score 5"
-        },
-        {
-          "order": 4,
-          "name_raw": "Win 3",
-          "text_raw": "Win 3 matches in the Destined for Glory Exhibition Live Event while having min. 2 French players in your starting 11.",
-          "reward_raw": "10X 75+ Gold Players Pack / 100 SP",
-          "mode_raw": "Live Events / Destined for Glory Exhibition Live Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/live-events/109-destined-for-glory-exhibition/||win 3 matches in the destined for glory exhibition live event while having min. 2 french players in your starting 11.||win 3"
-        },
-        {
-          "order": 5,
-          "name_raw": "Score in 3",
-          "text_raw": "Score at least 1 goal in 3 separate matches in the Destined for Glory Exhibition Live Event while having min. 1 Destined for Glory player in your starting 11.",
-          "reward_raw": "10X 75+ Gold Players Pack / 100 SP / 1 Of 3 Destined For Glory W1 Loan Pick",
-          "mode_raw": "Live Events / Destined for Glory Exhibition Live Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/live-events/109-destined-for-glory-exhibition/||score at least 1 goal in 3 separate matches in the destined for glory exhibition live event while having min. 1 destined for glory player in your starting 11.||score in 3"
-        },
-        {
-          "order": 6,
-          "name_raw": "Play 1",
-          "text_raw": "Play 1 match in the Destined for Glory Exhibition Live Event.",
-          "reward_raw": "100 SP / 1 Of 3 Destined For Glory W1 Loan Pick",
-          "mode_raw": "Live Events / Destined for Glory Exhibition Live Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/live-events/109-destined-for-glory-exhibition/||play 1 match in the destined for glory exhibition live event.||play 1"
-        }
-      ]
-    },
-    {
       "group_id": "G008",
       "mission_group_name": "Gallery Foundations - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
@@ -388,7 +418,7 @@
       "mission_group_name": "FC Pro Open Ladder - EA SPORTS FC 27 Objectives",
       "objective_type": "FC Pro",
       "url": "https://www.fut.gg/objectives/fc-pro/108-fc-pro-open-ladder/",
-      "campaign_expires": "Expires in 3 days",
+      "campaign_expires": "Expires in 2 days",
       "campaign_deadline_kst": "10/5 02:00",
       "campaign_deadline_iso": "2026-10-05T02:00+09:00",
       "is_new_group": "Yes",
@@ -527,7 +557,7 @@
       "mission_group_name": "Season 1: Ones to Watch Exhibition - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/88-season-1-ones-to-watch-exhibition/",
-      "campaign_expires": "Expires in 20 days",
+      "campaign_expires": "Expires in 19 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -620,7 +650,7 @@
       "mission_group_name": "Season 1: Ones to Watch Exhibition Weekly Play - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/80-season-1-ones-to-watch-exhibition-weekly-play/",
-      "campaign_expires": "Expires in 20 days",
+      "campaign_expires": "Expires in 19 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -643,7 +673,7 @@
       "mission_group_name": "Season 1: Ones to Watch Exhibition Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/79-season-1-ones-to-watch-exhibition-completionist/",
-      "campaign_expires": "Expires in 20 days",
+      "campaign_expires": "Expires in 19 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -706,7 +736,7 @@
       "mission_group_name": "Ones We Watched Challenge Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/87-ones-we-watched-challenge-completionist/",
-      "campaign_expires": "Expires in 20 days",
+      "campaign_expires": "Expires in 19 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -759,7 +789,7 @@
       "mission_group_name": "Ones We Watched Kick Off Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/84-ones-we-watched-kick-off-challenge/",
-      "campaign_expires": "Expires in 20 days",
+      "campaign_expires": "Expires in 19 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -792,7 +822,7 @@
       "mission_group_name": "Ones We Watched Semi-Pro Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/85-ones-we-watched-semi-pro-challenge/",
-      "campaign_expires": "Expires in 20 days",
+      "campaign_expires": "Expires in 19 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -825,7 +855,7 @@
       "mission_group_name": "Ones We Watched Professional Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/86-ones-we-watched-professional-challenge/",
-      "campaign_expires": "Expires in 20 days",
+      "campaign_expires": "Expires in 19 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -858,7 +888,7 @@
       "mission_group_name": "Ones We Watched World Class Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/82-ones-we-watched-world-class-challenge/",
-      "campaign_expires": "Expires in 20 days",
+      "campaign_expires": "Expires in 19 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -901,7 +931,7 @@
       "mission_group_name": "Ones We Watched Legendary Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/83-ones-we-watched-legendary-challenge/",
-      "campaign_expires": "Expires in 20 days",
+      "campaign_expires": "Expires in 19 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -1393,10 +1423,19 @@
   ],
   "collected_urls": [
     {
+      "URL": "https://www.fut.gg/objectives/campaigns/124-ultimate-gauntlet-1/",
+      "Objective_Type": "Campaign",
+      "Link_Text": "",
+      "Parent_Text": "NEW Ultimate Gauntlet 1 Complete 8 of 10 challenges in the Ultimate Gauntlet 1 and earn exclusive rewards! All rewards are untradable. Gonçalo Ramos Destined for Glory Premium Badge 100 SP",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
       "URL": "https://www.fut.gg/objectives/seasonal/77-icon-home-kit/",
       "Objective_Type": "Seasonal",
       "Link_Text": "",
-      "Parent_Text": "NEW Icon Home Kit Equip the Icon Home Kit and complete the objectives to earn additional SP. 1,000 SP",
+      "Parent_Text": "Icon Home Kit Equip the Icon Home Kit and complete the objectives to earn additional SP. 1,000 SP",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -1405,7 +1444,7 @@
       "URL": "https://www.fut.gg/objectives/seasonal/66-weekly-objectives/",
       "Objective_Type": "Seasonal",
       "Link_Text": "",
-      "Parent_Text": "NEW Weekly Objectives Complete Weekly Objectives to earn SP! 750 SP",
+      "Parent_Text": "Weekly Objectives Complete Weekly Objectives to earn SP! 750 SP",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -1414,7 +1453,7 @@
       "URL": "https://www.fut.gg/objectives/seasonal/62-daily-objectives/",
       "Objective_Type": "Seasonal",
       "Link_Text": "",
-      "Parent_Text": "NEW Daily Objectives Play, complete and earn SP from daily objective every 24 hours! 10 SP",
+      "Parent_Text": "Daily Objectives Play, complete and earn SP from daily objective every 24 hours! 10 SP",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -1442,15 +1481,6 @@
       "Objective_Type": "Campaign",
       "Link_Text": "",
       "Parent_Text": "Squad Foundations: Shunsuke Mito Complete these objectives to earn Squad Foundations Shunsuke Mito and SP! All rewards are untradeable. Shunsuke Mito 100 SP",
-      "Campaign_Expires": "",
-      "Campaign_Deadline_KST": "",
-      "Campaign_Deadline_ISO": ""
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/live-events/109-destined-for-glory-exhibition/",
-      "Objective_Type": "Live Events",
-      "Link_Text": "",
-      "Parent_Text": "Destined for Glory Exhibition Compete in the Destined for Glory Exhibition Live Event to earn multiple types of rewards and Squad Foundations Edouard Michut. All rewards are untradeable. Édouard Michut",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
