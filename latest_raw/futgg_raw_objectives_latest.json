@@ -1,20 +1,83 @@
 {
   "manifest": {
-    "Generated_At_KST": "2026-10-03 06:10:22",
-    "Deadline_Base_KST": "2026-10-03 02:00:00",
+    "Generated_At_KST": "2026-10-04 04:41:57",
+    "Deadline_Base_KST": "2026-10-04 02:00:00",
     "Mission_Group_Count": 31,
-    "Objective_Row_Count": 101,
-    "New_Objective_Count": 101,
+    "Objective_Row_Count": 102,
+    "New_Objective_Count": 102,
     "Error_Count": 2,
     "Purpose": "RAW collection only. Do not trust this file as parsed mission guide; upload it to ChatGPT/manual review for route optimization."
   },
   "missions": [
     {
       "group_id": "G001",
+      "mission_group_name": "Squad Foundations: Ringo Meerveld - EA SPORTS FC 27 Objectives",
+      "objective_type": "Campaign",
+      "url": "https://www.fut.gg/objectives/campaigns/120-squad-foundations-ringo-meerveld/",
+      "campaign_expires": "Expires in 6 days",
+      "campaign_deadline_kst": "10/10 02:00",
+      "campaign_deadline_iso": "2026-10-10T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 5,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Eredivisie Brilliance",
+          "text_raw": "Score and Assist in 3 separate matches using a Eredivisie player in any FUT game mode.",
+          "reward_raw": "1x 7x 77+ Gold Players Pack / 1x 4x 81+ Gold Players Pack / 1x 4x 80+ Gold Players Pack / 4X 82+ Gold Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/120-squad-foundations-ringo-meerveld/||score and assist in 3 separate matches using a eredivisie player in any fut game mode.||eredivisie brilliance"
+        },
+        {
+          "order": 2,
+          "name_raw": "The Dutch",
+          "text_raw": "Score 6 goals using a Dutch player in any FUT game mode.",
+          "reward_raw": "4X 82+ Gold Players Pack / 100 SP / 7X 80+ Gold Players Pack / 7X 77+ Gold Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/120-squad-foundations-ringo-meerveld/||score 6 goals using a dutch player in any fut game mode.||the dutch"
+        },
+        {
+          "order": 3,
+          "name_raw": "Winner Mentality",
+          "text_raw": "Win 4 matches while having min. 1 Dutch player in your starting 11 in any FUT game mode.",
+          "reward_raw": "7X 80+ Gold Players Pack / 7X 77+ Gold Players Pack / 4X 81+ Gold Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/120-squad-foundations-ringo-meerveld/||win 4 matches while having min. 1 dutch player in your starting 11 in any fut game mode.||winner mentality"
+        },
+        {
+          "order": 4,
+          "name_raw": "Playmaker",
+          "text_raw": "Play 5 matches while having min. 1 Eredivisie player in your starting 11 in any FUT game mode.",
+          "reward_raw": "7X 77+ Gold Players Pack / 4X 81+ Gold Players Pack / 4X 80+ Gold Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/120-squad-foundations-ringo-meerveld/||play 5 matches while having min. 1 eredivisie player in your starting 11 in any fut game mode.||playmaker"
+        },
+        {
+          "order": 5,
+          "name_raw": "Midfield Maestro",
+          "text_raw": "Assist 5 goals using a CAM (Preferred position only) in any FUT game mode.",
+          "reward_raw": "4X 81+ Gold Players Pack / 4X 80+ Gold Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/120-squad-foundations-ringo-meerveld/||assist 5 goals using a cam (preferred position only) in any fut game mode.||midfield maestro"
+        }
+      ]
+    },
+    {
+      "group_id": "G002",
       "mission_group_name": "Ultimate Gauntlet 1 - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/124-ultimate-gauntlet-1/",
-      "campaign_expires": "Expires in 7 days",
+      "campaign_expires": "Expires in 6 days",
       "campaign_deadline_kst": "10/10 02:00",
       "campaign_deadline_iso": "2026-10-10T02:00+09:00",
       "is_new_group": "Yes",
@@ -113,11 +176,11 @@
       ]
     },
     {
-      "group_id": "G002",
+      "group_id": "G003",
       "mission_group_name": "Icon Home Kit - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/77-icon-home-kit/",
-      "campaign_expires": "Expires in 19 days",
+      "campaign_expires": "Expires in 18 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -156,11 +219,11 @@
       ]
     },
     {
-      "group_id": "G003",
+      "group_id": "G004",
       "mission_group_name": "Weekly Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/66-weekly-objectives/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "10/9 02:00",
       "campaign_deadline_iso": "2026-10-09T02:00+09:00",
       "is_new_group": "Yes",
@@ -199,11 +262,11 @@
       ]
     },
     {
-      "group_id": "G004",
+      "group_id": "G005",
       "mission_group_name": "Daily Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/62-daily-objectives/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "10/9 02:00",
       "campaign_deadline_iso": "2026-10-09T02:00+09:00",
       "is_new_group": "Yes",
@@ -222,11 +285,11 @@
       ]
     },
     {
-      "group_id": "G005",
+      "group_id": "G006",
       "mission_group_name": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/73-weekly-rush-points/",
-      "campaign_expires": "Expires in 4 days",
+      "campaign_expires": "Expires in 3 days",
       "campaign_deadline_kst": "10/7 02:00",
       "campaign_deadline_iso": "2026-10-07T02:00+09:00",
       "is_new_group": "Yes",
@@ -295,13 +358,13 @@
       ]
     },
     {
-      "group_id": "G006",
+      "group_id": "G007",
       "mission_group_name": "Squad Battles: Champions Qualification Points - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/94-squad-battles-champions-qualification-points/",
-      "campaign_expires": "Expires in 1 day",
-      "campaign_deadline_kst": "10/4 02:00",
-      "campaign_deadline_iso": "2026-10-04T02:00+09:00",
+      "campaign_expires": "Expires in 11 hours",
+      "campaign_deadline_kst": "10/4 13:00",
+      "campaign_deadline_iso": "2026-10-04T13:00+09:00",
       "is_new_group": "Yes",
       "new_objective_count": 3,
       "objectives": [
@@ -338,59 +401,6 @@
       ]
     },
     {
-      "group_id": "G007",
-      "mission_group_name": "Squad Foundations: Shunsuke Mito - EA SPORTS FC 27 Objectives",
-      "objective_type": "Campaign",
-      "url": "https://www.fut.gg/objectives/campaigns/113-squad-foundations-shunsuke-mito/",
-      "campaign_expires": "Expires in 20 hours",
-      "campaign_deadline_kst": "10/3 22:00",
-      "campaign_deadline_iso": "2026-10-03T22:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 4,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Winners Circle",
-          "text_raw": "Win 7 matches in any FUT game mode.",
-          "reward_raw": "1x 4x 82+ Gold Players Pack / 1x 4x 81+ Gold Players Pack / 1x 4x 80+ Gold Players Pack / 4X 83+ Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/113-squad-foundations-shunsuke-mito/||win 7 matches in any fut game mode.||winners circle"
-        },
-        {
-          "order": 2,
-          "name_raw": "Wide Threat",
-          "text_raw": "Score at least 1 goal in 3 separate matches using a player with a Preferred Position of LM.",
-          "reward_raw": "4X 83+ Gold Players Pack / 4X 82+ Gold Players Pack / 100 SP / EVO Ascension",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/113-squad-foundations-shunsuke-mito/||score at least 1 goal in 3 separate matches using a player with a preferred position of lm.||wide threat"
-        },
-        {
-          "order": 3,
-          "name_raw": "Smooth Samurai",
-          "text_raw": "Score at least 1 goal in 4 separate matches using a Japanese player in any FUT game mode.",
-          "reward_raw": "EVO Ascension / Complete any Evolution to earn an additional repeat of the Repeat Delivery Evolution. / 4X 81+ Gold Players Pack / 4X 80+ Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/113-squad-foundations-shunsuke-mito/||score at least 1 goal in 4 separate matches using a japanese player in any fut game mode.||smooth samurai"
-        },
-        {
-          "order": 4,
-          "name_raw": "Composed Victory",
-          "text_raw": "Win 3 matches in any FUT game mode while having min. 2 players from Eredivisie in your starting 11.",
-          "reward_raw": "4X 81+ Gold Players Pack / 4X 80+ Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/113-squad-foundations-shunsuke-mito/||win 3 matches in any fut game mode while having min. 2 players from eredivisie in your starting 11.||composed victory"
-        }
-      ]
-    },
-    {
       "group_id": "G008",
       "mission_group_name": "Gallery Foundations - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
@@ -418,9 +428,9 @@
       "mission_group_name": "FC Pro Open Ladder - EA SPORTS FC 27 Objectives",
       "objective_type": "FC Pro",
       "url": "https://www.fut.gg/objectives/fc-pro/108-fc-pro-open-ladder/",
-      "campaign_expires": "Expires in 2 days",
-      "campaign_deadline_kst": "10/5 02:00",
-      "campaign_deadline_iso": "2026-10-05T02:00+09:00",
+      "campaign_expires": "Expires in 21 hours",
+      "campaign_deadline_kst": "10/4 23:00",
+      "campaign_deadline_iso": "2026-10-04T23:00+09:00",
       "is_new_group": "Yes",
       "new_objective_count": 1,
       "objectives": [
@@ -557,7 +567,7 @@
       "mission_group_name": "Season 1: Ones to Watch Exhibition - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/88-season-1-ones-to-watch-exhibition/",
-      "campaign_expires": "Expires in 19 days",
+      "campaign_expires": "Expires in 18 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -650,7 +660,7 @@
       "mission_group_name": "Season 1: Ones to Watch Exhibition Weekly Play - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/80-season-1-ones-to-watch-exhibition-weekly-play/",
-      "campaign_expires": "Expires in 19 days",
+      "campaign_expires": "Expires in 18 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -673,7 +683,7 @@
       "mission_group_name": "Season 1: Ones to Watch Exhibition Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/79-season-1-ones-to-watch-exhibition-completionist/",
-      "campaign_expires": "Expires in 19 days",
+      "campaign_expires": "Expires in 18 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -736,7 +746,7 @@
       "mission_group_name": "Ones We Watched Challenge Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/87-ones-we-watched-challenge-completionist/",
-      "campaign_expires": "Expires in 19 days",
+      "campaign_expires": "Expires in 18 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -789,7 +799,7 @@
       "mission_group_name": "Ones We Watched Kick Off Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/84-ones-we-watched-kick-off-challenge/",
-      "campaign_expires": "Expires in 19 days",
+      "campaign_expires": "Expires in 18 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -822,7 +832,7 @@
       "mission_group_name": "Ones We Watched Semi-Pro Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/85-ones-we-watched-semi-pro-challenge/",
-      "campaign_expires": "Expires in 19 days",
+      "campaign_expires": "Expires in 18 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -855,7 +865,7 @@
       "mission_group_name": "Ones We Watched Professional Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/86-ones-we-watched-professional-challenge/",
-      "campaign_expires": "Expires in 19 days",
+      "campaign_expires": "Expires in 18 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -888,7 +898,7 @@
       "mission_group_name": "Ones We Watched World Class Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/82-ones-we-watched-world-class-challenge/",
-      "campaign_expires": "Expires in 19 days",
+      "campaign_expires": "Expires in 18 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -931,7 +941,7 @@
       "mission_group_name": "Ones We Watched Legendary Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/83-ones-we-watched-legendary-challenge/",
-      "campaign_expires": "Expires in 19 days",
+      "campaign_expires": "Expires in 18 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -1423,10 +1433,19 @@
   ],
   "collected_urls": [
     {
+      "URL": "https://www.fut.gg/objectives/campaigns/120-squad-foundations-ringo-meerveld/",
+      "Objective_Type": "Campaign",
+      "Link_Text": "",
+      "Parent_Text": "NEW Squad Foundations: Ringo Meerveld Complete challenges below to earn Squad Foundations Ringo Meerveld & SP! All rewards are untradeable. Ringo Meerveld 100 SP",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
       "URL": "https://www.fut.gg/objectives/campaigns/124-ultimate-gauntlet-1/",
       "Objective_Type": "Campaign",
       "Link_Text": "",
-      "Parent_Text": "NEW Ultimate Gauntlet 1 Complete 8 of 10 challenges in the Ultimate Gauntlet 1 and earn exclusive rewards! All rewards are untradable. Gonçalo Ramos Destined for Glory Premium Badge 100 SP",
+      "Parent_Text": "Ultimate Gauntlet 1 Complete 8 of 10 challenges in the Ultimate Gauntlet 1 and earn exclusive rewards! All rewards are untradable. Gonçalo Ramos Destined for Glory Premium Badge 100 SP",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -1472,15 +1491,6 @@
       "Objective_Type": "Seasonal",
       "Link_Text": "",
       "Parent_Text": "Squad Battles: Champions Qualification Points Compete in Squad Battles to earn Champions Qualification Points! 100 Points",
-      "Campaign_Expires": "",
-      "Campaign_Deadline_KST": "",
-      "Campaign_Deadline_ISO": ""
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/campaigns/113-squad-foundations-shunsuke-mito/",
-      "Objective_Type": "Campaign",
-      "Link_Text": "",
-      "Parent_Text": "Squad Foundations: Shunsuke Mito Complete these objectives to earn Squad Foundations Shunsuke Mito and SP! All rewards are untradeable. Shunsuke Mito 100 SP",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
