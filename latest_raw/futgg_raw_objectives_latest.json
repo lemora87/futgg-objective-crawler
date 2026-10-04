@@ -1,20 +1,106 @@
 {
   "manifest": {
-    "Generated_At_KST": "2026-10-04 04:41:57",
-    "Deadline_Base_KST": "2026-10-04 02:00:00",
+    "Generated_At_KST": "2026-10-05 04:56:27",
+    "Deadline_Base_KST": "2026-10-05 02:00:00",
     "Mission_Group_Count": 31,
-    "Objective_Row_Count": 102,
-    "New_Objective_Count": 102,
+    "Objective_Row_Count": 104,
+    "New_Objective_Count": 104,
     "Error_Count": 2,
     "Purpose": "RAW collection only. Do not trust this file as parsed mission guide; upload it to ChatGPT/manual review for route optimization."
   },
   "missions": [
     {
       "group_id": "G001",
+      "mission_group_name": "Destined for Glory: Strikers Only - EA SPORTS FC 27 Objectives",
+      "objective_type": "Campaign",
+      "url": "https://www.fut.gg/objectives/campaigns/118-destined-for-glory-strikers-only/",
+      "campaign_expires": "Expires in 3 days",
+      "campaign_deadline_kst": "10/8 02:00",
+      "campaign_deadline_iso": "2026-10-08T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 3,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Win 5",
+          "text_raw": "Win 5 matches in the Destined for Glory: Strikers Only Flash Rush Event.",
+          "reward_raw": "1x 4x 82+ Gold Players Pack / 1x 2x 82+ Gold Players Pack / 1x 4x 83+ Gold Players Pack / 4X 82+ Gold Players Pack",
+          "mode_raw": "Rush / Destined for Glory: Strikers Only Flash Rush Event",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/118-destined-for-glory-strikers-only/||win 5 matches in the destined for glory: strikers only flash rush event.||win 5"
+        },
+        {
+          "order": 2,
+          "name_raw": "15,000 Rush Points",
+          "text_raw": "Earn 15,000 Rush Points.",
+          "reward_raw": "4X 82+ Gold Players Pack / 150 SP / 1 Of 3 83+ Gold Player Pick / 2X 82+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/118-destined-for-glory-strikers-only/||earn 15,000 rush points.||15,000 rush points"
+        },
+        {
+          "order": 3,
+          "name_raw": "Play 1",
+          "text_raw": "Play 1 match in the Destined for Glory: Strikers Only Flash Rush Event.",
+          "reward_raw": "1 Of 3 83+ Gold Player Pick / 2X 82+ Gold Players Pack",
+          "mode_raw": "Rush / Destined for Glory: Strikers Only Flash Rush Event",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/118-destined-for-glory-strikers-only/||play 1 match in the destined for glory: strikers only flash rush event.||play 1"
+        }
+      ]
+    },
+    {
+      "group_id": "G002",
+      "mission_group_name": "Squad Battles: Champions Qualification Points - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/95-squad-battles-champions-qualification-points/",
+      "campaign_expires": "Expires in 6 days",
+      "campaign_deadline_kst": "10/11 02:00",
+      "campaign_deadline_iso": "2026-10-11T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 3,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Win 15",
+          "text_raw": "Win 15 matches in Squad Battles on min. World Class difficulty.",
+          "reward_raw": "",
+          "mode_raw": "Squad Battles",
+          "difficulty_raw": "Min. World Class",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/95-squad-battles-champions-qualification-points/||win 15 matches in squad battles on min. world class difficulty.||win 15"
+        },
+        {
+          "order": 2,
+          "name_raw": "Win 12",
+          "text_raw": "Win 12 matches in Squad Battles on min. World Class difficulty.",
+          "reward_raw": "",
+          "mode_raw": "Squad Battles",
+          "difficulty_raw": "Min. World Class",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/95-squad-battles-champions-qualification-points/||win 12 matches in squad battles on min. world class difficulty.||win 12"
+        },
+        {
+          "order": 3,
+          "name_raw": "Win 10",
+          "text_raw": "Win 10 matches in Squad Battles on min. World Class difficulty.",
+          "reward_raw": "",
+          "mode_raw": "Squad Battles",
+          "difficulty_raw": "Min. World Class",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/95-squad-battles-champions-qualification-points/||win 10 matches in squad battles on min. world class difficulty.||win 10"
+        }
+      ]
+    },
+    {
+      "group_id": "G003",
       "mission_group_name": "Squad Foundations: Ringo Meerveld - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/120-squad-foundations-ringo-meerveld/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "10/10 02:00",
       "campaign_deadline_iso": "2026-10-10T02:00+09:00",
       "is_new_group": "Yes",
@@ -73,11 +159,11 @@
       ]
     },
     {
-      "group_id": "G002",
+      "group_id": "G004",
       "mission_group_name": "Ultimate Gauntlet 1 - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/124-ultimate-gauntlet-1/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "10/10 02:00",
       "campaign_deadline_iso": "2026-10-10T02:00+09:00",
       "is_new_group": "Yes",
@@ -176,11 +262,11 @@
       ]
     },
     {
-      "group_id": "G003",
+      "group_id": "G005",
       "mission_group_name": "Icon Home Kit - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/77-icon-home-kit/",
-      "campaign_expires": "Expires in 18 days",
+      "campaign_expires": "Expires in 17 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -219,11 +305,11 @@
       ]
     },
     {
-      "group_id": "G004",
+      "group_id": "G006",
       "mission_group_name": "Weekly Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/66-weekly-objectives/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "10/9 02:00",
       "campaign_deadline_iso": "2026-10-09T02:00+09:00",
       "is_new_group": "Yes",
@@ -262,11 +348,11 @@
       ]
     },
     {
-      "group_id": "G005",
+      "group_id": "G007",
       "mission_group_name": "Daily Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/62-daily-objectives/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "10/9 02:00",
       "campaign_deadline_iso": "2026-10-09T02:00+09:00",
       "is_new_group": "Yes",
@@ -285,11 +371,11 @@
       ]
     },
     {
-      "group_id": "G006",
+      "group_id": "G008",
       "mission_group_name": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/73-weekly-rush-points/",
-      "campaign_expires": "Expires in 3 days",
+      "campaign_expires": "Expires in 2 days",
       "campaign_deadline_kst": "10/7 02:00",
       "campaign_deadline_iso": "2026-10-07T02:00+09:00",
       "is_new_group": "Yes",
@@ -358,50 +444,7 @@
       ]
     },
     {
-      "group_id": "G007",
-      "mission_group_name": "Squad Battles: Champions Qualification Points - EA SPORTS FC 27 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/94-squad-battles-champions-qualification-points/",
-      "campaign_expires": "Expires in 11 hours",
-      "campaign_deadline_kst": "10/4 13:00",
-      "campaign_deadline_iso": "2026-10-04T13:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 3,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Win 15",
-          "text_raw": "Win 15 matches in Squad Battles on min. World Class difficulty.",
-          "reward_raw": "",
-          "mode_raw": "Squad Battles",
-          "difficulty_raw": "Min. World Class",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/94-squad-battles-champions-qualification-points/||win 15 matches in squad battles on min. world class difficulty.||win 15"
-        },
-        {
-          "order": 2,
-          "name_raw": "Win 12",
-          "text_raw": "Win 12 matches in Squad Battles on min. World Class difficulty.",
-          "reward_raw": "",
-          "mode_raw": "Squad Battles",
-          "difficulty_raw": "Min. World Class",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/94-squad-battles-champions-qualification-points/||win 12 matches in squad battles on min. world class difficulty.||win 12"
-        },
-        {
-          "order": 3,
-          "name_raw": "Win 10",
-          "text_raw": "Win 10 matches in Squad Battles on min. World Class difficulty.",
-          "reward_raw": "",
-          "mode_raw": "Squad Battles",
-          "difficulty_raw": "Min. World Class",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/94-squad-battles-champions-qualification-points/||win 10 matches in squad battles on min. world class difficulty.||win 10"
-        }
-      ]
-    },
-    {
-      "group_id": "G008",
+      "group_id": "G009",
       "mission_group_name": "Gallery Foundations - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/123-gallery-foundations/",
@@ -420,29 +463,6 @@
           "difficulty_raw": "",
           "is_new": "Yes",
           "objective_key": "https://www.fut.gg/objectives/milestones/123-gallery-foundations/||complete the starter set and get familiar with the gallery.||set in motion"
-        }
-      ]
-    },
-    {
-      "group_id": "G009",
-      "mission_group_name": "FC Pro Open Ladder - EA SPORTS FC 27 Objectives",
-      "objective_type": "FC Pro",
-      "url": "https://www.fut.gg/objectives/fc-pro/108-fc-pro-open-ladder/",
-      "campaign_expires": "Expires in 21 hours",
-      "campaign_deadline_kst": "10/4 23:00",
-      "campaign_deadline_iso": "2026-10-04T23:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 1,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Compete",
-          "text_raw": "Play 5 matches in the FC Pro Open Ladder.",
-          "reward_raw": "Badge",
-          "mode_raw": "Watch / FC Pro",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/fc-pro/108-fc-pro-open-ladder/||play 5 matches in the fc pro open ladder.||compete"
         }
       ]
     },
@@ -567,7 +587,7 @@
       "mission_group_name": "Season 1: Ones to Watch Exhibition - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/88-season-1-ones-to-watch-exhibition/",
-      "campaign_expires": "Expires in 18 days",
+      "campaign_expires": "Expires in 17 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -660,7 +680,7 @@
       "mission_group_name": "Season 1: Ones to Watch Exhibition Weekly Play - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/80-season-1-ones-to-watch-exhibition-weekly-play/",
-      "campaign_expires": "Expires in 18 days",
+      "campaign_expires": "Expires in 17 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -683,7 +703,7 @@
       "mission_group_name": "Season 1: Ones to Watch Exhibition Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/79-season-1-ones-to-watch-exhibition-completionist/",
-      "campaign_expires": "Expires in 18 days",
+      "campaign_expires": "Expires in 17 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -746,7 +766,7 @@
       "mission_group_name": "Ones We Watched Challenge Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/87-ones-we-watched-challenge-completionist/",
-      "campaign_expires": "Expires in 18 days",
+      "campaign_expires": "Expires in 17 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -799,7 +819,7 @@
       "mission_group_name": "Ones We Watched Kick Off Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/84-ones-we-watched-kick-off-challenge/",
-      "campaign_expires": "Expires in 18 days",
+      "campaign_expires": "Expires in 17 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -832,7 +852,7 @@
       "mission_group_name": "Ones We Watched Semi-Pro Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/85-ones-we-watched-semi-pro-challenge/",
-      "campaign_expires": "Expires in 18 days",
+      "campaign_expires": "Expires in 17 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -865,7 +885,7 @@
       "mission_group_name": "Ones We Watched Professional Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/86-ones-we-watched-professional-challenge/",
-      "campaign_expires": "Expires in 18 days",
+      "campaign_expires": "Expires in 17 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -898,7 +918,7 @@
       "mission_group_name": "Ones We Watched World Class Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/82-ones-we-watched-world-class-challenge/",
-      "campaign_expires": "Expires in 18 days",
+      "campaign_expires": "Expires in 17 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -941,7 +961,7 @@
       "mission_group_name": "Ones We Watched Legendary Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/83-ones-we-watched-legendary-challenge/",
-      "campaign_expires": "Expires in 18 days",
+      "campaign_expires": "Expires in 17 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -1433,10 +1453,28 @@
   ],
   "collected_urls": [
     {
+      "URL": "https://www.fut.gg/objectives/campaigns/118-destined-for-glory-strikers-only/",
+      "Objective_Type": "Campaign",
+      "Link_Text": "",
+      "Parent_Text": "NEW Destined for Glory: Strikers Only Compete in the Destined for Glory: Strikers Only Flash Rush Event and earn rewards! All rewards are untradeable. 4X 83+ Gold Players Pack 200 SP",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/95-squad-battles-champions-qualification-points/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "",
+      "Parent_Text": "NEW Squad Battles: Champions Qualification Points Compete in Squad Battles to earn Champions Qualification Points! 100 Points",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
       "URL": "https://www.fut.gg/objectives/campaigns/120-squad-foundations-ringo-meerveld/",
       "Objective_Type": "Campaign",
       "Link_Text": "",
-      "Parent_Text": "NEW Squad Foundations: Ringo Meerveld Complete challenges below to earn Squad Foundations Ringo Meerveld & SP! All rewards are untradeable. Ringo Meerveld 100 SP",
+      "Parent_Text": "Squad Foundations: Ringo Meerveld Complete challenges below to earn Squad Foundations Ringo Meerveld & SP! All rewards are untradeable. Ringo Meerveld 100 SP",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -1487,28 +1525,10 @@
       "Campaign_Deadline_ISO": ""
     },
     {
-      "URL": "https://www.fut.gg/objectives/seasonal/94-squad-battles-champions-qualification-points/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "",
-      "Parent_Text": "Squad Battles: Champions Qualification Points Compete in Squad Battles to earn Champions Qualification Points! 100 Points",
-      "Campaign_Expires": "",
-      "Campaign_Deadline_KST": "",
-      "Campaign_Deadline_ISO": ""
-    },
-    {
       "URL": "https://www.fut.gg/objectives/milestones/123-gallery-foundations/",
       "Objective_Type": "Milestone",
       "Link_Text": "",
       "Parent_Text": "Gallery Foundations Learn the basics of the Gallery! Grade and complete Sets, achieve Rank S, and increase your Gallery Level as you explore everything the Gallery has to offer. All rewards are untradeable. 1,000 Coins 5 Gallery Tokens",
-      "Campaign_Expires": "",
-      "Campaign_Deadline_KST": "",
-      "Campaign_Deadline_ISO": ""
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/fc-pro/108-fc-pro-open-ladder/",
-      "Objective_Type": "FC Pro",
-      "Link_Text": "",
-      "Parent_Text": "FC Pro Open Ladder Show your skills in the FC Pro Open Ladder to complete the group and earn rewards. All rewards are untradeable. Badge",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
