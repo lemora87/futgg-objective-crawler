@@ -1,63 +1,93 @@
 {
   "manifest": {
-    "Generated_At_KST": "2026-10-05 04:56:27",
-    "Deadline_Base_KST": "2026-10-05 02:00:00",
-    "Mission_Group_Count": 31,
-    "Objective_Row_Count": 104,
-    "New_Objective_Count": 104,
-    "Error_Count": 2,
+    "Generated_At_KST": "2026-10-08 06:47:14",
+    "Deadline_Base_KST": "2026-10-08 02:00:00",
+    "Mission_Group_Count": 30,
+    "Objective_Row_Count": 101,
+    "New_Objective_Count": 101,
+    "Error_Count": 3,
     "Purpose": "RAW collection only. Do not trust this file as parsed mission guide; upload it to ChatGPT/manual review for route optimization."
   },
   "missions": [
     {
       "group_id": "G001",
-      "mission_group_name": "Destined for Glory: Strikers Only - EA SPORTS FC 27 Objectives",
-      "objective_type": "Campaign",
-      "url": "https://www.fut.gg/objectives/campaigns/118-destined-for-glory-strikers-only/",
-      "campaign_expires": "Expires in 3 days",
-      "campaign_deadline_kst": "10/8 02:00",
-      "campaign_deadline_iso": "2026-10-08T02:00+09:00",
+      "mission_group_name": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/75-weekly-rush-points/",
+      "campaign_expires": "Expires in 6 days",
+      "campaign_deadline_kst": "10/14 02:00",
+      "campaign_deadline_iso": "2026-10-14T02:00+09:00",
       "is_new_group": "Yes",
-      "new_objective_count": 3,
+      "new_objective_count": 6,
       "objectives": [
         {
           "order": 1,
-          "name_raw": "Win 5",
-          "text_raw": "Win 5 matches in the Destined for Glory: Strikers Only Flash Rush Event.",
-          "reward_raw": "1x 4x 82+ Gold Players Pack / 1x 2x 82+ Gold Players Pack / 1x 4x 83+ Gold Players Pack / 4X 82+ Gold Players Pack",
-          "mode_raw": "Rush / Destined for Glory: Strikers Only Flash Rush Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/118-destined-for-glory-strikers-only/||win 5 matches in the destined for glory: strikers only flash rush event.||win 5"
-        },
-        {
-          "order": 2,
-          "name_raw": "15,000 Rush Points",
-          "text_raw": "Earn 15,000 Rush Points.",
-          "reward_raw": "4X 82+ Gold Players Pack / 150 SP / 1 Of 3 83+ Gold Player Pick / 2X 82+ Gold Players Pack",
+          "name_raw": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
+          "text_raw": "Complete Rush Bonuses alongside your teammates to earn Rush Points and pack rewards! All rewards are untradeable.",
+          "reward_raw": "2X 84+ Gold Players Pack",
           "mode_raw": "Rush",
           "difficulty_raw": "",
           "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/118-destined-for-glory-strikers-only/||earn 15,000 rush points.||15,000 rush points"
+          "objective_key": "https://www.fut.gg/objectives/seasonal/75-weekly-rush-points/||complete rush bonuses alongside your teammates to earn rush points and pack rewards! all rewards are untradeable.||weekly rush points - ea sports fc 27 objectives"
+        },
+        {
+          "order": 2,
+          "name_raw": "35,000 Rush Points",
+          "text_raw": "Earn 35,000 points by completing bonuses in Rush.",
+          "reward_raw": "1x 2x 78+ Gold Players Pack / 1x 2x 75+ Gold Players Pack / 1x 2x 84+ Gold Players Pack / 83+ Gold Player Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/75-weekly-rush-points/||earn 35,000 points by completing bonuses in rush.||35,000 rush points"
         },
         {
           "order": 3,
-          "name_raw": "Play 1",
-          "text_raw": "Play 1 match in the Destined for Glory: Strikers Only Flash Rush Event.",
-          "reward_raw": "1 Of 3 83+ Gold Player Pick / 2X 82+ Gold Players Pack",
-          "mode_raw": "Rush / Destined for Glory: Strikers Only Flash Rush Event",
+          "name_raw": "25,000 Rush Points",
+          "text_raw": "Earn 25,000 points by completing bonuses in Rush.",
+          "reward_raw": "83+ Gold Player Pack / 2X 82+ Gold Players Pack / 2X 80+ Gold Players Pack",
+          "mode_raw": "Rush",
           "difficulty_raw": "",
           "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/118-destined-for-glory-strikers-only/||play 1 match in the destined for glory: strikers only flash rush event.||play 1"
+          "objective_key": "https://www.fut.gg/objectives/seasonal/75-weekly-rush-points/||earn 25,000 points by completing bonuses in rush.||25,000 rush points"
+        },
+        {
+          "order": 4,
+          "name_raw": "20,000 Rush Points",
+          "text_raw": "Earn 20,000 points by completing bonuses in Rush.",
+          "reward_raw": "2X 82+ Gold Players Pack / 2X 80+ Gold Players Pack / 2X 78+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/75-weekly-rush-points/||earn 20,000 points by completing bonuses in rush.||20,000 rush points"
+        },
+        {
+          "order": 5,
+          "name_raw": "10,000 Rush Points",
+          "text_raw": "Earn 10,000 points by completing bonuses in Rush.",
+          "reward_raw": "2X 80+ Gold Players Pack / 2X 78+ Gold Players Pack / 2X 75+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/75-weekly-rush-points/||earn 10,000 points by completing bonuses in rush.||10,000 rush points"
+        },
+        {
+          "order": 6,
+          "name_raw": "2,500 Rush Points",
+          "text_raw": "Earn 2,500 points by completing bonuses in Rush.",
+          "reward_raw": "2X 78+ Gold Players Pack / 2X 75+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/75-weekly-rush-points/||earn 2,500 points by completing bonuses in rush.||2,500 rush points"
         }
       ]
     },
     {
-      "group_id": "G002",
+      "group_id": "G003",
       "mission_group_name": "Squad Battles: Champions Qualification Points - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/95-squad-battles-champions-qualification-points/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 3 days",
       "campaign_deadline_kst": "10/11 02:00",
       "campaign_deadline_iso": "2026-10-11T02:00+09:00",
       "is_new_group": "Yes",
@@ -96,11 +126,11 @@
       ]
     },
     {
-      "group_id": "G003",
+      "group_id": "G004",
       "mission_group_name": "Squad Foundations: Ringo Meerveld - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/120-squad-foundations-ringo-meerveld/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 2 days",
       "campaign_deadline_kst": "10/10 02:00",
       "campaign_deadline_iso": "2026-10-10T02:00+09:00",
       "is_new_group": "Yes",
@@ -159,11 +189,11 @@
       ]
     },
     {
-      "group_id": "G004",
+      "group_id": "G005",
       "mission_group_name": "Ultimate Gauntlet 1 - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/124-ultimate-gauntlet-1/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 2 days",
       "campaign_deadline_kst": "10/10 02:00",
       "campaign_deadline_iso": "2026-10-10T02:00+09:00",
       "is_new_group": "Yes",
@@ -262,11 +292,11 @@
       ]
     },
     {
-      "group_id": "G005",
+      "group_id": "G006",
       "mission_group_name": "Icon Home Kit - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/77-icon-home-kit/",
-      "campaign_expires": "Expires in 17 days",
+      "campaign_expires": "Expires in 14 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -305,13 +335,13 @@
       ]
     },
     {
-      "group_id": "G006",
+      "group_id": "G007",
       "mission_group_name": "Weekly Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/66-weekly-objectives/",
-      "campaign_expires": "Expires in 4 days",
-      "campaign_deadline_kst": "10/9 02:00",
-      "campaign_deadline_iso": "2026-10-09T02:00+09:00",
+      "campaign_expires": "Expires in 19 hours",
+      "campaign_deadline_kst": "10/8 21:00",
+      "campaign_deadline_iso": "2026-10-08T21:00+09:00",
       "is_new_group": "Yes",
       "new_objective_count": 3,
       "objectives": [
@@ -348,13 +378,13 @@
       ]
     },
     {
-      "group_id": "G007",
+      "group_id": "G008",
       "mission_group_name": "Daily Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/62-daily-objectives/",
-      "campaign_expires": "Expires in 4 days",
-      "campaign_deadline_kst": "10/9 02:00",
-      "campaign_deadline_iso": "2026-10-09T02:00+09:00",
+      "campaign_expires": "Expires in 19 hours",
+      "campaign_deadline_kst": "10/8 21:00",
+      "campaign_deadline_iso": "2026-10-08T21:00+09:00",
       "is_new_group": "Yes",
       "new_objective_count": 1,
       "objectives": [
@@ -367,79 +397,6 @@
           "difficulty_raw": "",
           "is_new": "Yes",
           "objective_key": "https://www.fut.gg/objectives/seasonal/62-daily-objectives/||score 2 goals in any fut game mode.||scoring success"
-        }
-      ]
-    },
-    {
-      "group_id": "G008",
-      "mission_group_name": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/73-weekly-rush-points/",
-      "campaign_expires": "Expires in 2 days",
-      "campaign_deadline_kst": "10/7 02:00",
-      "campaign_deadline_iso": "2026-10-07T02:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 6,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
-          "text_raw": "Complete Rush Bonuses alongside your teammates to earn Rush Points and pack rewards! All rewards are untradeable.",
-          "reward_raw": "2X 84+ Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/73-weekly-rush-points/||complete rush bonuses alongside your teammates to earn rush points and pack rewards! all rewards are untradeable.||weekly rush points - ea sports fc 27 objectives"
-        },
-        {
-          "order": 2,
-          "name_raw": "35,000 Rush Points",
-          "text_raw": "Earn 35,000 points by completing bonuses in Rush.",
-          "reward_raw": "1x 2x 78+ Gold Players Pack / 1x 2x 75+ Gold Players Pack / 1x 2x 84+ Gold Players Pack / 83+ Gold Player Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/73-weekly-rush-points/||earn 35,000 points by completing bonuses in rush.||35,000 rush points"
-        },
-        {
-          "order": 3,
-          "name_raw": "25,000 Rush Points",
-          "text_raw": "Earn 25,000 points by completing bonuses in Rush.",
-          "reward_raw": "83+ Gold Player Pack / 2X 82+ Gold Players Pack / 2X 80+ Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/73-weekly-rush-points/||earn 25,000 points by completing bonuses in rush.||25,000 rush points"
-        },
-        {
-          "order": 4,
-          "name_raw": "20,000 Rush Points",
-          "text_raw": "Earn 20,000 points by completing bonuses in Rush.",
-          "reward_raw": "2X 82+ Gold Players Pack / 2X 80+ Gold Players Pack / 2X 78+ Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/73-weekly-rush-points/||earn 20,000 points by completing bonuses in rush.||20,000 rush points"
-        },
-        {
-          "order": 5,
-          "name_raw": "10,000 Rush Points",
-          "text_raw": "Earn 10,000 points by completing bonuses in Rush.",
-          "reward_raw": "2X 80+ Gold Players Pack / 2X 78+ Gold Players Pack / 2X 75+ Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/73-weekly-rush-points/||earn 10,000 points by completing bonuses in rush.||10,000 rush points"
-        },
-        {
-          "order": 6,
-          "name_raw": "2,500 Rush Points",
-          "text_raw": "Earn 2,500 points by completing bonuses in Rush.",
-          "reward_raw": "2X 78+ Gold Players Pack / 2X 75+ Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/73-weekly-rush-points/||earn 2,500 points by completing bonuses in rush.||2,500 rush points"
         }
       ]
     },
@@ -587,7 +544,7 @@
       "mission_group_name": "Season 1: Ones to Watch Exhibition - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/88-season-1-ones-to-watch-exhibition/",
-      "campaign_expires": "Expires in 17 days",
+      "campaign_expires": "Expires in 14 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -680,7 +637,7 @@
       "mission_group_name": "Season 1: Ones to Watch Exhibition Weekly Play - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/80-season-1-ones-to-watch-exhibition-weekly-play/",
-      "campaign_expires": "Expires in 17 days",
+      "campaign_expires": "Expires in 14 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -703,7 +660,7 @@
       "mission_group_name": "Season 1: Ones to Watch Exhibition Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/79-season-1-ones-to-watch-exhibition-completionist/",
-      "campaign_expires": "Expires in 17 days",
+      "campaign_expires": "Expires in 14 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -766,7 +723,7 @@
       "mission_group_name": "Ones We Watched Challenge Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/87-ones-we-watched-challenge-completionist/",
-      "campaign_expires": "Expires in 17 days",
+      "campaign_expires": "Expires in 14 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -819,7 +776,7 @@
       "mission_group_name": "Ones We Watched Kick Off Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/84-ones-we-watched-kick-off-challenge/",
-      "campaign_expires": "Expires in 17 days",
+      "campaign_expires": "Expires in 14 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -852,7 +809,7 @@
       "mission_group_name": "Ones We Watched Semi-Pro Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/85-ones-we-watched-semi-pro-challenge/",
-      "campaign_expires": "Expires in 17 days",
+      "campaign_expires": "Expires in 14 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -885,7 +842,7 @@
       "mission_group_name": "Ones We Watched Professional Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/86-ones-we-watched-professional-challenge/",
-      "campaign_expires": "Expires in 17 days",
+      "campaign_expires": "Expires in 14 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -918,7 +875,7 @@
       "mission_group_name": "Ones We Watched World Class Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/82-ones-we-watched-world-class-challenge/",
-      "campaign_expires": "Expires in 17 days",
+      "campaign_expires": "Expires in 14 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -961,7 +918,7 @@
       "mission_group_name": "Ones We Watched Legendary Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/83-ones-we-watched-legendary-challenge/",
-      "campaign_expires": "Expires in 17 days",
+      "campaign_expires": "Expires in 14 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -1453,10 +1410,19 @@
   ],
   "collected_urls": [
     {
+      "URL": "https://www.fut.gg/objectives/seasonal/75-weekly-rush-points/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "",
+      "Parent_Text": "NEW Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points and pack rewards! All rewards are untradeable. 2X 84+ Gold Players Pack",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
       "URL": "https://www.fut.gg/objectives/campaigns/118-destined-for-glory-strikers-only/",
       "Objective_Type": "Campaign",
       "Link_Text": "",
-      "Parent_Text": "NEW Destined for Glory: Strikers Only Compete in the Destined for Glory: Strikers Only Flash Rush Event and earn rewards! All rewards are untradeable. 4X 83+ Gold Players Pack 200 SP",
+      "Parent_Text": "Destined for Glory: Strikers Only Compete in the Destined for Glory: Strikers Only Flash Rush Event and earn rewards! All rewards are untradeable. 4X 83+ Gold Players Pack 200 SP",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -1465,7 +1431,7 @@
       "URL": "https://www.fut.gg/objectives/seasonal/95-squad-battles-champions-qualification-points/",
       "Objective_Type": "Seasonal",
       "Link_Text": "",
-      "Parent_Text": "NEW Squad Battles: Champions Qualification Points Compete in Squad Battles to earn Champions Qualification Points! 100 Points",
+      "Parent_Text": "Squad Battles: Champions Qualification Points Compete in Squad Battles to earn Champions Qualification Points! 100 Points",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -1483,7 +1449,7 @@
       "URL": "https://www.fut.gg/objectives/campaigns/124-ultimate-gauntlet-1/",
       "Objective_Type": "Campaign",
       "Link_Text": "",
-      "Parent_Text": "Ultimate Gauntlet 1 Complete 8 of 10 challenges in the Ultimate Gauntlet 1 and earn exclusive rewards! All rewards are untradable. Gonçalo Ramos Destined for Glory Premium Badge 100 SP",
+      "Parent_Text": "Ultimate Gauntlet 1 Complete 8 of 10 challenges in the Ultimate Gauntlet 1 and earn exclusive rewards! All rewards are untradable. Destined for Glory Premium Badge Gonçalo Ramos 100 SP",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -1511,15 +1477,6 @@
       "Objective_Type": "Seasonal",
       "Link_Text": "",
       "Parent_Text": "Daily Objectives Play, complete and earn SP from daily objective every 24 hours! 10 SP",
-      "Campaign_Expires": "",
-      "Campaign_Deadline_KST": "",
-      "Campaign_Deadline_ISO": ""
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/73-weekly-rush-points/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "",
-      "Parent_Text": "Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points and pack rewards! All rewards are untradeable. 2X 84+ Gold Players Pack",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -1733,6 +1690,10 @@
     }
   ],
   "errors": [
+    {
+      "URL": "https://www.fut.gg/objectives/campaigns/118-destined-for-glory-strikers-only/",
+      "Error": "RuntimeError: Expired page skipped"
+    },
     {
       "URL": "https://www.fut.gg/objectives/milestones/47-transfer-market-milestone/",
       "Error": "No objective text extracted"
