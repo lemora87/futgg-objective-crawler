@@ -1,20 +1,302 @@
 {
   "manifest": {
-    "Generated_At_KST": "2026-10-10 06:29:20",
-    "Deadline_Base_KST": "2026-10-10 02:00:00",
-    "Mission_Group_Count": 32,
-    "Objective_Row_Count": 105,
-    "New_Objective_Count": 105,
+    "Generated_At_KST": "2026-10-12 05:48:16",
+    "Deadline_Base_KST": "2026-10-12 02:00:00",
+    "Mission_Group_Count": 35,
+    "Objective_Row_Count": 125,
+    "New_Objective_Count": 125,
     "Error_Count": 2,
     "Purpose": "RAW collection only. Do not trust this file as parsed mission guide; upload it to ChatGPT/manual review for route optimization."
   },
   "missions": [
     {
       "group_id": "G001",
+      "mission_group_name": "Future Stars Academy - EA SPORTS FC 27 Objectives",
+      "objective_type": "Campaign",
+      "url": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/",
+      "campaign_expires": "Expires in 22 days",
+      "campaign_deadline_kst": "11/3 02:00",
+      "campaign_deadline_iso": "2026-11-03T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 6,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Future Stars Academy - EA SPORTS FC 27 Objectives",
+          "text_raw": "Play with your Future Stars Academy players to earn packs & other rewards! All rewards are untradeable.",
+          "reward_raw": "5X 81+ Gold Players Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/||play with your future stars academy players to earn packs & other rewards! all rewards are untradeable.||future stars academy - ea sports fc 27 objectives"
+        },
+        {
+          "order": 2,
+          "name_raw": "Shining Star",
+          "text_raw": "Score at least 1 goal in 15 separate matches with a Future Stars Academy player in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
+          "reward_raw": "1x 3x 80+ Gold Players Pack / 1x 2x 75+ Gold Players Pack / 1x 5x 81+ Gold Players Pack / 5X 80+ Gold Players Pack",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/||score at least 1 goal in 15 separate matches with a future stars academy player in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||shining star"
+        },
+        {
+          "order": 3,
+          "name_raw": "Cementing their Place",
+          "text_raw": "Play 10 matches while having min. 1 Future Stars Academy player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
+          "reward_raw": "5X 80+ Gold Players Pack / Evo Unlock / 2,500 Coins",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/||play 10 matches while having min. 1 future stars academy player in your starting xi in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||cementing their place"
+        },
+        {
+          "order": 4,
+          "name_raw": "Star in the Making",
+          "text_raw": "Win 7 matches while having min. 1 Future Stars Academy player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
+          "reward_raw": "Evo Unlock / 2,500 Coins / 3X 80+ Gold Players Pack",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/||win 7 matches while having min. 1 future stars academy player in your starting xi in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||star in the making"
+        },
+        {
+          "order": 5,
+          "name_raw": "Consistent Reps",
+          "text_raw": "Play 5 matches while having min. 1 Future Stars Academy player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
+          "reward_raw": "2,500 Coins / 3X 80+ Gold Players Pack / 2X 75+ Gold Players Pack",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/||play 5 matches while having min. 1 future stars academy player in your starting xi in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||consistent reps"
+        },
+        {
+          "order": 6,
+          "name_raw": "The Starlet's Debut",
+          "text_raw": "Score at least 1 goal with a Future Stars Academy player in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
+          "reward_raw": "3X 80+ Gold Players Pack / 2X 75+ Gold Players Pack",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/||score at least 1 goal with a future stars academy player in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||the starlet's debut"
+        }
+      ]
+    },
+    {
+      "group_id": "G002",
+      "mission_group_name": "Squad Battles: Champions Qualification Points - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/96-squad-battles-champions-qualification-points/",
+      "campaign_expires": "Expires in 6 days",
+      "campaign_deadline_kst": "10/18 02:00",
+      "campaign_deadline_iso": "2026-10-18T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 3,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Win 15",
+          "text_raw": "Win 15 matches in Squad Battles on min. World Class difficulty.",
+          "reward_raw": "",
+          "mode_raw": "Squad Battles",
+          "difficulty_raw": "Min. World Class",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/96-squad-battles-champions-qualification-points/||win 15 matches in squad battles on min. world class difficulty.||win 15"
+        },
+        {
+          "order": 2,
+          "name_raw": "Win 12",
+          "text_raw": "Win 12 matches in Squad Battles on min. World Class difficulty.",
+          "reward_raw": "",
+          "mode_raw": "Squad Battles",
+          "difficulty_raw": "Min. World Class",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/96-squad-battles-champions-qualification-points/||win 12 matches in squad battles on min. world class difficulty.||win 12"
+        },
+        {
+          "order": 3,
+          "name_raw": "Win 10",
+          "text_raw": "Win 10 matches in Squad Battles on min. World Class difficulty.",
+          "reward_raw": "",
+          "mode_raw": "Squad Battles",
+          "difficulty_raw": "Min. World Class",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/96-squad-battles-champions-qualification-points/||win 10 matches in squad battles on min. world class difficulty.||win 10"
+        }
+      ]
+    },
+    {
+      "group_id": "G003",
+      "mission_group_name": "Future Stars: Claire Hutton - EA SPORTS FC 27 Objectives",
+      "objective_type": "Campaign",
+      "url": "https://www.fut.gg/objectives/campaigns/129-future-stars-claire-hutton/",
+      "campaign_expires": "Expires in 5 days",
+      "campaign_deadline_kst": "10/17 02:00",
+      "campaign_deadline_iso": "2026-10-17T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 4,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Homegrown Pride",
+          "text_raw": "Win 7 matches with min. 7 First Owned players in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events).",
+          "reward_raw": "300 SP / 1 Of 5 81+ Gold Player Pick / 1x 3x 80+ Gold Players Pack / 150 SP",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/129-future-stars-claire-hutton/||win 7 matches with min. 7 first owned players in your starting xi in squad battles on min. semi-pro difficulty (or rivals/champions/live events).||homegrown pride"
+        },
+        {
+          "order": 2,
+          "name_raw": "Score in 3",
+          "text_raw": "Score at least 1 Finesse goal in 3 separate matches while having min. 1 USA player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
+          "reward_raw": "1 Of 5 81+ Gold Player Pick / 150 SP",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/129-future-stars-claire-hutton/||score at least 1 finesse goal in 3 separate matches while having min. 1 usa player in your starting xi in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||score in 3"
+        },
+        {
+          "order": 3,
+          "name_raw": "Assist 8",
+          "text_raw": "Assist 8 times with a Midfielder in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
+          "reward_raw": "150 SP / 3X 80+ Gold Players Pack",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/129-future-stars-claire-hutton/||assist 8 times with a midfielder in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||assist 8"
+        },
+        {
+          "order": 4,
+          "name_raw": "Play 3",
+          "text_raw": "Play 3 matches while having min. 1 NWSL player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
+          "reward_raw": "150 SP / 3X 80+ Gold Players Pack",
+          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
+          "difficulty_raw": "Min. Semi-Pro",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/129-future-stars-claire-hutton/||play 3 matches while having min. 1 nwsl player in your starting xi in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||play 3"
+        }
+      ]
+    },
+    {
+      "group_id": "G004",
+      "mission_group_name": "The Top 500: FC Pro Open Ladder - EA SPORTS FC 27 Objectives",
+      "objective_type": "FC Pro",
+      "url": "https://www.fut.gg/objectives/fc-pro/107-the-top-500-fc-pro-open-ladder/",
+      "campaign_expires": "Expires in 6 days",
+      "campaign_deadline_kst": "10/18 02:00",
+      "campaign_deadline_iso": "2026-10-18T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 10,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Top 500 in Oceania",
+          "text_raw": "Finish in the top 500 in the Oceania region of the FC Pro Open Ladder.",
+          "reward_raw": "Badge",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/107-the-top-500-fc-pro-open-ladder/||finish in the top 500 in the oceania region of the fc pro open ladder.||top 500 in oceania"
+        },
+        {
+          "order": 2,
+          "name_raw": "Top 500 in North America",
+          "text_raw": "Finish in the top 500 in the North America region of the FC Pro Open Ladder.",
+          "reward_raw": "",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/107-the-top-500-fc-pro-open-ladder/||finish in the top 500 in the north america region of the fc pro open ladder.||top 500 in north america"
+        },
+        {
+          "order": 3,
+          "name_raw": "Top 500 in Middle East",
+          "text_raw": "Finish in the top 500 in the Middle East region of the FC Pro Open Ladder.",
+          "reward_raw": "",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/107-the-top-500-fc-pro-open-ladder/||finish in the top 500 in the middle east region of the fc pro open ladder.||top 500 in middle east"
+        },
+        {
+          "order": 4,
+          "name_raw": "Top 500 in LATAM South",
+          "text_raw": "Finish in the top 500 in the LATAM South region of the FC Pro Open Ladder.",
+          "reward_raw": "",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/107-the-top-500-fc-pro-open-ladder/||finish in the top 500 in the latam south region of the fc pro open ladder.||top 500 in latam south"
+        },
+        {
+          "order": 5,
+          "name_raw": "Top 500 in LATAM North",
+          "text_raw": "Finish in the top 500 in the LATAM North region of the FC Pro Open Ladder.",
+          "reward_raw": "",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/107-the-top-500-fc-pro-open-ladder/||finish in the top 500 in the latam north region of the fc pro open ladder.||top 500 in latam north"
+        },
+        {
+          "order": 6,
+          "name_raw": "Top 500 in Europe East",
+          "text_raw": "Finish in the top 500 in the Europe East region of the FC Pro Open Ladder.",
+          "reward_raw": "",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/107-the-top-500-fc-pro-open-ladder/||finish in the top 500 in the europe east region of the fc pro open ladder.||top 500 in europe east"
+        },
+        {
+          "order": 7,
+          "name_raw": "Top 500 in Europe West",
+          "text_raw": "Finish in the top 500 in the Europe West region of the FC Pro Open Ladder.",
+          "reward_raw": "",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/107-the-top-500-fc-pro-open-ladder/||finish in the top 500 in the europe west region of the fc pro open ladder.||top 500 in europe west"
+        },
+        {
+          "order": 8,
+          "name_raw": "Top 500 in Asia South",
+          "text_raw": "Finish in the top 500 in the Asia South region of the FC Pro Open Ladder.",
+          "reward_raw": "",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/107-the-top-500-fc-pro-open-ladder/||finish in the top 500 in the asia south region of the fc pro open ladder.||top 500 in asia south"
+        },
+        {
+          "order": 9,
+          "name_raw": "Top 500 in Asia North",
+          "text_raw": "Finish in the top 500 in the Asia North region of the FC Pro Open Ladder.",
+          "reward_raw": "",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/107-the-top-500-fc-pro-open-ladder/||finish in the top 500 in the asia north region of the fc pro open ladder.||top 500 in asia north"
+        },
+        {
+          "order": 10,
+          "name_raw": "Top 500 in Africa",
+          "text_raw": "Finish in the top 500 in the Africa region of the FC Pro Open Ladder.",
+          "reward_raw": "",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/107-the-top-500-fc-pro-open-ladder/||finish in the top 500 in the africa region of the fc pro open ladder.||top 500 in africa"
+        }
+      ]
+    },
+    {
+      "group_id": "G005",
       "mission_group_name": "Future Stars Celebration - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/127-future-stars-celebration/",
-      "campaign_expires": "Expires in 7 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "10/17 02:00",
       "campaign_deadline_iso": "2026-10-17T02:00+09:00",
       "is_new_group": "Yes",
@@ -53,11 +335,11 @@
       ]
     },
     {
-      "group_id": "G002",
+      "group_id": "G006",
       "mission_group_name": "Back to Basics Bonus Objective - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/126-back-to-basics-bonus-objective/",
-      "campaign_expires": "Expires in 7 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "10/17 02:00",
       "campaign_deadline_iso": "2026-10-17T02:00+09:00",
       "is_new_group": "Yes",
@@ -106,11 +388,11 @@
       ]
     },
     {
-      "group_id": "G003",
+      "group_id": "G007",
       "mission_group_name": "Back to Basics Objective - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/125-back-to-basics-objective/",
-      "campaign_expires": "Expires in 7 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "10/17 02:00",
       "campaign_deadline_iso": "2026-10-17T02:00+09:00",
       "is_new_group": "Yes",
@@ -179,11 +461,11 @@
       ]
     },
     {
-      "group_id": "G004",
+      "group_id": "G008",
       "mission_group_name": "Seasonal Objective - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/69-seasonal-objective/",
-      "campaign_expires": "Expires in 12 days",
+      "campaign_expires": "Expires in 10 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -242,11 +524,11 @@
       ]
     },
     {
-      "group_id": "G005",
+      "group_id": "G009",
       "mission_group_name": "Weekly Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/67-weekly-objectives/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "10/16 02:00",
       "campaign_deadline_iso": "2026-10-16T02:00+09:00",
       "is_new_group": "Yes",
@@ -285,11 +567,11 @@
       ]
     },
     {
-      "group_id": "G006",
+      "group_id": "G010",
       "mission_group_name": "Daily Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/63-daily-objectives/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "10/16 02:00",
       "campaign_deadline_iso": "2026-10-16T02:00+09:00",
       "is_new_group": "Yes",
@@ -308,11 +590,11 @@
       ]
     },
     {
-      "group_id": "G007",
+      "group_id": "G011",
       "mission_group_name": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/75-weekly-rush-points/",
-      "campaign_expires": "Expires in 4 days",
+      "campaign_expires": "Expires in 2 days",
       "campaign_deadline_kst": "10/14 02:00",
       "campaign_deadline_iso": "2026-10-14T02:00+09:00",
       "is_new_group": "Yes",
@@ -381,54 +663,11 @@
       ]
     },
     {
-      "group_id": "G008",
-      "mission_group_name": "Squad Battles: Champions Qualification Points - EA SPORTS FC 27 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/95-squad-battles-champions-qualification-points/",
-      "campaign_expires": "Expires in 1 day",
-      "campaign_deadline_kst": "10/11 02:00",
-      "campaign_deadline_iso": "2026-10-11T02:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 3,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Win 15",
-          "text_raw": "Win 15 matches in Squad Battles on min. World Class difficulty.",
-          "reward_raw": "",
-          "mode_raw": "Squad Battles",
-          "difficulty_raw": "Min. World Class",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/95-squad-battles-champions-qualification-points/||win 15 matches in squad battles on min. world class difficulty.||win 15"
-        },
-        {
-          "order": 2,
-          "name_raw": "Win 12",
-          "text_raw": "Win 12 matches in Squad Battles on min. World Class difficulty.",
-          "reward_raw": "",
-          "mode_raw": "Squad Battles",
-          "difficulty_raw": "Min. World Class",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/95-squad-battles-champions-qualification-points/||win 12 matches in squad battles on min. world class difficulty.||win 12"
-        },
-        {
-          "order": 3,
-          "name_raw": "Win 10",
-          "text_raw": "Win 10 matches in Squad Battles on min. World Class difficulty.",
-          "reward_raw": "",
-          "mode_raw": "Squad Battles",
-          "difficulty_raw": "Min. World Class",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/95-squad-battles-champions-qualification-points/||win 10 matches in squad battles on min. world class difficulty.||win 10"
-        }
-      ]
-    },
-    {
-      "group_id": "G009",
+      "group_id": "G012",
       "mission_group_name": "Icon Home Kit - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/77-icon-home-kit/",
-      "campaign_expires": "Expires in 12 days",
+      "campaign_expires": "Expires in 10 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -467,7 +706,7 @@
       ]
     },
     {
-      "group_id": "G010",
+      "group_id": "G013",
       "mission_group_name": "Gallery Foundations - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/123-gallery-foundations/",
@@ -490,7 +729,7 @@
       ]
     },
     {
-      "group_id": "G011",
+      "group_id": "G014",
       "mission_group_name": "Claim the Armband - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/112-claim-the-armband/",
@@ -543,7 +782,7 @@
       ]
     },
     {
-      "group_id": "G012",
+      "group_id": "G015",
       "mission_group_name": "Ted Lasso's Masterclass - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/98-ted-lassos-masterclass/",
@@ -606,11 +845,11 @@
       ]
     },
     {
-      "group_id": "G013",
+      "group_id": "G016",
       "mission_group_name": "Season 1: Ones to Watch Exhibition - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/88-season-1-ones-to-watch-exhibition/",
-      "campaign_expires": "Expires in 12 days",
+      "campaign_expires": "Expires in 10 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -699,11 +938,11 @@
       ]
     },
     {
-      "group_id": "G014",
+      "group_id": "G017",
       "mission_group_name": "Season 1: Ones to Watch Exhibition Weekly Play - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/80-season-1-ones-to-watch-exhibition-weekly-play/",
-      "campaign_expires": "Expires in 12 days",
+      "campaign_expires": "Expires in 10 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -722,11 +961,11 @@
       ]
     },
     {
-      "group_id": "G015",
+      "group_id": "G018",
       "mission_group_name": "Season 1: Ones to Watch Exhibition Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/79-season-1-ones-to-watch-exhibition-completionist/",
-      "campaign_expires": "Expires in 12 days",
+      "campaign_expires": "Expires in 10 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -785,11 +1024,11 @@
       ]
     },
     {
-      "group_id": "G016",
+      "group_id": "G019",
       "mission_group_name": "Ones We Watched Challenge Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/87-ones-we-watched-challenge-completionist/",
-      "campaign_expires": "Expires in 12 days",
+      "campaign_expires": "Expires in 10 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -838,11 +1077,11 @@
       ]
     },
     {
-      "group_id": "G017",
+      "group_id": "G020",
       "mission_group_name": "Ones We Watched Kick Off Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/84-ones-we-watched-kick-off-challenge/",
-      "campaign_expires": "Expires in 12 days",
+      "campaign_expires": "Expires in 10 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -871,11 +1110,11 @@
       ]
     },
     {
-      "group_id": "G018",
+      "group_id": "G021",
       "mission_group_name": "Ones We Watched Semi-Pro Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/85-ones-we-watched-semi-pro-challenge/",
-      "campaign_expires": "Expires in 12 days",
+      "campaign_expires": "Expires in 10 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -904,11 +1143,11 @@
       ]
     },
     {
-      "group_id": "G019",
+      "group_id": "G022",
       "mission_group_name": "Ones We Watched Professional Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/86-ones-we-watched-professional-challenge/",
-      "campaign_expires": "Expires in 12 days",
+      "campaign_expires": "Expires in 10 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -937,11 +1176,11 @@
       ]
     },
     {
-      "group_id": "G020",
+      "group_id": "G023",
       "mission_group_name": "Ones We Watched World Class Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/82-ones-we-watched-world-class-challenge/",
-      "campaign_expires": "Expires in 12 days",
+      "campaign_expires": "Expires in 10 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -980,11 +1219,11 @@
       ]
     },
     {
-      "group_id": "G021",
+      "group_id": "G024",
       "mission_group_name": "Ones We Watched Legendary Challenge - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/83-ones-we-watched-legendary-challenge/",
-      "campaign_expires": "Expires in 12 days",
+      "campaign_expires": "Expires in 10 days",
       "campaign_deadline_kst": "10/22 02:00",
       "campaign_deadline_iso": "2026-10-22T02:00+09:00",
       "is_new_group": "Yes",
@@ -1003,7 +1242,7 @@
       ]
     },
     {
-      "group_id": "G022",
+      "group_id": "G025",
       "mission_group_name": "Squad Battles Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/42-squad-battles-milestone/",
@@ -1046,7 +1285,7 @@
       ]
     },
     {
-      "group_id": "G023",
+      "group_id": "G026",
       "mission_group_name": "Draft Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/45-draft-milestone/",
@@ -1089,7 +1328,7 @@
       ]
     },
     {
-      "group_id": "G024",
+      "group_id": "G027",
       "mission_group_name": "Co-Op Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/46-co-op-milestone/",
@@ -1132,7 +1371,7 @@
       ]
     },
     {
-      "group_id": "G025",
+      "group_id": "G028",
       "mission_group_name": "Rush Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/50-rush-milestone/",
@@ -1205,7 +1444,7 @@
       ]
     },
     {
-      "group_id": "G026",
+      "group_id": "G029",
       "mission_group_name": "Moments Stars Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/51-moments-stars-milestone/",
@@ -1258,7 +1497,7 @@
       ]
     },
     {
-      "group_id": "G027",
+      "group_id": "G030",
       "mission_group_name": "Squad Building Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/49-squad-building-milestone/",
@@ -1311,7 +1550,7 @@
       ]
     },
     {
-      "group_id": "G028",
+      "group_id": "G031",
       "mission_group_name": "Transfer Market Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/47-transfer-market-milestone/",
@@ -1323,7 +1562,7 @@
       "objectives": []
     },
     {
-      "group_id": "G029",
+      "group_id": "G032",
       "mission_group_name": "Live Events Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/48-live-events-milestone/",
@@ -1376,7 +1615,7 @@
       ]
     },
     {
-      "group_id": "G030",
+      "group_id": "G033",
       "mission_group_name": "Rivals Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/43-rivals-milestone/",
@@ -1419,7 +1658,7 @@
       ]
     },
     {
-      "group_id": "G031",
+      "group_id": "G034",
       "mission_group_name": "Champions Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/44-champions-milestone/",
@@ -1462,7 +1701,7 @@
       ]
     },
     {
-      "group_id": "G032",
+      "group_id": "G035",
       "mission_group_name": "Gallery Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/81-gallery-milestone/",
@@ -1476,10 +1715,46 @@
   ],
   "collected_urls": [
     {
+      "URL": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/",
+      "Objective_Type": "Campaign",
+      "Link_Text": "",
+      "Parent_Text": "NEW Future Stars Academy Play with your Future Stars Academy players to earn packs & other rewards! All rewards are untradeable. 5X 81+ Gold Players Pack",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/96-squad-battles-champions-qualification-points/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "",
+      "Parent_Text": "NEW Squad Battles: Champions Qualification Points Compete in Squad Battles to earn Champions Qualification Points! 100 Points",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/campaigns/129-future-stars-claire-hutton/",
+      "Objective_Type": "Campaign",
+      "Link_Text": "",
+      "Parent_Text": "Future Stars: Claire Hutton Complete challenges to earn Future Stars Claire Hutton and other rewards. All rewards are untradeable. Claire Hutton",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/fc-pro/107-the-top-500-fc-pro-open-ladder/",
+      "Objective_Type": "FC Pro",
+      "Link_Text": "",
+      "Parent_Text": "The Top 500: FC Pro Open Ladder Compete and reach the top level of your region's leaderboard in the FC Pro Open Ladder to earn rewards. All rewards are untradeable. Badge Fc Pro Open Trophy",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
       "URL": "https://www.fut.gg/objectives/campaigns/127-future-stars-celebration/",
       "Objective_Type": "Campaign",
       "Link_Text": "",
-      "Parent_Text": "NEW Future Stars Celebration Use young players that are more agile and earn exclusive rewards. All rewards are untradeable. Award",
+      "Parent_Text": "Future Stars Celebration Use young players that are more agile and earn exclusive rewards. All rewards are untradeable. Award",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -1488,7 +1763,7 @@
       "URL": "https://www.fut.gg/objectives/campaigns/126-back-to-basics-bonus-objective/",
       "Objective_Type": "Campaign",
       "Link_Text": "",
-      "Parent_Text": "NEW Back to Basics Bonus Objective Compete in the Back to Basics Exhibition and earn bonus exclusive rewards. All Rewards are untradeable. 7X 82+ Gold Players Pack",
+      "Parent_Text": "Back to Basics Bonus Objective Compete in the Back to Basics Exhibition and earn bonus exclusive rewards. All Rewards are untradeable. 7X 82+ Gold Players Pack",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -1497,7 +1772,7 @@
       "URL": "https://www.fut.gg/objectives/campaigns/125-back-to-basics-objective/",
       "Objective_Type": "Campaign",
       "Link_Text": "",
-      "Parent_Text": "NEW Back to Basics Objective Compete in the Back to Basics Exhibition and earn exclusive rewards. All rewards are untradeable. Wieke Kaptein 150 SP",
+      "Parent_Text": "Back to Basics Objective Compete in the Back to Basics Exhibition and earn exclusive rewards. All rewards are untradeable. Wieke Kaptein 150 SP",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -1534,15 +1809,6 @@
       "Objective_Type": "Seasonal",
       "Link_Text": "",
       "Parent_Text": "Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points and pack rewards! All rewards are untradeable. 2X 84+ Gold Players Pack",
-      "Campaign_Expires": "",
-      "Campaign_Deadline_KST": "",
-      "Campaign_Deadline_ISO": ""
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/95-squad-battles-champions-qualification-points/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "",
-      "Parent_Text": "Squad Battles: Champions Qualification Points Compete in Squad Battles to earn Champions Qualification Points! 100 Points",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
