@@ -1,63 +1,20 @@
 {
   "manifest": {
-    "Generated_At_KST": "2026-10-25 04:15:32",
-    "Deadline_Base_KST": "2026-10-25 02:00:00",
-    "Mission_Group_Count": 32,
-    "Objective_Row_Count": 120,
-    "New_Objective_Count": 120,
+    "Generated_At_KST": "2026-10-26 04:29:22",
+    "Deadline_Base_KST": "2026-10-26 02:00:00",
+    "Mission_Group_Count": 30,
+    "Objective_Row_Count": 114,
+    "New_Objective_Count": 114,
     "Error_Count": 3,
     "Purpose": "RAW collection only. Do not trust this file as parsed mission guide; upload it to ChatGPT/manual review for route optimization."
   },
   "missions": [
     {
-      "group_id": "G001",
-      "mission_group_name": "Feral Strength Flash Rush - EA SPORTS FC 27 Objectives",
-      "objective_type": "Campaign",
-      "url": "https://www.fut.gg/objectives/campaigns/163-feral-strength-flash-rush/",
-      "campaign_expires": "Expires in 3 days",
-      "campaign_deadline_kst": "10/28 02:00",
-      "campaign_deadline_iso": "2026-10-28T02:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 3,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Winning Flex",
-          "text_raw": "Win 3 matches in the Feral Strength Flash Rush Event.",
-          "reward_raw": "50 SP",
-          "mode_raw": "Rush / Feral Strength Flash Rush Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/163-feral-strength-flash-rush/||win 3 matches in the feral strength flash rush event.||winning flex"
-        },
-        {
-          "order": 2,
-          "name_raw": "Show Your Strength",
-          "text_raw": "Score at least 2 goals with a Defender in the Feral Strength Flash Rush Event.",
-          "reward_raw": "",
-          "mode_raw": "Rush / Feral Strength Flash Rush Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/163-feral-strength-flash-rush/||score at least 2 goals with a defender in the feral strength flash rush event.||show your strength"
-        },
-        {
-          "order": 3,
-          "name_raw": "Powerful Ally",
-          "text_raw": "Assist 3 goals in the Feral Strength Flash Rush Event.",
-          "reward_raw": "",
-          "mode_raw": "Rush / Feral Strength Flash Rush Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/163-feral-strength-flash-rush/||assist 3 goals in the feral strength flash rush event.||powerful ally"
-        }
-      ]
-    },
-    {
       "group_id": "G002",
       "mission_group_name": "Phantom Playgrounds - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/162-phantom-playgrounds/",
-      "campaign_expires": "Expires in 13 days",
+      "campaign_expires": "Expires in 12 days",
       "campaign_deadline_kst": "11/7 02:00",
       "campaign_deadline_iso": "2026-11-07T02:00+09:00",
       "is_new_group": "Yes",
@@ -140,7 +97,7 @@
       "mission_group_name": "Ultimate Scream Gallery - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/159-ultimate-scream-gallery/",
-      "campaign_expires": "Expires in 27 days",
+      "campaign_expires": "Expires in 26 days",
       "campaign_deadline_kst": "11/21 02:00",
       "campaign_deadline_iso": "2026-11-21T02:00+09:00",
       "is_new_group": "Yes",
@@ -213,7 +170,7 @@
       "mission_group_name": "Ultimate Scream Puzzle Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/156-ultimate-scream-puzzle-completionist/",
-      "campaign_expires": "Expires in 13 days",
+      "campaign_expires": "Expires in 12 days",
       "campaign_deadline_kst": "11/7 02:00",
       "campaign_deadline_iso": "2026-11-07T02:00+09:00",
       "is_new_group": "Yes",
@@ -329,7 +286,7 @@
       "mission_group_name": "Weekly Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/134-weekly-objectives/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "10/30 02:00",
       "campaign_deadline_iso": "2026-10-30T02:00+09:00",
       "is_new_group": "Yes",
@@ -806,7 +763,7 @@
       "mission_group_name": "Daily Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/168-daily-objectives/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "10/30 02:00",
       "campaign_deadline_iso": "2026-10-30T02:00+09:00",
       "is_new_group": "Yes",
@@ -829,7 +786,7 @@
       "mission_group_name": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/148-weekly-rush-points/",
-      "campaign_expires": "Expires in 3 days",
+      "campaign_expires": "Expires in 2 days",
       "campaign_deadline_kst": "10/28 02:00",
       "campaign_deadline_iso": "2026-10-28T02:00+09:00",
       "is_new_group": "Yes",
@@ -899,53 +856,10 @@
     },
     {
       "group_id": "G017",
-      "mission_group_name": "Squad Battles: Champions Qualification Points - EA SPORTS FC 27 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/97-squad-battles-champions-qualification-points/",
-      "campaign_expires": "Expires in 12 hours",
-      "campaign_deadline_kst": "10/25 14:00",
-      "campaign_deadline_iso": "2026-10-25T14:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 3,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Win 15",
-          "text_raw": "Win 15 matches in Squad Battles on min. World Class difficulty.",
-          "reward_raw": "",
-          "mode_raw": "Squad Battles",
-          "difficulty_raw": "Min. World Class",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/97-squad-battles-champions-qualification-points/||win 15 matches in squad battles on min. world class difficulty.||win 15"
-        },
-        {
-          "order": 2,
-          "name_raw": "Win 12",
-          "text_raw": "Win 12 matches in Squad Battles on min. World Class difficulty.",
-          "reward_raw": "",
-          "mode_raw": "Squad Battles",
-          "difficulty_raw": "Min. World Class",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/97-squad-battles-champions-qualification-points/||win 12 matches in squad battles on min. world class difficulty.||win 12"
-        },
-        {
-          "order": 3,
-          "name_raw": "Win 10",
-          "text_raw": "Win 10 matches in Squad Battles on min. World Class difficulty.",
-          "reward_raw": "",
-          "mode_raw": "Squad Battles",
-          "difficulty_raw": "Min. World Class",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/97-squad-battles-champions-qualification-points/||win 10 matches in squad battles on min. world class difficulty.||win 10"
-        }
-      ]
-    },
-    {
-      "group_id": "G019",
       "mission_group_name": "Future Stars Academy - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 8 days",
       "campaign_deadline_kst": "11/3 02:00",
       "campaign_deadline_iso": "2026-11-03T02:00+09:00",
       "is_new_group": "Yes",
@@ -1014,7 +928,7 @@
       ]
     },
     {
-      "group_id": "G020",
+      "group_id": "G018",
       "mission_group_name": "Gallery Foundations - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/123-gallery-foundations/",
@@ -1037,7 +951,7 @@
       ]
     },
     {
-      "group_id": "G021",
+      "group_id": "G019",
       "mission_group_name": "Claim the Armband - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/112-claim-the-armband/",
@@ -1090,7 +1004,7 @@
       ]
     },
     {
-      "group_id": "G022",
+      "group_id": "G020",
       "mission_group_name": "Ted Lasso's Masterclass - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/98-ted-lassos-masterclass/",
@@ -1153,7 +1067,7 @@
       ]
     },
     {
-      "group_id": "G023",
+      "group_id": "G021",
       "mission_group_name": "Squad Battles Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/42-squad-battles-milestone/",
@@ -1196,7 +1110,7 @@
       ]
     },
     {
-      "group_id": "G024",
+      "group_id": "G022",
       "mission_group_name": "Draft Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/45-draft-milestone/",
@@ -1239,7 +1153,7 @@
       ]
     },
     {
-      "group_id": "G025",
+      "group_id": "G023",
       "mission_group_name": "Co-Op Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/46-co-op-milestone/",
@@ -1282,7 +1196,7 @@
       ]
     },
     {
-      "group_id": "G026",
+      "group_id": "G024",
       "mission_group_name": "Rush Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/50-rush-milestone/",
@@ -1355,7 +1269,7 @@
       ]
     },
     {
-      "group_id": "G027",
+      "group_id": "G025",
       "mission_group_name": "Moments Stars Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/51-moments-stars-milestone/",
@@ -1408,7 +1322,7 @@
       ]
     },
     {
-      "group_id": "G028",
+      "group_id": "G026",
       "mission_group_name": "Squad Building Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/49-squad-building-milestone/",
@@ -1461,7 +1375,7 @@
       ]
     },
     {
-      "group_id": "G029",
+      "group_id": "G027",
       "mission_group_name": "Transfer Market Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/47-transfer-market-milestone/",
@@ -1473,7 +1387,7 @@
       "objectives": []
     },
     {
-      "group_id": "G030",
+      "group_id": "G028",
       "mission_group_name": "Live Events Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/48-live-events-milestone/",
@@ -1526,7 +1440,7 @@
       ]
     },
     {
-      "group_id": "G031",
+      "group_id": "G029",
       "mission_group_name": "Rivals Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/43-rivals-milestone/",
@@ -1569,7 +1483,7 @@
       ]
     },
     {
-      "group_id": "G032",
+      "group_id": "G030",
       "mission_group_name": "Champions Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/44-champions-milestone/",
@@ -1612,7 +1526,7 @@
       ]
     },
     {
-      "group_id": "G033",
+      "group_id": "G031",
       "mission_group_name": "Gallery Milestone - EA SPORTS FC 27 Objectives",
       "objective_type": "Milestone",
       "url": "https://www.fut.gg/objectives/milestones/81-gallery-milestone/",
@@ -1770,24 +1684,6 @@
       "Campaign_Deadline_ISO": ""
     },
     {
-      "URL": "https://www.fut.gg/objectives/seasonal/97-squad-battles-champions-qualification-points/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "",
-      "Parent_Text": "Squad Battles: Champions Qualification Points Compete in Squad Battles to earn Champions Qualification Points! 100 Points",
-      "Campaign_Expires": "",
-      "Campaign_Deadline_KST": "",
-      "Campaign_Deadline_ISO": ""
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/114-no-room-for-racism/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "",
-      "Parent_Text": "No Room for Racism Always say no to racism. There is no place for racism in this beautiful game. Stand for equality, respect, and inclusion by completing this objective to earn the No Room for Racism Kit. All rewards are untradeable. No Room For Racism",
-      "Campaign_Expires": "",
-      "Campaign_Deadline_KST": "",
-      "Campaign_Deadline_ISO": ""
-    },
-    {
       "URL": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/",
       "Objective_Type": "Campaign",
       "Link_Text": "",
@@ -1925,8 +1821,8 @@
   ],
   "errors": [
     {
-      "URL": "https://www.fut.gg/objectives/seasonal/114-no-room-for-racism/",
-      "Error": "RuntimeError: Expired page skipped"
+      "URL": "https://www.fut.gg/objectives/campaigns/163-feral-strength-flash-rush/",
+      "Error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.fut.gg/objectives/campaigns/163-feral-strength-flash-rush/\", waiting until \"networkidle\"\n"
     },
     {
       "URL": "https://www.fut.gg/objectives/milestones/47-transfer-market-milestone/",
