@@ -1,20 +1,116 @@
 {
   "manifest": {
-    "Generated_At_KST": "2026-10-27 06:20:28",
-    "Deadline_Base_KST": "2026-10-27 02:00:00",
-    "Mission_Group_Count": 32,
-    "Objective_Row_Count": 122,
-    "New_Objective_Count": 122,
-    "Error_Count": 2,
+    "Generated_At_KST": "2026-10-28 06:10:02",
+    "Deadline_Base_KST": "2026-10-28 02:00:00",
+    "Mission_Group_Count": 31,
+    "Objective_Row_Count": 117,
+    "New_Objective_Count": 117,
+    "Error_Count": 3,
     "Purpose": "RAW collection only. Do not trust this file as parsed mission guide; upload it to ChatGPT/manual review for route optimization."
   },
   "missions": [
     {
       "group_id": "G001",
+      "mission_group_name": "FC Pro Open Cup 1 - EA SPORTS FC 27 Objectives",
+      "objective_type": "FC Pro",
+      "url": "https://www.fut.gg/objectives/fc-pro/143-fc-pro-open-cup-1/",
+      "campaign_expires": "Expires in 8 days",
+      "campaign_deadline_kst": "11/5 02:00",
+      "campaign_deadline_iso": "2026-11-05T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 1,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Compete",
+          "text_raw": "Play 5 matches in the FC Pro Open Cup 1.",
+          "reward_raw": "Badge / Evo Unlock",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/143-fc-pro-open-cup-1/||play 5 matches in the fc pro open cup 1.||compete"
+        }
+      ]
+    },
+    {
+      "group_id": "G002",
+      "mission_group_name": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/149-weekly-rush-points/",
+      "campaign_expires": "Expires in 7 days",
+      "campaign_deadline_kst": "11/4 02:00",
+      "campaign_deadline_iso": "2026-11-04T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 6,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
+          "text_raw": "Complete Rush Bonuses alongside your teammates to earn Rush Points and pack rewards! All rewards are untradeable.",
+          "reward_raw": "2X 84+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/149-weekly-rush-points/||complete rush bonuses alongside your teammates to earn rush points and pack rewards! all rewards are untradeable.||weekly rush points - ea sports fc 27 objectives"
+        },
+        {
+          "order": 2,
+          "name_raw": "35,000 Rush Points",
+          "text_raw": "Earn 35,000 points by completing bonuses in Rush.",
+          "reward_raw": "1x 3x 78+ Gold Players Pack / 1x 3x 77+ Gold Players Pack / 1x 2x 84+ Gold Players Pack / 83+ Gold Player Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/149-weekly-rush-points/||earn 35,000 points by completing bonuses in rush.||35,000 rush points"
+        },
+        {
+          "order": 3,
+          "name_raw": "25,000 Rush Points",
+          "text_raw": "Earn 25,000 points by completing bonuses in Rush.",
+          "reward_raw": "83+ Gold Player Pack / 2X 82+ Gold Players Pack / 2X 80+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/149-weekly-rush-points/||earn 25,000 points by completing bonuses in rush.||25,000 rush points"
+        },
+        {
+          "order": 4,
+          "name_raw": "20,000 Rush Points",
+          "text_raw": "Earn 20,000 points by completing bonuses in Rush.",
+          "reward_raw": "2X 82+ Gold Players Pack / 2X 80+ Gold Players Pack / 3X 78+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/149-weekly-rush-points/||earn 20,000 points by completing bonuses in rush.||20,000 rush points"
+        },
+        {
+          "order": 5,
+          "name_raw": "10,000 Rush Points",
+          "text_raw": "Earn 10,000 points by completing bonuses in Rush.",
+          "reward_raw": "2X 80+ Gold Players Pack / 3X 78+ Gold Players Pack / 3X 77+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/149-weekly-rush-points/||earn 10,000 points by completing bonuses in rush.||10,000 rush points"
+        },
+        {
+          "order": 6,
+          "name_raw": "2,500 Rush Points",
+          "text_raw": "Earn 2,500 points by completing bonuses in Rush.",
+          "reward_raw": "3X 78+ Gold Players Pack / 3X 77+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/149-weekly-rush-points/||earn 2,500 points by completing bonuses in rush.||2,500 rush points"
+        }
+      ]
+    },
+    {
+      "group_id": "G003",
       "mission_group_name": "Season 2 Daily Knockout Tournament Bonus - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/165-season-2-daily-knockout-tournament-bonus/",
-      "campaign_expires": "Expires in 11 days",
+      "campaign_expires": "Expires in 10 days",
       "campaign_deadline_kst": "11/7 02:00",
       "campaign_deadline_iso": "2026-11-07T02:00+09:00",
       "is_new_group": "Yes",
@@ -73,54 +169,11 @@
       ]
     },
     {
-      "group_id": "G002",
-      "mission_group_name": "Feral Strength Flash Rush - EA SPORTS FC 27 Objectives",
-      "objective_type": "Campaign",
-      "url": "https://www.fut.gg/objectives/campaigns/163-feral-strength-flash-rush/",
-      "campaign_expires": "Expires in 21 hours",
-      "campaign_deadline_kst": "10/27 23:00",
-      "campaign_deadline_iso": "2026-10-27T23:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 3,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Winning Flex",
-          "text_raw": "Win 3 matches in the Feral Strength Flash Rush Event.",
-          "reward_raw": "50 SP / Tahith Chong (Loan)",
-          "mode_raw": "Rush / Feral Strength Flash Rush Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/163-feral-strength-flash-rush/||win 3 matches in the feral strength flash rush event.||winning flex"
-        },
-        {
-          "order": 2,
-          "name_raw": "Show Your Strength",
-          "text_raw": "Score at least 2 goals with a Defender in the Feral Strength Flash Rush Event.",
-          "reward_raw": "Tahith Chong (Loan)",
-          "mode_raw": "Rush / Feral Strength Flash Rush Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/163-feral-strength-flash-rush/||score at least 2 goals with a defender in the feral strength flash rush event.||show your strength"
-        },
-        {
-          "order": 3,
-          "name_raw": "Powerful Ally",
-          "text_raw": "Assist 3 goals in the Feral Strength Flash Rush Event.",
-          "reward_raw": "Tahith Chong (Loan) / Castello Lukeba (Loan)",
-          "mode_raw": "Rush / Feral Strength Flash Rush Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/163-feral-strength-flash-rush/||assist 3 goals in the feral strength flash rush event.||powerful ally"
-        }
-      ]
-    },
-    {
-      "group_id": "G003",
+      "group_id": "G004",
       "mission_group_name": "Phantom Playgrounds - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/162-phantom-playgrounds/",
-      "campaign_expires": "Expires in 11 days",
+      "campaign_expires": "Expires in 10 days",
       "campaign_deadline_kst": "11/7 02:00",
       "campaign_deadline_iso": "2026-11-07T02:00+09:00",
       "is_new_group": "Yes",
@@ -199,11 +252,11 @@
       ]
     },
     {
-      "group_id": "G004",
+      "group_id": "G005",
       "mission_group_name": "Ultimate Scream Gallery - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/159-ultimate-scream-gallery/",
-      "campaign_expires": "Expires in 25 days",
+      "campaign_expires": "Expires in 24 days",
       "campaign_deadline_kst": "11/21 02:00",
       "campaign_deadline_iso": "2026-11-21T02:00+09:00",
       "is_new_group": "Yes",
@@ -272,11 +325,11 @@
       ]
     },
     {
-      "group_id": "G005",
+      "group_id": "G006",
       "mission_group_name": "Ultimate Scream Puzzle Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/156-ultimate-scream-puzzle-completionist/",
-      "campaign_expires": "Expires in 11 days",
+      "campaign_expires": "Expires in 10 days",
       "campaign_deadline_kst": "11/7 02:00",
       "campaign_deadline_iso": "2026-11-07T02:00+09:00",
       "is_new_group": "Yes",
@@ -345,64 +398,34 @@
       ]
     },
     {
-      "group_id": "G006",
-      "mission_group_name": "FC Heritage Circuit World Class Event - EA SPORTS FC 27 Objectives",
+      "group_id": "G007",
+      "mission_group_name": "Season 2 Daily Knockout Tournament Weekly Play - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/161-fc-heritage-circuit-world-class-event/",
+      "url": "https://www.fut.gg/objectives/seasonal/166-season-2-daily-knockout-tournament-weekly-play/",
       "campaign_expires": "Expires in 1 month",
       "campaign_deadline_kst": "",
       "campaign_deadline_iso": "",
       "is_new_group": "Yes",
-      "new_objective_count": 4,
+      "new_objective_count": 1,
       "objectives": [
         {
           "order": 1,
-          "name_raw": "Bundesliga Backbone",
-          "text_raw": "Win 3 matches while having Min. 3 player items from Bundesliga in your starting 11 in the FC Heritage Circuit World Class Event.",
-          "reward_raw": "1x 3x 80+ Gold Players Pack / 1x 81+ Gold Player Pack / 1x 2x 82+ Gold Players Pack / 2X 81+ Gold Players Pack",
-          "mode_raw": "FC Heritage Circuit World Class Event",
+          "name_raw": "Score in 5",
+          "text_raw": "Score at least 1 goal in 5 separate matches in the Season 2 Daily Knockout Tournament.",
+          "reward_raw": "Consumable",
+          "mode_raw": "",
           "difficulty_raw": "",
           "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/161-fc-heritage-circuit-world-class-event/||win 3 matches while having min. 3 player items from bundesliga in your starting 11 in the fc heritage circuit world class event.||bundesliga backbone"
-        },
-        {
-          "order": 2,
-          "name_raw": "Bavarian Thunder",
-          "text_raw": "Score 5 goals while having Min. 1 FC Bayern München (Bundesliga) player item in your starting 11 in the FC Heritage Circuit World Class Event.",
-          "reward_raw": "2X 81+ Gold Players Pack / 3X 80+ Gold Players Pack / 2,500 Coins",
-          "mode_raw": "FC Heritage Circuit World Class Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/161-fc-heritage-circuit-world-class-event/||score 5 goals while having min. 1 fc bayern münchen (bundesliga) player item in your starting 11 in the fc heritage circuit world class event.||bavarian thunder"
-        },
-        {
-          "order": 3,
-          "name_raw": "Paris Power Surge",
-          "text_raw": "Assist 4 goals while having Min. 1 PSG (Ligue 1) player item in your starting 11 in the FC Heritage Circuit World Class Event.",
-          "reward_raw": "3X 80+ Gold Players Pack / 2,500 Coins / Consumable",
-          "mode_raw": "FC Heritage Circuit World Class Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/161-fc-heritage-circuit-world-class-event/||assist 4 goals while having min. 1 psg (ligue 1) player item in your starting 11 in the fc heritage circuit world class event.||paris power surge"
-        },
-        {
-          "order": 4,
-          "name_raw": "Bernabéu Thunder",
-          "text_raw": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player item in your starting 11 in the FC Heritage Circuit World Class Event.",
-          "reward_raw": "2,500 Coins / Consumable / 81+ Gold Player Pack",
-          "mode_raw": "FC Heritage Circuit World Class Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/161-fc-heritage-circuit-world-class-event/||score at least 1 goal in 3 separate matches while having min. 1 real madrid (laliga) player item in your starting 11 in the fc heritage circuit world class event.||bernabéu thunder"
+          "objective_key": "https://www.fut.gg/objectives/seasonal/166-season-2-daily-knockout-tournament-weekly-play/||score at least 1 goal in 5 separate matches in the season 2 daily knockout tournament.||score in 5"
         }
       ]
     },
     {
-      "group_id": "G007",
+      "group_id": "G008",
       "mission_group_name": "Weekly Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/134-weekly-objectives/",
-      "campaign_expires": "Expires in 3 days",
+      "campaign_expires": "Expires in 2 days",
       "campaign_deadline_kst": "10/30 02:00",
       "campaign_deadline_iso": "2026-10-30T02:00+09:00",
       "is_new_group": "Yes",
@@ -441,7 +464,7 @@
       ]
     },
     {
-      "group_id": "G008",
+      "group_id": "G009",
       "mission_group_name": "Season 2 Daily Knockout Tournament - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/154-season-2-daily-knockout-tournament/",
@@ -504,7 +527,7 @@
       ]
     },
     {
-      "group_id": "G009",
+      "group_id": "G010",
       "mission_group_name": "FC Heritage Circuit Semi-Pro Event - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/155-fc-heritage-circuit-semi-pro-event/",
@@ -557,7 +580,7 @@
       ]
     },
     {
-      "group_id": "G010",
+      "group_id": "G011",
       "mission_group_name": "FC Heritage Circuit Professional Event - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/157-fc-heritage-circuit-professional-event/",
@@ -610,7 +633,7 @@
       ]
     },
     {
-      "group_id": "G011",
+      "group_id": "G012",
       "mission_group_name": "FC Heritage Circuit Tournament - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/158-fc-heritage-circuit-tournament/",
@@ -683,7 +706,7 @@
       ]
     },
     {
-      "group_id": "G012",
+      "group_id": "G013",
       "mission_group_name": "FC Heritage Circuit Kick Off Event - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/160-fc-heritage-circuit-kick-off-event/",
@@ -726,7 +749,60 @@
       ]
     },
     {
-      "group_id": "G013",
+      "group_id": "G014",
+      "mission_group_name": "FC Heritage Circuit World Class Event - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/161-fc-heritage-circuit-world-class-event/",
+      "campaign_expires": "Expires in 1 month",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 4,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Bundesliga Backbone",
+          "text_raw": "Win 3 matches while having Min. 3 player items from Bundesliga in your starting 11 in the FC Heritage Circuit World Class Event.",
+          "reward_raw": "1x 3x 80+ Gold Players Pack / 1x 81+ Gold Player Pack / 1x 2x 82+ Gold Players Pack / 2X 81+ Gold Players Pack",
+          "mode_raw": "FC Heritage Circuit World Class Event",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/161-fc-heritage-circuit-world-class-event/||win 3 matches while having min. 3 player items from bundesliga in your starting 11 in the fc heritage circuit world class event.||bundesliga backbone"
+        },
+        {
+          "order": 2,
+          "name_raw": "Bavarian Thunder",
+          "text_raw": "Score 5 goals while having Min. 1 FC Bayern München (Bundesliga) player item in your starting 11 in the FC Heritage Circuit World Class Event.",
+          "reward_raw": "2X 81+ Gold Players Pack / 3X 80+ Gold Players Pack / 2,500 Coins",
+          "mode_raw": "FC Heritage Circuit World Class Event",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/161-fc-heritage-circuit-world-class-event/||score 5 goals while having min. 1 fc bayern münchen (bundesliga) player item in your starting 11 in the fc heritage circuit world class event.||bavarian thunder"
+        },
+        {
+          "order": 3,
+          "name_raw": "Paris Power Surge",
+          "text_raw": "Assist 4 goals while having Min. 1 PSG (Ligue 1) player item in your starting 11 in the FC Heritage Circuit World Class Event.",
+          "reward_raw": "3X 80+ Gold Players Pack / 2,500 Coins / Consumable",
+          "mode_raw": "FC Heritage Circuit World Class Event",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/161-fc-heritage-circuit-world-class-event/||assist 4 goals while having min. 1 psg (ligue 1) player item in your starting 11 in the fc heritage circuit world class event.||paris power surge"
+        },
+        {
+          "order": 4,
+          "name_raw": "Bernabéu Thunder",
+          "text_raw": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player item in your starting 11 in the FC Heritage Circuit World Class Event.",
+          "reward_raw": "2,500 Coins / Consumable / 81+ Gold Player Pack",
+          "mode_raw": "FC Heritage Circuit World Class Event",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/161-fc-heritage-circuit-world-class-event/||score at least 1 goal in 3 separate matches while having min. 1 real madrid (laliga) player item in your starting 11 in the fc heritage circuit world class event.||bernabéu thunder"
+        }
+      ]
+    },
+    {
+      "group_id": "G015",
       "mission_group_name": "FC Heritage Circuit Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/164-fc-heritage-circuit-completionist/",
@@ -779,30 +855,7 @@
       ]
     },
     {
-      "group_id": "G014",
-      "mission_group_name": "Season 2 Daily Knockout Tournament Weekly Play - EA SPORTS FC 27 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/166-season-2-daily-knockout-tournament-weekly-play/",
-      "campaign_expires": "Expires in 1 month",
-      "campaign_deadline_kst": "",
-      "campaign_deadline_iso": "",
-      "is_new_group": "Yes",
-      "new_objective_count": 1,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Score in 5",
-          "text_raw": "Score at least 1 goal in 5 separate matches in the Season 2 Daily Knockout Tournament.",
-          "reward_raw": "Consumable",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/166-season-2-daily-knockout-tournament-weekly-play/||score at least 1 goal in 5 separate matches in the season 2 daily knockout tournament.||score in 5"
-        }
-      ]
-    },
-    {
-      "group_id": "G015",
+      "group_id": "G016",
       "mission_group_name": "Season 2 Daily Knockout Tournament Weekly Play Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/167-season-2-daily-knockout-tournament-weekly-play-completionist/",
@@ -865,11 +918,11 @@
       ]
     },
     {
-      "group_id": "G016",
+      "group_id": "G017",
       "mission_group_name": "Daily Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/168-daily-objectives/",
-      "campaign_expires": "Expires in 3 days",
+      "campaign_expires": "Expires in 2 days",
       "campaign_deadline_kst": "10/30 02:00",
       "campaign_deadline_iso": "2026-10-30T02:00+09:00",
       "is_new_group": "Yes",
@@ -888,84 +941,11 @@
       ]
     },
     {
-      "group_id": "G017",
-      "mission_group_name": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/148-weekly-rush-points/",
-      "campaign_expires": "Expires in 21 hours",
-      "campaign_deadline_kst": "10/27 23:00",
-      "campaign_deadline_iso": "2026-10-27T23:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 6,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
-          "text_raw": "Complete Rush Bonuses alongside your teammates to earn Rush Points and pack rewards! All rewards are untradeable.",
-          "reward_raw": "2X 84+ Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/148-weekly-rush-points/||complete rush bonuses alongside your teammates to earn rush points and pack rewards! all rewards are untradeable.||weekly rush points - ea sports fc 27 objectives"
-        },
-        {
-          "order": 2,
-          "name_raw": "35,000 Rush Points",
-          "text_raw": "Earn 35,000 points by completing bonuses in Rush.",
-          "reward_raw": "1x 3x 78+ Gold Players Pack / 1x 3x 77+ Gold Players Pack / 1x 2x 84+ Gold Players Pack / 83+ Gold Player Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/148-weekly-rush-points/||earn 35,000 points by completing bonuses in rush.||35,000 rush points"
-        },
-        {
-          "order": 3,
-          "name_raw": "25,000 Rush Points",
-          "text_raw": "Earn 25,000 points by completing bonuses in Rush.",
-          "reward_raw": "83+ Gold Player Pack / 2X 82+ Gold Players Pack / 2X 80+ Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/148-weekly-rush-points/||earn 25,000 points by completing bonuses in rush.||25,000 rush points"
-        },
-        {
-          "order": 4,
-          "name_raw": "20,000 Rush Points",
-          "text_raw": "Earn 20,000 points by completing bonuses in Rush.",
-          "reward_raw": "2X 82+ Gold Players Pack / 2X 80+ Gold Players Pack / 3X 78+ Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/148-weekly-rush-points/||earn 20,000 points by completing bonuses in rush.||20,000 rush points"
-        },
-        {
-          "order": 5,
-          "name_raw": "10,000 Rush Points",
-          "text_raw": "Earn 10,000 points by completing bonuses in Rush.",
-          "reward_raw": "2X 80+ Gold Players Pack / 3X 78+ Gold Players Pack / 3X 77+ Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/148-weekly-rush-points/||earn 10,000 points by completing bonuses in rush.||10,000 rush points"
-        },
-        {
-          "order": 6,
-          "name_raw": "2,500 Rush Points",
-          "text_raw": "Earn 2,500 points by completing bonuses in Rush.",
-          "reward_raw": "3X 78+ Gold Players Pack / 3X 77+ Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/148-weekly-rush-points/||earn 2,500 points by completing bonuses in rush.||2,500 rush points"
-        }
-      ]
-    },
-    {
       "group_id": "G018",
       "mission_group_name": "Future Stars Academy - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/",
-      "campaign_expires": "Expires in 7 days",
+      "campaign_expires": "Expires in 6 days",
       "campaign_deadline_kst": "11/3 02:00",
       "campaign_deadline_iso": "2026-11-03T02:00+09:00",
       "is_new_group": "Yes",
@@ -1212,49 +1192,6 @@
           "difficulty_raw": "",
           "is_new": "Yes",
           "objective_key": "https://www.fut.gg/objectives/milestones/42-squad-battles-milestone/||play 5 squad battles matches on any difficulty.||play 5"
-        }
-      ]
-    },
-    {
-      "group_id": "G023",
-      "mission_group_name": "Draft Milestone - EA SPORTS FC 27 Objectives",
-      "objective_type": "Milestone",
-      "url": "https://www.fut.gg/objectives/milestones/45-draft-milestone/",
-      "campaign_expires": "Expires in 5 years",
-      "campaign_deadline_kst": "",
-      "campaign_deadline_iso": "",
-      "is_new_group": "Yes",
-      "new_objective_count": 3,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Play 15",
-          "text_raw": "Play 15 Draft matches.",
-          "reward_raw": "1x 75+ Gold Player Pack / 1x x2 Players Pack / 1x Large Gold Pack / 75+ Gold Player Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/milestones/45-draft-milestone/||play 15 draft matches.||play 15"
-        },
-        {
-          "order": 2,
-          "name_raw": "Play 10",
-          "text_raw": "Play 10 Draft matches.",
-          "reward_raw": "75+ Gold Player Pack / X2 Players Pack / 1 Of 2 78+ Gold Player Pick / Coin Boost",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/milestones/45-draft-milestone/||play 10 draft matches.||play 10"
-        },
-        {
-          "order": 3,
-          "name_raw": "Play 5",
-          "text_raw": "Play 5 Draft matches.",
-          "reward_raw": "1 Of 2 78+ Gold Player Pick / Coin Boost",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/milestones/45-draft-milestone/||play 5 draft matches.||play 5"
         }
       ]
     },
@@ -1646,19 +1583,28 @@
   ],
   "collected_urls": [
     {
-      "URL": "https://www.fut.gg/objectives/campaigns/165-season-2-daily-knockout-tournament-bonus/",
-      "Objective_Type": "Campaign",
+      "URL": "https://www.fut.gg/objectives/fc-pro/143-fc-pro-open-cup-1/",
+      "Objective_Type": "FC Pro",
       "Link_Text": "",
-      "Parent_Text": "NEW Season 2 Daily Knockout Tournament Bonus Play matches in the Season 2 Daily Knockout Tournament and earn Ultimate Scream Tokens! 40 Ultimate Scream Tokens 50 SP",
+      "Parent_Text": "NEW FC Pro Open Cup 1 Show your skills in the FC Pro Open Cup 1 to compete in the group and earn rewards. All rewards are untradeable. Evo Unlock",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
     },
     {
-      "URL": "https://www.fut.gg/objectives/campaigns/163-feral-strength-flash-rush/",
+      "URL": "https://www.fut.gg/objectives/seasonal/149-weekly-rush-points/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "",
+      "Parent_Text": "NEW Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points and pack rewards! All rewards are untradeable. 2X 84+ Gold Players Pack",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/campaigns/165-season-2-daily-knockout-tournament-bonus/",
       "Objective_Type": "Campaign",
       "Link_Text": "",
-      "Parent_Text": "Feral Strength Flash Rush Power up in the Feral Strength Flash Rush Event and earn Ultimate Scream Token rewards! 100 Ultimate Scream Tokens 50 SP",
+      "Parent_Text": "Season 2 Daily Knockout Tournament Bonus Play matches in the Season 2 Daily Knockout Tournament and earn Ultimate Scream Tokens! 40 Ultimate Scream Tokens 50 SP",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -1691,10 +1637,10 @@
       "Campaign_Deadline_ISO": ""
     },
     {
-      "URL": "https://www.fut.gg/objectives/seasonal/161-fc-heritage-circuit-world-class-event/",
+      "URL": "https://www.fut.gg/objectives/seasonal/166-season-2-daily-knockout-tournament-weekly-play/",
       "Objective_Type": "Seasonal",
       "Link_Text": "",
-      "Parent_Text": "FC Heritage Circuit World Class Event Compete in the FC Heritage Circuit World Class Event to earn packs and more. All rewards are untradeable. 2X 82+ Gold Players Pack",
+      "Parent_Text": "Season 2 Daily Knockout Tournament Weekly Play Compete in the Season 2 Daily Knockout Tournament to earn exclusive rewards! All rewards are untradeable. Consumable",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -1754,19 +1700,19 @@
       "Campaign_Deadline_ISO": ""
     },
     {
-      "URL": "https://www.fut.gg/objectives/seasonal/164-fc-heritage-circuit-completionist/",
+      "URL": "https://www.fut.gg/objectives/seasonal/161-fc-heritage-circuit-world-class-event/",
       "Objective_Type": "Seasonal",
       "Link_Text": "",
-      "Parent_Text": "FC Heritage Circuit Completionist Complete the FC Heritage Circuit Objectives to earn rewards. All rewards are untradeable. Jeremiah St. Juste",
+      "Parent_Text": "FC Heritage Circuit World Class Event Compete in the FC Heritage Circuit World Class Event to earn packs and more. All rewards are untradeable. 2X 82+ Gold Players Pack",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
     },
     {
-      "URL": "https://www.fut.gg/objectives/seasonal/166-season-2-daily-knockout-tournament-weekly-play/",
+      "URL": "https://www.fut.gg/objectives/seasonal/164-fc-heritage-circuit-completionist/",
       "Objective_Type": "Seasonal",
       "Link_Text": "",
-      "Parent_Text": "Season 2 Daily Knockout Tournament Weekly Play Compete in the Season 2 Daily Knockout Tournament to earn exclusive rewards! All rewards are untradeable. Consumable",
+      "Parent_Text": "FC Heritage Circuit Completionist Complete the FC Heritage Circuit Objectives to earn rewards. All rewards are untradeable. Jeremiah St. Juste",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -1785,15 +1731,6 @@
       "Objective_Type": "Seasonal",
       "Link_Text": "",
       "Parent_Text": "Daily Objectives Play, complete and earn SP from daily objective every 24 hours! 10 SP",
-      "Campaign_Expires": "",
-      "Campaign_Deadline_KST": "",
-      "Campaign_Deadline_ISO": ""
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/148-weekly-rush-points/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "",
-      "Parent_Text": "Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points and pack rewards! All rewards are untradeable. 2X 84+ Gold Players Pack",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -1935,6 +1872,10 @@
     }
   ],
   "errors": [
+    {
+      "URL": "https://www.fut.gg/objectives/milestones/45-draft-milestone/",
+      "Error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.fut.gg/objectives/milestones/45-draft-milestone/\", waiting until \"networkidle\"\n"
+    },
     {
       "URL": "https://www.fut.gg/objectives/milestones/47-transfer-market-milestone/",
       "Error": "No objective text extracted"
