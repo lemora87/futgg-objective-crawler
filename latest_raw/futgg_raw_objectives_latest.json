@@ -1,63 +1,20 @@
 {
   "manifest": {
-    "Generated_At_KST": "2026-11-02 05:59:58",
-    "Deadline_Base_KST": "2026-11-02 02:00:00",
-    "Mission_Group_Count": 39,
-    "Objective_Row_Count": 142,
-    "New_Objective_Count": 142,
-    "Error_Count": 2,
+    "Generated_At_KST": "2026-11-03 08:50:19",
+    "Deadline_Base_KST": "2026-11-03 02:00:00",
+    "Mission_Group_Count": 37,
+    "Objective_Row_Count": 133,
+    "New_Objective_Count": 133,
+    "Error_Count": 4,
     "Purpose": "RAW collection only. Do not trust this file as parsed mission guide; upload it to ChatGPT/manual review for route optimization."
   },
   "missions": [
-    {
-      "group_id": "G001",
-      "mission_group_name": "Silver Bullets Flash Rush - EA SPORTS FC 27 Objectives",
-      "objective_type": "Campaign",
-      "url": "https://www.fut.gg/objectives/campaigns/189-silver-bullets-flash-rush/",
-      "campaign_expires": "Expires in 3 days",
-      "campaign_deadline_kst": "11/5 02:00",
-      "campaign_deadline_iso": "2026-11-05T02:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 3,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Silver Winners",
-          "text_raw": "Win 3 matches in the Silver Bullets Flash Rush Event.",
-          "reward_raw": "150 SP",
-          "mode_raw": "Rush / Silver Bullets Flash Rush Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/189-silver-bullets-flash-rush/||win 3 matches in the silver bullets flash rush event.||silver winners"
-        },
-        {
-          "order": 2,
-          "name_raw": "Top Scorers",
-          "text_raw": "Score at least 4 goals with a Striker in the Silver Bullets Flash Rush Event.",
-          "reward_raw": "",
-          "mode_raw": "Rush / Silver Bullets Flash Rush Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/189-silver-bullets-flash-rush/||score at least 4 goals with a striker in the silver bullets flash rush event.||top scorers"
-        },
-        {
-          "order": 3,
-          "name_raw": "Friendly Teammate",
-          "text_raw": "Assist 3 goals in the Silver Bullets Flash Rush Event.",
-          "reward_raw": "",
-          "mode_raw": "Rush / Silver Bullets Flash Rush Event",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/189-silver-bullets-flash-rush/||assist 3 goals in the silver bullets flash rush event.||friendly teammate"
-        }
-      ]
-    },
     {
       "group_id": "G002",
       "mission_group_name": "Movember - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/182-movember/",
-      "campaign_expires": "Expires in 14 days",
+      "campaign_expires": "Expires in 13 days",
       "campaign_deadline_kst": "11/16 02:00",
       "campaign_deadline_iso": "2026-11-16T02:00+09:00",
       "is_new_group": "Yes",
@@ -90,7 +47,7 @@
       "mission_group_name": "Liga BBVA MX - El Día De Muertos - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/178-liga-bbva-mx-el-dia-de-muertos/",
-      "campaign_expires": "Expires in 7 days",
+      "campaign_expires": "Expires in 6 days",
       "campaign_deadline_kst": "11/9 02:00",
       "campaign_deadline_iso": "2026-11-09T02:00+09:00",
       "is_new_group": "Yes",
@@ -133,7 +90,7 @@
       "mission_group_name": "Hannibal's Haunting - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/177-hannibals-haunting/",
-      "campaign_expires": "Expires in 6 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "11/8 02:00",
       "campaign_deadline_iso": "2026-11-08T02:00+09:00",
       "is_new_group": "Yes",
@@ -176,7 +133,7 @@
       "mission_group_name": "Bundesliga x Playmobil Kit - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/181-bundesliga-x-playmobil-kit/",
-      "campaign_expires": "Expires in 12 days",
+      "campaign_expires": "Expires in 11 days",
       "campaign_deadline_kst": "11/14 02:00",
       "campaign_deadline_iso": "2026-11-14T02:00+09:00",
       "is_new_group": "Yes",
@@ -219,7 +176,7 @@
       "mission_group_name": "Liga BBVA MX is back - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/176-liga-bbva-mx-is-back/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "11/7 02:00",
       "campaign_deadline_iso": "2026-11-07T02:00+09:00",
       "is_new_group": "Yes",
@@ -262,7 +219,7 @@
       "mission_group_name": "Ghoul Fest - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/175-ghoul-fest/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "11/7 02:00",
       "campaign_deadline_iso": "2026-11-07T02:00+09:00",
       "is_new_group": "Yes",
@@ -325,7 +282,7 @@
       "mission_group_name": "Daily Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/169-daily-objectives/",
-      "campaign_expires": "Expires in 4 days",
+      "campaign_expires": "Expires in 3 days",
       "campaign_deadline_kst": "11/6 02:00",
       "campaign_deadline_iso": "2026-11-06T02:00+09:00",
       "is_new_group": "Yes",
@@ -348,7 +305,7 @@
       "mission_group_name": "Weekly Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/135-weekly-objectives/",
-      "campaign_expires": "Expires in 4 days",
+      "campaign_expires": "Expires in 3 days",
       "campaign_deadline_kst": "11/6 02:00",
       "campaign_deadline_iso": "2026-11-06T02:00+09:00",
       "is_new_group": "Yes",
@@ -391,7 +348,7 @@
       "mission_group_name": "FC Pro Open Cup 1 - EA SPORTS FC 27 Objectives",
       "objective_type": "FC Pro",
       "url": "https://www.fut.gg/objectives/fc-pro/143-fc-pro-open-cup-1/",
-      "campaign_expires": "Expires in 3 days",
+      "campaign_expires": "Expires in 2 days",
       "campaign_deadline_kst": "11/5 02:00",
       "campaign_deadline_iso": "2026-11-05T02:00+09:00",
       "is_new_group": "Yes",
@@ -414,9 +371,9 @@
       "mission_group_name": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/149-weekly-rush-points/",
-      "campaign_expires": "Expires in 2 days",
-      "campaign_deadline_kst": "11/4 02:00",
-      "campaign_deadline_iso": "2026-11-04T02:00+09:00",
+      "campaign_expires": "Expires in 18 hours",
+      "campaign_deadline_kst": "11/3 20:00",
+      "campaign_deadline_iso": "2026-11-03T20:00+09:00",
       "is_new_group": "Yes",
       "new_objective_count": 6,
       "objectives": [
@@ -487,7 +444,7 @@
       "mission_group_name": "Season 2 Daily Knockout Tournament Bonus - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/165-season-2-daily-knockout-tournament-bonus/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "11/7 02:00",
       "campaign_deadline_iso": "2026-11-07T02:00+09:00",
       "is_new_group": "Yes",
@@ -550,7 +507,7 @@
       "mission_group_name": "Phantom Playgrounds - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/162-phantom-playgrounds/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "11/7 02:00",
       "campaign_deadline_iso": "2026-11-07T02:00+09:00",
       "is_new_group": "Yes",
@@ -633,7 +590,7 @@
       "mission_group_name": "Ultimate Scream Gallery - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/159-ultimate-scream-gallery/",
-      "campaign_expires": "Expires in 19 days",
+      "campaign_expires": "Expires in 18 days",
       "campaign_deadline_kst": "11/21 02:00",
       "campaign_deadline_iso": "2026-11-21T02:00+09:00",
       "is_new_group": "Yes",
@@ -706,7 +663,7 @@
       "mission_group_name": "Ultimate Scream Puzzle Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/156-ultimate-scream-puzzle-completionist/",
-      "campaign_expires": "Expires in 5 days",
+      "campaign_expires": "Expires in 4 days",
       "campaign_deadline_kst": "11/7 02:00",
       "campaign_deadline_iso": "2026-11-07T02:00+09:00",
       "is_new_group": "Yes",
@@ -1248,79 +1205,6 @@
           "difficulty_raw": "",
           "is_new": "Yes",
           "objective_key": "https://www.fut.gg/objectives/seasonal/154-season-2-daily-knockout-tournament/||play 10 matches in the season 2 daily knockout tournament.||play 10"
-        }
-      ]
-    },
-    {
-      "group_id": "G025",
-      "mission_group_name": "Future Stars Academy - EA SPORTS FC 27 Objectives",
-      "objective_type": "Campaign",
-      "url": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/",
-      "campaign_expires": "Expires in 21 hours",
-      "campaign_deadline_kst": "11/2 23:00",
-      "campaign_deadline_iso": "2026-11-02T23:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 6,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Future Stars Academy - EA SPORTS FC 27 Objectives",
-          "text_raw": "Play with your Future Stars Academy players to earn packs & other rewards! All rewards are untradeable.",
-          "reward_raw": "5X 81+ Gold Players Pack",
-          "mode_raw": "",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/||play with your future stars academy players to earn packs & other rewards! all rewards are untradeable.||future stars academy - ea sports fc 27 objectives"
-        },
-        {
-          "order": 2,
-          "name_raw": "Shining Star",
-          "text_raw": "Score at least 1 goal in 15 separate matches with a Future Stars Academy player in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
-          "reward_raw": "1x 3x 80+ Gold Players Pack / 1x 2x 75+ Gold Players Pack / 1x 5x 81+ Gold Players Pack / 5X 80+ Gold Players Pack",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/||score at least 1 goal in 15 separate matches with a future stars academy player in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||shining star"
-        },
-        {
-          "order": 3,
-          "name_raw": "Cementing their Place",
-          "text_raw": "Play 10 matches while having min. 1 Future Stars Academy player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
-          "reward_raw": "5X 80+ Gold Players Pack / Future Stars Regular Badge / 2,500 Coins",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/||play 10 matches while having min. 1 future stars academy player in your starting xi in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||cementing their place"
-        },
-        {
-          "order": 4,
-          "name_raw": "Star in the Making",
-          "text_raw": "Win 7 matches while having min. 1 Future Stars Academy player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
-          "reward_raw": "Future Stars Regular Badge / 2,500 Coins / 3X 80+ Gold Players Pack",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/||win 7 matches while having min. 1 future stars academy player in your starting xi in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||star in the making"
-        },
-        {
-          "order": 5,
-          "name_raw": "Consistent Reps",
-          "text_raw": "Play 5 matches while having min. 1 Future Stars Academy player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
-          "reward_raw": "2,500 Coins / 3X 80+ Gold Players Pack / 2X 75+ Gold Players Pack",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/||play 5 matches while having min. 1 future stars academy player in your starting xi in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||consistent reps"
-        },
-        {
-          "order": 6,
-          "name_raw": "The Starlet's Debut",
-          "text_raw": "Score at least 1 goal with a Future Stars Academy player in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
-          "reward_raw": "3X 80+ Gold Players Pack / 2X 75+ Gold Players Pack",
-          "mode_raw": "Squad Battles / Rivals / Champions / Live Events / Rush",
-          "difficulty_raw": "Min. Semi-Pro",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/||score at least 1 goal with a future stars academy player in squad battles on min. semi-pro difficulty (or rush/rivals/champions/live events).||the starlet's debut"
         }
       ]
     },
@@ -2289,6 +2173,14 @@
     }
   ],
   "errors": [
+    {
+      "URL": "https://www.fut.gg/objectives/campaigns/189-silver-bullets-flash-rush/",
+      "Error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.fut.gg/objectives/campaigns/189-silver-bullets-flash-rush/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/campaigns/128-future-stars-academy/",
+      "Error": "RuntimeError: Expired page skipped"
+    },
     {
       "URL": "https://www.fut.gg/objectives/milestones/47-transfer-market-milestone/",
       "Error": "No objective text extracted"
