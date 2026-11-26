@@ -1,20 +1,279 @@
 {
   "manifest": {
-    "Generated_At_KST": "2026-11-24 12:12:26",
-    "Deadline_Base_KST": "2026-11-24 02:00:00",
-    "Mission_Group_Count": 42,
-    "Objective_Row_Count": 183,
-    "New_Objective_Count": 183,
-    "Error_Count": 3,
+    "Generated_At_KST": "2026-11-26 09:51:34",
+    "Deadline_Base_KST": "2026-11-26 02:00:00",
+    "Mission_Group_Count": 43,
+    "Objective_Row_Count": 196,
+    "New_Objective_Count": 196,
+    "Error_Count": 2,
     "Purpose": "RAW collection only. Do not trust this file as parsed mission guide; upload it to ChatGPT/manual review for route optimization."
   },
   "missions": [
     {
+      "group_id": "G001",
+      "mission_group_name": "Samsunspor x Symbol of Change Kit - EA SPORTS FC 27 Objectives",
+      "objective_type": "Campaign",
+      "url": "https://www.fut.gg/objectives/campaigns/237-samsunspor-x-symbol-of-change-kit/",
+      "campaign_expires": "Expires in 6 days",
+      "campaign_deadline_kst": "12/2 02:00",
+      "campaign_deadline_iso": "2026-12-02T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 1,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Play 3",
+          "text_raw": "Play 3 matches in any FUT game mode with at least one Trendyol Süper Lig player in your starting XI.",
+          "reward_raw": "",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/campaigns/237-samsunspor-x-symbol-of-change-kit/||play 3 matches in any fut game mode with at least one trendyol süper lig player in your starting xi.||play 3"
+        }
+      ]
+    },
+    {
       "group_id": "G002",
+      "mission_group_name": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
+      "objective_type": "Seasonal",
+      "url": "https://www.fut.gg/objectives/seasonal/153-weekly-rush-points/",
+      "campaign_expires": "Expires in 8 days",
+      "campaign_deadline_kst": "12/4 02:00",
+      "campaign_deadline_iso": "2026-12-04T02:00+09:00",
+      "is_new_group": "Yes",
+      "new_objective_count": 6,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
+          "text_raw": "Complete Rush Bonuses alongside your teammates to earn Rush Points and pack rewards! All rewards are untradeable.",
+          "reward_raw": "2X 84+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/153-weekly-rush-points/||complete rush bonuses alongside your teammates to earn rush points and pack rewards! all rewards are untradeable.||weekly rush points - ea sports fc 27 objectives"
+        },
+        {
+          "order": 2,
+          "name_raw": "35,000 Rush Points",
+          "text_raw": "Earn 35,000 points by completing bonuses in Rush.",
+          "reward_raw": "1x 3x 78+ Gold Players Pack / 1x 3x 77+ Gold Players Pack / 1x 2x 84+ Gold Players Pack / 83+ Gold Player Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/153-weekly-rush-points/||earn 35,000 points by completing bonuses in rush.||35,000 rush points"
+        },
+        {
+          "order": 3,
+          "name_raw": "25,000 Rush Points",
+          "text_raw": "Earn 25,000 points by completing bonuses in Rush.",
+          "reward_raw": "83+ Gold Player Pack / 2X 82+ Gold Players Pack / 2X 80+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/153-weekly-rush-points/||earn 25,000 points by completing bonuses in rush.||25,000 rush points"
+        },
+        {
+          "order": 4,
+          "name_raw": "20,000 Rush Points",
+          "text_raw": "Earn 20,000 points by completing bonuses in Rush.",
+          "reward_raw": "2X 82+ Gold Players Pack / 2X 80+ Gold Players Pack / 3X 78+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/153-weekly-rush-points/||earn 20,000 points by completing bonuses in rush.||20,000 rush points"
+        },
+        {
+          "order": 5,
+          "name_raw": "10,000 Rush Points",
+          "text_raw": "Earn 10,000 points by completing bonuses in Rush.",
+          "reward_raw": "2X 80+ Gold Players Pack / 3X 78+ Gold Players Pack / 3X 77+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/153-weekly-rush-points/||earn 10,000 points by completing bonuses in rush.||10,000 rush points"
+        },
+        {
+          "order": 6,
+          "name_raw": "2,500 Rush Points",
+          "text_raw": "Earn 2,500 points by completing bonuses in Rush.",
+          "reward_raw": "3X 78+ Gold Players Pack / 3X 77+ Gold Players Pack",
+          "mode_raw": "Rush",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/seasonal/153-weekly-rush-points/||earn 2,500 points by completing bonuses in rush.||2,500 rush points"
+        }
+      ]
+    },
+    {
+      "group_id": "G003",
+      "mission_group_name": "FC Pro Teams - EA SPORTS FC 27 Objectives",
+      "objective_type": "FC Pro",
+      "url": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/",
+      "campaign_expires": "Expires in 10 months",
+      "campaign_deadline_kst": "",
+      "campaign_deadline_iso": "",
+      "is_new_group": "Yes",
+      "new_objective_count": 15,
+      "objectives": [
+        {
+          "order": 1,
+          "name_raw": "FC Pro Teams - EA SPORTS FC 27 Objectives",
+          "text_raw": "Build your collection of FC Pro Team Crests and Kits by completing the objective. All rewards are untradeable.",
+          "reward_raw": "Single Draft Token Pack",
+          "mode_raw": "Watch / FC Pro",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/||build your collection of fc pro team crests and kits by completing the objective. all rewards are untradeable.||fc pro teams - ea sports fc 27 objectives"
+        },
+        {
+          "order": 2,
+          "name_raw": "Twisted Minds",
+          "text_raw": "Score 2 goals in any Football Ultimate Team game mode using a player from Saudi Arabia.",
+          "reward_raw": "Badge / 1x Single Draft Token Pack",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/||score 2 goals in any football ultimate team game mode using a player from saudi arabia.||twisted minds"
+        },
+        {
+          "order": 3,
+          "name_raw": "Team Vitality",
+          "text_raw": "Win 1 match in any Football Ultimate Team game mode while using at least 3 players from France.",
+          "reward_raw": "Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/||win 1 match in any football ultimate team game mode while using at least 3 players from france.||team vitality"
+        },
+        {
+          "order": 4,
+          "name_raw": "DUX GAMING",
+          "text_raw": "Win 1 match in any Football Ultimate Team game mode while using at least 3 players from Spain.",
+          "reward_raw": "Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/||win 1 match in any football ultimate team game mode while using at least 3 players from spain.||dux gaming"
+        },
+        {
+          "order": 5,
+          "name_raw": "NOVO",
+          "text_raw": "Score 2 goals in any Football Ultimate Team game mode using a player from Italy.",
+          "reward_raw": "Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/||score 2 goals in any football ultimate team game mode using a player from italy.||novo"
+        },
+        {
+          "order": 6,
+          "name_raw": "Exeed",
+          "text_raw": "Win 1 match in any Football Ultimate Team game mode while using at least 3 players from Italy.",
+          "reward_raw": "Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/||win 1 match in any football ultimate team game mode while using at least 3 players from italy.||exeed"
+        },
+        {
+          "order": 7,
+          "name_raw": "FOKUS",
+          "text_raw": "Win 1 match in any Football Ultimate Team game mode while using at least 3 players from Germany.",
+          "reward_raw": "Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/||win 1 match in any football ultimate team game mode while using at least 3 players from germany.||fokus"
+        },
+        {
+          "order": 8,
+          "name_raw": "Team Falcons",
+          "text_raw": "Win 1 match in any Football Ultimate Team game mode while using at least 3 players from Saudi Arabia.",
+          "reward_raw": "Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/||win 1 match in any football ultimate team game mode while using at least 3 players from saudi arabia.||team falcons"
+        },
+        {
+          "order": 9,
+          "name_raw": "Tuzzy E-Sports",
+          "text_raw": "Win 1 match in any Football Ultimate Team game mode while using at least 3 players from Brazil.",
+          "reward_raw": "Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/||win 1 match in any football ultimate team game mode while using at least 3 players from brazil.||tuzzy e-sports"
+        },
+        {
+          "order": 10,
+          "name_raw": "S8UL Esports",
+          "text_raw": "Score 2 goals in any Football Ultimate Team game mode using a player from India.",
+          "reward_raw": "Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/||score 2 goals in any football ultimate team game mode using a player from india.||s8ul esports"
+        },
+        {
+          "order": 11,
+          "name_raw": "LUNA Esports",
+          "text_raw": "Win 1 match in any Football Ultimate Team game mode while using at least 3 players from Portugal.",
+          "reward_raw": "Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/||win 1 match in any football ultimate team game mode while using at least 3 players from portugal.||luna esports"
+        },
+        {
+          "order": 12,
+          "name_raw": "Liquid FC",
+          "text_raw": "Win 1 match in any Football Ultimate Team game mode while using at least 3 players from the Netherlands.",
+          "reward_raw": "Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/||win 1 match in any football ultimate team game mode while using at least 3 players from the netherlands.||liquid fc"
+        },
+        {
+          "order": 13,
+          "name_raw": "FLUXO W7M",
+          "text_raw": "Score 2 goals in any Football Ultimate Team game mode using a player from Brazil.",
+          "reward_raw": "Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/||score 2 goals in any football ultimate team game mode using a player from brazil.||fluxo w7m"
+        },
+        {
+          "order": 14,
+          "name_raw": "RBLZ Gaming",
+          "text_raw": "Win 1 match in any Football Ultimate Team game mode while using at least 3 players from RB Leipzig in the Bundesliga.",
+          "reward_raw": "Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/||win 1 match in any football ultimate team game mode while using at least 3 players from rb leipzig in the bundesliga.||rblz gaming"
+        },
+        {
+          "order": 15,
+          "name_raw": "Manchester City Esports",
+          "text_raw": "Win 1 match in any Football Ultimate Team game mode while using at least 3 Manchester City players from the Premier League.",
+          "reward_raw": "Badge",
+          "mode_raw": "",
+          "difficulty_raw": "",
+          "is_new": "Yes",
+          "objective_key": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/||win 1 match in any football ultimate team game mode while using at least 3 manchester city players from the premier league.||manchester city esports"
+        }
+      ]
+    },
+    {
+      "group_id": "G004",
       "mission_group_name": "Thunder and Lightning - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/236-thunder-and-lightning/",
-      "campaign_expires": "Expires in 4 days",
+      "campaign_expires": "Expires in 2 days",
       "campaign_deadline_kst": "11/28 02:00",
       "campaign_deadline_iso": "2026-11-28T02:00+09:00",
       "is_new_group": "Yes",
@@ -43,54 +302,11 @@
       ]
     },
     {
-      "group_id": "G003",
-      "mission_group_name": "Formation Champions Objective - EA SPORTS FC 27 Objectives",
-      "objective_type": "Campaign",
-      "url": "https://www.fut.gg/objectives/campaigns/235-formation-champions-objective/",
-      "campaign_expires": "Expires in 15 hours",
-      "campaign_deadline_kst": "11/24 17:00",
-      "campaign_deadline_iso": "2026-11-24T17:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 3,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Formation Champions Objective - EA SPORTS FC 27 Objectives",
-          "text_raw": "Complete the Formation Champions Objective to earn Champions Tokens!",
-          "reward_raw": "",
-          "mode_raw": "Champions",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/235-formation-champions-objective/||complete the formation champions objective to earn champions tokens!||formation champions objective - ea sports fc 27 objectives"
-        },
-        {
-          "order": 2,
-          "name_raw": "Four at the back",
-          "text_raw": "Score in 5 separate matches using the 4-3-2-1 or 4-2-4 (Without changing) in FUT Champions.",
-          "reward_raw": "",
-          "mode_raw": "Champions",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/235-formation-champions-objective/||score in 5 separate matches using the 4-3-2-1 or 4-2-4 (without changing) in fut champions.||four at the back"
-        },
-        {
-          "order": 3,
-          "name_raw": "Three at the back",
-          "text_raw": "Score in 3 matches using the 3-1-4-2 or 3-4-3 (Without changing) in FUT Champions.",
-          "reward_raw": "",
-          "mode_raw": "Champions",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/campaigns/235-formation-champions-objective/||score in 3 matches using the 3-1-4-2 or 3-4-3 (without changing) in fut champions.||three at the back"
-        }
-      ]
-    },
-    {
-      "group_id": "G004",
+      "group_id": "G005",
       "mission_group_name": "Thunderstruck Daily Play Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/233-thunderstruck-daily-play-completionist/",
-      "campaign_expires": "Expires in 11 days",
+      "campaign_expires": "Expires in 9 days",
       "campaign_deadline_kst": "12/5 02:00",
       "campaign_deadline_iso": "2026-12-05T02:00+09:00",
       "is_new_group": "Yes",
@@ -269,11 +485,11 @@
       ]
     },
     {
-      "group_id": "G005",
+      "group_id": "G006",
       "mission_group_name": "Daily Login Upgrade SBC Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/219-daily-login-upgrade-sbc-completionist/",
-      "campaign_expires": "Expires in 11 days",
+      "campaign_expires": "Expires in 9 days",
       "campaign_deadline_kst": "12/5 02:00",
       "campaign_deadline_iso": "2026-12-05T02:00+09:00",
       "is_new_group": "Yes",
@@ -452,11 +668,11 @@
       ]
     },
     {
-      "group_id": "G006",
+      "group_id": "G007",
       "mission_group_name": "Storm Chaser - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/211-storm-chaser/",
-      "campaign_expires": "Expires in 11 days",
+      "campaign_expires": "Expires in 9 days",
       "campaign_deadline_kst": "12/5 02:00",
       "campaign_deadline_iso": "2026-12-05T02:00+09:00",
       "is_new_group": "Yes",
@@ -535,11 +751,11 @@
       ]
     },
     {
-      "group_id": "G007",
+      "group_id": "G008",
       "mission_group_name": "Ultimate Gauntlet 4 - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/210-ultimate-gauntlet-4/",
-      "campaign_expires": "Expires in 4 days",
+      "campaign_expires": "Expires in 2 days",
       "campaign_deadline_kst": "11/28 02:00",
       "campaign_deadline_iso": "2026-11-28T02:00+09:00",
       "is_new_group": "Yes",
@@ -638,11 +854,11 @@
       ]
     },
     {
-      "group_id": "G008",
+      "group_id": "G009",
       "mission_group_name": "Thunderstruck Daily Play - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/209-thunderstruck-daily-play/",
-      "campaign_expires": "Expires in 11 days",
+      "campaign_expires": "Expires in 9 days",
       "campaign_deadline_kst": "12/5 02:00",
       "campaign_deadline_iso": "2026-12-05T02:00+09:00",
       "is_new_group": "Yes",
@@ -671,11 +887,11 @@
       ]
     },
     {
-      "group_id": "G009",
+      "group_id": "G010",
       "mission_group_name": "Ultimate Weekly Play Objective Week 2 - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/201-ultimate-weekly-play-objective-week-2/",
-      "campaign_expires": "Expires in 4 days",
+      "campaign_expires": "Expires in 2 days",
       "campaign_deadline_kst": "11/28 02:00",
       "campaign_deadline_iso": "2026-11-28T02:00+09:00",
       "is_new_group": "Yes",
@@ -704,13 +920,13 @@
       ]
     },
     {
-      "group_id": "G010",
+      "group_id": "G011",
       "mission_group_name": "Daily Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/172-daily-objectives/",
-      "campaign_expires": "Expires in 3 days",
-      "campaign_deadline_kst": "11/27 02:00",
-      "campaign_deadline_iso": "2026-11-27T02:00+09:00",
+      "campaign_expires": "Expires in 17 hours",
+      "campaign_deadline_kst": "11/26 19:00",
+      "campaign_deadline_iso": "2026-11-26T19:00+09:00",
       "is_new_group": "Yes",
       "new_objective_count": 1,
       "objectives": [
@@ -727,11 +943,11 @@
       ]
     },
     {
-      "group_id": "G011",
+      "group_id": "G012",
       "mission_group_name": "Season 2 SP Chase - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/147-season-2-sp-chase/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 7 days",
       "campaign_deadline_kst": "12/3 02:00",
       "campaign_deadline_iso": "2026-12-03T02:00+09:00",
       "is_new_group": "Yes",
@@ -780,13 +996,13 @@
       ]
     },
     {
-      "group_id": "G012",
+      "group_id": "G013",
       "mission_group_name": "Weekly Objectives - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/138-weekly-objectives/",
-      "campaign_expires": "Expires in 3 days",
-      "campaign_deadline_kst": "11/27 02:00",
-      "campaign_deadline_iso": "2026-11-27T02:00+09:00",
+      "campaign_expires": "Expires in 17 hours",
+      "campaign_deadline_kst": "11/26 19:00",
+      "campaign_deadline_iso": "2026-11-26T19:00+09:00",
       "is_new_group": "Yes",
       "new_objective_count": 3,
       "objectives": [
@@ -823,84 +1039,11 @@
       ]
     },
     {
-      "group_id": "G013",
-      "mission_group_name": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
-      "objective_type": "Seasonal",
-      "url": "https://www.fut.gg/objectives/seasonal/152-weekly-rush-points/",
-      "campaign_expires": "Expires in 15 hours",
-      "campaign_deadline_kst": "11/24 17:00",
-      "campaign_deadline_iso": "2026-11-24T17:00+09:00",
-      "is_new_group": "Yes",
-      "new_objective_count": 6,
-      "objectives": [
-        {
-          "order": 1,
-          "name_raw": "Weekly Rush Points - EA SPORTS FC 27 Objectives",
-          "text_raw": "Complete Rush Bonuses alongside your teammates to earn Rush Points and pack rewards! All rewards are untradeable.",
-          "reward_raw": "2X 84+ Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/152-weekly-rush-points/||complete rush bonuses alongside your teammates to earn rush points and pack rewards! all rewards are untradeable.||weekly rush points - ea sports fc 27 objectives"
-        },
-        {
-          "order": 2,
-          "name_raw": "35,000 Rush Points",
-          "text_raw": "Earn 35,000 points by completing bonuses in Rush.",
-          "reward_raw": "1x 3x 78+ Gold Players Pack / 1x 3x 77+ Gold Players Pack / 1x 2x 84+ Gold Players Pack / 83+ Gold Player Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/152-weekly-rush-points/||earn 35,000 points by completing bonuses in rush.||35,000 rush points"
-        },
-        {
-          "order": 3,
-          "name_raw": "25,000 Rush Points",
-          "text_raw": "Earn 25,000 points by completing bonuses in Rush.",
-          "reward_raw": "83+ Gold Player Pack / 2X 82+ Gold Players Pack / 2X 80+ Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/152-weekly-rush-points/||earn 25,000 points by completing bonuses in rush.||25,000 rush points"
-        },
-        {
-          "order": 4,
-          "name_raw": "20,000 Rush Points",
-          "text_raw": "Earn 20,000 points by completing bonuses in Rush.",
-          "reward_raw": "2X 82+ Gold Players Pack / 2X 80+ Gold Players Pack / 3X 78+ Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/152-weekly-rush-points/||earn 20,000 points by completing bonuses in rush.||20,000 rush points"
-        },
-        {
-          "order": 5,
-          "name_raw": "10,000 Rush Points",
-          "text_raw": "Earn 10,000 points by completing bonuses in Rush.",
-          "reward_raw": "2X 80+ Gold Players Pack / 3X 78+ Gold Players Pack / 3X 77+ Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/152-weekly-rush-points/||earn 10,000 points by completing bonuses in rush.||10,000 rush points"
-        },
-        {
-          "order": 6,
-          "name_raw": "2,500 Rush Points",
-          "text_raw": "Earn 2,500 points by completing bonuses in Rush.",
-          "reward_raw": "3X 78+ Gold Players Pack / 3X 77+ Gold Players Pack",
-          "mode_raw": "Rush",
-          "difficulty_raw": "",
-          "is_new": "Yes",
-          "objective_key": "https://www.fut.gg/objectives/seasonal/152-weekly-rush-points/||earn 2,500 points by completing bonuses in rush.||2,500 rush points"
-        }
-      ]
-    },
-    {
       "group_id": "G014",
       "mission_group_name": "Ultimate Weekly Play Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/208-ultimate-weekly-play-completionist/",
-      "campaign_expires": "Expires in 18 days",
+      "campaign_expires": "Expires in 16 days",
       "campaign_deadline_kst": "12/12 02:00",
       "campaign_deadline_iso": "2026-12-12T02:00+09:00",
       "is_new_group": "Yes",
@@ -1003,7 +1146,7 @@
       "mission_group_name": "HOF Unleashed Gallery - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/199-hof-unleashed-gallery/",
-      "campaign_expires": "Expires in 18 days",
+      "campaign_expires": "Expires in 16 days",
       "campaign_deadline_kst": "12/12 02:00",
       "campaign_deadline_iso": "2026-12-12T02:00+09:00",
       "is_new_group": "Yes",
@@ -1076,7 +1219,7 @@
       "mission_group_name": "Ultimate Scream Evolving - Stage 3 Kit - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/180-ultimate-scream-evolving-stage-3-kit/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 7 days",
       "campaign_deadline_kst": "12/3 02:00",
       "campaign_deadline_iso": "2026-12-03T02:00+09:00",
       "is_new_group": "Yes",
@@ -1119,7 +1262,7 @@
       "mission_group_name": "Ultimate Scream Evolving - Stage 2 Kit - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/179-ultimate-scream-evolving-stage-2-kit/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 7 days",
       "campaign_deadline_kst": "12/3 02:00",
       "campaign_deadline_iso": "2026-12-03T02:00+09:00",
       "is_new_group": "Yes",
@@ -1162,7 +1305,7 @@
       "mission_group_name": "Seasonal Objective - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/140-seasonal-objective/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 7 days",
       "campaign_deadline_kst": "12/3 02:00",
       "campaign_deadline_iso": "2026-12-03T02:00+09:00",
       "is_new_group": "Yes",
@@ -1225,7 +1368,7 @@
       "mission_group_name": "Ultimate Scream Evolving - Stage 1 Kit - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/131-ultimate-scream-evolving-stage-1-kit/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 7 days",
       "campaign_deadline_kst": "12/3 02:00",
       "campaign_deadline_iso": "2026-12-03T02:00+09:00",
       "is_new_group": "Yes",
@@ -1268,7 +1411,7 @@
       "mission_group_name": "Movember - EA SPORTS FC 27 Objectives",
       "objective_type": "Campaign",
       "url": "https://www.fut.gg/objectives/campaigns/182-movember/",
-      "campaign_expires": "Expires in 7 days",
+      "campaign_expires": "Expires in 5 days",
       "campaign_deadline_kst": "12/1 02:00",
       "campaign_deadline_iso": "2026-12-01T02:00+09:00",
       "is_new_group": "Yes",
@@ -1301,7 +1444,7 @@
       "mission_group_name": "FC Heritage Circuit Semi-Pro Event - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/155-fc-heritage-circuit-semi-pro-event/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 7 days",
       "campaign_deadline_kst": "12/3 02:00",
       "campaign_deadline_iso": "2026-12-03T02:00+09:00",
       "is_new_group": "Yes",
@@ -1354,7 +1497,7 @@
       "mission_group_name": "Season 2 Daily Knockout Tournament Weekly Play Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/167-season-2-daily-knockout-tournament-weekly-play-completionist/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 7 days",
       "campaign_deadline_kst": "12/3 02:00",
       "campaign_deadline_iso": "2026-12-03T02:00+09:00",
       "is_new_group": "Yes",
@@ -1417,7 +1560,7 @@
       "mission_group_name": "Season 2 Daily Knockout Tournament Weekly Play - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/166-season-2-daily-knockout-tournament-weekly-play/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 7 days",
       "campaign_deadline_kst": "12/3 02:00",
       "campaign_deadline_iso": "2026-12-03T02:00+09:00",
       "is_new_group": "Yes",
@@ -1440,7 +1583,7 @@
       "mission_group_name": "FC Heritage Circuit Completionist - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/164-fc-heritage-circuit-completionist/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 7 days",
       "campaign_deadline_kst": "12/3 02:00",
       "campaign_deadline_iso": "2026-12-03T02:00+09:00",
       "is_new_group": "Yes",
@@ -1493,7 +1636,7 @@
       "mission_group_name": "FC Heritage Circuit World Class Event - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/161-fc-heritage-circuit-world-class-event/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 7 days",
       "campaign_deadline_kst": "12/3 02:00",
       "campaign_deadline_iso": "2026-12-03T02:00+09:00",
       "is_new_group": "Yes",
@@ -1546,7 +1689,7 @@
       "mission_group_name": "FC Heritage Circuit Kick Off Event - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/160-fc-heritage-circuit-kick-off-event/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 7 days",
       "campaign_deadline_kst": "12/3 02:00",
       "campaign_deadline_iso": "2026-12-03T02:00+09:00",
       "is_new_group": "Yes",
@@ -1589,7 +1732,7 @@
       "mission_group_name": "FC Heritage Circuit Tournament - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/158-fc-heritage-circuit-tournament/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 7 days",
       "campaign_deadline_kst": "12/3 02:00",
       "campaign_deadline_iso": "2026-12-03T02:00+09:00",
       "is_new_group": "Yes",
@@ -1662,7 +1805,7 @@
       "mission_group_name": "FC Heritage Circuit Professional Event - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/157-fc-heritage-circuit-professional-event/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 7 days",
       "campaign_deadline_kst": "12/3 02:00",
       "campaign_deadline_iso": "2026-12-03T02:00+09:00",
       "is_new_group": "Yes",
@@ -1715,7 +1858,7 @@
       "mission_group_name": "Season 2 Daily Knockout Tournament - EA SPORTS FC 27 Objectives",
       "objective_type": "Seasonal",
       "url": "https://www.fut.gg/objectives/seasonal/154-season-2-daily-knockout-tournament/",
-      "campaign_expires": "Expires in 9 days",
+      "campaign_expires": "Expires in 7 days",
       "campaign_deadline_kst": "12/3 02:00",
       "campaign_deadline_iso": "2026-12-03T02:00+09:00",
       "is_new_group": "Yes",
@@ -2386,10 +2529,28 @@
   ],
   "collected_urls": [
     {
+      "URL": "https://www.fut.gg/objectives/campaigns/237-samsunspor-x-symbol-of-change-kit/",
+      "Objective_Type": "Campaign",
+      "Link_Text": "",
+      "Parent_Text": "NEW Samsunspor x Symbol of Change Kit Complete this challenge to earn the Samsunspor x Symbol of Change Kit and other rewards. All rewards are untradeable. Samsunspor X Symbol Of Change",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
+      "URL": "https://www.fut.gg/objectives/seasonal/153-weekly-rush-points/",
+      "Objective_Type": "Seasonal",
+      "Link_Text": "",
+      "Parent_Text": "NEW Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points and pack rewards! All rewards are untradeable. 2X 84+ Gold Players Pack",
+      "Campaign_Expires": "",
+      "Campaign_Deadline_KST": "",
+      "Campaign_Deadline_ISO": ""
+    },
+    {
       "URL": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/",
       "Objective_Type": "FC Pro",
       "Link_Text": "",
-      "Parent_Text": "NEW FC Pro Teams Build your collection of FC Pro Team Crests and Kits by completing the objective. All rewards are untradeable. Single Draft Token Pack",
+      "Parent_Text": "FC Pro Teams Build your collection of FC Pro Team Crests and Kits by completing the objective. All rewards are untradeable. Single Draft Token Pack",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -2399,15 +2560,6 @@
       "Objective_Type": "Campaign",
       "Link_Text": "",
       "Parent_Text": "Thunder and Lightning Feel the electrical surge of Black Friday Thunderstruck! Bring the storm onto the pitch by completing 3 of the 5 available challenges to earn your reward. All rewards are untradeable. 100 Thunderstruck Tokens 500 SP",
-      "Campaign_Expires": "",
-      "Campaign_Deadline_KST": "",
-      "Campaign_Deadline_ISO": ""
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/campaigns/235-formation-champions-objective/",
-      "Objective_Type": "Campaign",
-      "Link_Text": "",
-      "Parent_Text": "Formation Champions Objective Complete the Formation Champions Objective to earn Champions Tokens! 50 Champions Tokens",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -2489,15 +2641,6 @@
       "Objective_Type": "Seasonal",
       "Link_Text": "",
       "Parent_Text": "Weekly Objectives Complete Weekly Objectives to earn SP! 1,000 SP",
-      "Campaign_Expires": "",
-      "Campaign_Deadline_KST": "",
-      "Campaign_Deadline_ISO": ""
-    },
-    {
-      "URL": "https://www.fut.gg/objectives/seasonal/152-weekly-rush-points/",
-      "Objective_Type": "Seasonal",
-      "Link_Text": "",
-      "Parent_Text": "Weekly Rush Points Complete Rush Bonuses alongside your teammates to earn Rush Points and pack rewards! All rewards are untradeable. 2X 84+ Gold Players Pack",
       "Campaign_Expires": "",
       "Campaign_Deadline_KST": "",
       "Campaign_Deadline_ISO": ""
@@ -2774,10 +2917,6 @@
     }
   ],
   "errors": [
-    {
-      "URL": "https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/",
-      "Error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.fut.gg/objectives/fc-pro/198-fc-pro-teams/\", waiting until \"networkidle\"\n"
-    },
     {
       "URL": "https://www.fut.gg/objectives/milestones/47-transfer-market-milestone/",
       "Error": "No objective text extracted"
